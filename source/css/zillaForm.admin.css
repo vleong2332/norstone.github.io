@@ -1,0 +1,6 @@
+/* Drupal Icon */
+	a.path-admin-settings-zillaForm span.icon,
+	a#admin-link-admin-settings-zillaForm span.icon {
+	  background: transparent url(images/misc/icon.png) !important;
+	}
+/* End Drupal Icon */
