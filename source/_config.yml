@@ -1,2 +1,11 @@
 title: Norstone | Natural Stone Veneer | Natural Stone Products
-markdown: redcarpet
+markdown: kramdown
+collections:
+  collections:
+    output: true
+defaults:
+  - scope:
+      path: ""
+      type: collections
+    values:
+      layout: collection

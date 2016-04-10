@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+
+{% include head.html %}
+
+<body class="page not-logged-in node-type-page one-sidebar node2">
+  <div class="sticky-footer-wrapper">
+    <div class="gray"></div>
+    {% include header.html %}
+    {% include navigation.html %}
+    <div id="banner_big">
+      <div class="background">
+        <div class="size">
+          <div class="region region-banner-big">
+            <div id="block-block-23" class="block block-block first region-odd odd region-count-1 count-3 ">
+              <div class="content">
+                <div class="left">
+                  <a href="{{ page.header.link }}"><img width="640" height="257" alt="Norstone's Natural Stacked Stone Thin Veneer Wall Panels" src="{{ page.header.image }}" /></a>
+                </div>
+                <div class="right">
+                  <p class="big">{{ page.header.title }}</p>
+                  <h1 class="small">{{ page.header.subtitle }}</h1>
+                  <p>{{ page.header.description }}</p>
+                  <a class="text-shadow box-shadow-center glide" href="#content_top_full_col">Select Color Below</a></div>
+                <div class="clear">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div id="content_top_full_col">
+      <div class="background">
+        <div class="size">
+          <div class="region region-content-top-full-col">
+            {% include navigation-products-small.html %}
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div id="main">
+      <div class="size">
+        <div id="content">
+          {{ content }}
+          <div class="clear"></div>
+        </div>
+        <div id="sidebar_first">
+          {% include products-sidebar.html %}
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="sticky-footer-push"></div>
+  </div>
+  {% include footer.html %}
+</body>
+
+</html>
