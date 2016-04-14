@@ -3,7 +3,7 @@
         <div class="size">
           <ul class="links">
             {% assign current = page.url | downcase | split: '/' %}
-            <li{% if current[1] == "" %} class="active-trail active"{% endif %}><a href="/" title="Norstone USA"{% if current[1] == "" %} class="active"{% endif %}>HOME</a></li>
+            <li{% if page.url == "/" %} class="active-trail active"{% endif %}><a href="/" title="Norstone USA"{% if page.url == "/" %} class="active"{% endif %}>HOME</a></li>
             <li{% if current[1] == "products" %} class="active-trail active"{% endif %}><a href="/products" title="" {% if current[1] == "products" %}class="active"{% endif %}>PRODUCTS</a></li>
             <li{% if current[1] == "gallery" %} class="active-trail active"{% endif %}><a href="/gallery" title=""{% if current[1] == "gallery" %} class="active"{% endif %}>GALLERY</a></li>
             <li{% if current[1] == "how-to-install-stacked-stone" %} class="active-trail active"{% endif %}><a href="/how-to-install-stacked-stone" title="installation guide"{% if current[1] == "how-to-install-stacked-stone" %} class="active"{% endif %}>INSTALLATION GUIDE</a></li>
