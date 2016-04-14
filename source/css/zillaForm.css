@@ -3,19 +3,19 @@
 	ZillaForm 2.0
 	Designed and Developed by Designzillas, LLC
 	Last Updated: January 4th, 2011 by Michael Berg
-	
+
 	-- Themes Included
 	   = pixel-white
 	   = pixel-black
  	   = transparent
 	   = big-round (legacy)
-	
+
 	-- To Install A Different Theme, Find & Replace:
 	images/themes/pixel-white	with	images/themes/YOURTHEME
-	
+
 	-- To Design And Input A Site-Specific Theme, Open
 	images/zillaform-v2.psd     and export folder-placed slices into     images/themes/custom
-	
+
 	-- Swatches
 	Transparent FakeLabel and Input Text: #272727
 	Pixel-White FakeLabel and Input Text: #272727
@@ -31,7 +31,7 @@
     background-color: transparent;
     background-position: top left;
     background-repeat: no-repeat;
-    background-image: url(images/themes/norstone/text/text-left.png);
+    background-image: url(/img/site/zilla/norstone/text/text-left.png);
     display: inline-block !important;
     padding: 0px;
     margin: 0px;
@@ -45,7 +45,7 @@
     background-color: transparent;
     background-position: top right;
     background-repeat: no-repeat;
-    background-image: url(images/themes/norstone/text/text-right.png);
+    background-image: url(/img/site/zilla/norstone/text/text-right.png);
     margin: 0px;
     padding: 0px;
     padding-left: 0px;
@@ -104,7 +104,7 @@
 }
 
 .zillaForm-wrapper-text .zillaForm-fake-required div {
-    background: transparent url(images/themes/norstone/misc/required-2.png) top left no-repeat;
+    background: transparent url(/img/site/zilla/norstone/misc/required-2.png) top left no-repeat;
     width: 8px;
     height: 7px;
     position: relative;
@@ -143,27 +143,27 @@
 }
 
 .zillaForm-wrapper-textarea .zf-top {
-    background: transparent url(images/themes/norstone/textarea/textarea-top.png) top left no-repeat;
+    background: transparent url(/img/site/zilla/norstone/textarea/textarea-top.png) top left no-repeat;
 }
 
 .zillaForm-wrapper-textarea .zf-top-right {
-    background: transparent url(images/themes/norstone/textarea/textarea-top-right.png) top left no-repeat;
+    background: transparent url(/img/site/zilla/norstone/textarea/textarea-top-right.png) top left no-repeat;
 }
 
 .zillaForm-wrapper-textarea .zf-center {
-    background: transparent url(images/themes/norstone/textarea/textarea-center.png) top left repeat-y;
+    background: transparent url(/img/site/zilla/norstone/textarea/textarea-center.png) top left repeat-y;
 }
 
 .zillaForm-wrapper-textarea .zf-center-right {
-    background: transparent url(images/themes/norstone/textarea/textarea-center-right.png) top left repeat-y;
+    background: transparent url(/img/site/zilla/norstone/textarea/textarea-center-right.png) top left repeat-y;
 }
 
 .zillaForm-wrapper-textarea .zf-bottom {
-    background: transparent url(images/themes/norstone/textarea/textarea-bottom.png) top left no-repeat;
+    background: transparent url(/img/site/zilla/norstone/textarea/textarea-bottom.png) top left no-repeat;
 }
 
 .zillaForm-wrapper-textarea .zf-bottom-right {
-    background: transparent url(images/themes/norstone/textarea/textarea-bottom-right.png) top left no-repeat;
+    background: transparent url(/img/site/zilla/norstone/textarea/textarea-bottom-right.png) top left no-repeat;
 }
 
 .zillaForm-wrapper-textarea .zf-top,
@@ -205,7 +205,7 @@
 	padding:0;
 	position:relative;
 	z-index:10;
-    left: 9px;  
+    left: 9px;
     top:0px;
     background-color:transparent;
     color:#b4b4b4;
@@ -227,7 +227,7 @@
 }
 
 .zillaForm-wrapper-textarea .zillaForm-fake-required div {
-    background-image: url(images/themes/norstone/form_textfield_required.png);
+    background-image: url(/img/site/zilla/norstone/form_textfield_required.png);
     width: 8px;
     height: 7px;
     position: relative;
@@ -254,8 +254,7 @@
 
 .zillaForm-wrapper-checkbox .zillaForm-checkbox-image {
     display: inline-block;
-    background-image: url(/sites/default/themes/garden/images/checkboxes.png);
-    /*background-image: url(images/themes/norstone/checkboxes/checkboxes.png);*/
+    background-image: url(/img/theme/checkboxes.png);
     background-repeat: no-repeat;
     background-position: top center;
     height: 17px;
@@ -305,8 +304,7 @@ margin: 0px 0 15px 0;
 
 .zillaForm-wrapper-radio .zillaForm-radio-image {
     display: inline-block;
-    background-image: url(/sites/default/themes/garden/images/radios.png);
-    /*background-image: url(images/themes/norstone/radios/radios.png);*/
+    background-image: url(/img/theme/radios.png);
     background-repeat: no-repeat;
     background-position: top center;
     height: 15px;
@@ -348,9 +346,9 @@ margin: 0px 0 15px 0;
 .zillaForm-wrapper-select .zillaForm-selectbox {
     visibility: hidden;
     height: 0px;
-    padding-right: 0px; 
-    margin-right: -9px; 
-    margin-left: 0px; 
+    padding-right: 0px;
+    margin-right: -9px;
+    margin-left: 0px;
     padding-left: 9px;
     position: relative;
     z-index: 151;
@@ -422,7 +420,7 @@ margin: 0px 0 15px 0;
 
 .zillaForm-select-left {
     display: block;
-    background: transparent url(images/themes/norstone/select/select-left.png) left no-repeat;
+    background: transparent url(/img/site/zilla/norstone/select/select-left.png) left no-repeat;
     padding-left: 12px;
     cursor: pointer;
     z-index: 1;
@@ -433,7 +431,7 @@ margin: 0px 0 15px 0;
 }
 
 .zillaForm-select-right {
-    background: transparent url(images/themes/norstone/select/select-right.png) right no-repeat;
+    background: transparent url(/img/site/zilla/norstone/select/select-right.png) right no-repeat;
     height: 28px;
     background-color: transparent;
     background-position: top right;
@@ -474,7 +472,7 @@ margin: 0px 0 15px 0;
     position: relative;
     line-height: 0px;
     text-indent: -999px;
-    background: transparent url(images/themes/norstone/misc/submit.png) top left no-repeat;
+    background: transparent url(/img/site/zilla/norstone/misc/submit.png) top left no-repeat;
     width: 80px;
     height: 30px;
     float: right;
@@ -490,7 +488,7 @@ margin: 0px 0 15px 0;
     position: relative;
     line-height: 0px;
     text-indent: -999px;
-    background: transparent url(images/themes/norstone/misc/submit.png) top left no-repeat;
+    background: transparent url(/img/site/zilla/norstone/misc/submit.png) top left no-repeat;
     width: 80px;
     height: 30px;
     float: right;
