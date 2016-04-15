@@ -3,10 +3,10 @@
     <div id="products-menu">
       <div class="item-list">
         <ul>
-          <li style="background-position: 0 0" class="first"><a href="/products/stacked-stone-cladding" class="active">Rock Panels</a></li>
-          <li style="background-position: 0 -21px"><a href="/products/thin-stone-veneer-panels">XL Rock Panels</a></li>
-          <li style="background-position: 0 -42px"><a href="/products/modern-wall-tile">Basalt Tiles</a></li>
-          <li style="background-position: 0 -110px" class="last"><a href="/products/basalt-stone-panels">Basalt 3D</a></li>
+          <li style="background-position: 0 0"><a href="/products/stacked-stone-cladding"{% if current[2] == "stacked-stone-cladding" %} class="active"{% endif %}>Rock Panels</a></li>
+          <li style="background-position: 0 -21px"><a href="/products/thin-stone-veneer-panels"{% if current[2] == "thin-stone-veneer-panels" %} class="active"{% endif %}>XL Rock Panels</a></li>
+          <li style="background-position: 0 -42px"><a href="/products/modern-wall-tile"{% if current[2] == "modern-wall-tile" %} class="active"{% endif %}>Basalt Tiles</a></li>
+          <li style="background-position: 0 -110px"><a href="/products/basalt-stone-panels"{% if current[2] == "basalt-stone-panels" %} class="active"{% endif %}>Basalt 3D</a></li>
         </ul>
       </div>
     </div>
