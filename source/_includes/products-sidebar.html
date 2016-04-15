@@ -5,7 +5,8 @@
         <h2>Select Your <span class="blue">Rock Panel</span>:</h2>
         {% for product in page.products %}
         <h4>{{ product.title }}</h4>
-        <p><a class="button" href="{{ product.link }}" style="background-image: url({{ product.image }})">.</a></p>
+        {% assign productlink = product.link | downcase | split: '/' %}
+        <p><a class="button{% if productlink[3] == current[3] %} active{% endif %}" href="{{ product.link }}" style="background-image: url({{ product.image }})">.</a></p>
         {% endfor %}
         <p><a href="{{ page.gallery.link }}">{{ page.gallery.text }}<img width="12" height="9" alt="arrows-img" class="arrow" src="/img/theme/arrows-img.png" /></a></p>
       </div>
