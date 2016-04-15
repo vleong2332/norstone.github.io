@@ -3,9 +3,16 @@ markdown: kramdown
 collections:
   collections:
     output: true
+  colors:
+    output: true
 defaults:
   - scope:
       path: ""
       type: collections
+    values:
+      layout: collection
+  - scope:
+      path: ""
+      type: colors
     values:
       layout: collection
