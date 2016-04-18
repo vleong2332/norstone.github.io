@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Norstone Gallery
-permalink: /gallery/
-classes: section-gallery
 ---
 
 {% include navigation-gallery.html %}
@@ -11,7 +9,8 @@ classes: section-gallery
     <div id="content">
       <div id="content-middle">
         <div class="view-product-gallery">
-          {% for item in site.data.gallery %}
+          {% for image in page.images %}
+          {% assign item = site.data.gallery[image] %}
           <div class="views-row {{ item.columns }}-col">
             <div>
               <span class="field-content">
