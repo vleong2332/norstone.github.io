@@ -1,0 +1,39 @@
+---
+layout: default
+title: Norstone Gallery
+classes: section-gallery
+---
+
+{% include navigation-gallery.html %}
+<div id="main">
+  <div class="size">
+    <div id="content">
+      <div id="content-middle">
+        <div class="view-product-gallery">
+          {% for image in page.images %}
+          {% assign item = site.data.gallery[image] %}
+          <div class="views-row {{ item.columns }}-col">
+            <div>
+              <span class="field-content">
+                <a href="{{ item.link }}"><img src="{{ item.image }}" alt="" title=""></a>
+              </span>
+            </div>
+            <span class="views-field-title">
+              <span class="field-content">
+                <a href="{{ item.link }}">{{ item.title }}</a>
+              </span>
+            </span>
+            <div class="views-field-tid">
+              <span class="field-content">
+                <a href="{{ item.link }}" class="app-gallery">{{ item.type }}</a>
+              </span>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
