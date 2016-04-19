@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body class="page not-logged-in node-type-page no-sidebars {{ page.classes }}">
+<body class="page not-logged-in node-type-page no-sidebars {% if page.classes %} {{ page.classes }} {% else if layout.classes %} {{ layout.classes }} {% endif %}">
   <div class="sticky-footer-wrapper">
     <div class="gray"></div>
     {% include header.html %}
