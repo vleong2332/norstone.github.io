@@ -1,7 +1,7 @@
 backsplashes:
   title: Backsplashes
   columns: two
-  link: /gallery/application/backsplash/
+  link: /gallery/application/backsplashes/
   image: /img/site/Natural Stone Backsplashes Gallery_0.jpg
   type: Application Gallery
 exteriors:
@@ -31,7 +31,7 @@ interiors:
 kitchens:
   title: Kitchens
   columns: one
-  link: /gallery/application/kitchen/
+  link: /gallery/application/kitchens/
   image: /img/site/Ledgestone Veneer Panels for Kitchens.jpg
   type: Application Gallery
 pools:
