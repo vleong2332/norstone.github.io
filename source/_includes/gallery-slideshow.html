@@ -1,0 +1,40 @@
+  <div class="view-gallery-full view-product-photos">
+    <div class="view-header">
+      <div class="photo-container">
+        <h2>{{ page.product }}</h2>
+        <div class="nav">
+          <a class="previous" href="#"></a>
+          <a class="next" href="#"></a>
+        </div>
+        <div id="product-photo" class=""><img src="{{ page.gallery[0].src }}" style=""></div>
+      </div>
+    </div>
+    <div class="view-content">
+      <div class="item-list">
+        <ul>
+          {% for image in page.gallery %}
+          <li class="views-row">
+            <div class="views-field-field-gallery-photo-fid-1">
+              <span class="field-content">
+                <a href="{{ image.src }}" class="thumb active">
+                  <img src="{{ image.src }}" alt="{{ image.alt }}" title="" width="74" height="48">
+                </a>
+              </span>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="item-list">
+      <!--
+      <ul class="pager">
+        <li class="pager-current first">1</li>
+        <li class="pager-item"><a href="/gallery/application/fireplace?page=1" title="Go to page 2" class="active">2</a></li>
+        <li class="pager-item"><a href="/gallery/application/fireplace?page=2" title="Go to page 3" class="active">3</a></li>
+        <li class="pager-next"><a href="/gallery/application/fireplace?page=1" title="Go to next page" class="active">next ›</a></li>
+        <li class="pager-last last"><a href="/gallery/application/fireplace?page=2" title="Go to last page" class="active">last »</a></li>
+      </ul>
+    -->
+    </div>
+  </div>
