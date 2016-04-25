@@ -1,6 +1,7 @@
 ---
 ---
 
+var productTypes = {}
 $(document).ready(function() {
   loadProductTypes();
 
@@ -372,12 +373,16 @@ function loadImage(a) {
 }
 
 function loadSidebar(a) {
-  var block = $('#block-block-58');
-  var type = productTypes[$(a).attr('data-product-type')];
+  if ($(a).is("[data-product-type]") && Object.keys(productTypes).length !== 0) {
+    var block = $('#block-block-58');
+    var type = productTypes[$(a).attr('data-product-type')];
+    console.log(productTypes);
+    console.log(type);
 
-  $('img', block).attr('src', type.image);
-  $('.pictured-product-title a', block).html(type.title);
-  $('.pictured-product a', block).attr('href', type.link);
+    $('img', block).attr('src', type.image);
+    $('.pictured-product-title a', block).html(type.title);
+    $('.pictured-product a', block).attr('href', type.link);
+  }
 }
 
 function loadProductTypes() {

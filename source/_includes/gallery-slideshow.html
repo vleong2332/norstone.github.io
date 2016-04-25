@@ -16,7 +16,7 @@
           <li class="views-row">
             <div class="views-field-field-gallery-photo-fid-1">
               <span class="field-content">
-                <a href="{{ image.src }}" class="thumb active">
+                <a{% if image.type %} data-product-type="{{ image.type }}"{% endif %} href="{{ image.src }}" class="thumb active">
                   <img src="{{ image.src }}" alt="{{ image.alt }}" title="" width="74" height="48">
                 </a>
               </span>
@@ -25,16 +25,5 @@
           {% endfor %}
         </ul>
       </div>
-    </div>
-    <div class="item-list">
-      <!--
-      <ul class="pager">
-        <li class="pager-current first">1</li>
-        <li class="pager-item"><a href="/gallery/application/fireplace?page=1" title="Go to page 2" class="active">2</a></li>
-        <li class="pager-item"><a href="/gallery/application/fireplace?page=2" title="Go to page 3" class="active">3</a></li>
-        <li class="pager-next"><a href="/gallery/application/fireplace?page=1" title="Go to next page" class="active">next ›</a></li>
-        <li class="pager-last last"><a href="/gallery/application/fireplace?page=2" title="Go to last page" class="active">last »</a></li>
-      </ul>
-    -->
     </div>
   </div>

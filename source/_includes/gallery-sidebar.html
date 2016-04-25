@@ -1,4 +1,10 @@
 {% assign current = page.url | downcase | split: '/' %}
+{% if page.pictured %}
+{% assign pictured = site.data.pictured[page.pictured] %}
+{% else %}
+{% assign type = page.gallery[0].type %}
+{% assign pictured = site.data.pictured[type] %}
+{% endif %}
 <div class="region region-sidebar-first column sidebar">
   <div class="section">
     <div id="block-social_share-0" class="block block-social_share first region-odd even region-count-1 count-4 ">
@@ -11,13 +17,13 @@
         </div>
       </div>
     </div>
-    <div id="block-block-58" class="block block-block region-even odd region-count-2 count-5 ">
+    <div id="block-block-58" class="block block-block region-even odd region-count-2 count-5">
       <h2 class="title">Pictured Product</h2>
       <div class="content">
         <div class="pictured-product">
-          <a href="/products/rock-panels/charcoal"><img src="/sites/default/files/pictured-rock_panels-charcoal.png" alt=""></a>
-          <div class="pictured-product-title"><a href="/products/rock-panels/charcoal">Charcoal<br>Rock Panels</a></div>
-          <a class="pictured-product-link" href="/products/rock-panels/charcoal">Visit Product Page</a></div>
+          <a href="{{ pictured.link }}"><img src="{{ pictured.image }}" alt=""></a>
+          <div class="pictured-product-title"><a href="{{ pictured.link }}">{{ pictured.title }}</a></div>
+          <a class="pictured-product-link" href="{{ pictured.link }}">Visit Product Page</a></div>
       </div>
     </div>
     <div id="block-qtproducts-applications" class="block block-qtproducts region-odd even region-count-3 count-6 ">
