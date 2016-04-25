@@ -2,6 +2,7 @@
 ---
 
 $(document).ready(function() {
+  loadProductTypes();
 
   $("#block-views-banners-block_1 .view-header, #product-photo")
   .before('<div class="nav"><a class="previous" href="#"></a> <a class="next" href="#"></a></div>');
@@ -371,31 +372,21 @@ function loadImage(a) {
 }
 
 function loadSidebar(a) {
-  // Extract node ID.
-  var nid = $(a).children('span').html();
+  var block = $('#block-block-58');
+  var type = productTypes[$(a).attr('data-product-type')];
 
-  /*
-  $.get('/jsonnode/node/' + nid + '/json', function(data) {
-    loadType(data);
-  });
-  */
-  $.ajax({
+  $('img', block).attr('src', type.image);
+  $('.pictured-product-title a', block).html(type.title);
+  $('.pictured-product a', block).attr('href', type.link);
+}
+
+function loadProductTypes() {
+  return $.ajax({
     type: 'GET',
-    url: '/jsonnode/node/' + nid + '/json',
+    url: '{{ site.domain }}/gallery/pictured.json',
     dataType: 'json',
     success: function (data) {
-      loadType(data);
+      productTypes = data;
     }
   });
 }
-
-function loadType(node) {
-  var block = $('#block-block-58');
-
-  var title = node.type + '<br />' + node.category;
-
-  $('img', block).attr('src', node.photo);
-  $('.pictured-product-title a', block).html(title);
-  $('.pictured-product a', block).attr('href', node.link);
-}
-
