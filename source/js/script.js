@@ -1,17 +1,7 @@
+---
+---
 
-//-------------------------------------------------------------------------------------------|
-//-------------------------------------------------------------------------------------------|
-//
-//  Global Events. In Drupal we wrap this in the drupal.behaviors function
-//  instead of jquery onload so events persist over ajax calls
-//
-//-------------------------------------------------------------------------------------------|
-//-------------------------------------------------------------------------------------------|
-Drupal.behaviors.garden = function (context) {
-
-	//-------------------------------------------------------------------------------------------|
-	//  Image Carousel
-	//-------------------------------------------------------------------------------------------|
+$(document).ready(function() {
 
   $("#block-views-banners-block_1 .view-header, #product-photo")
   .before('<div class="nav"><a class="previous" href="#"></a> <a class="next" href="#"></a></div>');
@@ -103,7 +93,7 @@ Drupal.behaviors.garden = function (context) {
   //  Fancybox Links
   //-------------------------------------------------------------------------------------------|
 
-  $(".fancybox", context).fancybox({
+  $(".fancybox").fancybox({
     'transitionIn': 'none',
     'transitionOut': 'none'
   });
@@ -117,7 +107,7 @@ Drupal.behaviors.garden = function (context) {
 	//-------------------------------------------------------------------------------------------|
 
 		//Cycle Pager
-		$("#block-views-banners-block_1 .view-content", context).cycle({
+		$("#block-views-banners-block_1 .view-content").cycle({
 				fx: 'fade',
 				pause: true,
 				pager: '#cycle-pager',
@@ -128,7 +118,7 @@ Drupal.behaviors.garden = function (context) {
 					return '<a href="#"><span>'+(idx + 1)+'</span></a>';
 		    	}
 			});
-    $("#block-views-landing_slideshow-block_1 .view-content", context).cycle({
+    $("#block-views-landing_slideshow-block_1 .view-content").cycle({
         fx: 'fade',
         pause: true,
         pager: '#cycle-pager',
@@ -268,10 +258,6 @@ Drupal.behaviors.garden = function (context) {
 
     $('#views-exposed-form-gallery-full-page-15 #edit-tid option[value="All"]').html('Sort This Gallery');
 
-
-};
-
-    $(document).ready(function() {
     	//-------------------------------------------------------------------------------------------|
 		//  Tags
 		//-------------------------------------------------------------------------------------------|
