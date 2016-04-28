@@ -1,7 +1,7 @@
 ---
 ---
 
-var productTypes = {}
+var product_types = {}
 $(document).ready(function() {
   loadProductTypes();
 
@@ -373,15 +373,14 @@ function loadImage(a) {
 }
 
 function loadSidebar(a) {
-  if ($(a).is("[data-product-type]") && Object.keys(productTypes).length !== 0) {
+  var type = $(a).data('product-type');
+  if (type !== 'undefined' && Object.keys(product_types).length !== 0) {
     var block = $('#block-block-58');
-    var type = productTypes[$(a).attr('data-product-type')];
-    console.log(productTypes);
-    console.log(type);
+    var product = product_types[type];
 
-    $('img', block).attr('src', type.image);
-    $('.pictured-product-title a', block).html(type.title);
-    $('.pictured-product a', block).attr('href', type.link);
+    $('img', block).attr('src', product.image);
+    $('.pictured-product-title a', block).html(product.title);
+    $('.pictured-product a', block).attr('href', product.link);
   }
 }
 
@@ -391,7 +390,7 @@ function loadProductTypes() {
     url: '{{ site.domain }}/gallery/pictured.json',
     dataType: 'json',
     success: function (data) {
-      productTypes = data;
+      product_types = data;
     }
   });
 }
