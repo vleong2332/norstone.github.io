@@ -25,7 +25,15 @@ classes: section-gallery
             </span>
             <div class="views-field-tid">
               <span class="field-content">
-                <a href="{{ item.link }}" class="app-gallery">{{ item.type }}</a>
+                <a href="{{ item.link }}" class="{{ item.type }}">
+                  {% if item.type == 'project-gallery' %}
+                  {{ item.type_text }}
+                  {% elsif item.type == 'app-gallery' %}
+                  Application Gallery
+                  {% else %}
+                  Product Gallery
+                  {% endif %}
+                </a>
               </span>
             </div>
           </div>

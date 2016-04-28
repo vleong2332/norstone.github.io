@@ -13,7 +13,21 @@ classes: section-gallery page-views one-sidebar
         <div class="region region-content-top">
           <div class="block block-block first region-odd odd region-count-1 count-3 ">
             <div class="content">
+              {% assign gallery_type = page.path | downcase | split: '/' %}
+              {% assign gallery_type = gallery_type[1] %}
+              {% if gallery_type == 'application' %}
               <div class="gallery-type" style="background-image:url(/img/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -66px">Applications</div>
+              {% elsif gallery_type == 'basalt' %}
+              <div class="gallery-type" style="background-image:url(/sites/default/themes/garden/images/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -45px">Basalt Tiles</div>
+              {% elsif gallery_type == 'basalt-3d' %}
+              <div class="gallery-type" style="background-image:url(/sites/default/themes/garden/images/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -112px">Basalt 3D</div>
+              {% elsif gallery_type == 'project' %}
+              <div class="gallery-type" style="background-image:url(/sites/default/themes/garden/images/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -89px">Projects</div>
+              {% elsif gallery_type == 'rock-panels' %}
+              <div class="gallery-type" style="background-image:url(/sites/default/themes/garden/images/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -2px">Rock Panels</div>
+              {% elsif gallery_type == 'xl-rock-panels' %}
+              <div class="gallery-type" style="background-image:url(/sites/default/themes/garden/images/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -22px">XL Rock Panels</div>
+              {% endif %}
             </div>
           </div>
         </div>
