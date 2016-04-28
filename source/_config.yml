@@ -20,3 +20,8 @@ defaults:
       type: colors
     values:
       layout: collection
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: blog
