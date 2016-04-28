@@ -1,6 +1,9 @@
 title: Norstone | Natural Stone Veneer | Natural Stone Products
 domain: http://www.norstoneusa.com
 markdown: kramdown
+gems:
+- html-proofer
+- jekyll-sitemap
 collections:
   collections:
     output: true
