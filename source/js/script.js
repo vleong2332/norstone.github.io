@@ -346,7 +346,15 @@ $(document).ready(function() {
   //  End Pinterest Share button
   //-------------------------------------------------------------------------------------------|
 
-    });
+  var elements = "input[type='text'],input[type='password'],input[type='checkbox'],input[type='radio'],select,textarea";
+  var exclude = ".zillaForm,#edit-tid\r,.gallery-drop select";
+
+  $(elements).not(exclude).zillaForm({
+    drupal: true,
+    innerlabels: 1,
+    auto: 1
+  });
+});
 
 
 function loadImage(a) {
@@ -374,7 +382,7 @@ function loadImage(a) {
 
 function loadSidebar(a) {
   var type = $(a).data('product-type');
-  if (type !== 'undefined' && Object.keys(product_types).length !== 0) {
+  if (type !== undefined && Object.keys(product_types).length !== 0) {
     var block = $('#block-block-58');
     var product = product_types[type];
 
