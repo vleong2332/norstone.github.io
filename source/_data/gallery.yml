@@ -2,55 +2,55 @@ backsplashes:
   title: Backsplashes
   columns: two
   link: /gallery/application/backsplashes/
-  image: /img/site/Natural Stone Backsplashes Gallery_0.jpg
+  image: /assets/images/unsorted/Natural Stone Backsplashes Gallery_0.jpg
   type: app-gallery
 exteriors:
   title: Exteriors
   columns: two
   link: /gallery/application/exteriors/
-  image: /img/site/Ledgestone on Exterior Retaining Walls Gallery.jpg
+  image: /assets/images/unsorted/Ledgestone on Exterior Retaining Walls Gallery.jpg
   type: app-gallery
 feature-walls:
   title: Feature Walls
   columns: one
   link: /gallery/application/natural-stone-feature-walls/
-  image: /img/site/Loft - News Anchor CNN_0.jpg
+  image: /assets/images/unsorted/Loft - News Anchor CNN_0.jpg
   type: app-gallery
 fireplaces:
   title: Fireplaces
   columns: two
   link: /gallery/application/fireplace/
-  image: /img/site/Charcoal Grey Stacked Ledgestone Fireplaces Gallery.jpg
+  image: /assets/images/unsorted/Charcoal Grey Stacked Ledgestone Fireplaces Gallery.jpg
   type: app-gallery
 interiors:
   title: Interiors
   columns: two
   link: /gallery/application/interiors/
-  image: /img/site/Natural Stacked Stone Interiors Gallery.jpg
+  image: /assets/images/unsorted/Natural Stacked Stone Interiors Gallery.jpg
   type: app-gallery
 kitchens:
   title: Kitchens
   columns: one
   link: /gallery/application/kitchens/
-  image: /img/site/Ledgestone Veneer Panels for Kitchens.jpg
+  image: /assets/images/unsorted/Ledgestone Veneer Panels for Kitchens.jpg
   type: app-gallery
 pools:
   title: Pools
   columns: one
   link: /gallery/application/pools/
-  image: /img/site/Ochre RPs pool Narrabeen 069 copy_Small-1800_1.jpg
+  image: /assets/images/unsorted/Ochre RPs pool Narrabeen 069 copy_Small-1800_1.jpg
   type: app-gallery
 showers:
   title: Showers
   columns: one
   link: /gallery/application/showers/
-  image: /img/site/Ochre - Shower 2 - HiRes-1500_0.jpg
+  image: /assets/images/unsorted/Ochre - Shower 2 - HiRes-1500_0.jpg
   type: app-gallery
 rock-panel-interiors:
   title: Rock Panel Interiors
   columns: one
   link: /gallery/rock-panels/interiors/
-  image: /img/site/Denver Architects Office 2_2.jpg
+  image: /assets/images/unsorted/Denver Architects Office 2_2.jpg
   type: Product Gallery
   type: app-gallery
   description: Product Gallery
@@ -58,178 +58,178 @@ rock-panel-exteriors:
   title: Rock Panel Exteriors
   columns: one
   link: /gallery/rock-panels/exteriors/
-  image: /img/site/product_gallery-rock_panel_exteriors.jpg
+  image: /assets/images/unsorted/product_gallery-rock_panel_exteriors.jpg
   type: rock-panels
 rock-panel-charcoal:
   title: Rock Panel Charcoal
   columns: one
   link: /gallery/rock-panels/charcoal/
-  image: /img/site/Denmark Residence.jpg
+  image: /assets/images/unsorted/Denmark Residence.jpg
   type: rock-panels
 rock-panel-ivory:
   title: Rock Panel Ivory
   columns: one
   link: /gallery/rock-panels/ivory/
-  image: /img/site/Cyprus outdoor fireplace_1.jpg
+  image: /assets/images/unsorted/Cyprus outdoor fireplace_1.jpg
   type: rock-panels
 rock-panel-ochre:
   title: Rock Panel Ochre Blend
   columns: one
   link: /gallery/rock-panels/ochre/
-  image: /img/site/Norstone Ochre Rock Panels HL-20 copy-2300_0.jpg
+  image: /assets/images/unsorted/Norstone Ochre Rock Panels HL-20 copy-2300_0.jpg
   type: rock-panels
 rock-panel-white:
   title: Rock Panel White Quartz
   columns: one
   link: /gallery/rock-panels/white/
-  image: /img/site/Norstone White Rock Panels MK-1 copy-1800.jpg
+  image: /assets/images/unsorted/Norstone White Rock Panels MK-1 copy-1800.jpg
   type: rock-panels
 xl-rock-panel-interiors:
   title: XL Rock Panels Interiors
   columns: one
   link: /gallery/xl-rock-panels/interiors/
-  image: /img/site/DSC_2028 copy.jpg
+  image: /assets/images/unsorted/DSC_2028 copy.jpg
   type: xl-rock-panels
 xl-rock-panel-exteriors:
   title: XL Rock Panel Exteriors
   columns: one
   link: /gallery/xl-rock-panels/exteriors/
-  image: /img/site/Ochre XL1 copy 2.jpg
+  image: /assets/images/unsorted/Ochre XL1 copy 2.jpg
   type: xl-rock-panels
 xl-rock-panel-aztec:
   title: XL Rock Panels Aztec
   columns: one
   link: /gallery/xl-rock-panels/aztec/
-  image: /img/site/Aztec Gallery.jpg
+  image: /assets/images/unsorted/Aztec Gallery.jpg
   type: xl-rock-panels
 xl-rock-panel-charcoal:
   title: XL Rock Panels Charcoal
   columns: one
   link: /gallery/xl-rock-panels/charcoal/
-  image: /img/site/XL Charcoal Interior copy 2.jpg
+  image: /assets/images/unsorted/XL Charcoal Interior copy 2.jpg
   type: xl-rock-panels
 xl-rock-panel-ochre:
   title: XL Rock Panels Ochre Blend
   columns: one
   link: /gallery/xl-rock-panels/ochre/
-  image: /img/site/ochre-xlv-11 copy 2_0.jpg
+  image: /assets/images/unsorted/ochre-xlv-11 copy 2_0.jpg
   type: xl-rock-panels
 basalt-interiors:
   title: Basalt Tile Interiors
   columns: one
   link: /gallery/basalt-il-tiles/interiors/
-  image: /img/site/DSC_0289-1800_0.jpg
+  image: /assets/images/unsorted/DSC_0289-1800_0.jpg
   type: Product Gallery
   type: basalt-tiles
 basalt-exteriors:
   title: Basalt Tile Exteriors
   columns: one
   link: /gallery/basalt-il-tiles/exteriors/
-  image: /img/site/DSC_2621 copy.jpg
+  image: /assets/images/unsorted/DSC_2621 copy.jpg
   type: basalt-tiles
 basalt-ash-grey:
   title: Basalt Tile Ash Grey
   columns: one
   link: /gallery/basalt-il-tiles/grey/
-  image: /img/site/DSC_1963 copy 2.jpg
+  image: /assets/images/unsorted/DSC_1963 copy 2.jpg
   type: basalt-tiles
 basalt-ebony:
   title: Basalt Tile Ebony
   columns: one
   link: /gallery/basalt-il-tiles/ebony/
-  image: /img/site/Modern Basalt Backsplash.jpg
+  image: /assets/images/unsorted/Modern Basalt Backsplash.jpg
   type: basalt-tiles
 basalt-3d-interiors:
   title: Basalt 3D Interiors
   columns: one
   link: /gallery/basalt-3d/interiors/
-  image: /img/site/Black Stone Feature Wall Lobby.jpg.crop_display_0.jpg
+  image: /assets/images/unsorted/Black Stone Feature Wall Lobby.jpg.crop_display_0.jpg
   type: basalt-3d
 basalt-3d-exteriors:
   title: Basalt 3D Exteriors
   columns: one
   link: /gallery/basalt-3d/exteriors/
-  image: /img/site/Modern Grey Stacked Stone Veneer.jpg.crop_display_0.jpg
+  image: /assets/images/unsorted/Modern Grey Stacked Stone Veneer.jpg.crop_display_0.jpg
   type: basalt-3d
 basalt-3d-ash-grey:
   title: Basalt 3D Ash Grey
   columns: one
   link: /gallery/basalt-3d/grey/
-  image: /img/site/Modern Grey Ledgestone Tile.jpg.crop_display_0.jpg
+  image: /assets/images/unsorted/Modern Grey Ledgestone Tile.jpg.crop_display_0.jpg
   type: basalt-3d
 basalt-3d-ebony:
   title: Basalt 3D Ebony
   columns: one
   link: /gallery/basalt-3d/ebony/
-  image: /img/site/Black Stacked Stone Columns_0.jpg.crop_display_0.jpg
+  image: /assets/images/unsorted/Black Stacked Stone Columns_0.jpg.crop_display_0.jpg
   type: basalt-3d
 basement-retreat:
   title: Basement Retreat
   columns: two
   link: /gallery/project/basement-retreat/
-  image: /img/site/160over90_Norstone-08_WM-1800_0.jpg
+  image: /assets/images/unsorted/160over90_Norstone-08_WM-1800_0.jpg
   type: project-gallery
   type_text: Philadelphia, PA
 berkshire-residence:
   title: Berkshire Residence
   columns: two
   link: /gallery/project/berkshire-residence/
-  image: /img/site/ochre-xlv-11 copy 2.jpg
+  image: /assets/images/unsorted/ochre-xlv-11 copy 2.jpg
   type: project-gallery
   type_text: Berkshire, UK
 concert-hall:
   title: Concert Hall
   columns: two
   link: /gallery/project/rockport-performing-arts/
-  image: /img/site/Rockport copy-1800_1.jpg
+  image: /assets/images/unsorted/Rockport copy-1800_1.jpg
   type: project-gallery
   type_text: Rockport, MA
 cyprus-residence:
   title: Cyprus Residence
   columns: two
   link: /gallery/project/outdoor-living-in-cyprus/
-  image: /img/site/Cyprus outdoor fireplace_2.jpg
+  image: /assets/images/unsorted/Cyprus outdoor fireplace_2.jpg
   type: project-gallery
   type_text: Paphos, Cyprus
 h+l-architecture:
   title: H+L Architecture
   columns: two
   link: /gallery/project/architects-office/
-  image: /img/site/Denver Architects Office 2_4.jpg
+  image: /assets/images/unsorted/Denver Architects Office 2_4.jpg
   type: project-gallery
   type_text: Denver, CO
 horsen-house:
   title: Horsen House
   columns: two
   link: /gallery/project/horsen-house/
-  image: /img/site/Denmark Residence 2_1.jpg
+  image: /assets/images/unsorted/Denmark Residence 2_1.jpg
   type: project-gallery
   type_text: Copenhagen, Denmark
 matrix-hotel:
   title: Matrix Hotel
   columns: two
   link: /gallery/project/the-matrix-hotel/
-  image: /img/site/Matrix Hotel Edmonton, Canada.jpg
+  image: /assets/images/unsorted/Matrix Hotel Edmonton, Canada.jpg
   type: project-gallery
   type_text: Edmonton, CA
 niagara:
   title: Niagara Residence
   columns: two
   link: /gallery/project/niagara-residence/
-  image: /img/site/Niagara Residence (24).jpg
+  image: /assets/images/unsorted/Niagara Residence (24).jpg
   type: project-gallery
   type_text: Niagara Falls, NY
 stanmore-place:
   title: Stanmore Place
   columns: two
   link: /gallery/project/stanmore-residential-complex/
-  image: /img/site/product_gallery-stanmore_place.jpg
+  image: /assets/images/unsorted/product_gallery-stanmore_place.jpg
   type: project-gallery
   type_text: London, UK
 treehouse-retreat:
   title: Treehouse Retreat
   columns: two
   link: /gallery/project/virginia-treehouse-retreat/
-  image: /img/site/Washington DC Home 2_2.jpg
+  image: /assets/images/unsorted/Washington DC Home 2_2.jpg
   type: project-gallery
   type_text: Washington, DC
