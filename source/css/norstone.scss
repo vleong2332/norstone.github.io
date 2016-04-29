@@ -989,41 +989,6 @@ html, body {
     top: 43px;
   }
 }
-.section-norstone-products #banner #block-block-27 .content .left, .section-products #banner #block-block-27 .content .left {
-  margin: 10px 0 0 -5px;
-}
-#banner {
-  #block-block-31 {
-    .left {
-      margin: 3px 0 0 -8px;
-    }
-    .right {
-      margin: 3px 0 0;
-      h1 {
-        font-size: 47px;
-      }
-    }
-  }
-  #block-block-36 .left, #block-block-38 .left {
-    margin: 5px 0 0 0;
-  }
-  #block-block-36 .right {
-    margin: 3px 0 0;
-    h1 {
-    }
-  }
-}
-.section-products #banner #block-block-37 .content .left {
-  margin: 10px 0 0 -5px;
-}
-#banner #block-block-37 .right h1 {
-  font-size: 47px;
-}
-.section-products #banner {
-  #block-block-38 .content .left img, #block-block-45 .content .left img {
-    margin: 0px 0 0 100px;
-  }
-}
 #content_top_full {
   padding: 5px 0px;
 }
@@ -1037,50 +1002,6 @@ html, body {
     float: left;
     width: 300px;
   }
-  .content h2 {
-    font-size: 19px;
-    a {
-      font-size: 20px;
-      color: #6B6B6B;
-      line-height: 28px !important;
-      display: block;
-    }
-  }
-  .block.region-even {
-    margin: 0px 20px;
-    position: relative;
-  }
-}
-.divider-left {
-  position: absolute;
-  top: 15px;
-  left: -20px;
-}
-.divider-right {
-  position: absolute;
-  top: 15px;
-  left: 300px;
-}
-#block-block-12 p, #block-block-13 p, #block-block-28 p {
-  margin: 0px;
-  padding-right: 7px;
-}
-#block-block-12 p img, #block-block-13 p img, #block-block-28 p img {
-  padding: 0px;
-  margin: 12px 0 0px 0;
-  width: 95%;
-}
-#content_top_full_col .link-right img {
-  padding: 0 0 0 3px;
-  margin: 0px;
-  width: 12px;
-}
-#block-block-12 p.link-right, #block-block-13 p.link-right, #block-block-28 p.link-right {
-  text-align: right;
-  padding: 0 20px 0 0;
-}
-#block-block-13, #block-block-12 {
-  background: url(/assets/images/theme/divider-vertical.png) no-repeat center right scroll transparent;
 }
 .one-sidebar #content {
   float: left;
@@ -1113,9 +1034,6 @@ html, body {
     color: #1c778f;
     font-style: italic;
   }
-  .content-middle {
-    float: left;
-  }
 }
 #content-middle .content > h2 {
   margin-top: 13px;
@@ -1138,66 +1056,6 @@ html, body {
       padding-top: 0px;
     }
   }
-}
-#content_bottom_full_col {
-  .background {
-    background-color: #f5e9d8;
-  }
-  .size {
-    padding: 5px 0px;
-  }
-  .block {
-    float: left;
-    width: 300px;
-    &.region-even {
-      margin: 0px 20px;
-    }
-  }
-}
-.norstone-product-tech-info {
-  margin: 25px 0 50px 0;
-  .content {
-    .ui-tabs-panel {
-      background-color: #E5E3E3;
-      border: none;
-      color: #6B6B6B;
-      font-size: 10px;
-      h4 {
-        font-size: 14px;
-      }
-    }
-    ul {
-      margin: 0px;
-      padding: 0px;
-      li {
-        text-transform: uppercase;
-        background: none;
-        background-color: #cdcccc;
-        border: none;
-        margin: 0px 1px 0 0;
-        a {
-          color: #6b6b6b;
-          background: none;
-          &:hover {
-            background-color: #E5E3E3;
-            color: #4FB1D5;
-          }
-        }
-      }
-      .ui-tabs-selected {
-        background-color: #e5e3e3;
-        a {
-          color: #4fb1d5;
-        }
-      }
-    }
-    .ui-tabs-nav {
-      border: none;
-    }
-  }
-}
-#block-block-32 .content #tabs-1 h4 {
-  line-height: 14px !important;
 }
 #footer {
   color: white;
