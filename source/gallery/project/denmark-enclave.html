@@ -27,18 +27,29 @@ other_galleries:
 - rock-panel-charcoal
 - xl-rock-panel-charcoal
 - niagara
+rows:
+- image:
+    src: /assets/images/unsorted/Horsen.png
+    alt:
+  heading: A Flare for the Contemporary
+  body: Proving the point that stone isn't just for fireplaces, this modern home in Denmark boldly used the Charcoal Rock Panel in the bathroom, shower, kitchen, living room and even garage area of the residence, not only creating continuity throughout the property, but also setting trends that we've seen followed across the pond.
+- image:
+    src: /assets/images/unsorted/stuff-to-know-2.png
+    alt:
+  heading: Featured Products &amp; Design
+  body: "The Horsen House project in Denmark was one of the first projects where Norstone Rock Panels were used for a walk in shower wall, an application that has recently gained popularity in the design community with the proliferation of waterproofing methods for substrates making the idea possible. Projects like this, firmly planted on the leading edge of design and product innovation, solidify Norstone Rock Panels as a high performing and highly desired product.</p><p><a href='/products/rock-panels/charcoal/'>Visit Product Page</a>"
 ---
 
-<h1 class="rtecenter" style="display:block;height:60px;padding-top:40px"><span style="font-size:27px;font-family:josefin slab;letter-spacing:3px; text-align: center; color:##9c9c9c">BEAUTIFUL THEMATIC ACCENTS WITH NORSTONE</span></h1>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/Horsen.png" width="390" height="240" alt="">
-    <h3>A Flare for the Contemporary</h3>
-    <p>Proving the point that stone isn't just for fireplaces, this modern home in Denmark boldly used the Charcoal Rock Panel in the bathroom, shower, kitchen, living room and even garage area of the residence, not only creating continuity throughout the
-        property, but also setting trends that we've seen followed across the pond.&nbsp;</p>
+<h2>BEAUTIFUL THEMATIC ACCENTS WITH NORSTONE</h2>
+{% for row in page.rows %}
+<div class="row">
+  <div class="large-5 columns {% cycle '', 'large-push-7' %}">
+    <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
+  </div>
+  <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
+    <h3>{{ row.heading }}</h3>
+    <p class="text-justify">{{ row.body }}</p>
+  </div>
+  <hr />
 </div>
-<div class="ind-gallery-left"><img src="/assets/images/unsorted/stuff-to-know-2.png" alt="">
-    <h3>Featured Products &amp; Design</h3>
-    <p>The Horsen House project in Denmark was one of the first projects where Norstone Rock Panels were used for a walk in shower wall, an application that has recently gained popularity in the design community with the proliferation of waterproofing methods
-        for substrates making the idea possible. Projects like this, firmly planted on the leading edge of design and product innovation, solidify Norstone Rock Panels as a high performing and highly desired product.</p>
-    <p><a href="/products/rock-panels/charcoal">Visit Product Page</a></p>
-</div>
-<p>&nbsp;</p>
+{% endfor %}

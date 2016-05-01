@@ -227,32 +227,53 @@ other_galleries:
 - rock-panel-interiors
 - xl-rock-panel-ochre
 - concert-hall
+rows:
+- image:
+    src: /assets/images/unsorted/Earth-Toned-Stacked-Stone-Curved-Feature%20Wall(1).jpg
+    alt: Norstone Natural Stone Veneer Fireplace TV Surround
+  heading: Ochre Blend Rock Panels &#8482;
+  body: "A beige/brown <a href='/products/stacked-stone-cladding/'>Ledgestone Panel</a> built to facilitate the installation process, the Ochre Blend Rock Panel is our flagship product originally designed to quickly transform landscaping walls into natural stacked stone walls. Due in part to it's light weight and straight-forward installation, it didn't take long for this product to become a favorite <a href='/gallery/application/interiors/'>interior wall finish</a> among renowned interior designers. Now used consistently on comemrcial as well as residential interiors, the Ochre Blend Rock Panel is fantastic choice where earthy, neutral stacked stone designs are necessary."
+- image:
+    src: /assets/images/unsorted/Neutral%20Toned%20Stacked%20Stone%20Veneer.png
+    alt: Norstone Stack Stone Fireplace
+  heading: Not One Detail Overlooked.
+  body: "Interlocking Finger Joints are the only proven method for creating a truly seamless finish along the corner. Norstone's patent-pending Fingerjoint Corner System, which is available for all our <a href='/products/'>Wall Panel Products</a>, consists of two smaller panels which join together at the corner to create the perfect corner treatment. Each pair is <em>built together</em> at the same time. This ensure a seamless fit every time.</p><p><a href='/products/rock-panels/ochre/'>Visit Product Page</a>"
 ---
 
-<h1 class="rtecenter" style="display:block;height:60px;padding-top:40px"><span style="font-size:34px;font-family:josefin slab;letter-spacing:3px; text-align: center; color:##9c9c9c">LEDGESTONE FOR ANY BUILDING PROJECT.</span></h1>
-<div class="ind-gallery-left">
-    <a href="/products/rock-panels/ochre"><img src="/assets/images/unsorted/Earth-Toned-Stacked-Stone-Curved-Feature%20Wall(1).jpg" width="390" height="240" alt="Norstone Natural Stone Veneer Fireplace TV Surround"></a>
-    <h3>Ochre Blend Rock Panels ™</h3>
-    <p><span style="font-weight:100;letter-spacing:.5px">A beige/brown&nbsp;<a href="/products/stacked-stone-cladding">Ledgestone Panel</a>&nbsp;built to facilitate the installation process, the Ochre Blend Rock Panel is our flagship product originally designed to quickly transform landscaping walls into natural stacked stone walls. Due in part to it's light weight and straight-forward installation, it didn't take long for this product to become a favorite <a href="/gallery/application/Interiors">interior wall finish</a> among renowned interior designers. Now used consistently on comemrcial as well as residential interiors, the Ochre Blend Rock Panel is fantastic choice where earthy, neutral stacked stone designs are necessary.</span></p>
-    <p>&nbsp;</p>
+<h2 class="text-center">LEDGESTONE FOR ANY BUILDING PROJECT.</h2>
+{% for row in page.rows %}
+<div class="row">
+  <div class="large-5 columns {% cycle '', 'large-push-7' %}">
+    <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
+  </div>
+  <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
+    <h3>{{ row.heading }}</h3>
+    <p class="text-justify">{{ row.body }}</p>
+  </div>
+  <hr />
 </div>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/Neutral%20Toned%20Stacked%20Stone%20Veneer.png" width="430" height="240" alt="Norstone Stack Stone Fireplace">
-    <h3 class="rteright">Not One Detail Overlooked. &nbsp; &nbsp; &nbsp;&nbsp;</h3>
-    <p><span style="font-weight:100;letter-spacing:.5px">Interlocking Finger Joints are the only proven method for creating a truly seamless finish along the corner. Norstone's patent-pending Fingerjoint Corner System, which is available for all our <a href="/products">Wall Panel Products</a>, consists of two smaller panels which join together at the corner to create the perfect corner treatment. Each pair is <em>built together</em>&nbsp;at the same time. This ensure a seamless fit every time.&nbsp;</span></p>
-    <p>&nbsp;</p>
-    <p class="rteright"><a href="/products/rock-panels/ochre">Visit Product Page</a></p>
-    <p>&nbsp;</p>
-</div>
-<div class="ind-gallery-left two-col"><img src="/assets/images/unsorted/Commercial-Ledgestone-Feature-Wall-Norstone.jpg" width="390" height="240" alt="Norstone Modern Stacked Stone Fireplace">
-    <h3>Get to Know This Product&nbsp;</h3>
-    <p class="rteleft"><span style="font-weight:100">The Ochre Blend Rock Panel is our flagship&nbsp;<a href="/products/rock-panels/ochre">Ledgestone Panel</a>&nbsp;product, complete with all the bells and whistles. With ease, it transforms <a href="/gallery/application/natural-stone-feature-walls">feature walls</a>, fireplaces, <a href="/gallery/application/backsplashes">kitchen backsplashes</a>, <a href="/gallery/application/Pools">pools water features</a>,&nbsp;and the like. Check out these links for more information or <a href="/contact-us">Contact Us</a> today to discuss how we might meet the needs of your project.<br type="_moz">
-</span></p>
-    <ul class="ind-gallery-links">
-        <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
-        <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
-        <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
-        <li class="ind-gallery-link">
+{% endfor %}
+<div class="row">
+  <div class="large-5 columns">
+    <img class="orbit-image" src="/assets/images/unsorted/Commercial-Ledgestone-Feature-Wall-Norstone.jpg" alt="Norstone Modern Stacked Stone Fireplace">
+  </div>
+  <div class="large-7 columns">
+    <h3>Get to Know This Product</h3>
+    <div class="row">
+      <div class="large-6 columns">
+        <p class="text-justify">The Ochre Blend Rock Panel is our flagship <a href="/products/rock-panels/ochre">Ledgestone Panel</a> product, complete with all the bells and whistles. With ease, it transforms <a href="/gallery/application/natural-stone-feature-walls/">feature walls</a>, fireplaces, <a href="/gallery/application/backsplashes/">kitchen backsplashes</a>, <a href="/gallery/application/pools/">pools water features</a>, and the like. Check out these links for more information or <a href="/contact-us/">Contact Us</a> today to discuss how we might meet the needs of your project.</p>
+      </div>
+      <div class="large-6 columns">
+        <ul class="ind-gallery-links">
+          <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
+          <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
+          <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
+          <li class="ind-gallery-link">
             <a href="/how-to-buy"><img src="/assets/images/unsorted/learn-how-to-buy-3%20copy(1).png" width="135" height="30" alt=""></a>
-        </li>
-    </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <hr />
 </div>

@@ -21,18 +21,29 @@ other_galleries:
 - rock-panel-interiors
 - rock-panel-ochre
 - fireplaces
+rows:
+- image:
+    src: /assets/images/unsorted/PhillyBasement(2).png
+    alt:
+  heading: R&amp;R Never Looked So Good
+  body: Ochre Rock Panels adorn nearly every wall of the lower level in this home in the city of brotherly love. The stone forms a perfect backdrop to frame a modern gas fireplace as well as signed Van Halen Guitar and serves as a functional bar backsplash and feature wall in the theatre nook of this custom designed lower level space. The clean and linear design of the Rock Panel is in full display as its more traditional brown &amp; grey color tones work perfectly with the modern style and furnishings of this space.
+- image:
+    src: /assets/images/unsorted/Ochre.png
+    alt:
+  heading: Featured Products &amp; Design
+  body: "The Philadelphia Basement project highlights the need for sufficient and varied lighting in any project that will recieve little or no sunlight, particularily when stone is involved.  The use of drop pendants, recessed cans, halogen pins, and a very cool backlit bottle rack all combine with the warm glow of the gas fireplace to bring out the brown earth tones of the Ochre Rock Panel and create a warm and inviting multi use space.</p><p><a href='/products/rock-panels/ochre/'>Visit Product Page</a>"
 ---
 
-<h1 class="rtecenter" style="display:block;height:60px;padding-top:40px"><span style="font-size:27px;font-family:josefin slab;letter-spacing:3px; text-align: center; color:##9c9c9c">STACKED STONE A PERFECT FIT FOR THE BASEMENT BAR</span></h1>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/PhillyBasement(2).png" width="390" height="240" alt="">
-    <h3>R&amp;R Never Looked So Good</h3>
-    <p>Ochre Rock Panels adorn nearly every wall of the lower level in this home in the city of brotherly love. The stone forms a perfect backdrop to frame a modern gas fireplace as well as signed Van Halen Guitar and serves as a functional bar backsplash
-        and feature wall in the theatre nook of this custom designed lower level space. The clean and linear design of the Rock Panel is in full display as its more traditional brown &amp; grey color tones work perfectly with the modern style and furnishings
-        of this space.</p>
+<h2>STACKED STONE A PERFECT FIT FOR THE BASEMENT BAR</h2>
+{% for row in page.rows %}
+<div class="row">
+  <div class="large-5 columns {% cycle '', 'large-push-7' %}">
+    <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
+  </div>
+  <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
+    <h3>{{ row.heading }}</h3>
+    <p class="text-justify">{{ row.body }}</p>
+  </div>
+  <hr />
 </div>
-<div class="ind-gallery-left"><img src="/assets/images/unsorted/Ochre.png" width="390" height="240" alt="">
-    <h3>Featured Products &amp; Design</h3>
-    <p>The Philadelphia Basement project highlights the need for sufficient and varied lighting in any project that will recieve little or no sunlight, particularily when stone is involved. &nbsp;The use of drop pendants, recessed cans, halogen pins, and
-        a very cool backlit bottle rack all combine with the warm glow of the gas fireplace to bring out the brown earth tones of the Ochre Rock Panel and create a warm and inviting multi use space.</p>
-    <p><a href="/products/rock-panels/ochre">Visit Product Page</a></p>
-</div>
+{% endfor %}

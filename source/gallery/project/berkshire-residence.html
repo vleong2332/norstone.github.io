@@ -23,17 +23,29 @@ other_galleries:
 - niagara
 - xl-rock-panel-ochre
 - feature-walls
+rows:
+- image:
+    src: /assets/images/unsorted/Berkshire.png
+    alt:
+  heading: XL Rock Panels In Action In Berkshire
+  body: Norstone recently completed this Ochre XL installation within the Grounds of a Magnificent Manor House in Berkshire. Janine Stone Architects/Interior Designers specified Norstone Ochre XL to be installed on a Wall that commences from the Indoor Gymnasium, which then continues uninterrupted through a sheet of Glass and continues on to the Water feature.
+- image:
+    src: /assets/images/unsorted/XLOchre.png
+    alt:
+  heading: Featured Products &amp; Design
+  body: "The larger format XL Series Rock Panel in Ochre is a great selection for this project due to the uninterrupted design and height of the wall stretching across three distinct areas.  The larger individual stones of the XL Series add to the strength and durability motif of the indoor gymnasium, and as natural stone, add an air of zen to the outdoor terrace and water feature.</p><p><a href='/products/thin-stone-veneer-panels/ochre/'>Visit Product Page</a>"
 ---
 
-<h1 class="rtecenter" style="display:block;height:60px;padding-top:40px"><span style="font-size:27px;font-family:josefin slab;letter-spacing:3px; text-align: center; color:##9c9c9c">REMARKABLE AESTHETICS IN BERKSHIRE ENGLAND</span></h1>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/Berkshire.png" width="390" height="240" alt="">
-    <h3>XL Rock Panels In Action In Berkshire</h3>
-    <p>Norstone recently completed this Ochre XL installation within the Grounds of a Magnificent Manor House in Berkshire. Janine Stone Architects/Interior Designers specified Norstone Ochre XL to be installed on a Wall that commences from the Indoor Gymnasium,
-        which then continues uninterrupted through a sheet of Glass and continues on to the Water feature.</p>
+<h2>REMARKABLE AESTHETICS IN BERKSHIRE ENGLAND</h2>
+{% for row in page.rows %}
+<div class="row">
+  <div class="large-5 columns {% cycle '', 'large-push-7' %}">
+    <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
+  </div>
+  <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
+    <h3>{{ row.heading }}</h3>
+    <p class="text-justify">{{ row.body }}</p>
+  </div>
+  <hr />
 </div>
-<div class="ind-gallery-left"><img src="/assets/images/unsorted/XLOchre.png" width="390" height="240" alt="">
-    <h3>Featured Products &amp; Design</h3>
-    <p>The larger format XL Series Rock Panel in Ochre is a great selection for this project due to the uninterrupted design and height of the wall stretching across three distinct areas. &nbsp;The larger individual stones of the XL Series&nbsp;add to the
-        strength and durability motif of the indoor gymnasium, and as natural stone, add an air of zen to the outdoor terrace and water feature.</p>
-    <p><a href="/products/thin-stone-veneer-panels/ochre">Visit Product Page</a></p>
-</div>
+{% endfor %}

@@ -45,37 +45,58 @@ other_galleries:
 - rock-panel-ochre
 - rock-panel-interiors
 - rock-panel-charcoal
+rows:
+- image:
+    src: /assets/images/unsorted/Norstone-Natural-Stone-Spa-Hot-Tub.png
+    alt: Norstone Natural Stone Spa and Hot Tub
+  heading: Bringing the Spa Home
+  body: "Using Norstone <a href='/products/stacked-stone-cladding'>Rock Panels</a> to create a natural stone shower wall is an excellent option for homeowners seeking to incorporate spa elements into their private bathrooms. Natural stone has long been a favorite finish of commercial spas for its rugged asethetic, durabilitiy, and sound dampening qualities, which can now be incorporated into a stone veneer shower wall straight out of a magazine."
+- image:
+    src: /assets/images/unsorted/Norstone-Ivory-Shower-Stone.png
+    alt: Norstone Ivory Shower Stone
+  heading: Making It Possible
+  body: Creating a natural stone shower wall from a dry stacked thin veneer product like Norstone Rock Panels was impossible just a few years ago, but thanks to advancements in waterproofing technology, you can now achieve a fully water proofed substrate to which any natural stone or tile can be installed over using a thinset bed method.  This waterproofing layer prevents water intrusion into the cement board substrate and wall cavity and directs the water, with gravity's help, to the shower pan and drain.
+- image:
+    src: /assets/images/unsorted/Norstone-Stacked-Stone-Shower.png
+    alt: Norstone Stacked Stone Shower
+  heading: Practical Considerations
+  body: "Stone veneer used in a shower should be sealed upon completion of the installation with a quality water based natural stone sealer and resealed at regular intervals per the sealer manufacturer's recommendations.  When necessary, the stone is best cleaned using detergent based soaps and a stiff plastic bristle brush.  An exhaust fan is helpful to evacuate the moist air out of the shower stall during and after each use, helping keep the stone veneer shower wall clean.</p><p><a href='/assets/pdfs/Norstone%20Short%20and%20Long%20Term%20Maintenance%20Guidelines.pdf'>Norstone's Short &amp; Long Term Maintenance Guidelines</a>"
 ---
 
-<h1 class="rtecenter" style="display:block;height:60px;padding-top:40px"><span style="font-size:27px;font-family:josefin slab;letter-spacing:3px; text-align: center; color:##9c9c9c">TURN YOUR SHOWER INTO A SPA WITH STACKED STONE</span></h1>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/Norstone-Natural-Stone-Spa-Hot-Tub.png" width="390" height="240" alt="Norstone Natural Stone Spa and Hot Tub">
-    <h3>Bringing the Spa Home</h3>
-    <p>Using Norstone <a href="/products/stacked-stone-cladding">Rock Panels</a> to create a natural stone shower wall is an excellent option for homeowners seeking to incorporate spa elements into their private bathrooms. Natural
-        stone has long been a favorite finish of commercial spas for its rugged asethetic, durabilitiy, and sound dampening qualities, which can now be incorporated into a stone veneer shower wall straight out of a magazine.</p>
-    <p>&nbsp;</p>
+<h2 class="text-center">TURN YOUR SHOWER INTO A SPA WITH STACKED STONE</h2>
+{% for row in page.rows %}
+<div class="row">
+  <div class="large-5 columns {% cycle '', 'large-push-7' %}">
+    <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
+  </div>
+  <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
+    <h3>{{ row.heading }}</h3>
+    <p class="text-justify">{{ row.body }}</p>
+  </div>
+  <hr />
 </div>
-<div class="ind-gallery-left"><img src="/assets/images/unsorted/Norstone-Ivory-Shower-Stone.png" width="390" height="240" alt="Norstone Ivory Shower Stone">
-    <h3>Making It Possible</h3>
-    <p>Creating a natural stone shower wall from a dry stacked thin veneer product like Norstone Rock Panels was impossible just a few years ago, but thanks to advancements in waterproofing technology, you can now achieve a fully water proofed substrate
-        to which any natural stone or tile can be installed over using a thinset bed method. &nbsp;This waterproofing layer prevents water intrusion into the cement board substrate and wall cavity and directs the water, with gravity's help, to the shower
-        pan and drain.</p>
-    <p>&nbsp;</p>
-</div>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/Norstone-Stacked-Stone-Shower.png" alt="Norstone Stacked Stone Shower" width="369" height="240">
-    <h3>Practical Considerations</h3>
-    <p>Stone veneer used in a shower should be sealed upon completion of the installation with a quality water based natural stone sealer and resealed at regular intervals per the sealer manufacturer's recommendations. &nbsp;When necessary, the stone is
-        best cleaned using detergent based soaps and a stiff plastic bristle brush. &nbsp;An exhaust fan is helpful to evacuate the moist air out of the shower stall during and after each use, helping keep the stone veneer shower wall clean.</p>
-    <p><a href="/assets/pdfs/Norstone%20Short%20and%20Long%20Term%20Maintenance%20Guidelines.pdf">Norstone's Short &amp; Long Term Maintenance Guidelines</a></p>
-</div>
-<div class="ind-gallery-left two-col"><img src="/assets/images/unsorted/Norstone-Natural-Shower-Tub-Stone-Veneer.png" width="390" height="240" alt="Norstone Natural Shower Stone Veneer Tub">
+{% endfor %}
+<div class="row">
+  <div class="large-5 columns large-push-7">
+    <img class="orbit-image" src="/assets/images/unsorted/Norstone-Natural-Shower-Tub-Stone-Veneer.png" alt="Norstone Natural Shower Stone Veneer Tub">
+  </div>
+  <div class="large-7 columns large-pull-5">
     <h3>Other items you might want</h3>
-    <p>Like the idea of having a truly unique natural stone shower wall? &nbsp;<a href="/contact-us">Contact Us</a> today to discuss your project.&nbsp;</p>
-    <ul class="ind-gallery-links">
-        <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
-        <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
-        <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
-        <li class="ind-gallery-link">
+    <div class="row">
+      <div class="large-6 columns">
+        <p class="text-justify">Like the idea of having a truly unique natural stone shower wall?  <a href="/contact-us/">Contact Us</a> today to discuss your project. </p>
+      </div>
+      <div class="large-6 columns">
+        <ul class="ind-gallery-links">
+          <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
+          <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
+          <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
+          <li class="ind-gallery-link">
             <a href="/how-to-buy"><img src="/assets/images/unsorted/learn-how-to-buy-3%20copy(1).png" width="135" height="30" alt=""></a>
-        </li>
-    </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <hr />
 </div>

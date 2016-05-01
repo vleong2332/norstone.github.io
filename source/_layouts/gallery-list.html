@@ -4,44 +4,36 @@ title: Norstone Gallery
 classes: section-gallery
 ---
 
-{% include navigation-gallery.html %}
-<div id="main">
-  <div class="size">
-    <div id="content">
-      <div id="content-middle">
-        <div class="view-product-gallery">
-          {% for image in page.images %}
-          {% assign item = site.data.gallery[image] %}
-          <div class="views-row {{ item.columns }}-col">
-            <div>
-              <span class="field-content">
-                <a href="{{ item.link }}"><img src="{{ item.image }}" alt="" title=""></a>
-              </span>
-            </div>
-            <span class="views-field-title">
-              <span class="field-content">
-                <a href="{{ item.link }}">{{ item.title }}</a>
-              </span>
-            </span>
-            <div class="views-field-tid">
-              <span class="field-content">
-                <a href="{{ item.link }}" class="{{ item.type }}">
-                  {% if item.type == 'project-gallery' %}
-                  {{ item.type_text }}
-                  {% elsif item.type == 'app-gallery' %}
-                  Application Gallery
-                  {% else %}
-                  Product Gallery
-                  {% endif %}
-                </a>
-              </span>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-      <div class="clear"></div>
+<div class="row columns">
+  {% include navigation-gallery.html %}
+</div>
+<div class="row large-up-4">
+  {% for image in page.images %}
+  {% assign item = site.data.gallery[image] %}
+  <div class="column {{ item.columns }}-col">
+    <div>
+      <span class="field-content">
+        <a href="{{ item.link }}"><img src="{{ item.image }}" alt="" title=""></a>
+      </span>
     </div>
-    <div class="clear"></div>
+    <span class="views-field-title">
+      <span class="field-content">
+        <a href="{{ item.link }}">{{ item.title }}</a>
+      </span>
+    </span>
+    <div class="views-field-tid">
+      <span class="field-content">
+        <a href="{{ item.link }}" class="{{ item.type }}">
+          {% if item.type == 'project-gallery' %}
+            {{ item.type_text }}
+          {% elsif item.type == 'app-gallery' %}
+            Application Gallery
+          {% else %}
+            Product Gallery
+          {% endif %}
+        </a>
+      </span>
+    </div>
   </div>
+  {% endfor %}
 </div>

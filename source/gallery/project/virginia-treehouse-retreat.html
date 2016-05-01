@@ -19,18 +19,29 @@ other_galleries:
 - rock-panel-white
 - rock-panel-interiors
 - matrix-hotel
+rows:
+- image:
+    src: /assets/images/unsorted/VirginiaHouse.png
+    alt:
+  heading: A Virginia Treehouse Retreat
+  body: This rural Virginia home boasts an impressive offering of Norstone White Rock Panels throughout the main living areas. Starting in the formal living room, a two sided fireplace meets up with a stunning backsplash in the gourmet kitchen, which then transitions into a full height feature wall in the cozy family room. Paired flawlessly with wood flooring, dark cabinetry, and overstuffed furniture, this installation shows how White Rock Panels can still make a statement in a more traditional design &amp; decor scheme.
+- image:
+    src: /assets/images/unsorted/White.png
+    alt:
+  heading: Featured Products &amp; Design
+  body: "The Treehouse project is a classic example of creating flow across multiple spaces using materials and finishes.  The dual sided fireplace, clad in White Rock Panels, welcomes the formal living room into the kitchen, which carries the stone onto the backsplash, before eventually opening up into the family room, allowing three distinct areas to flow together through the use of creative design and material selection.</p><p><a href='/products/rock-panels/white/'>Visit Product Page</a>"
 ---
 
-<h1 class="rtecenter" style="display:block;height:60px;padding-top:40px"><span style="font-size:27px;font-family:josefin slab;letter-spacing:3px; text-align: center; color:##9c9c9c">RETREAT FROM DC TO THIS RURAL TREEHOUSE</span></h1>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/VirginiaHouse.png" width="390" height="240" alt="">
-    <h3>A Virginia Treehouse Retreat</h3>
-    <p>This rural Virginia home boasts an impressive offering of Norstone White Rock Panels throughout the main living areas. Starting in the formal living room, a two sided fireplace meets up with a stunning backsplash in the gourmet kitchen, which then
-        transitions into a full height feature wall in the cozy family room. Paired flawlessly with wood flooring, dark cabinetry, and overstuffed furniture, this installation shows how White Rock Panels can still make a statement in a more traditional
-        design &amp; decor scheme.</p>
+<h2>RETREAT FROM DC TO THIS RURAL TREEHOUSE</h2>
+{% for row in page.rows %}
+<div class="row">
+  <div class="large-5 columns {% cycle '', 'large-push-7' %}">
+    <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
+  </div>
+  <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
+    <h3>{{ row.heading }}</h3>
+    <p class="text-justify">{{ row.body }}</p>
+  </div>
+  <hr />
 </div>
-<div class="ind-gallery-left"><img src="/assets/images/unsorted/White.png" width="390" height="240" alt="">
-    <h3>Featured Products &amp; Design</h3>
-    <p>The Treehouse project is a classic example of creating flow across multiple spaces using materials and finishes. &nbsp;The dual sided fireplace, clad in White Rock Panels, welcomes the formal living room into the kitchen, which carries the stone onto
-        the backsplash, before eventually opening up into the family room, allowing three distinct areas to flow together through the use of creative design and material selection.</p>
-    <p><a href="/products/rock-panels/white">Visit Product Page</a></p>
-</div>
+{% endfor %}

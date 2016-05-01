@@ -4,81 +4,51 @@ title: Norstone Gallery
 classes: section-gallery page-views one-sidebar
 ---
 
+<div class="row columns">
 {% include navigation-gallery-small.html %}
-
-<div id="main">
-  <div class="size">
-    <div id="content">
-      <div id="content_top">
-        <div class="region region-content-top">
-          <div class="block block-block first region-odd odd region-count-1 count-3 ">
-            <div class="content">
-              {% assign gallery_type = page.path | downcase | split: '/' %}
-              {% assign gallery_type = gallery_type[1] %}
-              {% if gallery_type == 'application' %}
-              <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -66px">Applications</div>
-              {% elsif gallery_type == 'basalt' %}
-              <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -45px">Basalt Tiles</div>
-              {% elsif gallery_type == 'basalt-3d' %}
-              <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -112px">Basalt 3D</div>
-              {% elsif gallery_type == 'project' %}
-              <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -89px">Projects</div>
-              {% elsif gallery_type == 'rock-panels' %}
-              <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -2px">Rock Panels</div>
-              {% elsif gallery_type == 'xl-rock-panels' %}
-              <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -22px">XL Rock Panels</div>
-              {% endif %}
-            </div>
-          </div>
-        </div>
-        <div class="clear"></div>
-      </div>
-      <div id="content-middle">
-        {% include gallery-slideshow.html %}
-      </div>
-      <div class="clear"></div>
-    </div>
-    <div id="sidebar_first">
-      {% include gallery-sidebar.html %}
-    </div>
-    <div class="clear"></div>
+</div>
+<div class="row">
+  <div class="large-9 columns">
+    {% assign gallery_type = page.path | downcase | split: '/' %}
+    {% assign gallery_type = gallery_type[1] %}
+    {% if gallery_type == 'application' %}
+    <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -66px">Applications</div>
+    {% elsif gallery_type == 'basalt' %}
+    <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -45px">Basalt Tiles</div>
+    {% elsif gallery_type == 'basalt-3d' %}
+    <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -112px">Basalt 3D</div>
+    {% elsif gallery_type == 'project' %}
+    <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -89px">Projects</div>
+    {% elsif gallery_type == 'rock-panels' %}
+    <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -2px">Rock Panels</div>
+    {% elsif gallery_type == 'xl-rock-panels' %}
+    <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -22px">XL Rock Panels</div>
+    {% endif %}
+    {% include gallery-slideshow.html %}
+  </div>
+  <div class="large-3 columns">
+    {% include gallery-sidebar.html %}
   </div>
 </div>
-<div id="content_bottom_full">
-  <div class="background">
-    <div class="size">
-      <div class="region region-content-bottom-full">
-        <div id="block-block-64" class="block block-block first region-odd odd region-count-1 count-7 ">
-          <div class="content">
-            {{ content }}
-          </div>
-        </div>
-        <div id="block-views-product_gallery-block_15" class="block block-views region-even even region-count-2 count-8 ">
-          <h2 class="title">Other Galleries You Might Like</h2>
-          <div class="content">
-            <div class="views_view view view-product-gallery view-id-product_gallery view-display-id-block_15 view-dom-id-2 views-processed">
-              <div class="view-content">
-                {% for other in page.other_galleries %}
-                {% assign gallery = site.data.gallery[other] %}
-                <div class="views-row {{ gallery.columns }}-col">
-                  <div class="views-field-field-gallery-image-2col-fid">
-                    <span class="field-content"></span>
-                  </div>
-                  <div class="views-field-field-gallery-image-1col-fid">
-                    <span class="field-content"><a href="{{ gallery.link }}"><img src="{{ gallery.image }}"></a></span>
-                  </div>
-                  <span class="views-field-title">
-                <span class="field-content"><a href="{{ gallery.link }}">{{ gallery.title }}</a></span></span>
-                  <div class="views-field-tid">
-                    <span class="field-content"><a href="{{ gallery.link }}">{{ gallery.type }}</a></span>
-                  </div>
-                </div>
-                {% endfor %}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+<div class="row columns">
+  {{ content }}
+</div>
+<div class="row columns">
+  <h2 class="title">Other Galleries You Might Like</h2>
+  {% for other in page.other_galleries %}
+  {% assign gallery = site.data.gallery[other] %}
+  <div class="views-row {{ gallery.columns }}-col">
+    <div class="views-field-field-gallery-image-2col-fid">
+      <span class="field-content"></span>
+    </div>
+    <div class="views-field-field-gallery-image-1col-fid">
+      <span class="field-content"><a href="{{ gallery.link }}"><img src="{{ gallery.image }}"></a></span>
+    </div>
+    <span class="views-field-title">
+  <span class="field-content"><a href="{{ gallery.link }}">{{ gallery.title }}</a></span></span>
+    <div class="views-field-tid">
+      <span class="field-content"><a href="{{ gallery.link }}">{{ gallery.type }}</a></span>
     </div>
   </div>
+  {% endfor %}
 </div>

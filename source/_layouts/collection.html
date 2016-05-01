@@ -3,48 +3,26 @@ layout: default
 title: Norstone Gallery
 classes: page-products one-sidebar
 ---
-<div id="banner_big">
-  <div class="background">
-    <div class="size">
-      <div class="region region-banner-big">
-        <div id="block-block-23" class="block block-block first region-odd odd region-count-1 count-3 ">
-          <div class="content">
-            <div class="left">
-              <a href="{{ page.header.link }}"><img width="640" height="257" alt="Norstone's Natural Stacked Stone Thin Veneer Wall Panels" src="{{ page.header.image }}" /></a>
-            </div>
-            <div class="right">
-              <p class="big">{{ page.header.title }}</p>
-              <h1 class="small">{{ page.header.subtitle }}</h1>
-              <p>{{ page.header.description }}</p>
-              <a class="text-shadow box-shadow-center glide" href="#content_top_full_col">Select Color Below</a></div>
-            <div class="clear">&nbsp;</div>
-          </div>
-        </div>
-      </div>
-      <div class="clear"></div>
-    </div>
+
+<div class="row">
+  <div class="large-8 columns">
+    <a href="{{ page.header.link }}"><img width="640" height="257" alt="Norstone's Natural Stacked Stone Thin Veneer Wall Panels" src="{{ page.header.image }}" /></a>
+  </div>
+  <div class="large-4 columns">
+    <h1 class="text-right">{{ page.header.title }}</h1>
+    <h2 class="text-right">{{ page.header.subtitle }}</h2>
+    <p class="text-justify">{{ page.header.description }}</p>
+    <a class="button" href="#select-color">Select Color Below</a>
   </div>
 </div>
-<div id="content_top_full_col">
-  <div class="background">
-    <div class="size">
-      <div class="region region-content-top-full-col">
-        {% include navigation-products-small.html %}
-      </div>
-      <div class="clear"></div>
-    </div>
+<div class="row columns">
+  {% include navigation-products-small.html %}
+</div>
+<div class="row">
+  <div class="large-8 columns">
+    {{ content }}
+  </div>
+  <div id="select-color" class="large-4 columns">
+    {% include products-sidebar.html %}
   </div>
 </div>
-<div id="main">
-  <div class="size">
-    <div id="content">
-      {{ content }}
-      <div class="clear"></div>
-    </div>
-    <div id="sidebar_first">
-      {% include products-sidebar.html %}
-    </div>
-    <div class="clear"></div>
-  </div>
-</div>
-<div class="sticky-footer-push"></div>

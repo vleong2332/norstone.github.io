@@ -1,9 +1,15 @@
 title: Norstone | Natural Stone Veneer | Natural Stone Products
-domain: http://www.norstoneusa.com
+description: New dimensions in natural stone.
+url: http://www.norstoneusa.com
+author: Rassan Grant
 markdown: kramdown
 gems:
 - html-proofer
 - jekyll-sitemap
+- jekyll-feed
+- jekyll-tidy
+jekyll_tidy:
+  compress_html: false
 collections:
   collections:
     output: true

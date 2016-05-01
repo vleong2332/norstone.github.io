@@ -1,26 +1,12 @@
-<div id="content_top_full">
-    <div class="background">
-        <div class="size">
-            <div class="region region-content-top-full">
-                <div id="block-qtproducts-gallery_menu" class="block block-qtproducts first region-odd even region-count-1 count-2 ">
-                    <div class="content">
-                        <div id="gallery-menu">
-                            <div class="item-list">
-                              {% assign current = page.path | downcase | split: '/' %}
-                              {% assign current = current[1] %}
-                                <ul>
-                                    <li style="background-position: 0 0"><a{% if current == "rock-panels" %} class="active"{% endif %} href="/gallery/rock-panels">Rock Panels</a></li>
-                                    <li style="background-position: 0 -21px"><a{% if current == "xl-rock-panels" %} class="active"{% endif %} href="/gallery/xl-rock-panels">XL Rock Panels</a></li>
-                                    <li style="background-position: 0 -42px"><a{% if current == "basalt" %} class="active"{% endif %} href="/gallery/basalt-il-tiles">Basalt Tiles</a></li>
-                                    <li style="background-position: 0 -110px"><a{% if current == "basalt-3d" %} class="active"{% endif %} href="/gallery/basalt-3d">Basalt 3D</a></li>
-                                    <li style="background-position: 0 -63px"><a{% if current == "application" %} class="active"{% endif %} href="/gallery/application">Applications</a></li>
-                                    <li style="background-position: 0 -87px"><a{% if current == "project" %} class="active"{% endif %} href="/gallery/project">Projects</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+{% assign current = page.path | downcase | split: '/' %}
+{% assign current = current[1] %}
+<div class="menu-centered">
+  <ul class="vertical medium-horizontal menu">
+    <li style="background-position: 0 0"><a{% if current == "rock-panels" %} class="active"{% endif %} href="/gallery/rock-panels">Rock Panels</a></li>
+    <li style="background-position: 0 -21px"><a{% if current == "xl-rock-panels" %} class="active"{% endif %} href="/gallery/xl-rock-panels">XL Rock Panels</a></li>
+    <li style="background-position: 0 -42px"><a{% if current == "basalt" %} class="active"{% endif %} href="/gallery/basalt-il-tiles">Basalt Tiles</a></li>
+    <li style="background-position: 0 -110px"><a{% if current == "basalt-3d" %} class="active"{% endif %} href="/gallery/basalt-3d">Basalt 3D</a></li>
+    <li style="background-position: 0 -63px"><a{% if current == "application" %} class="active"{% endif %} href="/gallery/application">Applications</a></li>
+    <li style="background-position: 0 -87px"><a{% if current == "project" %} class="active"{% endif %} href="/gallery/project">Projects</a></li>
+  </ul>
 </div>

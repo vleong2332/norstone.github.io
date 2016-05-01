@@ -1,24 +1,13 @@
-<div id="content_top_full">
-  <div class="background">
-    <div class="size">
-      <div class="region region-content-top-full">
-        <div id="block-qtproducts-gallery_menu_large" class="block block-qtproducts first region-odd even region-count-1 count-2">
-          <h2 class="title">Get Inspired. Select a gallery type to begin. </h2>
-          <div class="content">
-            {% assign current = page.url | downcase | split: '/' %}
-            <div id="gallery-menu-large">
-              <a {% if current[2] == "rock-panels" %} class="active"{% endif %} href="/gallery/rock-panels/" style="background-image: url('/assets/images/theme/qtproducts-menu-rock-panels.png')">Rock Panels</a>
-              <a {% if current[2] == "xl-rock-panels" %} class="active"{% endif %} href="/gallery/xl-rock-panels/" style="background-image: url('/assets/images/theme/qtproducts-menu-xl-rock-panels.png')">XL Rock Panels</a>
-              <a {% if current[2] == "basalt-il-tiles" %} class="active"{% endif %} href="/gallery/basalt-il-tiles/" style="background-image: url('/assets/images/theme/qtproducts-menu-basalt-tiles.png')">Basalt Tiles</a>
-              <a {% if current[2] == "basalt-3d" %} class="active"{% endif %} href="/gallery/basalt-3d/" style="background-image: url('/assets/images/theme/qtproducts-menu-basalt-3d.png')">Basalt 3D</a>
-            </div>
-            <div id="gallery-menu-right">
-              <a {% if current[2] == "application" %} class="active"{% endif %} href="/gallery/application/" style="background-image: url('/assets/images/theme/qtproducts-menu-applications.png')">Applications</a>
-              <a {% if current[2] == "project" %} class="active"{% endif %} href="/gallery/project/" style="background-image: url('/assets/images/theme/qtproducts-menu-projects.png')">Projects</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<h1 class="text-center">Get Inspired. Select a gallery type to begin.</h1>
+<hr />
+<div id="gallery-navigation" class="menu-centered">
+  {% assign current = page.url | downcase | split: '/' %}
+  <ul class="vertical medium-horizontal menu icon-top">
+    <li><a {% if current[2] == "rock-panels" %} class="active"{% endif %} href="/gallery/rock-panels/" style="background-image: url('/assets/images/theme/qtproducts-menu-rock-panels.png')">Rock Panels</a></li>
+    <li><a {% if current[2] == "xl-rock-panels" %} class="active"{% endif %} href="/gallery/xl-rock-panels/" style="background-image: url('/assets/images/theme/qtproducts-menu-xl-rock-panels.png')">XL Rock Panels</a></li>
+    <li><a {% if current[2] == "basalt-il-tiles" %} class="active"{% endif %} href="/gallery/basalt-il-tiles/" style="background-image: url('/assets/images/theme/qtproducts-menu-basalt-tiles.png')">Basalt Tiles</a></li>
+    <li><a {% if current[2] == "basalt-3d" %} class="active"{% endif %} href="/gallery/basalt-3d/" style="background-image: url('/assets/images/theme/qtproducts-menu-basalt-3d.png')">Basalt 3D</a></li>
+    <li>|</li>
+    <li><a {% if current[2] == "application" %} class="active"{% endif %} href="/gallery/application/" style="background-image: url('/assets/images/theme/qtproducts-menu-applications.png')">Applications</a></li>
+    <li><a {% if current[2] == "project" %} class="active"{% endif %} href="/gallery/project/" style="background-image: url('/assets/images/theme/qtproducts-menu-projects.png')">Projects</a></li>
 </div>

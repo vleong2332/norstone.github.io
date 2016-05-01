@@ -1,0 +1,60 @@
+---
+---
+
+.row {
+  max-width: 900px;
+}
+
+h1.standard {
+  font-family: open sans, "Myriad Pro", Arial, Tahoma, Sans-Serif;
+  margin-top: 13px;
+  font-size: 23px;
+  line-height: 36px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #83888D;
+}
+
+p {
+  color: #6b6b6b;
+  font-family: open sans, "Myriad Pro", Arial, Tahoma, Sans-Serif;
+  font-size: 11px;
+}
+
+body {
+  background: url(/assets/images/theme/bg-stripe.png) repeat;
+}
+
+#product-navigation {
+  a {
+    height: 60px;
+    margin: 0 30px;
+    width: 113px;
+  }
+}
+
+#footer {
+  background: #6b6b6b url("/assets/images/theme/banner-under-shadow-light.png") no-repeat top center;
+  height: 74px;
+  p {
+    color: #fff;
+  }
+}
+
+/*
+.no-js {
+  @include breakpoint(small only) {
+    .top-bar {
+      display: none;
+    }
+  }
+
+  @include breakpoint(medium) {
+    .title-bar {
+      display: none;
+    }
+  }
+}
+*/

@@ -1,19 +1,16 @@
 <div data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
-  <h2>{{ page.product }}</h2>
   <ul class="orbit-container">
     <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
     <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
-    {% for image in page.gallery %}
+    {% for slide in page.slides %}
     <li class="{% if forloop.index0==0 %}class='is-active' {% endif %} orbit-slide">
-      <img src="{{ image.src }}" alt="{{ image.alt }}">
+      <img src="{{ slide.image }}" alt="{{ slide.title }}">
     </li>
     {% endfor %}
   </ul>
   <nav class="orbit-bullets">
-    {% for image in page.gallery %}
-    <a{% if image.type %} data-product-type="{{ image.type }}"{% endif %} href="{{ image.src }}" class="thumb active">
-      <img src="{{ image.src }}" alt="{{ image.alt }}" title="" width="76" height="47" data-slide="{{ forloop.index0 }}"{% if forloop.index0 == 0 %} class="is-active"{% endif %} />
-    </a>
+    {% for slide in page.slides %}
+    <img src="{{ slide.image }}" alt="{{ slide.title }}" title="" width="76" height="47" data-slide="{{ forloop.index0 }}"{% if forloop.index0 == 0 %} class="is-active"{% endif %} />
     {% endfor %}
   </nav>
 </div>

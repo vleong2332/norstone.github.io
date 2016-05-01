@@ -75,51 +75,68 @@ other_galleries:
 - rock-panel-interiors
 - rock-panel-white
 - rock-panel-charcoal
+rows:
+- image:
+    src: /assets/images/unsorted/Norstone-Natural-Stone-Veneer-Fireplace-TV-Surround.png
+    alt: Norstone Natural Stone Veneer Fireplace TV Surround
+  heading: Center of a Room. Center of a Home.
+  body: Fireplaces are a natural gathering place, and are often not just the focal point of a room, but often the focal point of the entire home, proving a respite of warmth, conversation, and meditation from the outside world. Experts agree that renovating a tired, worn out, and outdated fireplace has the same return on investment as updating a kitchen or bathroom, but with a much smaller price tag. Natural stone veneer panels are an excellent choice for such a renovation, offering a cost effective, easy to install application.
+- image:
+    src: /assets/images/unsorted/Norstone-Stack-Stone-Fireplace.png
+    alt: Norstone Stack Stone Fireplace
+  heading: The World's Finest Corner Detail
+  body: Corners are one of the single most important details to choosing any stacked stone veneer for a fireplace. So we poured over every detail and concept for making the perfect corner. After carefully manufacturing and testing one iteration after another, we eventually concluded that - for a thin natural stacked stone veneer to “turn a corner” properly - it had to be crafted using “fingers” that seamlessly interlock…as if they were made that way in nature. Don’t settle for less than the best when it comes to this detail.
+- image:
+    src: /assets/images/unsorted/Norstone-Indoor-Stone-Fireplace-Surround.png
+    alt: Norstone Indoor Stone Fireplace Surround
+  heading: Color and Design Matter
+  body: "Whether you&rsquo;re envisioning a rustic, colonial, contemporary, modern, or Old World space, color and design add up to making your project look just right. Natural Stone Colors vary naturally, which is what makes it an authentic material to incorporate into projects. Our four colors, <a href='/products/rock-panels/ochre'>Ochre</a>, <a href='/products/rock-panels/charcoal'>Charcoal</a>, <a href='/products/rock-panels/white'>White</a>, and <a href='/products/rock-panels/ivory'>Ivory</a> can be easily adapted into all color schemes and the clean lines of the product are equally well suited to all different types of design."
+- image:
+    src: /assets/images/unsorted/Norstone-Stacked-Stone-Fireplace-Surround.png
+    alt: Norstone Stacked Stone Fireplace Surround
+  heading: Build it Right
+  body: "Whether you&rsquo;re renovating an old brick fireplace, or building one anew, our world-class customer service team will walk you through the right process for you. During a fireplace renovation, you tend to encounter more obstacles than if you are building new. For example, is your existing fireplace built from brick? Is it flat drywall? There are different ways to handle each of these conditions.</p> <p><a href='/assets/pdfs/Norstone_Installation%20Guide(2).pdf'> Norstone's Installation Guide</a>"
+- image:
+    src: /assets/images/unsorted/Norstone-White-Quartz-Natural-Stone-on-Interior-Fireplace.jpg
+    alt: Norstone Exterior Stone Fireplace
+  heading: Hearth or No Hearth
+  body: One of the most common questions about fireplaces is whether or not to have a hearth. Many modern gas fireplaces that use Norstone do not have hearths, but many rustic fireplaces that we work on do. Be sure to peruse our galleries for projects that look like yours to get a better idea of whether or not this is right for you.
 ---
 
-<h1 class="rtecenter" style="display:block;height:60px;padding-top:40px"><span style="font-size:27px;font-family:josefin slab;letter-spacing:3px; text-align: center; color:##9c9c9c">WANT STACKED STONE ON YOUR FIREPLACE? IT'S EASY.</span></h1>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/Norstone-Natural-Stone-Veneer-Fireplace-TV-Surround.png" width="390" height="240" alt="Norstone Natural Stone Veneer Fireplace TV Surround">
-  <h3>Center of a Room. Center of a Home.</h3>
-  <p>Fireplaces are a natural gathering place, and are often not just the focal point of a room, but often the focal point of the entire home, proving a respite of warmth, conversation, and meditation from the outside world. Experts agree that renovating
-    a tired, worn out, and outdated fireplace has the same return on investment as updating a kitchen or bathroom, but with a much smaller price tag. Natural stone veneer panels are an excellent choice for such a renovation, offering a cost effective,
-    easy to install application.</p>
-  <p>&nbsp;</p>
+<h2 class="text-center">WANT STACKED STONE ON YOUR FIREPLACE? IT'S EASY.</h2>
+{% for row in page.rows %}
+<div class="row">
+  <div class="large-5 columns {% cycle '', 'large-push-7' %}">
+    <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
+  </div>
+  <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
+    <h3>{{ row.heading }}</h3>
+    <p class="text-justify">{{ row.body }}</p>
+  </div>
+  <hr />
 </div>
-<div class="ind-gallery-left"><img src="/assets/images/unsorted/Norstone-Stack-Stone-Fireplace.png" width="390" height="240" alt="Norstone Stack Stone Fireplace">
-  <h3>The World's Finest Corner Detail</h3>
-  <p>Corners are one of the single most important details to choosing any stacked stone veneer for a fireplace. So we poured over every detail and concept for making the perfect corner. After carefully manufacturing and testing one iteration after another,
-    we eventually concluded that - for a thin natural stacked stone veneer to “turn a corner” properly - it had to be crafted using “fingers” that seamlessly interlock…as if they were made that way in nature. Don’t settle for less than the best when it
-    comes to this detail.</p>
-  <p>&nbsp;</p>
-</div>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/Norstone-Indoor-Stone-Fireplace-Surround.png" width="390" height="240" alt="Norstone Indoor Stone Fireplace Surround">
-  <h3>Color and Design Matter</h3>
-  <p>Whether you’re envisioning a rustic, colonial, contemporary, modern, or Old World space, color and design add up to making your project look just right. Natural Stone Colors vary naturally, which is what makes it an authentic material to incorporate
-    into projects. Our four colors, <a href="/products/rock-panels/ochre">Ochre</a>, <a href="/products/rock-panels/charcoal">Charcoal</a>, <a href="/products/rock-panels/white">White</a>,
-    and <a href="/products/rock-panels/ivory">Ivory</a> can be easily adapted into all color schemes and the clean lines of the product are equally well suited to all different types of design.</p>
-  <p>&nbsp;</p>
-</div>
-<div class="ind-gallery-left"><img src="/assets/images/unsorted/Norstone-Stacked-Stone-Fireplace-Surround.png" width="390" height="240" alt="Norstone Stacked Stone Fireplace Surround">
-  <h3>Build it Right</h3>
-  <p>Whether you’re renovating an old brick fireplace, or building one anew, our world-class customer service team will walk you through the right process for you. During a fireplace renovation, you tend to encounter more obstacles than if you are building
-    new. For example, is your existing fireplace built from brick? Is it flat drywall? There are different ways to handle each of these conditions.</p>
-  <p><a href="/assets/pdfs/Norstone_Installation%20Guide(2).pdf">&nbsp;Norstone's Installation Guide</a></p>
-</div>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/Norstone-White-Quartz-Natural-Stone-on-Interior-Fireplace.jpg" width="390" height="240" alt="Norstone Exterior Stone Fireplace">
-  <h3>Hearth or No Hearth</h3>
-  <p>One of the most common questions about fireplaces is whether or not to have a hearth. Many modern gas fireplaces that use Norstone do not have hearths, but many rustic fireplaces that we work on do. Be sure to peruse our galleries for projects that
-    look like yours to get a better idea of whether or not this is right for you.</p>
-  <p>&nbsp;</p>
-</div>
-<div class="ind-gallery-left two-col"><img src="/assets/images/unsorted/Norstone-Modern-Fireplace-Stacked-Stone-Veneer.png" width="390" height="240" alt="Norstone Modern Stacked Stone Fireplace">
-  <h3>Natural Stone Fit For Wood Burning Stoves&nbsp;</h3>
-  <p>Wood Burning Stoves are a great way to have the heat of a fireplace without the bulk of a roaring fireplace. Norstone looks great on these applications too. Check out the links to the right for more information or <a href="/contact-us">Contact Us</a>    today to discuss your project.</p>
-  <ul class="ind-gallery-links">
-    <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
-    <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
-    <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
-    <li class="ind-gallery-link">
-      <a href="/how-to-buy"><img src="/assets/images/unsorted/learn-how-to-buy-3%20copy(1).png" width="135" height="30" alt=""></a>
-    </li>
-  </ul>
+{% endfor %}
+<div class="row">
+  <div class="large-5 columns large-push-7">
+    <img class="orbit-image" src="/assets/images/unsorted/Norstone-Modern-Fireplace-Stacked-Stone-Veneer.png" alt="Norstone Modern Stacked Stone Fireplace">
+  </div>
+  <div class="large-7 columns large-pull-5">
+    <h3>Natural Stone Fit For Wood Burning Stoves</h3>
+    <div class="row">
+      <div class="large-6 columns">
+        <p>Wood Burning Stoves are a great way to have the heat of a fireplace without the bulk of a roaring fireplace. Norstone looks great on these applications too. Check out the links to the right for more information or <a href="/contact-us">Contact Us</a> today to discuss your project.</p>
+      </div>
+      <div class="large-6 columns">
+        <ul class="ind-gallery-links">
+          <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
+          <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
+          <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
+          <li class="ind-gallery-link">
+            <a href="/how-to-buy"><img src="/assets/images/unsorted/learn-how-to-buy-3%20copy(1).png" width="135" height="30" alt=""></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <hr />
 </div>

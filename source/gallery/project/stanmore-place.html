@@ -23,18 +23,29 @@ other_galleries:
 - niagara
 - rock-panel-charcoal
 - xl-rock-panel-charcoal
+rows:
+- image:
+    src: /assets/images/unsorted/FeaturedProjectDetails_Stanmore3.png
+    alt:
+  heading: The Details
+  body: The Stanmore multipurpose complex offers a massive selection of residential dwelling options as well as commercial storefronts. Its setting helps to achieve the right balance between the city and the country. Although the West End is only 30 minutes away, the development sits in a leafy suburb. Demonstrating a wonderful mix between contemporary and Victorian styling, this complex shows off its Norstone product with pride.
+- image:
+    src: /assets/images/unsorted/stuff-to-know-2.png
+    alt:
+  heading: Featured Products &amp; Design
+  body: "The Stanmore Design and Ownership team were looking for a product that would stand up to the often harsh climate and elements of London.  Unsatisfied with the performance of slate for the exterior water feature areas, the team turned to Norstone's superior Quartz based products which met all of their needs including freeze / thaw stability in moisture rich environments.</p><p><a href='/products/rock-panels/charcoal/'>Visit Product Page</a>"
 ---
 
-<h1 class="rtecenter" style="display:block;height:60px;padding-top:40px"><span style="font-size:27px;font-family:josefin slab;letter-spacing:3px; text-align: center; color:##9c9c9c">STANMORE STANDS TALL ON FORM &amp; FUNCTION</span></h1>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/FeaturedProjectDetails_Stanmore3.png" width="390" height="240" alt="">
-    <h3>The Details</h3>
-    <p>The Stanmore multipurpose complex offers a massive selection of residential dwelling options as well as commercial storefronts. Its setting helps to achieve the right balance between the city and the country. Although the West End is only 30 minutes
-        away, the development sits in a leafy suburb. Demonstrating a wonderful mix between contemporary and Victorian styling, this complex shows off its Norstone product with pride.</p>
+<h2 class="text-center">STANMORE STANDS TALL ON FORM &amp; FUNCTION</h2>
+{% for row in page.rows %}
+<div class="row">
+  <div class="large-5 columns {% cycle '', 'large-push-7' %}">
+    <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
+  </div>
+  <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
+    <h3>{{ row.heading }}</h3>
+    <p class="text-justify">{{ row.body }}</p>
+  </div>
+  <hr />
 </div>
-<div class="ind-gallery-left"><img src="/assets/images/unsorted/stuff-to-know-2.png" alt="">
-    <h3>Featured Products &amp; Design</h3>
-    <p>The Stanmore Design and Ownership team were looking for a product that would stand up to the often harsh climate and elements of London. &nbsp;Unsatisfied with the performance of slate for the exterior water feature areas, the team turned to Norstone's
-        superior Quartz based products which met all of their needs including freeze / thaw stability in moisture rich environments. &nbsp;</p>
-    <p><a href="/products/rock-panels/charcoal">Visit Product Page</a></p>
-</div>
-<p>&nbsp;</p>
+{% endfor %}

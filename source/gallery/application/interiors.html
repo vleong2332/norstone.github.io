@@ -42,37 +42,58 @@ other_galleries:
 - rock-panel-white
 - rock-panel-charcoal
 - xl-rock-panel-interiors
+rows:
+- image:
+    src: /assets/images/unsorted/Norstone-Interior-Stone-Wall-Panels.png
+    alt: Norstone Horsen Interior Stone Wall Panels
+  heading: Norstone, Anywhere &amp; Everywhere
+  body: "Norstone <a href='/products/stacked-stone-cladding'>Rock Panels</a> are a great choice for any interior project where a unique and fresh look is desired.  Projects ranging from entryways, alcoves, stairwells, accent and feature walls, powder rooms, fireplaces and many more are all suitable for an interior stacked stone wall.  It never ceases to amaze the team at Norstone the different ways our customers dream up to use our products."
+- image:
+    src: /assets/images/unsorted/Norstone-Install-Stone-Panels-Inside-Home_Office-Project.png
+    alt: Norstone Brusch Interior Stone Panels Installation Project
+  heading: Starting Out Right
+  body: "The most important consideration for an interior stone veneer project is making sure the wall itself is suitable for installation.  Norstone Rock Panels weigh about 12.5 lbs / sq ft, making most normal drywall or sheetrock wall substrates unsuitable for an interior rock wall installation.  This is easily remedied by installating cement board over the existing wallboard and then installing the interior stone veneer over the freshly prepared substrate.</p><a href='/how-to-install-stacked-stone'>Norstone&rsquo;s Installation Page</a>"
+- image:
+    src: /assets/images/unsorted/Norstone-Interior-Stacked-Stone-Veneer-Wall.png
+    alt: Norstone Pompano Interior Stacked Stone Veneer Wall
+  heading: Finishing Touches
+  body: A number of options are available for adding extra design elements to an interior stone veneer wall. One of the most popular is lighting, which can be projected either upward, downward, or designed to back light the stone, and controlled for brightness and color.  Art pieces can also be incorporated into an interior stacked stone project, using a diamond-tipped masonry drill bit to drill through the stone to set the anchor points.
 ---
 
-<h1 class="rtecenter" style="display:block;height:60px;padding-top:40px"><span style="font-size:27px;font-family:josefin slab;letter-spacing:3px; text-align: center; color:##9c9c9c">INTERIOR APPLICATIONS THAT ROCK</span></h1>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/Norstone-Interior-Stone-Wall-Panels.png" width="390" height="240" alt="Norstone Horsen Interior Stone Wall Panels">
-    <h3>Norstone, Anywhere &amp; Everywhere</h3>
-    <p>Norstone <a href="/products/stacked-stone-cladding">Rock Panels</a> are a great choice for any interior project where a unique and fresh look is desired. &nbsp;Projects ranging from entryways, alcoves, stairwells, accent
-        and feature walls, powder rooms, fireplaces and many more are all suitable for an interior stacked stone wall. &nbsp;It never ceases to amaze the team at Norstone the different ways our customers dream up to use our products. &nbsp;</p>
-    <p>&nbsp;</p>
+<h2 class="text-center">INTERIOR APPLICATIONS THAT ROCK</h2>
+{% for row in page.rows %}
+<div class="row">
+  <div class="large-5 columns {% cycle '', 'large-push-7' %}">
+    <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
+  </div>
+  <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
+    <h3>{{ row.heading }}</h3>
+    <p class="text-justify">{{ row.body }}</p>
+  </div>
+  <hr />
 </div>
-<div class="ind-gallery-left"><img src="/assets/images/unsorted/Norstone-Install-Stone-Panels-Inside-Home_Office-Project.png" width="390" height="240" alt="Norstone Brusch Interior Stone Panels Installation Project">
-    <h3>Starting Out Right</h3>
-    <p>The most important consideration for an interior stone veneer project is making sure the wall itself is suitable for installation. &nbsp;Norstone Rock Panels weigh about 12.5 lbs / sq ft, making most normal drywall or sheetrock wall substrates unsuitable
-        for an interior rock wall installation. &nbsp;This is easily remedied by installating cement board over the existing wallboard and then installing the interior stone veneer over the freshly prepared substrate.</p>
-    <p><a href="/how-to-install-stacked-stone">Norstone's Installation Page</a></p>
-</div>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/Norstone-Interior-Stacked-Stone-Veneer-Wall.png" width="390" height="240" alt="Norstone Pompano Interior Stacked Stone Veneer Wall">
-    <h3>Finishing Touches</h3>
-    <p>A number of options are available for adding extra design elements to an interior stone veneer wall. &nbsp;One of the most popular is lighting, which can be projected either upward, downward, or designed to back light the stone, and controlled for
-        brightness and color. &nbsp;Art pieces can also be incorporated into an interior stacked stone project, using a&nbsp;diamond-tipped masonry drill bit to drill through the stone to set the anchor points.</p>
-    <p>&nbsp;</p>
-</div>
-<div class="ind-gallery-left two-col"><img src="/assets/images/unsorted/Norstone-Interior-Rock-Wall-Cladding.png" width="390" height="240" alt="Norstone Wine Cellar Interior Rock Wall Cladding">
+{% endfor %}
+<div class="row">
+  <div class="large-5 columns large-push-7">
+    <img class="orbit-image" src="/assets/images/unsorted/Norstone-Interior-Rock-Wall-Cladding.png" alt="Norstone Wine Cellar Interior Rock Wall Cladding">
+  </div>
+  <div class="large-7 columns large-pull-5">
     <h3>Other items you might want</h3>
-    <p>If an interior stacked stone wall is something that your project can't be without, <a href="/contact-us">Contact</a> a friendly Norstone expert who can discuss more of your project's details and explain how Norstone Rock
-        Panels can be used.</p>
-    <ul class="ind-gallery-links">
-        <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
-        <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
-        <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
-        <li class="ind-gallery-link">
+    <div class="row">
+      <div class="large-6 columns">
+        <p class="text-justify">If an interior stacked stone wall is something that your project can't be without, <a href='/contact-us/'>Contact</a> a friendly Norstone expert who can discuss more of your project's details and explain how Norstone Rock Panels can be used.</p>
+      </div>
+      <div class="large-6 columns">
+        <ul class="ind-gallery-links">
+          <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
+          <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
+          <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
+          <li class="ind-gallery-link">
             <a href="/how-to-buy"><img src="/assets/images/unsorted/learn-how-to-buy-3%20copy(1).png" width="135" height="30" alt=""></a>
-        </li>
-    </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <hr />
 </div>

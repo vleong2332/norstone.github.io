@@ -85,44 +85,69 @@ gallery:
 - alt: Stacked Stone Grill
   src: /assets/images/gallery/Outdoor KitchenB.JPG
   type: xl-rock-panel-ochre
-
 other_galleries:
 - xl-rock-panel-exteriors
 - xl-rock-panel-ochre
 - rock-panel-interiors
 - rock-panel-ochre
+rows:
+- image:
+    alt: Norstone Harold Natural Exterior Stone Veneer For Outside
+    src: /assets/images/unsorted/Norstone-Natural-Exterior-Stone-Veneer-Outside.png
+  heading: Where It All Began
+  body: Norstone Rock Panels originated as a landscaping product, and while architects and designers have found lots of other ways to use the product, its origins shine through when used as an exterior stacked stone.  The quartz and quartz based stones make the product incredibly durable and an excellent choice for an exterior wall cladding project.
+- image:
+    src: /assets/images/unsorted/Norstone-Natural-Exterior-Stacked-Stone.png
+    alt: Norstone Revel Natural Exterior Stacked Stone
+  heading: It's Bigger Out Here
+  body: Exterior projects tends to be larger in size than interior projects - it's a simple fact that there is often lots more room outside than in.  Norstone's panel system allows for installers to achieve installation rates closely mirroring tile, far outpacing hand stacked loose stone, allowing for exterior stone veneer projects to be completed more quickly and cost effectively.  Norstone's larger format <a href="/products/thin-stone-veneer-panels">XL Rock Panels</a>, featuring larger individual stone sizes than the <a href="/products/stacked-stone-cladding">Standard Series</a>, are an ideal fit for many exterior stone cladding projects which would benefit from a larger and therefore more consistent look over a large installation.
 ---
 
-<h1 class="rtecenter" style="display:block;height:60px;padding-top:40px"><span style="font-size:27px;font-family:josefin slab;letter-spacing:3px; text-align: center; color:##9c9c9c">EXTERIOR NATURAL STONE WALLS THAT ROCK</span></h1>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/Norstone-Natural-Exterior-Stone-Veneer-Outside.png" width="390" height="240" alt="Norstone Harold Natural Exterior Stone Veneer For Outside">
-    <h3>Where It All Began</h3>
-    <p>Norstone Rock Panels originated as a landscaping product, and while architects and designers have found lots of other ways to use the product, its origins shine through when used as an exterior stacked stone. &nbsp;The quartz and quartz based stones
-        make the product incredibly durable and an excellent choice for an exterior wall cladding project.</p>
-    <p>&nbsp;</p>
+<h2 class="text-center">EXTERIOR NATURAL STONE WALLS THAT ROCK</h2>
+{% for row in page.rows %}
+<div class="row">
+  <div class="large-5 columns {% cycle '', 'large-push-7' %}">
+    <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
+  </div>
+  <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
+    <h3>{{ row.heading }}</h3>
+    <p class="text-justify">{{ row.body }}</p>
+  </div>
+  <hr />
 </div>
-<div class="ind-gallery-left"><img src="/assets/images/unsorted/Norstone-Natural-Exterior-Stacked-Stone.png" width="390" height="240" alt="Norstone Revel Natural Exterior Stacked Stone">
-    <h3>It's Bigger Out Here</h3>
-    <p>Exterior projects tends to be larger in size than interior projects - it's a simple fact that there is often lots more room outside than in. &nbsp;Norstone's panel system allows for installers to achieve installation rates closely mirroring tile,
-        far outpacing hand stacked loose stone, allowing for exterior stone veneer projects to be completed more quickly and cost effectively. &nbsp;Norstone's larger format <a href="/products/thin-stone-veneer-panels">XL Rock Panels</a>,
-        featuring larger individual stone sizes than the <a href="/products/stacked-stone-cladding">Standard Series</a>, are an ideal fit for many exterior stone cladding projects which would benefit from a larger and therefore
-        more consistent look over a large installation.</p>
-    <p>&nbsp;</p>
-</div>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/Norstone-Natural-Exterior-Thin-Stone-Project.png" width="390" height="240" alt="Norstone Cyprus Natural Exterior Thin Stone Project">
+{% endfor %}
+<div class="row">
+  <div class="large-5 columns {% cycle '', 'large-push-7' %}">
+    <img class="orbit-image" src="/assets/images/unsorted/Norstone-Natural-Exterior-Thin-Stone-Project.png" alt="Norstone Cyprus Natural Exterior Thin Stone Project">
+  </div>
+  <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3>Practical Considerations</h3>
-    <p>Certain things like corrosive cleaning agents, excessive salt, or other chemicals that might be present in an exterior installation can potentially harm the finish of a stone cladding project. &nbsp;Sealing the stone with a water based, penetrating
-        sealer post installation is a good idea to maintain and protect the stone finish over time.</p>
+    <p class="text-justify">Certain things like corrosive cleaning agents, excessive salt, or other chemicals that might be present in an exterior installation can potentially harm the finish of a stone cladding project.  Sealing the stone with a water based, penetrating sealer post installation is a good idea to maintain and protect the stone finish over time.</p>
     <p><a href="/assets/pdfs/Norstone%20Short%20and%20Long%20Term%20Maintenance%20Guidelines.pdf">Norstone Short &amp; Long Term Maintenance Guidelines</a></p>
+  </div>
+  <hr />
 </div>
-<div class="ind-gallery-left two-col"><img src="/assets/images/unsorted/Norstone-Exterior-Natural-Stone-Wall-Cladding.png" width="390" height="240" alt="Norstone Seychelles Exterior Natural Stone Wall Cladding">
+<div class="row">
+  <div class="large-5 columns large-push-7">
+    <img class="orbit-image" src="/assets/images/unsorted/Norstone-Exterior-Natural-Stone-Wall-Cladding.png" alt="Norstone Seychelles Exterior Natural Stone Wall Cladding">
+  </div>
+  <div class="large-7 columns large-pull-5">
     <h3>Other items you might want</h3>
-    <p><a href="/contact-us">Contact</a> our team and discuss how you can take your outdoor space to the next level with Norstone Rock Panels.&nbsp;</p>
-    <ul class="ind-gallery-links">
-        <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
-        <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
-        <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
-        <li class="ind-gallery-link">
+    <div class="row">
+      <div class="large-6 columns">
+        <p><a href="/contact-us">Contact</a> our team and discuss how you can take your outdoor space to the next level with Norstone Rock Panels. </p>
+      </div>
+      <div class="large-6 columns">
+        <ul class="ind-gallery-links">
+          <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
+          <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
+          <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
+          <li class="ind-gallery-link">
             <a href="/how-to-buy"><img src="/assets/images/unsorted/learn-how-to-buy-3%20copy(1).png" width="135" height="30" alt=""></a>
-        </li>
-    </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <hr />
 </div>

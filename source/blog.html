@@ -5,24 +5,10 @@ permalink: /blog/
 ---
 
 {% for post in site.posts %}
-<div class="views_view view view-blog view-id-blog">
-    <div class="view-content">
-        <div class="views-row">
-            <div class="views-field-field-teaser-title-value">
-                <span class="field-content"><a href="{{ post.url }}">{{ post.title }}</a></span>
-            </div>
-            <div class="views-field-nothing">
-                <span class="field-content"><p class="posted blue">Posted on {{ post.date | date: '%B %d' }}</p></span>
-            </div>
-            <div class="views-field-field-teaser-body-value">
-                <div class="field-content">
-                    <p>{{ post.excerpt | strip_html }}</p>
-                </div>
-            </div>
-            <div class="views-field-view-node">
-                <span class="field-content"><a href="{{ post.url }}">Read More</a></span>
-            </div>
-        </div>
-    </div>
-</div>
+<article>
+  <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+  <p class="posted blue">Posted on {{ post.date | date: '%B %d' }}</p>
+  <p>{{ post.excerpt | strip_html }}</p>
+  <a class="float-right" href="{{ post.url }}">Read More</a>
+</article>
 {% endfor %}

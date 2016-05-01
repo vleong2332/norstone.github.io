@@ -49,42 +49,58 @@ other_galleries:
 - rock-panel-ochre
 - rock-panel-interiors
 - h+l-architecture
+rows:
+- image:
+    src: /assets/images/unsorted/Norstone-Ochre-Feature-Wall.png
+    alt: Norstone Ochre Feature Walls
+  heading: Rock panels meant for feature walls.
+  body: There is no greater sign of luxury in a home than a true, natural stone feature wall. Think about it – when’s the last time you saw such a wall in a residence? Norstone <a href="/products/stacked-stone-cladding">Rock Panels</a>        make that concept a reality. With Norstone, finally Installation is a breeze. Our meticulously calibrated 100% natural stone panels install just like tile – no grout required, simply stack and stagger your panels, adhering each one like tile – and that’s it.
+- image:
+    src: /assets/images/unsorted/Norstone-White-Feature-Wall.png
+    alt: Norstone White Feature Walls
+  heading: Featured Products
+  body: Using the right kind of lighting on your Norstone installation will give it life. Make sure you use downward facing low-voltage light to give your installation maximum texture and dimension. Let the light wash down the stone. If you use a spot-light, you risk losing the gorgeous dimension and texture the wall was intended to provide.
+- image:
+    src: /assets/images/unsorted/Norstone-Thin-Stone-Feature-Wall.png
+    alt: Norstone Thin Stone Feature Walls
+  heading: Make your Norstone wall look finished
+  body: Hanging Art on a Norstone Wall is what will make your natural stone wall look finished. Using a diamond-tipped masonry drill bit, you can simply drill into the your Norstone thinstone veneer. Once you’ve drilled the correct sized hole, you can install anchor points and mounting rods which can hold any kind of art piece or painting you’d like.
 ---
 
-<h1 class="rtecenter" style="display:block;height:60px;padding-top:40px"><span style="font-size:27px;font-family:josefin slab;letter-spacing:3px; text-align: center; color:##9c9c9c">EVERYTHING YOU SHOULD KNOW ABOUT FEATURE WALLS</span></h1>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/Norstone-Ochre-Feature-Wall.png" width="390" height="240" alt="Norstone Ochre Feature Walls">
-    <h3>Rock panels meant for feature walls.</h3>
-    <p>There is no greater sign of luxury in a home than a true, natural stone feature wall. Think about it – when’s the last time you saw such a wall in a residence? Norstone <a href="/products/stacked-stone-cladding">Rock Panels</a>        make that concept a reality. With Norstone, finally Installation is a breeze. Our meticulously calibrated 100% natural stone panels install just like tile – no grout required, simply stack and stagger your panels, adhering each one like tile –
-        and that’s it.</p>
-    <p>&nbsp;</p>
+<h2 class="text-center">EVERYTHING YOU SHOULD KNOW ABOUT FEATURE WALLS</h2>
+{% for row in page.rows %}
+<div class="row">
+  <div class="large-5 columns {% cycle '', 'large-push-7' %}">
+    <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
+  </div>
+  <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
+    <h3>{{ row.heading }}</h3>
+    <p class="text-justify">{{ row.body }}</p>
+  </div>
+  <hr />
 </div>
-<div class="ind-gallery-left"><img src="/assets/images/unsorted/Norstone-White-Feature-Wall.png" width="390" height="240" alt="Norstone White Feature Walls">
-    <h3>Featured Products</h3>
-    <p>Using the right kind of lighting on your Norstone installation will give it life. Make sure you use downward facing low-voltage light to give your installation maximum texture and dimension. Let the light wash down the stone. If you use a spot-light,
-        you risk losing the gorgeous dimension and texture the wall was intended to provide.</p>
-    <p>&nbsp;</p>
-</div>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/Norstone-Thin-Stone-Feature-Wall.png" width="390" height="240" alt="Norstone Thin Stone Feature Walls">
-    <h3>Make your Norstone wall look finished</h3>
-    <p>Hanging Art on a Norstone Wall is what will make your natural stone wall look finished. Using a diamond-tipped masonry drill bit, you can simply drill into the your Norstone thinstone veneer. Once you’ve drilled the correct sized hole, you can install
-        anchor points and mounting rods which can hold any kind of art piece or painting you’d like.</p>
-    <p>&nbsp;</p>
-</div>
-<div class="ind-gallery-left two-col"><img src="/assets/images/unsorted/Norstone-Feature-Wall-Home.png" width="390" height="240" alt="Norstone Feature Wall in Home">
+{% endfor %}
+<div class="row">
+  <div class="large-5 columns large-push-7">
+    <img class="orbit-image" src="/assets/images/unsorted/Norstone-Feature-Wall-Home.png" alt="Norstone Feature Wall in Home">
+  </div>
+  <div class="large-7 columns large-pull-5">
     <h3>Other items you might want</h3>
-    <p><a href="/contact-us">Contact</a> Norstone today to discuss turning a wall in your home or business into a feature wall that will have everyone talking.</p>
-    <ul class="ind-gallery-links">
-        <li class="ind-gallery-download">
-          <a href="/how-to-install-stacked-stone">Installation Guide</a>
-        </li>
-        <li class="ind-gallery-link">
-          <a href="/faq">FAQ</a>
-        </li>
-        <li class="ind-gallery-link">
-          <a href="/client-testimonials">Testimonials</a>
-        </li>
-        <li class="ind-gallery-link">
+    <div class="row">
+      <div class="large-6 columns">
+        <p class="text-justify"><a href="/contact-us/">Contact</a> Norstone today to discuss turning a wall in your home or business into a feature wall that will have everyone talking.</p>
+      </div>
+      <div class="large-6 columns">
+        <ul class="ind-gallery-links">
+          <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
+          <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
+          <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
+          <li class="ind-gallery-link">
             <a href="/how-to-buy"><img src="/assets/images/unsorted/learn-how-to-buy-3%20copy(1).png" width="135" height="30" alt=""></a>
-        </li>
-    </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <hr />
 </div>

@@ -25,18 +25,29 @@ other_galleries:
 - rock-panel-interiors
 - rock-panel-ochre
 - berkshire-residence
+rows:
+- image:
+    src: /assets/images/unsorted/RockportDetails.png
+    alt:
+  heading: Sights &amp; Sounds Indulge our Senses
+  body: The Shalin Liu Performing Arts Center inspires us with the thoughtful use of Norstone Ochre Blend Rock Panels throughout the main performance hall and lobby areas. The fantastic texture of the stone enhances the hall's acoustical qualities by aiding in the disbursement of sound, while the color was hand selected as a perfect match with the natural stone found along this part of New England's Rock coastline.
+- image:
+    src: /assets/images/unsorted/Ochre.png
+    alt:
+  heading: Designer Testimonial
+  body: "&ldquo;An understatement that the stone looks superb! It is breathtaking. Simply even more powerful and beautiful than imagined. It makes one feel as though the hall is part of the rocky shore in the distance. It is exactly where your product is meant to be, and will be a central part of the narrative of the building and musical experience.&rdquo; - Alan Joslin, Epstein Joslin Architects</p><p><a href='/products/rock-panels/ochre/'>Visit Product Page</a>"
 ---
 
-<h1 class="rtecenter" style="display:block;height:60px;padding-top:40px"><span style="font-size:27px;font-family:josefin slab;letter-spacing:3px; text-align: center; color:##9c9c9c">NORSTONE MIXES WELL WITH THE MUSIC AT ROCKPORT</span></h1>
-<div class="ind-gallery-right"><img src="/assets/images/unsorted/RockportDetails.png" width="390" height="240" alt="">
-    <h3>Sights &amp; Sounds Indulge our Senses</h3>
-    <p>The Shalin Liu Performing Arts Center inspires us with the thoughtful use of Norstone Ochre Blend Rock Panels throughout the main performance hall and lobby areas. The fantastic texture of the stone enhances the hall's acoustical qualities by aiding
-        in the disbursement of sound, while the color was hand selected as a perfect match with the natural stone found along this part of New England's Rock coastline.</p>
+<h2 class="text-center">NORSTONE MIXES WELL WITH THE MUSIC AT ROCKPORT</h2>
+{% for row in page.rows %}
+<div class="row">
+  <div class="large-5 columns {% cycle '', 'large-push-7' %}">
+    <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
+  </div>
+  <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
+    <h3>{{ row.heading }}</h3>
+    <p class="text-justify">{{ row.body }}</p>
+  </div>
+  <hr />
 </div>
-<div class="ind-gallery-left"><img src="/assets/images/unsorted/Ochre.png" width="390" height="240" alt="">
-    <h3>Designer Testimonial</h3>
-    <p>"An understatement that the stone looks superb! It is breathtaking. Simply even more powerful and beautiful than imagined. It makes one feel as though the hall is part of the rocky shore in the distance. It is exactly where your product is meant to
-        be, and will be a central part of the narrative of the building and musical experience." - Alan Joslin, Epstein Joslin Architects</p>
-    <p><a href="/products/rock-panels/ochre">Visit Product Page</a></p>
-</div>
-<p>&nbsp;</p>
+{% endfor %}
