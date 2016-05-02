@@ -25,3 +25,4 @@ defaults:
       type: posts
     values:
       layout: blog
+      permalink: /blog/:title.html
