@@ -33,22 +33,10 @@ classes: section-gallery page-views one-sidebar
 <div class="row columns">
   {{ content }}
 </div>
-<div class="row columns">
+<div class="row collapse medium-up-2 large-up-4">
   <h2 class="title">Other Galleries You Might Like</h2>
   {% for other in page.other_galleries %}
-  {% assign gallery = site.data.gallery[other] %}
-  <div class="views-row {{ gallery.columns }}-col">
-    <div class="views-field-field-gallery-image-2col-fid">
-      <span class="field-content"></span>
-    </div>
-    <div class="views-field-field-gallery-image-1col-fid">
-      <span class="field-content"><a href="{{ gallery.link }}"><img src="{{ gallery.image }}"></a></span>
-    </div>
-    <span class="views-field-title">
-  <span class="field-content"><a href="{{ gallery.link }}">{{ gallery.title }}</a></span></span>
-    <div class="views-field-tid">
-      <span class="field-content"><a href="{{ gallery.link }}">{{ gallery.type }}</a></span>
-    </div>
-  </div>
+  {% assign item = site.data.gallery[other] %}
+  {% include card.html %}
   {% endfor %}
 </div>

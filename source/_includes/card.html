@@ -1,0 +1,15 @@
+<div class="card column {{ item.columns }}-col">
+  <div class="inner">
+    <a class="card--image" href="{{ item.link }}"><img src="{{ item.image }}" alt="" title=""></a>
+    <a class="card--title" href="{{ item.link }}">{{ item.title }}</a>
+      <a href="{{ item.link }}" class="card--type {{ item.type }}">
+        {% if item.type == 'project-gallery' %}
+          {{ item.type_text }}
+        {% elsif item.type == 'app-gallery' %}
+          Application Gallery
+        {% else %}
+          Product Gallery
+        {% endif %}
+      </a>
+  </div>
+</div>
