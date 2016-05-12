@@ -1,0 +1,23 @@
+body {
+  background: url(/assets/images/theme/bg-stripe.png) repeat;
+}
+
+#header {
+  margin-top: 1rem;
+}
+
+#social-media-list li a {
+  padding: 0.2rem;
+}
+
+#footer {
+  background: #6b6b6b url("/assets/images/theme/banner-under-shadow-light.png") no-repeat top center;
+  height: 74px;
+  p {
+    color: #fff;
+  }
+}
+
+.row {
+  max-width: 900px;
+}
