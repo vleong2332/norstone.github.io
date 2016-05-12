@@ -1,9 +1,9 @@
-<div class="title-bar" data-responsive-toggle="norstone-menu" data-hide-for="medium">
+<div class="title-bar" data-responsive-toggle="norstone-menu" data-hide-for="large">
   <button class="menu-icon" type="button" data-toggle></button>
   <div class="title-bar-title">Menu</div>
 </div>
 <div id="norstone-menu" class="top-bar menu-centered">
-  <ul class="vertical medium-horizontal menu">
+  <ul class="vertical large-horizontal menu">
     {% assign current = page.url | downcase | split: '/' %}
     <li{% if page.url == "/" %} class="active-trail active" {% endif %}><a href="/" title="Norstone USA" {% if page.url == "/" %} class="active" {% endif %}>HOME</a></li>
     <li{% if current[1] == "products" %} class="active-trail active" {% endif %}><a href="/products" title="" {% if current[1] == "products" %}class="active" {% endif %}>PRODUCTS</a></li>
