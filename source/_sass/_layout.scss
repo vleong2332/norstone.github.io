@@ -21,3 +21,68 @@ body {
 .row {
   max-width: 900px;
 }
+
+.product-category {
+  h3 {
+    color: #fff;
+    font-family: Josefin Slab;
+    line-height: 54px;
+    font-size: 65px;
+    font-style: normal;
+    margin: 180px 0 10px;
+    text-transform: uppercase;
+  }
+  .tabs {
+    background: none;
+    border: none;
+    float: right;
+    height: auto;
+    text-transform: lowercase;
+    li {
+      float: left;
+      height: 34px;
+      margin: 0 2px;
+      padding: 0;
+      height: auto;
+      a {
+        background: url('/assets/images/theme/bg-quicktabs.png') no-repeat;
+        color: #737373;
+        display: block;
+        font-family: Open Sans;
+        font-size: 14px;
+        height: 29px;
+        line-height: 20px;
+        padding: 0;
+        padding-top: 5px;
+        text-align: center;
+        width: 110px;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+      &.is-active a {
+        background-position: 0 -34px;
+      }
+    }
+  }
+  .tabs-content {
+    background: url('/assets/images/theme/bg-qtproducts-shadow.png') no-repeat center bottom;
+    border: none;
+    clear: both;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  .tabs-panel {
+    background: url('/assets/images/theme/bg-qtproducts.jpg') repeat;
+    clear: both;
+    min-height: 380px;
+    padding: 20px;
+    position: relative;
+  }
+  .absolute-bottom-right {
+    bottom: 20px;
+    position: absolute;
+    right: 20px;
+  }
+}
