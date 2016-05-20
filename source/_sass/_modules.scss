@@ -10,6 +10,25 @@ hr {
   width: auto;
 }
 
+blockquote {
+  background: #fafafa url(/assets/images/theme/open-quote.png) 8px 10px no-repeat;
+  border: 1px solid #E7E7E7;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
+  color: #8f8f8f;
+  float: left;
+  font-family: "Abel";
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 18px;
+  padding: 10px 8px 10px 24px;
+}
+cite {
+  color: #1c778f;
+  float: right;
+}
+
 .slider-main {
   margin-bottom: 30px;
   position: relative;
