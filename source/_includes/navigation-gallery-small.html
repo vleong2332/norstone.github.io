@@ -1,12 +1,37 @@
 {% assign current = page.path | downcase | split: '/' %}
 {% assign current = current[1] %}
-<div class="menu-centered">
+
+<div class="navigation-small menu-centered">
   <ul class="vertical medium-horizontal menu">
-    <li style="background-position: 0 0"><a{% if current == "rock-panels" %} class="active"{% endif %} href="/gallery/rock-panels">Rock Panels</a></li>
-    <li style="background-position: 0 -21px"><a{% if current == "xl-rock-panels" %} class="active"{% endif %} href="/gallery/xl-rock-panels">XL Rock Panels</a></li>
-    <li style="background-position: 0 -42px"><a{% if current == "basalt" %} class="active"{% endif %} href="/gallery/basalt-il-tiles">Basalt Tiles</a></li>
-    <li style="background-position: 0 -110px"><a{% if current == "basalt-3d" %} class="active"{% endif %} href="/gallery/basalt-3d">Basalt 3D</a></li>
-    <li style="background-position: 0 -63px"><a{% if current == "application" %} class="active"{% endif %} href="/gallery/application">Applications</a></li>
-    <li style="background-position: 0 -87px"><a{% if current == "project" %} class="active"{% endif %} href="/gallery/project">Projects</a></li>
+    <li>
+      <a href="/products/stacked-stone-cladding/"{% if current == "rock" or current[2] == "rock-panels" %} class="active"{% endif %}>
+        <img src="/assets/images/theme/menu-small-rock.png" /> Rock Panels
+      </a>
+    </li>
+    <li>
+      <a href="/products/thin-stone-veneer-panels/"{% if current == "xl-rock" %} class="active"{% endif %}>
+        <img src="/assets/images/theme/menu-small-xl-rock.png" /> XL Rock Panels
+      </a>
+    </li>
+    <li>
+      <a href="/products/modern-wall-tile/"{% if current == "basalt" %} class="active"{% endif %}>
+        <img src="/assets/images/theme/menu-small-basalt.png" /> Basalt Tiles
+      </a>
+    </li>
+    <li>
+      <a href="/products/basalt-stone-panels/"{% if current == "basalt-3d" %} class="active"{% endif %}>
+        <img src="/assets/images/theme/menu-small-basalt-3d.png"> Basalt 3D
+      </a>
+    </li>
+    <li>
+      <a href="/gallery/application"{% if current == "application" %} class="active"{% endif %}>
+        <img src="/assets/images/theme/menu-small-applications.png"> Applications
+      </a>
+    </li>
+    <li style="background-position: 0 -87px">
+      <a href="/gallery/project"{% if current == "project" %} class="active"{% endif %}>
+        <img src="/assets/images/theme/menu-small-projects.png"> Projects
+      </a>
+    </li>
   </ul>
 </div>

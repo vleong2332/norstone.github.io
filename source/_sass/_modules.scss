@@ -1,9 +1,17 @@
+hr {
+  background: url('/assets/images/theme/bg-qtproducts-shadow-menu.png') no-repeat center bottom;
+  border: none;
+  height: 23px;
+  margin: 0 0 30px;
+}
+
 .orbit-container {
   height: auto !important;
   width: auto;
 }
 
 .slider-main {
+  margin-bottom: 30px;
   position: relative;
   .orbit-bullets {
     margin: 0;
@@ -26,59 +34,8 @@
       }
     }
   }
-  .banner {
-    .banner-image {
-      position: relative;
-      z-index: 1;
-      text-align: center;
-      height: 475px;
-      img {
-        height: 475px;
-        min-width: 1366px;
-        position: relative;
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-      }
-    }
-    position: relative;
-    z-index: 1000;
-    height: 475px;
-    .banner-caption {
-      background-image: url('/assets/images/theme/banner-home-overlay.png');
-      background-repeat: repeat-x;
-      width: 100%;
-      height: 76px;
-      position: relative;
-      z-index: 100;
-      margin: -76px 0 0 0;
-      font-family: "Helvetica CY", Helvetica, Arial, Tahoma, sans-serif;
-      font-weight: lighter;
-      .size {
-        max-width: 940px;
-        height: 76px;
-      }
-      .right a {
-        background-image: url("/assets/images/theme/banner-cta-interior-button-3.png");
-        background-position: left top;
-        background-repeat: no-repeat;
-        cursor: pointer;
-        display: block;
-        height: 37px;
-        width: 182px;
-        color: #fff;
-        font-size: 19px;
-        *font-size: 19px !important;
-        font-family: open sans;
-        *font-family: open sans !important;
-        line-height: 41px;
-        *line-height: 41px !important;
-        text-align: center;
-        margin-top: 22px;
-      }
-    }
-  }
 }
+
 .button--main {
   background-image: url("/assets/images/theme/banner-cta-interior-button-3.png");
   background-position: left top;
@@ -89,10 +46,12 @@
   width: 182px;
   color: #fff;
   font-size: 19px;
-  font-family: open sans;
   line-height: 41px;
   text-align: center;
-  margin-top: 22px;
+  &:hover {
+    background-position: left bottom;
+    color: #fff;
+  }
 }
 
 .button--product {

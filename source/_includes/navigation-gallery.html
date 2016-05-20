@@ -1,13 +1,42 @@
-<h1 class="text-center">Get Inspired. Select a gallery type to begin.</h1>
-<hr />
-<div id="gallery-navigation" class="menu-centered">
+<h1 class="standard text-center">Get Inspired. Select a gallery type to begin.</h1>
+<div class="navigation-large menu-centered">
   {% assign current = page.url | downcase | split: '/' %}
   <ul class="vertical medium-horizontal menu icon-top">
-    <li><a {% if current[2] == "rock-panels" %} class="active"{% endif %} href="/gallery/rock-panels/" style="background-image: url('/assets/images/theme/qtproducts-menu-rock-panels.png')">Rock Panels</a></li>
-    <li><a {% if current[2] == "xl-rock-panels" %} class="active"{% endif %} href="/gallery/xl-rock-panels/" style="background-image: url('/assets/images/theme/qtproducts-menu-xl-rock-panels.png')">XL Rock Panels</a></li>
-    <li><a {% if current[2] == "basalt-il-tiles" %} class="active"{% endif %} href="/gallery/basalt-il-tiles/" style="background-image: url('/assets/images/theme/qtproducts-menu-basalt-tiles.png')">Basalt Tiles</a></li>
-    <li><a {% if current[2] == "basalt-3d" %} class="active"{% endif %} href="/gallery/basalt-3d/" style="background-image: url('/assets/images/theme/qtproducts-menu-basalt-3d.png')">Basalt 3D</a></li>
-    <li>|</li>
-    <li><a {% if current[2] == "application" %} class="active"{% endif %} href="/gallery/application/" style="background-image: url('/assets/images/theme/qtproducts-menu-applications.png')">Applications</a></li>
-    <li><a {% if current[2] == "project" %} class="active"{% endif %} href="/gallery/project/" style="background-image: url('/assets/images/theme/qtproducts-menu-projects.png')">Projects</a></li>
+    <li>
+      <a {% if current[2] == "rock-panels" %} class="active"{% endif %} href="/gallery/rock-panels/">
+        <img src="/assets/images/theme/menu-large-rock.png" />
+        <p>Rock Panels</p>
+      </a>
+    </li>
+    <li>
+      <a {% if current[2] == "xl-rock-panels" %} class="active"{% endif %} href="/gallery/xl-rock-panels/">
+        <img src="/assets/images/theme/menu-large-xl-rock.png" />
+        <p>XL Rock Panels</p>
+      </a>
+    </li>
+    <li>
+      <a {% if current[2] == "basalt-il-tiles" %} class="active"{% endif %} href="/gallery/basalt-il-tiles/">
+        <img src="/assets/images/theme/menu-large-basalt.png" />
+        <p>Basalt Tiles</p>
+      </a>
+    </li>
+    <li>
+      <a {% if current[2] == "basalt-3d" %} class="active"{% endif %} href="/gallery/basalt-3d/">
+        <img src="/assets/images/theme/menu-large-basalt-3d.png" />
+        <p>Basalt 3D</p>
+     </a>
+    </li>
+    <li>
+      <a {% if current[2] == "application" %} class="active"{% endif %} href="/gallery/application/">
+        <img src="/assets/images/theme/menu-large-applications.png" />
+        <p>Applications</p>
+      </a>
+    </li>
+    <li>
+      <a {% if current[2] == "project" %} class="active"{% endif %} href="/gallery/project/">
+        <img src="/assets/images/theme/menu-large-projects.png" />
+        <p>Projects</p>
+     </a>
+   </li>
 </div>
+<hr />

@@ -9,9 +9,46 @@ h1.standard {
   text-align: center;
   color: #83888D;
 }
+a {
+  color: #1c778f;
+}
 
 p {
   color: #6b6b6b;
   font-family: open sans, "Myriad Pro", Arial, Tahoma, Sans-Serif;
   font-size: 11px;
+}
+
+.color-primary, a.color-primary {
+  color: #6b6b6b;
+}
+
+.color-secondary, a.color-secondary {
+  color: #1c778f;
+}
+
+.x-small {
+  font-size: 11px;
+}
+
+.small {
+  font-size: 16px;
+}
+
+.medium {
+  font-family: "Abel";
+  font-size: 20px;
+}
+
+.large {
+  font-family: "Abel";
+  font-size: 25px;
+}
+
+.x-large {
+  font-size: 29px;
+}
+
+.xx-large {
+  font-size: 65px;
 }

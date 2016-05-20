@@ -10,11 +10,21 @@ body {
   padding: 0.2rem;
 }
 
+.navigation-large a {
+  opacity: 0.5;
+  &:hover {
+    opacity: 1;
+  }
+}
+
 #footer {
   background: #6b6b6b url("/assets/images/theme/banner-under-shadow-light.png") no-repeat top center;
   height: 74px;
-  p {
+  margin-top: 30px;
+  padding-top: 20px;
+  a, p {
     color: #fff;
+    font-weight: bold;
   }
 }
 
@@ -23,6 +33,11 @@ body {
 }
 
 .product-category {
+  h2 {
+    float: left;
+    line-height: 29px;
+    margin-bottom: 0;
+  }
   h3 {
     color: #fff;
     font-family: Josefin Slab;
@@ -48,7 +63,6 @@ body {
         background: url('/assets/images/theme/bg-quicktabs.png') no-repeat;
         color: #737373;
         display: block;
-        font-family: Open Sans;
         font-size: 14px;
         height: 29px;
         line-height: 20px;
