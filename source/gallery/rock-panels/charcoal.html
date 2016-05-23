@@ -211,13 +211,14 @@ rows:
 ---
 
 <h1 class="standard text-center">REFINED GREY LEDGESTONE PANELS</h1>
+<hr />
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
     <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
-    <h3>{{ row.heading }}</h3>
+    <h3 class="large color-primary">{{ row.heading }}</h3>
     <p class="text-justify">{{ row.body }}</p>
   </div>
   <hr />
@@ -228,17 +229,17 @@ rows:
     <img class="orbit-image" src="/assets/images/unsorted/Grey-Ledgetone-Panel-Veneer-Fireplace.jpg" alt="Norstone Modern Stacked Stone Fireplace">
   </div>
   <div class="large-7 columns">
-    <h3>Other items you might want</h3>
+    <h3 class="large color-primary">Other items you might want</h3>
     <div class="row">
       <div class="large-6 columns">
         <p class="text-justify">The Charcoal Rock Panel is our flagship <a href="/products/rock-panels/charcoal">Ledgestone Panel</a> product, complete with all the bells and whistles. With ease, it transforms <a href="/gallery/application/natural-stone-feature-walls">feature walls</a>, fireplaces, <a href="/gallery/application/backsplashes/">kitchen backsplashes</a>, <a href="/gallery/application/pools/">pools water features</a>, and the like. Check out these links for more information or <a href="/contact-us">Contact Us</a> today to discuss how we might meet the needs of your project.</p>
       </div>
       <div class="large-6 columns">
-        <ul class="ind-gallery-links">
-          <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
-          <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
-          <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
-          <li class="ind-gallery-link">
+        <ul class="list-links">
+          <li class="list-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
+          <li class="list-link"><a href="/faq">FAQ</a></li>
+          <li class="list-link"><a href="/client-testimonials">Testimonials</a></li>
+          <li class="list-link">
             <a href="/how-to-buy"><img src="/assets/images/unsorted/learn-how-to-buy-3%20copy(1).png" width="135" height="30" alt=""></a>
           </li>
         </ul>

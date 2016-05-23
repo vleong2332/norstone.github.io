@@ -36,14 +36,15 @@ rows:
   body: "The larger format XL Series Rock Panel in Ochre is a great selection for this project due to the uninterrupted design and height of the wall stretching across three distinct areas.  The larger individual stones of the XL Series add to the strength and durability motif of the indoor gymnasium, and as natural stone, add an air of zen to the outdoor terrace and water feature.</p><p><a href='/products/thin-stone-veneer-panels/ochre/'>Visit Product Page</a>"
 ---
 
-<h2>REMARKABLE AESTHETICS IN BERKSHIRE ENGLAND</h2>
+<h2 class="standard text-center">REMARKABLE AESTHETICS IN BERKSHIRE ENGLAND</h2>
+<hr />
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
     <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
-    <h3>{{ row.heading }}</h3>
+    <h3 class="large color-primary">{{ row.heading }}</h3>
     <p class="text-justify">{{ row.body }}</p>
   </div>
   <hr />

@@ -32,14 +32,15 @@ rows:
   body: "One of the reasons Norstone's White Rock Panels work so well in a modern design theme is that each stone in each White panel is the same height.  This creates a very linear geometry to a completed installation, which then pairs with the bold color and distinctive texture of the White Quartz stone for an ultra modern look.  The Matrix Hotel Lobby project, with it's soaring cielings and other modern design elements, is a perfect backdrop for the White Rock Panel to take center stage.</p><p><a href='/products/rock-panels/white/'>Visit Product Page</a>"
 ---
 
-<h2>NORSTONE WHITE QUARTZ FEATURED IN THE MATRIX</h2>
+<h2 class="standard text-center">NORSTONE WHITE QUARTZ FEATURED IN THE MATRIX</h2>
+<hr />
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
     <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
-    <h3>{{ row.heading }}</h3>
+    <h3 class="large color-primary">{{ row.heading }}</h3>
     <p class="text-justify">{{ row.body }}</p>
   </div>
   <hr />

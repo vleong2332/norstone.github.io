@@ -36,14 +36,15 @@ rows:
   body: "The H+L Architecture project is most unique in the integration between the Ochre Rock Panels and all the other design elements of the space, including inlaid bookshelves, a fireplace, lighting, even a rolling ladder.  The panel system concept behind Norstone Rock Panels encourages the product to be installed very similar to tile, allowing for this type of detail work to be completed much easier as compared to hand stacked loose stone.</p><p><a href='/products/rock-panels/ochre'>Visit Product Page</a>"
 ---
 
-<h2 class="text-center">DENVER ARCHITECT ADORNS ITS LOBBY WITH NORSTONE</h2>
+<h2 class="standard text-center">DENVER ARCHITECT ADORNS ITS LOBBY WITH NORSTONE</h2>
+<hr />
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
     <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
-    <h3>{{ row.heading }}</h3>
+    <h3 class="large color-primary">{{ row.heading }}</h3>
     <p class="text-justify">{{ row.body }}</p>
   </div>
   <hr />

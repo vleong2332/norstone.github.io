@@ -49,14 +49,15 @@ rows:
   body: '<span>Meticulously shaped by hand into 6" x 24" Units, Charcoal XL Stone Veneer Rock Panels install efficinetly and - unlike other thin veneer panels in the market - <em>precisely</em>. Each panel is carefully crafted and checked against a rigorous set of quality control standards to ensure the product you get installs right the first time.</span></p><p><a href="/products/thin-stone-veneer-panels/charcoal/">Visit Product Page</a>'
 ---
 
-<h2 class="text-center">GREY NATURAL STONE VENEER SIDING</h2>
+<h2 class="standard text-center">GREY NATURAL STONE VENEER SIDING</h2>
+<hr />
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
     <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
-    <h3>{{ row.heading }}</h3>
+    <h3 class="large color-primary">{{ row.heading }}</h3>
     <p class="text-justify">{{ row.body }}</p>
   </div>
   <hr />
@@ -67,17 +68,17 @@ rows:
     <img class="orbit-image" src="/assets/images/unsorted/Norstone-Natural-Stone-Veneer-Siding-For-Homes-and-Exterior-Stone-Walls(3).jpg" alt="Norstone Modern Stacked Stone Fireplace">
   </div>
   <div class="large-7 columns">
-    <h3>Other items you might want</h3>
+    <h3 class="large color-primary">Other items you might want</h3>
     <div class="row">
       <div class="large-6 columns">
         <p class="text-justify"><span>The Charcoal XL Rock Panel is our powerhouse <a href='/products/thin-stone-veneer-panels/ochre/'>natural stone siding</a> product. It's built to transform landscaping walls, large-scale <a href='/gallery/application/fireplace/'>fireplaces</a>, great room feature walls and the like. Check out the links to the right for more information or <a href='/contact-us/'>Contact Us</a> today to discuss how the Charcoal XL might meet the needs of your project.</p>
       </div>
       <div class="large-6 columns">
-        <ul class="ind-gallery-links">
-          <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
-          <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
-          <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
-          <li class="ind-gallery-link">
+        <ul class="list-links">
+          <li class="list-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
+          <li class="list-link"><a href="/faq">FAQ</a></li>
+          <li class="list-link"><a href="/client-testimonials">Testimonials</a></li>
+          <li class="list-link">
             <a href="/how-to-buy"><img src="/assets/images/unsorted/learn-how-to-buy-3%20copy(1).png" width="135" height="30" alt=""></a>
           </li>
         </ul>

@@ -6,22 +6,22 @@
 {% assign pictured = site.data.pictured[type] %}
 {% endif %}
 <div class="row columns">
-  <h2 class="title">Share This Gallery</h2>
+  <h2 class="medium color-primary">SHARE THIS GALLERY</h2>
   <div class="social-share-container">
     <a target="_blank" class="social-share-facebook" href="http://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}&amp;t=Norstone+USA">Facebook</a>
     <a target="_blank" class="social-share-twitter" href="http://twitter.com/intent/tweet?text=Norstone+USA&amp;url={{ site.url }}{{ page.url }}">Twitter</a>
   </div>
 </div>
-<div class="row columns">
-  <h2 class="title">Pictured Product</h2>
+<div class="row columns" style="margin-bottom: 20px">
+  <h2 class="medium color-primary">PICTURED PRODUCT</h2>
   <div class="pictured-product">
     <a href="{{ pictured.link }}"><img src="{{ pictured.image }}" alt=""></a>
-    <div class="pictured-product-title"><a href="{{ pictured.link }}">{{ pictured.title }}</a></div>
-    <a class="pictured-product-link" href="{{ pictured.link }}">Visit Product Page</a>
+    <div><a class="x-large color-primary" href="{{ pictured.link }}">{{ pictured.title | upcase }}</a></div>
+    <a class="x-small color-secondary" style="background: url('/assets/images/theme/bg-link-arrows.png') no-repeat center right; display: block" href="{{ pictured.link }}">Visit Product Page</a>
   </div>
 </div>
 <div class="row columns">
-  <h2 class="title">Additional Galleries</h2>
+  <h2 class="medium color-primary">ADDITIONAL GALLERIES</h2>
   <div class="gallery-drop">
     <select>
       {% if current[2] == 'application' %}

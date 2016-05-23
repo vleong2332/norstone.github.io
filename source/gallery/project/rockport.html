@@ -38,14 +38,15 @@ rows:
   body: "&ldquo;An understatement that the stone looks superb! It is breathtaking. Simply even more powerful and beautiful than imagined. It makes one feel as though the hall is part of the rocky shore in the distance. It is exactly where your product is meant to be, and will be a central part of the narrative of the building and musical experience.&rdquo; - Alan Joslin, Epstein Joslin Architects</p><p><a href='/products/rock-panels/ochre/'>Visit Product Page</a>"
 ---
 
-<h2 class="text-center">NORSTONE MIXES WELL WITH THE MUSIC AT ROCKPORT</h2>
+<h2 class="standard text-center">NORSTONE MIXES WELL WITH THE MUSIC AT ROCKPORT</h2>
+<hr />
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
     <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
-    <h3>{{ row.heading }}</h3>
+    <h3 class="large color-primary">{{ row.heading }}</h3>
     <p class="text-justify">{{ row.body }}</p>
   </div>
   <hr />

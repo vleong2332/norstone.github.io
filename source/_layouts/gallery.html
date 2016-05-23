@@ -11,18 +11,18 @@ classes: section-gallery page-views one-sidebar
   <div class="large-9 columns">
     {% assign gallery_type = page.path | downcase | split: '/' %}
     {% assign gallery_type = gallery_type[1] %}
-    {% if gallery_type == 'application' %}
-    <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -66px">Applications</div>
-    {% elsif gallery_type == 'basalt' %}
-    <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -45px">Basalt Tiles</div>
-    {% elsif gallery_type == 'basalt-3d' %}
-    <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -112px">Basalt 3D</div>
-    {% elsif gallery_type == 'project' %}
-    <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -89px">Projects</div>
-    {% elsif gallery_type == 'rock-panels' %}
-    <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -2px">Rock Panels</div>
+    {% if gallery_type == 'rock-panels' %}
+    <img class="float-right" style="margin-top:8px" src="/assets/images/theme/menu-small-rock.png" />
     {% elsif gallery_type == 'xl-rock-panels' %}
-    <div class="gallery-type" style="background-image:url(/assets/images/theme/product-gallery-icon.png);background-repeat:no-repeat;color:#9c9c9c;font-size:12px;margin-top:20px;padding:5px 8px 5px 60px;background-position:0 -22px">XL Rock Panels</div>
+    <img class="float-right" style="margin-top:8px" src="/assets/images/theme/menu-small-xl-rock.png" />
+    {% elsif gallery_type == 'basalt' %}
+    <img class="float-right" style="margin-top:8px" src="/assets/images/theme/menu-small-basalt.png" />
+    {% elsif gallery_type == 'basalt-3d' %}
+    <img class="float-right" style="margin-top:8px" src="/assets/images/theme/menu-small-basalt-3d.png" />
+    {% elsif gallery_type == 'application' %}
+    <img class="float-right" style="margin-top:8px" src="/assets/images/theme/menu-small-applications.png" />
+    {% elsif gallery_type == 'project' %}
+    <img class="float-right" style="margin-top:8px" src="/assets/images/theme/menu-small-projects.png" />
     {% endif %}
     {% include gallery-slideshow.html %}
   </div>
@@ -33,8 +33,10 @@ classes: section-gallery page-views one-sidebar
 <div class="row columns">
   {{ content }}
 </div>
+<div class="row columns">
+  <h2 class="x-large color-primary">Other Galleries You Might Like</h2>
+</div>
 <div class="row collapse medium-up-2 large-up-4">
-  <h2 class="title">Other Galleries You Might Like</h2>
   {% for other in page.other_galleries %}
   {% assign item = site.data.gallery[other] %}
   {% include card.html %}

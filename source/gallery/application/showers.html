@@ -63,14 +63,15 @@ rows:
   body: "Stone veneer used in a shower should be sealed upon completion of the installation with a quality water based natural stone sealer and resealed at regular intervals per the sealer manufacturer's recommendations.  When necessary, the stone is best cleaned using detergent based soaps and a stiff plastic bristle brush.  An exhaust fan is helpful to evacuate the moist air out of the shower stall during and after each use, helping keep the stone veneer shower wall clean.</p><p><a href='/assets/pdfs/Norstone%20Short%20and%20Long%20Term%20Maintenance%20Guidelines.pdf'>Norstone's Short &amp; Long Term Maintenance Guidelines</a>"
 ---
 
-<h2 class="text-center">TURN YOUR SHOWER INTO A SPA WITH STACKED STONE</h2>
+<h2 class="standard text-center">TURN YOUR SHOWER INTO A SPA WITH STACKED STONE</h2>
+<hr />
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
     <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
-    <h3>{{ row.heading }}</h3>
+    <h3 class="large color-primary">{{ row.heading }}</h3>
     <p class="text-justify">{{ row.body }}</p>
   </div>
   <hr />
@@ -81,17 +82,17 @@ rows:
     <img class="orbit-image" src="/assets/images/unsorted/Norstone-Natural-Shower-Tub-Stone-Veneer.png" alt="Norstone Natural Shower Stone Veneer Tub">
   </div>
   <div class="large-7 columns large-pull-5">
-    <h3>Other items you might want</h3>
+    <h3 class="large color-primary">Other items you might want</h3>
     <div class="row">
       <div class="large-6 columns">
         <p class="text-justify">Like the idea of having a truly unique natural stone shower wall?  <a href="/contact-us/">Contact Us</a> today to discuss your project. </p>
       </div>
       <div class="large-6 columns">
-        <ul class="ind-gallery-links">
-          <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
-          <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
-          <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
-          <li class="ind-gallery-link">
+        <ul class="list-links">
+          <li class="list-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
+          <li class="list-link"><a href="/faq">FAQ</a></li>
+          <li class="list-link"><a href="/client-testimonials">Testimonials</a></li>
+          <li class="list-link">
             <a href="/how-to-buy"><img src="/assets/images/unsorted/learn-how-to-buy-3%20copy(1).png" width="135" height="30" alt=""></a>
           </li>
         </ul>

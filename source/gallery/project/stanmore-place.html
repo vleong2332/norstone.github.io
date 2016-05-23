@@ -36,14 +36,15 @@ rows:
   body: "The Stanmore Design and Ownership team were looking for a product that would stand up to the often harsh climate and elements of London.  Unsatisfied with the performance of slate for the exterior water feature areas, the team turned to Norstone's superior Quartz based products which met all of their needs including freeze / thaw stability in moisture rich environments.</p><p><a href='/products/rock-panels/charcoal/'>Visit Product Page</a>"
 ---
 
-<h2 class="text-center">STANMORE STANDS TALL ON FORM &amp; FUNCTION</h2>
+<h2 class="standard text-center">STANMORE STANDS TALL ON FORM &amp; FUNCTION</h2>
+<hr />
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
     <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
-    <h3>{{ row.heading }}</h3>
+    <h3 class="large color-primary">{{ row.heading }}</h3>
     <p class="text-justify">{{ row.body }}</p>
   </div>
   <hr />

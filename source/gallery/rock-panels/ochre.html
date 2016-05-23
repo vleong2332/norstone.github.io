@@ -240,14 +240,15 @@ rows:
   body: "Interlocking Finger Joints are the only proven method for creating a truly seamless finish along the corner. Norstone's patent-pending Fingerjoint Corner System, which is available for all our <a href='/products/'>Wall Panel Products</a>, consists of two smaller panels which join together at the corner to create the perfect corner treatment. Each pair is <em>built together</em> at the same time. This ensure a seamless fit every time.</p><p><a href='/products/rock-panels/ochre/'>Visit Product Page</a>"
 ---
 
-<h2 class="text-center">LEDGESTONE FOR ANY BUILDING PROJECT.</h2>
+<h2 class="standard text-center">LEDGESTONE FOR ANY BUILDING PROJECT.</h2>
+<hr />
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
     <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
-    <h3>{{ row.heading }}</h3>
+    <h3 class="large color-primary">{{ row.heading }}</h3>
     <p class="text-justify">{{ row.body }}</p>
   </div>
   <hr />
@@ -258,17 +259,17 @@ rows:
     <img class="orbit-image" src="/assets/images/unsorted/Commercial-Ledgestone-Feature-Wall-Norstone.jpg" alt="Norstone Modern Stacked Stone Fireplace">
   </div>
   <div class="large-7 columns">
-    <h3>Get to Know This Product</h3>
+    <h3 class="large color-primary">Get to Know This Product</h3>
     <div class="row">
       <div class="large-6 columns">
         <p class="text-justify">The Ochre Blend Rock Panel is our flagship <a href="/products/rock-panels/ochre">Ledgestone Panel</a> product, complete with all the bells and whistles. With ease, it transforms <a href="/gallery/application/natural-stone-feature-walls/">feature walls</a>, fireplaces, <a href="/gallery/application/backsplashes/">kitchen backsplashes</a>, <a href="/gallery/application/pools/">pools water features</a>, and the like. Check out these links for more information or <a href="/contact-us/">Contact Us</a> today to discuss how we might meet the needs of your project.</p>
       </div>
       <div class="large-6 columns">
-        <ul class="ind-gallery-links">
-          <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
-          <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
-          <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
-          <li class="ind-gallery-link">
+        <ul class="list-links">
+          <li class="list-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
+          <li class="list-link"><a href="/faq">FAQ</a></li>
+          <li class="list-link"><a href="/client-testimonials">Testimonials</a></li>
+          <li class="list-link">
             <a href="/how-to-buy"><img src="/assets/images/unsorted/learn-how-to-buy-3%20copy(1).png" width="135" height="30" alt=""></a>
           </li>
         </ul>

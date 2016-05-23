@@ -60,14 +60,15 @@ rows:
   body: A number of options are available for adding extra design elements to an interior stone veneer wall. One of the most popular is lighting, which can be projected either upward, downward, or designed to back light the stone, and controlled for brightness and color.  Art pieces can also be incorporated into an interior stacked stone project, using a diamond-tipped masonry drill bit to drill through the stone to set the anchor points.
 ---
 
-<h2 class="text-center">INTERIOR APPLICATIONS THAT ROCK</h2>
+<h2 class="standard text-center">INTERIOR APPLICATIONS THAT ROCK</h2>
+<hr />
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
     <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
-    <h3>{{ row.heading }}</h3>
+    <h3 class="large color-primary">{{ row.heading }}</h3>
     <p class="text-justify">{{ row.body }}</p>
   </div>
   <hr />
@@ -78,17 +79,17 @@ rows:
     <img class="orbit-image" src="/assets/images/unsorted/Norstone-Interior-Rock-Wall-Cladding.png" alt="Norstone Wine Cellar Interior Rock Wall Cladding">
   </div>
   <div class="large-7 columns large-pull-5">
-    <h3>Other items you might want</h3>
+    <h3 class="large color-primary">Other items you might want</h3>
     <div class="row">
       <div class="large-6 columns">
         <p class="text-justify">If an interior stacked stone wall is something that your project can't be without, <a href='/contact-us/'>Contact</a> a friendly Norstone expert who can discuss more of your project's details and explain how Norstone Rock Panels can be used.</p>
       </div>
       <div class="large-6 columns">
-        <ul class="ind-gallery-links">
-          <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
-          <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
-          <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
-          <li class="ind-gallery-link">
+        <ul class="list-links">
+          <li class="list-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
+          <li class="list-link"><a href="/faq">FAQ</a></li>
+          <li class="list-link"><a href="/client-testimonials">Testimonials</a></li>
+          <li class="list-link">
             <a href="/how-to-buy"><img src="/assets/images/unsorted/learn-how-to-buy-3%20copy(1).png" width="135" height="30" alt=""></a>
           </li>
         </ul>

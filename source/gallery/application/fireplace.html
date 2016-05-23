@@ -103,14 +103,15 @@ rows:
   body: One of the most common questions about fireplaces is whether or not to have a hearth. Many modern gas fireplaces that use Norstone do not have hearths, but many rustic fireplaces that we work on do. Be sure to peruse our galleries for projects that look like yours to get a better idea of whether or not this is right for you.
 ---
 
-<h2 class="text-center">WANT STACKED STONE ON YOUR FIREPLACE? IT'S EASY.</h2>
+<h2 class="standard text-center">WANT STACKED STONE ON YOUR FIREPLACE? IT'S EASY.</h2>
+<hr />
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
     <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
-    <h3>{{ row.heading }}</h3>
+    <h3 class="large color-primary">{{ row.heading }}</h3>
     <p class="text-justify">{{ row.body }}</p>
   </div>
   <hr />
@@ -121,17 +122,17 @@ rows:
     <img class="orbit-image" src="/assets/images/unsorted/Norstone-Modern-Fireplace-Stacked-Stone-Veneer.png" alt="Norstone Modern Stacked Stone Fireplace">
   </div>
   <div class="large-7 columns large-pull-5">
-    <h3>Natural Stone Fit For Wood Burning Stoves</h3>
+    <h3 class="large color-primary">Natural Stone Fit For Wood Burning Stoves</h3>
     <div class="row">
       <div class="large-6 columns">
         <p>Wood Burning Stoves are a great way to have the heat of a fireplace without the bulk of a roaring fireplace. Norstone looks great on these applications too. Check out the links to the right for more information or <a href="/contact-us">Contact Us</a> today to discuss your project.</p>
       </div>
       <div class="large-6 columns">
-        <ul class="ind-gallery-links">
-          <li class="ind-gallery-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
-          <li class="ind-gallery-link"><a href="/faq">FAQ</a></li>
-          <li class="ind-gallery-link"><a href="/client-testimonials">Testimonials</a></li>
-          <li class="ind-gallery-link">
+        <ul class="x-small">
+          <li class="list-download"><a href="/how-to-install-stacked-stone">Installation Guide</a></li>
+          <li class="list-link"><a href="/faq">FAQ</a></li>
+          <li class="list-link"><a href="/client-testimonials">Testimonials</a></li>
+          <li class="list-link">
             <a href="/how-to-buy"><img src="/assets/images/unsorted/learn-how-to-buy-3%20copy(1).png" width="135" height="30" alt=""></a>
           </li>
         </ul>

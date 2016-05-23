@@ -34,14 +34,15 @@ rows:
   body: "The Philadelphia Basement project highlights the need for sufficient and varied lighting in any project that will recieve little or no sunlight, particularily when stone is involved.  The use of drop pendants, recessed cans, halogen pins, and a very cool backlit bottle rack all combine with the warm glow of the gas fireplace to bring out the brown earth tones of the Ochre Rock Panel and create a warm and inviting multi use space.</p><p><a href='/products/rock-panels/ochre/'>Visit Product Page</a>"
 ---
 
-<h2>STACKED STONE A PERFECT FIT FOR THE BASEMENT BAR</h2>
+<h2 class="standard text-center">STACKED STONE A PERFECT FIT FOR THE BASEMENT BAR</h2>
+<hr />
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
     <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
-    <h3>{{ row.heading }}</h3>
+    <h3 class="large color-primary">{{ row.heading }}</h3>
     <p class="text-justify">{{ row.body }}</p>
   </div>
   <hr />
