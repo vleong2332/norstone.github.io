@@ -1,4 +1,4 @@
-h1.standard {
+.standard {
   font-family: open sans, "Myriad Pro", Arial, Tahoma, Sans-Serif;
   margin-top: 13px;
   font-size: 23px;
@@ -8,7 +8,11 @@ h1.standard {
   text-transform: uppercase;
   text-align: center;
   color: #83888D;
+  span {
+    color: #1c778f;
+  }
 }
+
 a {
   color: #1c778f;
 }
@@ -46,9 +50,10 @@ p {
 }
 
 .x-large {
+  font-family: "Josefin Slab";
   font-size: 29px;
 }
 
-.xx-large {
+.xxx-large {
   font-size: 65px;
 }
