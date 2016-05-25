@@ -46,6 +46,15 @@ body {
   max-width: 900px;
 }
 
+.product-header {
+  background: url('/assets/images/theme/banner-product-gradient.png') repeat-x;
+  padding: 30px 0;
+}
+
+.menu > .menu {
+  display: inline-block;
+}
+
 .social-share-container {
   margin-bottom: 30px;
   a {

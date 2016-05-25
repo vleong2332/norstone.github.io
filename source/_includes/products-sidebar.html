@@ -1,7 +1,7 @@
-<h2>Select Your <span class="blue">Rock Panel</span>:</h2>
+<h2 class="large color-primary"><img src="/assets/images/theme/color-triangle.png" /> Select Your <span style="color: #1c778f">Rock Panel</span>:</h2>
 {% for product in page.products %}
-<h4>{{ product.title }}</h4>
+<h4 class="color-primary" style="margin-bottom:0">{{ product.title }}</h4>
 {% assign productlink = product.link | downcase | split: '/' %}
-<p><a class="button{% if productlink[3] == current[3] %} active{% endif %}" href="{{ product.link }}" style="background-image: url({{ product.image }})">.</a></p>
+<a class="product-color {% if productlink[3] == current[3] %} active{% endif %}" href="{{ product.link }}" style="background-image: url({{ product.image }})"><div></div></a>
 {% endfor %}
 <p><a href="{{ page.gallery.link }}">{{ page.gallery.text }}<img width="12" height="9" alt="arrows-img" class="arrow" src="/assets/images/theme/arrows-img.png" /></a></p>
