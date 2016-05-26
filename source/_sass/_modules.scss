@@ -5,11 +5,6 @@ hr {
   margin: 0 0 30px;
 }
 
-.orbit-container {
-  height: auto !important;
-  width: auto;
-}
-
 blockquote {
   background: #fafafa url(/assets/images/theme/open-quote.png) 8px 10px no-repeat;
   border: 1px solid #E7E7E7;
@@ -35,32 +30,6 @@ cite {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.50);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.50);
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.50);
-}
-
-.slider-main {
-  margin-bottom: 30px;
-  position: relative;
-  .orbit-bullets {
-    margin: 0;
-    position: absolute;
-    z-index: 200;
-    text-align: right;
-    right: 70px;
-    top: 5px;
-    button, button:visited {
-      background: url(/assets/images/theme/pagination-non-active.png) no-repeat scroll left top transparent;
-      cursor: pointer;
-      display: block;
-      height: 15px;
-      width: 15px;
-      margin: 6px 0 0 5px;
-      font-size: 0px;
-      display: inline-block;
-      &.is-active {
-        background: url(/assets/images/theme/pagination-active.png) no-repeat scroll left top transparent;
-      }
-    }
-  }
 }
 
 .button--main {
@@ -180,27 +149,6 @@ cite {
   }
 }
 
-.navigation-small {
-  margin-bottom: 40px;
-  padding-bottom: 6px;
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-  li {
-    list-style: none;
-    margin: 0 8px;
-    a {
-      color: #83888d;
-      display: inherit;
-      font-size: 10px;
-      height: 41px;
-      padding: 20px 8px;
-      text-transform: uppercase;
-    }
-  }
-}
-
 .product-color {
   background-repeat: no-repeat;
   background-size: contain;
@@ -223,34 +171,6 @@ cite {
     bottom: 0;
     right: 0;
     left: 0;
-  }
-}
-
-@media screen and (min-width: 640px) {
-  .navigation-small {
-    background: url('/assets/images/theme/bg-qtproducts-shadow-gallery-menu.png') no-repeat center bottom;
-    li a {
-      &:hover, &.active {
-        background: url('/assets/images/theme/subnav-small-arrow.png') no-repeat center bottom;
-      }
-    }
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .navigation-small {
-    ul {
-      width: 100%;
-    }
-    li {
-      height: 60px;
-      a {
-        height: 60px;
-        &:hover, &.active {
-          background: #e3e3e3;
-        }
-      }
-    }
   }
 }
 
