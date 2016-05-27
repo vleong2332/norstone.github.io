@@ -3,7 +3,7 @@
 
 {% include head.html %}
 
-<body class="no-js {% if page.classes %} {{ page.classes }} {% else if layout.classes %} {{ layout.classes }} {% endif %}">
+<body class="no-js{% if page.classes %} {{ page.classes }}{% endif %}">
   {% include header.html %}
   {% include navigation.html %}
   {{ content }}
