@@ -11,9 +11,9 @@
   </ul>
   <nav class="orbit-bullets">
     {% for image in page.gallery %}
-    <a{% if image.type %} data-product-type="{{ image.type }}"{% endif %} href="{{ image.src }}" class="thumb active">
-      <img src="{{ image.src }}" alt="{{ image.alt }}" title="" width="76" height="47" data-slide="{{ forloop.index0 }}"{% if forloop.index0 == 0 %} class="is-active"{% endif %} />
-    </a>
+    <button data-slide="{{ forloop.index0 }}"{% if image.type %} data-product-type="{{ image.type }}"{% endif %}>
+      <img src="{{ image.src }}" alt="{{ image.alt }}" title="" width="76" height="47" />
+    </button>
     {% endfor %}
   </nav>
 </div>

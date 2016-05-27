@@ -198,5 +198,12 @@ cite {
   .orbit-bullets {
     overflow-x: scroll;
     white-space: nowrap;
+    button {
+      background: transparent;
+      border-radius: initial;
+      height: auto;
+      margin: auto;
+      width: auto;
+    }
   }
 }
