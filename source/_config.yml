@@ -32,3 +32,4 @@ defaults:
     values:
       layout: blog
       permalink: /blog/:title.html
+      classes: blog
