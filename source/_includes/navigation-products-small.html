@@ -1,22 +1,24 @@
+{% assign current = page.path | downcase | split: '/' %}
+{% assign current = current[1] %}
 <div class="navigation-small menu">
   <ul class="vertical medium-horizontal menu">
     <li>
-      <a href="/products/stacked-stone-cladding/"{% if page.slug == "rock" or current[2] == "rock-panels" %} class="active"{% endif %}>
+      <a href="/products/stacked-stone-cladding/"{% if current == "rock" %} class="active"{% endif %}>
         <img src="/assets/images/theme/menu-small-rock.png" /> Rock Panels
       </a>
     </li>
     <li>
-      <a href="/products/thin-stone-veneer-panels/"{% if page.slug == "xl-rock" %} class="active"{% endif %}>
+      <a href="/products/thin-stone-veneer-panels/"{% if current == "xl-rock" %} class="active"{% endif %}>
         <img src="/assets/images/theme/menu-small-xl-rock.png" /> XL Rock Panels
       </a>
     </li>
     <li>
-      <a href="/products/modern-wall-tile/"{% if page.slug == "basalt" %} class="active"{% endif %}>
+      <a href="/products/modern-wall-tile/"{% if current == "basalt" %} class="active"{% endif %}>
         <img src="/assets/images/theme/menu-small-basalt.png" /> Basalt Tiles
       </a>
     </li>
     <li>
-      <a href="/products/basalt-stone-panels/"{% if page.slug == "basalt-3d" %} class="active"{% endif %}>
+      <a href="/products/basalt-stone-panels/"{% if current == "basalt-3d" %} class="active"{% endif %}>
         <img src="/assets/images/theme/menu-small-basalt-3d.png"> Basalt 3D
       </a>
     </li>
