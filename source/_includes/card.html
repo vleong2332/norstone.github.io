@@ -1,6 +1,6 @@
 <div class="card column {{ item.columns }}-col">
   <div class="inner">
-    <a class="card--image" href="{{ item.link }}"><img src="{{ item.image }}" alt="" title=""></a>
+    <a class="card--image" href="{{ item.link }}"><img src="{{ item.image }}" alt="{{ item.title }}" /></a>
     <a class="card--title" href="{{ item.link }}">{{ item.title }}</a>
       <a href="{{ item.link }}" class="card--type {{ item.type }}">
         {% if item.type == 'project-gallery' %}

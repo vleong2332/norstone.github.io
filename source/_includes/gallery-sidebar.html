@@ -15,7 +15,7 @@
 <div class="row columns" style="margin-bottom: 20px">
   <h2 class="medium color-primary">PICTURED PRODUCT</h2>
   <div class="pictured-product">
-    <a href="{{ pictured.link }}"><img src="{{ pictured.image }}" class="orbit-image" alt=""></a>
+    <a href="{{ pictured.link }}"><img src="{{ pictured.image }}" class="orbit-image" alt="{{ pictured.title }}"></a>
     <div><a class="x-large color-primary" href="{{ pictured.link }}">{{ pictured.title | upcase }}</a></div>
     <a class="x-small color-secondary" style="background: url('/assets/images/theme/bg-link-arrows.png') no-repeat center right; display: block" href="{{ pictured.link }}">Visit Product Page</a>
   </div>

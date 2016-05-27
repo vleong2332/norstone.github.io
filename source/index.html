@@ -25,7 +25,7 @@ slides:
     <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
     {% for slide in page.slides %}
     <li class="{% if forloop.index0==0 %}is-active {% endif %} orbit-slide">
-      <img src="{{ slide.image }}">
+      <img alt="{{ slide.caption }}" src="{{ slide.image }}">
       <figcaption class="orbit-caption show-for-medium x-large"><a alt="View Norstone Product" class="float-right text-shadow box-shadow-center button--main" href="{{ slide.link.href }}">{{ slide.link.text }}</a>{{ slide.caption }}</figcaption>
     </li>
     {% endfor %}
@@ -55,7 +55,7 @@ slides:
     <a href="gallery/project" title="View Collection" class="x-small color-secondary float-right">View Our Featured Projects Gallery <img width="12" height="9" src="/assets/images/theme/arrows-img.png" alt="arrows-img" /></a>
   </div>
   <div class="large-4 columns">
-    <h2><a href="/products/modern-wall-tile" class="medium color-primary"><img width="41" height="15" src="/assets/images/unsorted/NEW3.png" alt="" /> Basalt InterLocking Tiles</a></h2>
+    <h2><a href="/products/modern-wall-tile" class="medium color-primary"><img width="41" height="15" src="/assets/images/unsorted/NEW3.png" alt="Basalt Tiles" /> Basalt InterLocking Tiles</a></h2>
     <p>Norstone is excited to announce its latest creation, the Basalt IL Tile. Hewn from <a href="/products/modern-wall-tile">cooled lava</a>, the contemporary styling of Norstone Basalt IL Tiles are perfect for
       <a href="/gallery/application/kitchens/">modern kitchens</a>, backsplashes, and retaining walls.</p>
     <p>

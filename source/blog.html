@@ -11,7 +11,7 @@ permalink: /blog/
     <p>Posted on {{ post.date | date: '%B %d' }}</p>
   </header>
   <p>{{ post.excerpt | strip_html }}</p>
-  <a class="color-secondary float-right" href="{{ post.url }}">read more <img src="/assets/images/theme/arrows-img.png" /></a>
+  <a class="color-secondary float-right" href="{{ post.url }}">read more <img alt="arrow-img" src="/assets/images/theme/arrows-img.png" /></a>
 </article>
 <hr />
 {% endfor %}

@@ -11,17 +11,17 @@ title: Norstone Gallery
     {% assign gallery_type = page.path | downcase | split: '/' %}
     {% assign gallery_type = gallery_type[1] %}
     {% if gallery_type == 'rock-panels' %}
-    <img class="float-right" style="margin-top:8px" src="/assets/images/theme/menu-small-rock.png" />
+    <img class="float-right" style="margin-top:8px" alt="Rock Panels" src="/assets/images/theme/menu-small-rock.png" />
     {% elsif gallery_type == 'xl-rock-panels' %}
-    <img class="float-right" style="margin-top:8px" src="/assets/images/theme/menu-small-xl-rock.png" />
+    <img class="float-right" style="margin-top:8px" alt="XL Rock Panels" src="/assets/images/theme/menu-small-xl-rock.png" />
     {% elsif gallery_type == 'basalt' %}
-    <img class="float-right" style="margin-top:8px" src="/assets/images/theme/menu-small-basalt.png" />
+    <img class="float-right" style="margin-top:8px" alt="Basalt Tiles" src="/assets/images/theme/menu-small-basalt.png" />
     {% elsif gallery_type == 'basalt-3d' %}
-    <img class="float-right" style="margin-top:8px" src="/assets/images/theme/menu-small-basalt-3d.png" />
+    <img class="float-right" style="margin-top:8px" alt="Basalt 3D" src="/assets/images/theme/menu-small-basalt-3d.png" />
     {% elsif gallery_type == 'application' %}
-    <img class="float-right" style="margin-top:8px" src="/assets/images/theme/menu-small-applications.png" />
+    <img class="float-right" style="margin-top:8px" alt="Applications" src="/assets/images/theme/menu-small-applications.png" />
     {% elsif gallery_type == 'project' %}
-    <img class="float-right" style="margin-top:8px" src="/assets/images/theme/menu-small-projects.png" />
+    <img class="float-right" style="margin-top:8px" alt="Projects" src="/assets/images/theme/menu-small-projects.png" />
     {% endif %}
     {% include gallery-slideshow.html %}
   </div>
