@@ -1,29 +1,31 @@
-#norstone-menu {
-  background-image: url(/assets/images/theme/navbar-bg.png);
-  background-repeat: repeat;
-  line-height: normal;
-  padding: 0;
-  ul {
-    background-color: transparent;
-    text-align: center;
-    padding: 0px;
-    margin: 0px;
-    li {
-      border-style: solid;
-      border-width: 0 1px;
-      border-left: 1px solid #74B2C4;
-      border-right: 1px solid #44879D;
-      margin: 0 0 0 -3px;
-      padding: 0 !important;
-      a {
-        color: #ebebeb;
-        font-family: open sans;
-        font-size: 14px;
-        letter-spacing: 1px;
-        padding: 18px 16px 12px;
-      }
-      &.active a, &.active-trail a, a:hover {
-        background: url('/assets/images/theme/navbar-bg.png') repeat-x 0 -55px;
+@media screen and (min-width: 1024px) {
+  #norstone-menu {
+    background-image: url(/assets/images/theme/navbar-bg.png);
+    background-repeat: repeat;
+    line-height: normal;
+    padding: 0;
+    ul {
+      background-color: transparent;
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+      li {
+        border-style: solid;
+        border-width: 0 1px;
+        border-left: 1px solid #74B2C4;
+        border-right: 1px solid #44879D;
+        margin: 0 0 0 -3px;
+        padding: 0 !important;
+        a {
+          color: #ebebeb;
+          font-family: open sans;
+          font-size: 14px;
+          letter-spacing: 1px;
+          padding: 18px 16px 12px;
+        }
+        &.active a, &.active-trail a, a:hover {
+          background: url('/assets/images/theme/navbar-bg.png') repeat-x 0 -55px;
+        }
       }
     }
   }
