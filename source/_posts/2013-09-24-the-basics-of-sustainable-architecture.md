@@ -19,4 +19,4 @@ Even in simple renovations you can employ sustainable design principles simply b
 
 Natural stone also plays a surprisingly important role in this movement in that it is a VOC-neutral material, which lasts forever and requires little to no maintenance over its life-time. So, for projects like [fireplaces](/gallery/application/fireplace/) or [feature walls](/gallery/application/natural-stone-feature-walls/), it’s actually good for indoor air quality, and won’t cost anything to maintain, for as long as you decide to live there. And for exterior projects like garden walls, pools, and facades, it won't contribute to your external carbon footprint. Not a bad choice, and something we at Norstone believe is important when making decisions about which products to use on your next project.
 
-[![](/assets/images/blog/Norstone%20Stacked%20Stone%20on%20Exterior%20Walls.jpg)](/gallery/application/exteriors/)
+[![](/assets/images/blog/Norstone-Stacked-Stone-on-Exterior-Walls.jpg)](/gallery/application/exteriors/)
