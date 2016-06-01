@@ -121,6 +121,12 @@ body {
   }
 }
 
+@media screen and (min-width: 40em) {
+  .product-category h3 {
+    margin: 180px 0 10px;
+  }
+}
+
 .product-category {
   h2 {
     float: left;
@@ -133,7 +139,6 @@ body {
     line-height: 54px;
     font-size: 65px;
     font-style: normal;
-    margin: 180px 0 10px;
     text-transform: uppercase;
   }
   .tabs {
