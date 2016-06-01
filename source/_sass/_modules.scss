@@ -9,8 +9,6 @@ blockquote {
   background: #fafafa url(/assets/images/theme/open-quote.png) 8px 10px no-repeat;
   border: 1px solid #E7E7E7;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
-  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
   color: #8f8f8f;
   float: left;
   font-family: "Abel";
@@ -28,8 +26,6 @@ cite {
 
 .shadow {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.50);
-  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.50);
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.50);
 }
 
 .button--main {
