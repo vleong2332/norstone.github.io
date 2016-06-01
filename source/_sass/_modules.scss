@@ -76,72 +76,63 @@ cite {
   padding: 10px 0 10px 40px;
 }
 
-.card {
-  .inner {
-    background: #fff;
-    box-shadow: 3px 3px #ddd;
-    height: 280px;
-    position: relative;
-    margin: 6px 0 6px 12px;
-    padding: 5px;
+.pictured-product {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 4px 5px -1px #bbb;
+  padding: 5px;
+  position: relative;
+}
+
+.collapse .pictured-product {
+  margin: 0 5px 10px;
+  min-height: 280px;
+}
+
+.card--title {
+  color: #737373;
+  display: block;
+  font-family: Josefin Slab;
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.card--type {
+  background-image: url('/assets/images/theme/product-gallery-icon.png');
+  background-repeat: no-repeat;
+  bottom: 5px;
+  color: #737373;
+  display: block;
+  height: 14px;
+  font-family: Open Sans;
+  font-size: 12px;
+  left: 5px;
+  line-height: 16px;
+  padding-left: 60px;
+  position: absolute;
+  &.rock-panels {
+    background-position: 0 -6px;
   }
-  .one-col {
-    width: 213px;
-    .card--title {
-      margin-top: 20px;
-    }
+  &.xl-rock-panels {
+    background-position: 0 -26px;
   }
-  .two-col {
-    width: 448px;
-    .card--title {
-      float: right;
-      margin-top: 22px;
-    }
+  &.basalt-tiles {
+    background-position: 0 -49px;
   }
-  .card--title {
-    color: #737373;
-    display: block;
-    font-family: Josefin Slab;
-    font-size: 24px;
+  &.basalt-3d {
+    background-position: 0 -115px;
+  }
+  &.app-gallery {
+    background-position: 0 -67px;
+    height: 20px;
     line-height: 24px;
-    margin-top: 20px;
-    text-transform: uppercase;
   }
-  .card--type {
-    background-image: url('/assets/images/theme/product-gallery-icon.png');
-    background-repeat: no-repeat;
-    bottom: 5px;
-    color: #737373;
-    display: block;
-    height: 14px;
-    font-family: Open Sans;
-    font-size: 12px;
-    left: 5px;
-    line-height: 16px;
-    padding-left: 60px;
-    position: absolute;
-    &.rock-panels {
-      background-position: 0 -6px;
-    }
-    &.xl-rock-panels {
-      background-position: 0 -26px;
-    }
-    &.basalt-tiles {
-      background-position: 0 -49px;
-    }
-    &.basalt-3d {
-      background-position: 0 -115px;
-    }
-    &.app-gallery {
-      background-position: 0 -67px;
-      height: 20px;
-      line-height: 24px;
-    }
-    &.project-gallery {
-      background-position: 0 -88px;
-      height: 22px;
-      line-height: 28px;
-    }
+  &.project-gallery {
+    background-position: 0 -88px;
+    height: 22px;
+    line-height: 28px;
   }
 }
 
