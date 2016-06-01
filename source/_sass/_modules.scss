@@ -140,7 +140,6 @@ cite {
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;
-  /* whatever width you want */
   display: inline-block;
   position: relative;
   &:hover {
@@ -148,7 +147,6 @@ cite {
   }
   &:after {
     padding-top: 50%;
-    /* 16:9 ratio */
     display: block;
     content: '';
   }
