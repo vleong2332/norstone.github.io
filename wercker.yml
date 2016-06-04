@@ -1,0 +1,13 @@
+box: ruby
+build:
+  steps:
+    - bundle-install
+    - script:
+        name: generate site
+        code: bundle exec jekyll build --trace
+deploy:
+  steps:
+    - leipert/git-push:
+        gh_oauth: $GIT_TOKEN
+        basedir: _site
+        branch: master
