@@ -5,6 +5,9 @@ build:
     - script:
         name: generate site
         code: bundle exec jekyll build --trace
+    - script:
+        name: delete extraneous files
+        code: rm _site/Gemfile* _site/wercker.yml
 deploy:
   steps:
     - leipert/git-push:
