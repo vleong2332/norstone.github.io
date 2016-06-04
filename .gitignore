@@ -1,2 +1,5 @@
-_site
-public
+_builds/
+_cache/
+_projects/
+_site/
+_steps/
