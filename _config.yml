@@ -33,3 +33,8 @@ defaults:
       layout: blog
       permalink: /blog/:title.html
       classes: blog
+sass:
+  load_paths:
+    - _sass
+    - bower_components/foundation-sites/scss
+    - bower_components/motion-ui/src
