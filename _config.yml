@@ -38,3 +38,13 @@ sass:
     - _sass
     - bower_components/foundation-sites/scss
     - bower_components/motion-ui/src
+uncss:
+  stylesheets:            # a list of stylesheets to be processed; mandatory
+    - css/norstone.css
+  ignore:                 # always keep rules for these selectors; default: none
+    - ".menu"
+    - !!js/regexp .foundation-mq
+    - !!js/regexp ^\.is-.*
+  files:                  # html files to consider, globs are supported; default: **/*.html
+    - "**/*.html"
+    - "**/*.htm"
