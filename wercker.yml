@@ -29,7 +29,7 @@ build:
         code: npm install -g uncss
     - script:
         name: delete extraneous files
-        code: rm _site/Gemfile* _site/wercker.yml
+        code: rm -r bower_components bower.json Gemfile* wercker.yml
 deploy:
   steps:
     - leipert/git-push:
