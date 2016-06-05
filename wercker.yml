@@ -1,8 +1,26 @@
 box: ruby
 build:
   steps:
+    - script:
+        name: bower install
+        code: |
+          sudo apt-get update
+          sudo apt-get install -y nodejs-legacy npm
+          sudo npm install -g bower
+          bower install --allow-root
+    - script:
+        name: set locale
+        code: |
+          sudo apt-get install -y locales
+          dpkg-reconfigure locales
+          locale-gen C.UTF-8
+          /usr/sbin/update-locale LANG=C.UTF-8
+          echo 'en_US.UTF-8 UTF-8' >> /etc/locale.gen
+          locale-gen
+          export LC_ALL=C.UTF-8
+          export LANG=en_US.UTF-8
+          export LANGUAGE=en_US.UTF-8
     - bundle-install
-    - plasticine/bower-install
     - script:
         name: generate site
         code: bundle exec jekyll build --trace
