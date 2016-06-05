@@ -22,11 +22,11 @@ build:
           export LANGUAGE=en_US.UTF-8
     - bundle-install
     - script:
-        name: generate site
-        code: bundle exec jekyll build --trace
-    - script:
         name: install uncss
         code: npm install -g uncss
+    - script:
+        name: generate site
+        code: bundle exec jekyll build --trace
     - script:
         name: delete extraneous files
         code: rm -r bower_components bower.json Gemfile* wercker.yml
