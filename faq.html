@@ -133,7 +133,7 @@ faqs:
   <h1 class="standard text-center">Got a Question? Norstone is here to help.</h1>
   <p class="text-justified">Norstone always encourages you to call us for any question that you may have about your project, but we also find that we get a lot of common questions that we thought we might be able to answer here. Please read the Frequently Asked Questions and see
     if your question has already been answered, but if it hasn't been <a href="/contact-us">Contact Us Now</a></p>
-  <ul class="accordion" data-accordion>
+  <ul class="accordion" data-accordion data-allow-all-closed="true">
     {% for section in page.faqs %}
     <li class="accordion-item" data-accordion-item>
       <a href="#" class="accordion-title">{{ section.title }}</a>

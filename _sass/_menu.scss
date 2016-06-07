@@ -1,7 +1,8 @@
 @media screen and (min-width: 1024px) {
   #norstone-menu {
-    background-image: url(/assets/images/theme/navbar-bg.png);
+    background-image: url(/assets/images/theme/navbar-bg.jpg);
     background-repeat: repeat;
+    height: 48px;
     line-height: normal;
     padding: 0;
     ul {
@@ -21,10 +22,10 @@
           font-family: open sans;
           font-size: 14px;
           letter-spacing: 1px;
-          padding: 18px 16px 12px;
+          padding: 18px 16px 15px;
         }
         &.active a, &.active-trail a, a:hover {
-          background: url('/assets/images/theme/navbar-bg.png') repeat-x 0 -55px;
+          background: url('/assets/images/theme/navbar-bg.jpg') repeat-x 0 -46px;
         }
       }
     }
@@ -43,10 +44,34 @@
   display: inline-block;
 }
 
-.navigation-large a {
-  opacity: 0.5;
-  &:hover, &.active {
-    opacity: 1;
+.navigation-large .menu {
+  a {
+    font-weight: bold;
+    opacity: 0.5;
+    padding: 0.7rem 1.7rem;
+    text-transform: uppercase;
+    &:hover, &.active {
+      opacity: 1;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+  @include breakpoint(medium) {
+    .divider-left {
+      border-left: 1px solid #dcdcdc;
+    }
+    .divider-right {
+      border-right: 1px solid #fff;
+    }
+  }
+  @include breakpoint(small only) {
+    .divider-left {
+      border-top: 1px solid #dcdcdc;
+    }
+    .divider-right {
+      border-bottom: 1px solid #fff;
+    }
   }
 }
 

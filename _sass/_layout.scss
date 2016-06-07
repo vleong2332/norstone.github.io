@@ -6,22 +6,36 @@ body {
   display: none;
 }
 
-@media screen and (min-width: 40em) {
-  .no-js .top-bar {
-    display: block;
+.no-js {
+  @include breakpoint(medium) {
+    .top-bar {
+      display: none;
+    }
   }
 
-  .no-js .title-bar {
-    display: none;
+  @include breakpoint(large) {
+    .title-bar {
+      display: none;
+    }
   }
 }
 
 #header {
-  margin-top: 1rem;
+  background: url("/assets/images/theme/header-top-angle-lines.png") repeat-x;
+  border-top: 5px #6b6b6b solid;
+  padding-top: 1rem;
 }
 
-#social-media-list li a {
-  padding: 0.2rem;
+#social-media-list li {
+  a {
+    padding: 0.2rem;
+  }
+  &:last-child a {
+    padding-right: 0;
+  }
+  &:last-child img {
+    margin-right: 0;
+  }
 }
 
 #footer {
@@ -31,7 +45,7 @@ body {
   padding-top: 20px;
   a, p {
     color: #fff;
-    font-weight: bold;
+    font-size: 11px;
   }
 }
 

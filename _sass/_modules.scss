@@ -20,8 +20,12 @@ blockquote {
 }
 
 cite {
-  color: #1c778f;
+  color: #3399cc;
   float: right;
+  font: normal 13px "Open Sans";
+  &:before {
+    content: '\2013 \0020';
+  }
 }
 
 .shadow {
@@ -195,4 +199,52 @@ cite {
 
 .blog #content img {
   padding: 10px;
+}
+
+.tabs {
+  background: transparent;
+  border: none;
+}
+
+.tabs-title {
+  border-right: 1px solid transparent;
+  a {
+    background-color: #cdcccc;
+    color: #6b6b6b;
+    padding: .5rem 1.5rem;
+    text-transform: uppercase;
+    &:hover {
+      background-color: #e5e3e3;
+      color: #4fb1d5;
+    }
+  }
+  &.is-active a {
+    background-color: #e5e3e3;
+    color: #4fb1d5;
+  }
+  @include breakpoint(small only) {
+    float: none;
+    a {
+      line-height: 30px;
+    }
+  }
+}
+
+.tabs-content {
+  background-color: #e5e3e3;
+  h4 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 10px;
+    line-height: 22px;
+  }
+}
+
+.gallery-body {
+  background-color: #fff;
+  border-top: 1px solid #e7e6e6;
+  border-bottom: 1px solid #e7e6e6;
+  margin-bottom: 20px;
 }

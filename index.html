@@ -26,7 +26,11 @@ slides:
     {% for slide in page.slides %}
     <li class="{% if forloop.index0==0 %}is-active {% endif %} orbit-slide">
       <img alt="{{ slide.caption }}" src="{{ slide.image }}">
-      <figcaption class="orbit-caption show-for-medium x-large"><a alt="View Norstone Product" class="float-right text-shadow box-shadow-center button--main" href="{{ slide.link.href }}">{{ slide.link.text }}</a>{{ slide.caption }}</figcaption>
+      <figcaption class="orbit-caption show-for-medium x-large">
+        <div class="row columns" style="font-family: 'Open Sans'">
+          <a alt="View Norstone Product" class="float-right text-shadow box-shadow-center button--main" href="{{ slide.link.href }}">{{ slide.link.text }}</a>{{ slide.caption }}
+        </div>
+      </figcaption>
     </li>
     {% endfor %}
   </ul>
@@ -37,7 +41,7 @@ slides:
   </nav>
 </div>
 <div class="row">
-  <div class="large-4 columns">
+  <div class="large-4 columns" style="background: url(/assets/images/theme/divider-vertical.png) no-repeat center right scroll transparent;">
     <h2><a href="/products/stacked-stone-cladding" class="medium color-primary">Stone Veneer Rock Panel System</a></h2>
     <p>Norstone Rock Panels are a proven <a href="/products/stacked-stone-cladding">stacked stone &amp; ledgestone panel</a> system offering ease of installation and are ideal for interior and exterior design for both residential and commercial applications.</p>
     <p>
@@ -45,7 +49,7 @@ slides:
     </p>
     <a href="/products/stacked-stone-cladding" title="View Norstone's Rock Panel System" class="x-small color-secondary float-right">View Our Rock Panel System <img width="12" height="9" src="/assets/images/theme/arrows-img.png" alt="arrows-img" /></a>
   </div>
-  <div class="large-4 columns">
+  <div class="large-4 columns" style="background: url(/assets/images/theme/divider-vertical.png) no-repeat center right scroll transparent;">
     <h2><a href="gallery/project" class="medium color-primary">Norstone's Featured Projects</a></h2>
     <p>Norstone's <a href="/products">natural stone wall</a> cladding products are used extensively throughout the world to create innovative designs for <a href="/gallery/application/pools/">water features</a>,
       <a href="/gallery/application/natural-stone-feature-walls">feature walls</a>, <a href="/gallery/application/fireplace">fireplaces</a>, <a href="/gallery/application/backsplashes/">backsplashes</a> and landscaping.</p>
