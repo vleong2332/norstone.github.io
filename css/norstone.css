@@ -488,6 +488,10 @@ button {
     width: 66.66667%;
   }
 
+  .medium-9 {
+    width: 75%;
+  }
+
   .medium-up-2 > .column {
     width: 50%;
     float: left;
@@ -1529,6 +1533,10 @@ body {
   clip: rect(0, 0, 0, 0);
 }
 
+.float-left {
+  float: left !important;
+}
+
 .float-right {
   float: right !important;
 }
@@ -2217,6 +2225,12 @@ p {
   font-size: 14px;
 }
 
+input[type]:not([type="submit"]),
+textarea,
+select {
+  color: #6b6b6b;
+}
+
 .color-primary,
 a.color-primary {
   color: #6b6b6b;
@@ -2254,6 +2268,26 @@ a.color-secondary {
   font-family: "Open Sans";
   font-size: 42px;
   font-weight: lighter;
+}
+
+.products-overview .tabs-title a {
+  text-transform: lowercase;
+}
+
+.products-overview.tabs-content h4 {
+  font-size: 29px;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+
+.products-overview.tabs-content h5 {
+  font-size: 12px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.products-overview.tabs-content p {
+  font-size: 14px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -2459,9 +2493,9 @@ cite:before {
   font-size: 19px;
   height: 37px;
   line-height: 37px;
+  padding: 0 20px;
   text-align: center;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  width: 182px;
 }
 
 .button--main:hover {
