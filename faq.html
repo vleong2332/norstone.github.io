@@ -136,7 +136,7 @@ faqs:
   <ul class="accordion" data-accordion data-allow-all-closed="true">
     {% for section in page.faqs %}
     <li class="accordion-item" data-accordion-item>
-      <a href="#" class="accordion-title">{{ section.title }}</a>
+      <a href="#" class="accordion-title"><span>{{ section.title }}</span></a>
       <div class="accordion-content" data-tab-content>
         {% for item in section.questions %}
         <p class="faq-question"><strong>Q &bull; {{ item.q }}</strong></p>

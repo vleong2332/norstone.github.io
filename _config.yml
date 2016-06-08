@@ -46,6 +46,7 @@ uncss:
     - "/.*orbit.*/"
     - "/.*mui-.*/"
     - ".foundation-mq"
+    - "/.*accordion-.*/"
     - !!js/regexp ^\.is-.*
   files:                  # html files to consider, globs are supported; default: **/*.html
     - "**/*.html"

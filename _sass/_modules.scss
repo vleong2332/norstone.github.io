@@ -28,6 +28,30 @@ cite {
   }
 }
 
+.accordion-title {
+  background: url("/assets/images/theme/faq-header-bg.jpg") repeat-x;
+  padding: 9px 0 9px 30px;
+  &:before {
+    content: '';
+  }
+  span {
+    background: url("/assets/images/theme/active-arrow.png") no-repeat left center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    padding: 0 0 0 20px;
+    text-transform: uppercase;
+  }
+}
+
+.accordion-item.is-active span {
+  background: url("/assets/images/theme/active-arrow-down.png") no-repeat left center;
+}
+
+.accordion-content {
+  background-color: #e5e3e3;
+  padding: 20px 30px;
+}
+
 .shadow {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.50);
 }
@@ -211,7 +235,7 @@ cite {
   a {
     background-color: #cdcccc;
     color: #6b6b6b;
-    padding: .5rem 1.5rem;
+    padding: .5rem .8rem;
     text-transform: uppercase;
     &:hover {
       background-color: #e5e3e3;
