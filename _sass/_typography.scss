@@ -23,6 +23,10 @@ p {
   font-size: 14px;
 }
 
+input[type]:not([type="submit"]), textarea, select {
+  color: #6b6b6b;
+}
+
 .color-primary, a.color-primary {
   color: #6b6b6b;
 }
@@ -62,4 +66,24 @@ p {
 
 .xxx-large {
   font-size: 65px;
+}
+
+.products-overview .tabs-title a {
+  text-transform: lowercase;
+}
+
+.products-overview.tabs-content {
+  h4 {
+    font-size: 29px;
+    margin-top: 50px;
+    text-transform: uppercase;
+  }
+  h5 {
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: 14px;
+  }
 }
