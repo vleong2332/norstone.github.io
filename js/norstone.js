@@ -19,6 +19,10 @@ $(function() {
 
   // Smooth scrolling.
   $('a[href*="#"]:not([href="#"])').click(function() {
+    // Don't break tabs.
+    if ($(this).parents('.tabs').length) {
+      return true;
+    }
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
