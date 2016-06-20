@@ -187,6 +187,36 @@ cite {
   }
 }
 
+.orbit-container:hover {
+  .orbit-previous, .orbit-next {
+    display: inline-block;
+  }
+}
+
+.orbit-container {
+  .orbit-previous {
+    background: url('/assets/images/theme/arrow-left.png') no-repeat right top;
+    display: none;
+    height: 55px;
+    padding: 0 20px;
+    width: 31px;
+    &:hover, &:active, &:focus {
+      background: url('/assets/images/theme/arrow-left.png') no-repeat right -58px;
+    }
+  }
+
+  .orbit-next {
+    background: url('/assets/images/theme/arrow-right.png') no-repeat left top;
+    display: none;
+    height: 55px;
+    padding: 0 20px;
+    width: 31px;
+    &:hover, &:active, &:focus {
+      background: url('/assets/images/theme/arrow-right.png') no-repeat left -58px;
+    }
+  }
+}
+
 .slideshow-with-thumbnails {
   h2 {
     margin: 0;
