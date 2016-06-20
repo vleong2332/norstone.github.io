@@ -2622,6 +2622,28 @@ cite:before {
   left: 0;
 }
 
+.orbit-previous {
+  background: url("/assets/images/theme/arrow-left.png") no-repeat right top;
+  height: 55px;
+  padding: 0 20px;
+  width: 31px;
+}
+
+.orbit-previous:hover {
+  background: url("/assets/images/theme/arrow-left.png") no-repeat right -56px;
+}
+
+.orbit-next {
+  background: url("/assets/images/theme/arrow-right.png") no-repeat left top;
+  height: 55px;
+  padding: 0 20px;
+  width: 31px;
+}
+
+.orbit-next:hover {
+  background: url("/assets/images/theme/arrow-right.png") no-repeat left -56px;
+}
+
 .slideshow-with-thumbnails h2 {
   margin: 0;
 }
