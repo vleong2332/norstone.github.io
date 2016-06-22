@@ -194,6 +194,15 @@ cite {
 }
 
 .orbit-container {
+  @include breakpoint(small only) {
+    figcaption {
+      font-size: 12px;
+      padding: 10px;
+    }
+    a {
+      font-size: 12px;
+    }
+  }
   .orbit-previous {
     background: url('/assets/images/theme/arrow-left.png') no-repeat right top;
     display: none;
