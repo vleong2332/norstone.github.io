@@ -53,7 +53,7 @@ body {
   max-width: 900px;
 }
 
-@media screen and (min-width: 1024px) {
+@include breakpoint(large) {
   .product-header {
     background: #dfdcdc url('/assets/images/theme/banner-product-gradient.png') repeat-x;
   }
@@ -135,7 +135,7 @@ body {
   }
 }
 
-@media screen and (min-width: 40em) {
+@include breakpoint(medium) {
   .product-category h3 {
     margin: 180px 0 10px;
   }

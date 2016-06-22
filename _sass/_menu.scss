@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px) {
+@include breakpoint(large) {
   #norstone-menu {
     background-image: url(/assets/images/theme/navbar-bg.jpg);
     background-repeat: repeat;
@@ -96,8 +96,8 @@
   }
 }
 
-@media screen and (min-width: 640px) {
-  .navigation-small {
+.navigation-small {
+  @include breakpoint(medium) {
     background: url('/assets/images/theme/bg-qtproducts-shadow-gallery-menu.png') no-repeat center bottom;
     li a {
       &:hover, &.active {
@@ -105,10 +105,7 @@
       }
     }
   }
-}
-
-@media screen and (max-width: 640px) {
-  .navigation-small {
+  @include breakpoint(small only) {
     ul {
       width: 100%;
     }
