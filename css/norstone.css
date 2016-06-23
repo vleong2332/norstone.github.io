@@ -1519,12 +1519,6 @@ body {
   background-color: #e6e6e6;
 }
 
-@media screen and (max-width: 39.9375em) {
-  .show-for-medium {
-    display: none !important;
-  }
-}
-
 .show-for-sr {
   position: absolute !important;
   width: 1px;
@@ -2041,7 +2035,7 @@ body {
   max-width: 900px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64em) {
   .product-header {
     background: #dfdcdc url("/assets/images/theme/banner-product-gradient.png") repeat-x;
   }
@@ -2052,9 +2046,20 @@ body {
   padding: 30px 0;
 }
 
-.orbit-container {
-  height: auto !important;
-  width: auto;
+.orbit-container li > div {
+  background-position: center center;
+}
+
+@media screen and (min-width: 40em) {
+  .orbit-container li > div {
+    height: 475px;
+  }
+}
+
+@media screen and (max-width: 39.9375em) {
+  .orbit-container li > div {
+    height: 300px;
+  }
 }
 
 .slider-main {
@@ -2290,7 +2295,7 @@ a.color-secondary {
   font-size: 14px;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 64em) {
   #norstone-menu {
     background-image: url(/assets/images/theme/navbar-bg.jpg);
     background-repeat: repeat;
@@ -2394,7 +2399,7 @@ a.color-secondary {
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 40em) {
   .navigation-small {
     background: url("/assets/images/theme/bg-qtproducts-shadow-gallery-menu.png") no-repeat center bottom;
   }
@@ -2405,7 +2410,7 @@ a.color-secondary {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 39.9375em) {
   .navigation-small ul {
     width: 100%;
   }
@@ -2622,26 +2627,48 @@ cite:before {
   left: 0;
 }
 
-.orbit-previous {
+.orbit-container:hover .orbit-previous,
+.orbit-container:hover .orbit-next {
+  display: inline-block;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .orbit-container figcaption {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .orbit-container a {
+    font-size: 12px;
+  }
+}
+
+.orbit-container .orbit-previous {
   background: url("/assets/images/theme/arrow-left.png") no-repeat right top;
+  display: none;
   height: 55px;
   padding: 0 20px;
   width: 31px;
 }
 
-.orbit-previous:hover {
-  background: url("/assets/images/theme/arrow-left.png") no-repeat right -56px;
+.orbit-container .orbit-previous:hover,
+.orbit-container .orbit-previous:active,
+.orbit-container .orbit-previous:focus {
+  background: url("/assets/images/theme/arrow-left.png") no-repeat right -58px;
 }
 
-.orbit-next {
+.orbit-container .orbit-next {
   background: url("/assets/images/theme/arrow-right.png") no-repeat left top;
+  display: none;
   height: 55px;
   padding: 0 20px;
   width: 31px;
 }
 
-.orbit-next:hover {
-  background: url("/assets/images/theme/arrow-right.png") no-repeat left -56px;
+.orbit-container .orbit-next:hover,
+.orbit-container .orbit-next:active,
+.orbit-container .orbit-next:focus {
+  background: url("/assets/images/theme/arrow-right.png") no-repeat left -58px;
 }
 
 .slideshow-with-thumbnails h2 {
