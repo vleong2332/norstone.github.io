@@ -26,7 +26,7 @@ slides:
     {% for slide in page.slides %}
     <li class="{% if forloop.index0==0 %}is-active {% endif %} orbit-slide">
       <div style="background-image: url('{{ slide.image }}')"></div>
-      <figcaption class="orbit-caption show-for-medium x-large">
+      <figcaption class="orbit-caption x-large">
         <div class="row columns" style="font-family: 'Open Sans'">
           <a alt="View Norstone Product" class="float-right text-shadow box-shadow-center button--main" href="{{ slide.link.href }}">{{ slide.link.text }}</a>{{ slide.caption }}
         </div>
