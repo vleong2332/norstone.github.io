@@ -1233,6 +1233,10 @@ select::-ms-expand {
   display: inline-block;
 }
 
+.dropdown-pane.is-open {
+  visibility: visible;
+}
+
 html,
 body {
   height: 100%;
@@ -1282,10 +1286,18 @@ body {
   transform: translateX(0);
 }
 
+.is-open-left {
+  transform: translateX(250px);
+}
+
 .off-canvas.position-right {
   right: -250px;
   top: 0;
   width: 250px;
+}
+
+.is-open-right {
+  transform: translateX(-250px);
 }
 
 .orbit {
@@ -2570,6 +2582,23 @@ cite:before {
   stroke-dashoffset: 101;
   -webkit-transition: all 750ms ease;
   transition: all 750ms ease;
+}
+
+.hamburger.is-closed .circle {
+  stroke-dasharray: 1 100 190 300;
+  stroke-dashoffset: 1;
+}
+
+.hamburger.is-closed .top {
+  -webkit-transform: translateX(-4.5px) rotate(-45deg);
+  -ms-transform: translateX(-4.5px) rotate(-45deg);
+  transform: translateX(-4.5px) rotate(-45deg);
+}
+
+.hamburger.is-closed .bottom {
+  -webkit-transform: translateX(-4.5px) rotate(45deg);
+  -ms-transform: translateX(-4.5px) rotate(45deg);
+  transform: translateX(-4.5px) rotate(45deg);
 }
 
 .list-download {
