@@ -233,6 +233,23 @@ cite {
   }
 }
 
+.menu {
+  a {
+    background-color: transparent;
+    color: #1c778f;
+  }
+  ul {
+    margin-left: 40px;
+  }
+  li {
+    list-style: none;
+  }
+  .active > a {
+    background-color: #1c778f;
+    color: #fff;
+  }
+}
+
 .product-color {
   background-repeat: no-repeat;
   background-size: contain;
