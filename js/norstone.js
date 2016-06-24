@@ -38,7 +38,6 @@ $(function() {
   // Hamburger menu.
   $('.hamburger').on('click', function (e) {
     $(this)
-      .addClass('hamburglar')
       .toggleClass('is-open')
       .toggleClass('is-closed');
   });

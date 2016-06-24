@@ -715,6 +715,11 @@ ul {
   margin-left: 1.25rem;
 }
 
+ul ul {
+  margin-left: 1.25rem;
+  margin-bottom: 0;
+}
+
 blockquote {
   margin: 0 0 1rem;
   padding: 0.5625rem 1.25rem 0 1.1875rem;
@@ -2677,6 +2682,24 @@ cite:before {
   background-position: 0 -88px;
   height: 22px;
   line-height: 28px;
+}
+
+.menu a {
+  background-color: transparent;
+  color: #1c778f;
+}
+
+.menu ul {
+  margin-left: 40px;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu .active > a {
+  background-color: #1c778f;
+  color: #fff;
 }
 
 .product-color {
