@@ -1,16 +1,8 @@
-<div class="title-bar" data-responsive-toggle="norstone-menu" data-hide-for="large">
-  <button class="menu-icon" type="button" data-toggle></button>
-  <div class="title-bar-title">Menu</div>
-</div>
-<div id="norstone-menu" class="top-bar menu-centered">
-  <ul class="vertical large-horizontal menu">
-    {% assign current = page.url | downcase | split: '/' %}
-    <li{% if page.url == "/" %} class="active-trail active" {% endif %}><a href="/" title="Norstone USA" {% if page.url == "/" %} class="active" {% endif %}>HOME</a></li>
-    <li{% if current[1] == "products" %} class="active-trail active" {% endif %}><a href="/products" title="" {% if current[1] == "products" %}class="active" {% endif %}>PRODUCTS</a></li>
-    <li{% if current[1] == "gallery" %} class="active-trail active" {% endif %}><a href="/gallery" title="" {% if current[1] == "gallery" %} class="active" {% endif %}>GALLERY</a></li>
-    <li{% if current[1] == "how-to-install-stacked-stone" %} class="active-trail active" {% endif %}><a href="/how-to-install-stacked-stone" title="installation guide" {% if current[1] == "how-to-install-stacked-stone" %} class="active" {% endif %}>INSTALLATION GUIDE</a></li>
-    <li{% if current[1] == "faq" %} class="active-trail active" {% endif %}><a href="/faq" title="Frequently Asked Questions" {% if current[1] == "faq" %} class="active" {% endif %}>FAQ</a></li>
-    <li{% if current[1] == "client-testimonials" %} class="active-trail active" {% endif %}><a href="/client-testimonials" title="client testimonials" {% if current[1] == "client-testimonials" %} class="active" {% endif %}>CLIENT TESTIMONIALS</a></li>
-    <li{% if current[1] == "contact-us" %} class="active-trail active" {% endif %}><a href="/contact-us" title="contact us" {% if current[1] == "contact-us" %} class="active" {% endif %}>CONTACT US</a></li>
-  </ul>
-</div>
+{% assign current = page.url | downcase | split: '/' %}
+<li{% if page.url == "/" %} class="active-trail active" {% endif %}><a href="/" title="Norstone USA" {% if page.url == "/" %} class="active" {% endif %}>HOME</a></li>
+<li{% if current[1] == "products" %} class="active-trail active" {% endif %}><a href="/products" title="" {% if current[1] == "products" %}class="active" {% endif %}>PRODUCTS</a></li>
+<li{% if current[1] == "gallery" %} class="active-trail active" {% endif %}><a href="/gallery" title="" {% if current[1] == "gallery" %} class="active" {% endif %}>GALLERY</a></li>
+<li{% if current[1] == "how-to-install-stacked-stone" %} class="active-trail active" {% endif %}><a href="/how-to-install-stacked-stone" title="installation guide" {% if current[1] == "how-to-install-stacked-stone" %} class="active" {% endif %}>INSTALLATION GUIDE</a></li>
+<li{% if current[1] == "faq" %} class="active-trail active" {% endif %}><a href="/faq" title="Frequently Asked Questions" {% if current[1] == "faq" %} class="active" {% endif %}>FAQ</a></li>
+<li{% if current[1] == "client-testimonials" %} class="active-trail active" {% endif %}><a href="/client-testimonials" title="client testimonials" {% if current[1] == "client-testimonials" %} class="active" {% endif %}>CLIENT TESTIMONIALS</a></li>
+<li{% if current[1] == "contact-us" %} class="active-trail active" {% endif %}><a href="/contact-us" title="contact us" {% if current[1] == "contact-us" %} class="active" {% endif %}>CONTACT US</a></li>

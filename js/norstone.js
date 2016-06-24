@@ -34,4 +34,11 @@ $(function() {
       }
     }
   });
+
+  // Hamburger menu.
+  $('.hamburger').on('click', function (e) {
+    $(this)
+      .toggleClass('is-open')
+      .toggleClass('is-closed');
+  });
 });
