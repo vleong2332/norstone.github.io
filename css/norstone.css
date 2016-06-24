@@ -465,6 +465,23 @@ button {
   width: 33.33333%;
 }
 
+.small-up-2 > .column {
+  width: 50%;
+  float: left;
+}
+
+.small-up-2 > .column:nth-of-type(1n) {
+  clear: none;
+}
+
+.small-up-2 > .column:nth-of-type(2n+1) {
+  clear: both;
+}
+
+.small-up-2 > .column:last-child {
+  float: left;
+}
+
 @media screen and (min-width: 40em) {
   .medium-push-2 {
     position: relative;
@@ -2626,6 +2643,10 @@ cite:before {
   position: relative;
 }
 
+.pictured-product img {
+  width: 426px;
+}
+
 .collapse .pictured-product {
   margin: 0 5px 10px;
   min-height: 280px;
@@ -2639,6 +2660,7 @@ cite:before {
   line-height: 24px;
   margin-top: 20px;
   text-transform: uppercase;
+  padding-bottom: 40px;
 }
 
 .card--type {
