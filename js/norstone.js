@@ -41,4 +41,21 @@ $(function() {
       .toggleClass('is-open')
       .toggleClass('is-closed');
   });
+
+  // Mobile accordion.
+  var $mobile_accordion = $('.mobile-accordion');
+  var $mobile_accordion_content = $mobile_accordion.find('[data-tab-content]');
+  if (Foundation.MediaQuery.current != 'small') {
+    $mobile_accordion_content.removeClass('accordion-content');
+  }
+  $(window).on('changed.zf.mediaquery', function(event, newSize, oldSize) {
+    if (oldSize == 'small') {
+      $('[data-accordion]').foundation('up', $('.accordion-content'));
+      $mobile_accordion_content.show().removeClass('accordion-content');
+    }
+    else if (newSize == 'small') {
+      console.log($mobile_accordion_content);
+      $mobile_accordion_content.addClass('accordion-content').hide();
+    }
+  });
 });
