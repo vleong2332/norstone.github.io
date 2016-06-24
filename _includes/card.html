@@ -1,7 +1,7 @@
 <div class="column">
   <div class="pictured-product">
     <a href="{{ item.link }}"><img src="{{ item.image }}" alt="{{ item.title }}"></a>
-    <div><a class="card--title color-primary" href="{{ item.link }}">{{ item.title | upcase }}</a></div>
+    <a class="card--title color-primary" href="{{ item.link }}">{{ item.title | upcase }}</a>
     <a href="{{ item.link }}" class="card--type {{ item.type }}">
     {% if item.type == 'project-gallery' %}
       {{ item.type_text }}
