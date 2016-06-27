@@ -578,6 +578,23 @@ button {
     width: 100%;
   }
 
+  .large-up-1 > .column {
+    width: 100%;
+    float: left;
+  }
+
+  .large-up-1 > .column:nth-of-type(1n) {
+    clear: none;
+  }
+
+  .large-up-1 > .column:nth-of-type(1n+1) {
+    clear: both;
+  }
+
+  .large-up-1 > .column:last-child {
+    float: left;
+  }
+
   .large-up-4 > .column {
     width: 25%;
     float: left;
@@ -2649,8 +2666,11 @@ cite:before {
   position: relative;
 }
 
-.pictured-product img {
-  width: 426px;
+@media screen and (max-width: 63.9375em) {
+  .pictured-product {
+    margin: 0 auto;
+    width: 200px;
+  }
 }
 
 .collapse .pictured-product {
@@ -2685,29 +2705,29 @@ cite:before {
 }
 
 .card--type.rock-panels {
-  background-position: 0 -6px;
+  background-position: 0 0;
 }
 
 .card--type.xl-rock-panels {
-  background-position: 0 -26px;
+  background-position: 0 -44px;
 }
 
 .card--type.basalt-tiles {
-  background-position: 0 -49px;
+  background-position: 0 -88px;
 }
 
 .card--type.basalt-3d {
-  background-position: 0 -115px;
+  background-position: 0 -132px;
 }
 
 .card--type.app-gallery {
-  background-position: 0 -67px;
+  background-position: 0 -176px;
   height: 20px;
   line-height: 24px;
 }
 
 .card--type.project-gallery {
-  background-position: 0 -88px;
+  background-position: 0 -220px;
   height: 22px;
   line-height: 28px;
 }
