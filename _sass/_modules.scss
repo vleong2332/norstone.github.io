@@ -179,8 +179,9 @@ cite {
   box-shadow: 0 4px 5px -1px #bbb;
   padding: 5px;
   position: relative;
-  img {
-    width: 426px;
+  @include breakpoint(medium down) {
+    margin: 0 auto;
+    width: 200px;
   }
 }
 
@@ -214,24 +215,24 @@ cite {
   padding-left: 60px;
   position: absolute;
   &.rock-panels {
-    background-position: 0 -6px;
+    background-position: 0 0;
   }
   &.xl-rock-panels {
-    background-position: 0 -26px;
+    background-position: 0 -44px;
   }
   &.basalt-tiles {
-    background-position: 0 -49px;
+    background-position: 0 -88px;
   }
   &.basalt-3d {
-    background-position: 0 -115px;
+    background-position: 0 -132px;
   }
   &.app-gallery {
-    background-position: 0 -67px;
+    background-position: 0 -176px;
     height: 20px;
     line-height: 24px;
   }
   &.project-gallery {
-    background-position: 0 -88px;
+    background-position: 0 -220px;
     height: 22px;
     line-height: 28px;
   }
