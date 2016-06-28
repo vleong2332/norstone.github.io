@@ -49,10 +49,6 @@ body {
   }
 }
 
-.row {
-  max-width: 900px;
-}
-
 @include breakpoint(large) {
   .product-header {
     background: #dfdcdc url('/assets/images/theme/banner-product-gradient.png') repeat-x;
