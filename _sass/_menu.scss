@@ -47,9 +47,11 @@
 .navigation-large .menu {
   li a {
     font-weight: bold;
+    margin: 0 15px;
     opacity: 0.5;
-    padding: 0.7rem 1.7rem;
+    padding: 0;
     text-transform: uppercase;
+    width: 113px;
     &:hover, &.active {
       opacity: 1;
     }
@@ -81,7 +83,7 @@
 }
 
 .navigation-small {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   padding-bottom: 6px;
   ul {
     margin: 0;
@@ -99,9 +101,6 @@
       text-transform: uppercase;
     }
   }
-}
-
-.navigation-small {
   @include breakpoint(medium) {
     background: url('/assets/images/theme/bg-qtproducts-shadow-gallery-menu.png') no-repeat center bottom;
     li a {
