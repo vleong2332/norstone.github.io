@@ -257,7 +257,7 @@ cite {
 
 .product-color {
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   display: inline-block;
   position: relative;
@@ -269,12 +269,9 @@ cite {
     display: block;
     content: '';
   }
-  div {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+  &.active {
+    border: 4px solid #4fb2d5;
+    box-shadow: inset 0 0 40px #000;
   }
 }
 
