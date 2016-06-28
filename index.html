@@ -19,13 +19,13 @@ slides:
     href: /products/
 ---
 
-<div class="slider-main" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+<div class="slider-main" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; timerDelay: 8000">
   <ul class="orbit-container">
     <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span></button>
     <button class="orbit-next"><span class="show-for-sr">Next Slide</span></button>
     {% for slide in page.slides %}
     <li class="{% if forloop.index0==0 %}is-active {% endif %} orbit-slide">
-      <div style="background-image: url('{{ slide.image }}')"></div>
+      <div style="background-image: url('{{ slide.image }}'); background-repeat: no-repeat"></div>
       <figcaption class="orbit-caption x-large">
         <div class="row columns" style="font-family: 'Open Sans'">
           <a alt="View Norstone Product" class="float-right text-shadow box-shadow-center button--main" href="{{ slide.link.href }}">{{ slide.link.text }}</a>{{ slide.caption }}
@@ -34,11 +34,13 @@ slides:
     </li>
     {% endfor %}
   </ul>
-  <nav class="orbit-bullets">
-    {% for slide in page.slides %}
-    <button data-slide="{{ forloop.index0 }}"{% if forloop.index0 == 0 %} class="is-active"{% endif %}><span class="show-for-sr"></span></button>
-    {% endfor %}
-  </nav>
+  <div class="row columns">
+    <nav class="orbit-bullets">
+      {% for slide in page.slides %}
+      <button data-slide="{{ forloop.index0 }}"{% if forloop.index0 == 0 %} class="is-active"{% endif %}><span class="show-for-sr"></span></button>
+      {% endfor %}
+    </nav>
+  </div>
 </div>
 <div class="row">
   <div class="large-4 columns" style="background: url(/assets/images/theme/divider-vertical.png) no-repeat center right scroll transparent;">
