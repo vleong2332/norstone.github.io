@@ -45,7 +45,7 @@
 }
 
 .navigation-large .menu {
-  a {
+  li a {
     font-weight: bold;
     opacity: 0.5;
     padding: 0.7rem 1.7rem;
@@ -55,6 +55,11 @@
     }
     p {
       font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+    img {
+      margin-bottom: 20px;
     }
   }
   @include breakpoint(medium) {
