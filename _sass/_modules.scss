@@ -186,20 +186,47 @@ cite {
   }
 }
 
-.collapse .pictured-product {
-  margin: 0 5px 10px;
-  min-height: 280px;
+.large-up-1 {
+  .pictured-product {
+    margin: 0 5px 10px;
+    width: auto;
+    .card--title {
+      float: none;
+      margin-top: 10px;
+      position: initial;
+      text-align: left;
+    }
+  }
+}
+
+.collapse {
+  .pictured-product {
+    margin: 0 5px 10px;
+    min-height: 280px;
+    width: auto;
+    .card--title {
+      margin-top: 10px;
+      position: initial;
+      text-align: left;
+    }
+  }
 }
 
 .card--title {
+  bottom: 0;
   color: #737373;
   display: block;
+  float: right;
   font-family: Josefin Slab;
   font-size: 24px;
   line-height: 24px;
-  margin-top: 20px;
+  position: absolute;
+  right: 4px;
+  text-align: right;
   text-transform: uppercase;
-  padding-bottom: 40px;
+  @include breakpoint(small only) {
+    position: relative;
+  }
 }
 
 .card--type {
