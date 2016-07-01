@@ -36,7 +36,7 @@ cite {
   }
   span {
     background: url("/assets/images/theme/active-arrow.png") no-repeat left center;
-    color: #1c778f;
+    color: map-get($foundation-palette, secondary);
     font-family: "Open Sans";
     font-size: 18px;
     padding: 0 0 0 20px;
@@ -62,7 +62,7 @@ cite {
   background-position: left top;
   background-repeat: no-repeat;
   border: none;
-  color: #fff;
+  color: $white;
   cursor: pointer;
   display: inline-block;
   font-family: "Open Sans";
@@ -75,14 +75,14 @@ cite {
   text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
   &:hover {
     background-position: left bottom;
-    color: #fff;
+    color: $white;
   }
 }
 
 .button--product {
   background: url('/assets/images/theme/bg-qtlinks.png') no-repeat;
   bottom: 40px;
-  color: #fff;
+  color: $white;
   display: block;
   font-family: Open Sans;
   font-size: 16px;
@@ -112,11 +112,11 @@ cite {
   user-select: none;
   width: 68px;
   path, line {
-    stroke: #6b6b6b;
+    stroke: map-get($foundation-palette, primary);
     stroke-linecap: round;
   }
   .top, .bottom {
-    background: #6b6b6b;
+    background: map-get($foundation-palette, primary);
     border-radius: 2px;
     display: block;
     height: 4px;
@@ -176,7 +176,7 @@ cite {
 }
 
 .pictured-product {
-  background-color: #fff;
+  background-color: $white;
   border: 1px solid #e6e6e6;
   box-shadow: 0 4px 5px -1px #bbb;
   padding: 5px;
@@ -276,7 +276,7 @@ cite {
 .menu {
   a {
     background-color: transparent;
-    color: #1c778f;
+    color: map-get($foundation-palette, secondary);
   }
   ul {
     margin-left: 40px;
@@ -285,8 +285,8 @@ cite {
     list-style: none;
   }
   .active > a {
-    background-color: #1c778f;
-    color: #fff;
+    background-color: map-get($foundation-palette, secondary);
+    color: $white;
   }
 }
 
@@ -360,7 +360,7 @@ cite {
     margin-left: 11px;
   }
   .orbit-container img {
-    background-color: #fff;
+    background-color: $white;
     border: 1px solid #e6e6e6;
     -moz-box-shadow: 0 4px 5px -1px #bbb;
     -webkit-box-shadow: 0 4px 5px -1px #bbb;
@@ -396,7 +396,7 @@ cite {
   border-right: 1px solid transparent;
   a {
     background-color: #cdcccc;
-    color: #6b6b6b;
+    color: map-get($foundation-palette, primary);
     padding: .5rem .8rem;
     text-transform: uppercase;
     &:hover {
@@ -429,7 +429,7 @@ cite {
 }
 
 .gallery-body {
-  background-color: #fff;
+  background-color: $white;
   border-top: 1px solid #e7e6e6;
   border-bottom: 1px solid #e7e6e6;
   margin-bottom: 20px;

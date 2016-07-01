@@ -9,9 +9,9 @@
   letter-spacing: 3px;
   text-transform: uppercase;
   text-align: center;
-  color: #83888D;
+  color: #83888d;
   span {
-    color: #1c778f;
+    color: map-get($foundation-palette, secondary);
   }
 }
 
@@ -22,25 +22,25 @@
 }
 
 a:hover {
-  color: #1c778f;
+  color: map-get($foundation-palette, secondary);
 }
 
 p {
-  color: #6b6b6b;
+  color: map-get($foundation-palette, primary);
   font-family: open sans, "Myriad Pro", Arial, Tahoma, Sans-Serif;
   font-size: 14px;
 }
 
 input[type]:not([type="submit"]), textarea, select {
-  color: #6b6b6b;
+  color: map-get($foundation-palette, primary);
 }
 
 .color-primary, a.color-primary {
-  color: #6b6b6b;
+  color: map-get($foundation-palette, primary);
 }
 
 .color-secondary, a.color-secondary {
-  color: #1c778f;
+  color: map-get($foundation-palette, secondary);
 }
 
 .x-small {

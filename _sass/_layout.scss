@@ -22,7 +22,7 @@
 
 #header {
   background: url("/assets/images/theme/header-top-angle-lines.png") repeat-x;
-  border-top: 5px #6b6b6b solid;
+  border-top: 5px map-get($foundation-palette, primary) solid;
   padding-top: 1rem;
 }
 
@@ -39,12 +39,12 @@
 }
 
 #footer {
-  background: #6b6b6b url("/assets/images/theme/banner-under-shadow-light.png") no-repeat top center;
+  background: map-get($foundation-palette, primary) url("/assets/images/theme/banner-under-shadow-light.png") no-repeat top center;
   min-height: 75px;
   margin-top: 30px;
   padding-top: 20px;
   a, p {
-    color: #fff;
+    color: $white;
     font-size: 11px;
   }
 }
@@ -149,7 +149,7 @@
     margin-bottom: 0;
   }
   h3 {
-    color: #fff;
+    color: $white;
     font-family: Josefin Slab;
     line-height: 54px;
     font-size: 65px;
