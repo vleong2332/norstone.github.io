@@ -1,6 +1,6 @@
 <div class="slideshow-with-thumbnails" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
   <h2 class="x-large color-primary">{{ page.product | upcase }}</h2>
-  <ul class="orbit-container">
+  <ul class="orbit-container clearfix">
     <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span></button>
     <button class="orbit-next"><span class="show-for-sr">Next Slide</span></button>
     {% for image in page.gallery %}
