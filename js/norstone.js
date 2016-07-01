@@ -85,4 +85,29 @@ $(function() {
       $('[data-equalizer]').delay(10).foundation('_reflow');
     }, 1000);
   }
+
+  var productTypes = loadProductTypes();
+  $(window).on('slidechange.zf.orbit', function(event, slide) {
+    loadSidebar(slide);
+  });
 });
+
+function loadSidebar(a) {
+  var block = $('.pictured-product');
+  var type = productTypes[$(a).attr('data-product-type')];
+
+  $('img', block).attr('src', type.image);
+  $('.pictured-product-title a', block).html(type.title);
+  $('.pictured-product a', block).attr('href', type.link);
+}
+
+function loadProductTypes() {
+  return $.ajax({
+    type: 'GET',
+    url: '/gallery/pictured.json',
+    dataType: 'json',
+    success: function (data) {
+      productTypes = data;
+    }
+  });
+}

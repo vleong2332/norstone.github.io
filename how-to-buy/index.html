@@ -123,8 +123,14 @@
             <div class="row" style="background-size: 100%; background-image: url(/assets/images/unsorted/How-to-Buy-InfoGraphic_1075pxV2-Orange.png); background-repeat: no-repeat; margin: 10px auto; padding-top: 420px">
               <div class="large-7 large-offset-5 columns" style="padding: 0 40px 20px">
                 <form action="/how-to-buy" accept-charset="UTF-8" method="post" enctype="multipart/form-data">
-                  <input type="text" name="field_first_name" size="60" placeholder="First name" class="required" />
-                  <input type="text" name="field_last_name" size="60" placeholder="Last name" class="required" />
+                  <div class="row">
+                    <div class="medium-6 columns">
+                      <input type="text" name="field_first_name" size="60" placeholder="First name" class="required" />
+                    </div>
+                    <div class="medium-6 columns">
+                      <input type="text" name="field_last_name" size="60" placeholder="Last name" class="required" />
+                    </div>
+                  </div>
                   <input type="text" name="field_company_name" size="60" placeholder="Company name" />
                   <div class="row">
                     <div class="medium-6 columns">
@@ -383,25 +389,31 @@
                       <input type="text" name="field_postal_code" size="60" placeholder="Postal code" class="required" />
                     </div>
                   </div>
-                  <label class="float-left" style="height: 60px">I am interested in:&nbsp;</label>
-                  <div style="color: #6b6b6b; display: inline-block">
-                    <input type="checkbox" name="interest_in_rock_panels" value="Rock Panels" /> Rock Panels
-  </div>
-                  <div style="color: #6b6b6b; display: inline-block">
-                    <input type="checkbox" name="interest_in_xl_rock_panels" value="XL Rock Panels" /> XL Rock Panels
-  </div>
-                  <div style="color: #6b6b6b; display: inline-block">
-                    <input type="checkbox" name="interest_in_basalt" value="Basalt IL Tiles" /> Basalt IL Tiles
-  </div>
-                  <div style="color: #6b6b6b; display: inline-block">
-                    <input type="checkbox" name="interest_in_basalt_3d" value="Basalt 3D" /> Basalt 3D
-  </div>
-                  <div class="row">
-                    <div class="medium-3 columns">
-                      <input type="text" name="field_quantity" size="60" placeholder="Quantity" />
+                  <div class="row collapse">
+                    <div class="small-3 columns">
+                      <label style="height: 60px;font-size: 12px">I am interested in:&nbsp;</label>
                     </div>
-                    <div class="medium-9 columns" style="color: #6b6b6b">
-                      <label class="float-left">Units:&nbsp;</label>
+                    <div class="small-9 columns">
+                      <div style="color: #6b6b6b; display: inline-block; font-size: 12px">
+                        <input type="checkbox" name="interest_in_rock_panels" value="Rock Panels" style="margin: 0" /> Rock Panels
+      </div>
+                      <div style="color: #6b6b6b; display: inline-block; font-size: 12px">
+                        <input type="checkbox" name="interest_in_xl_rock_panels" value="XL Rock Panels" style="margin: 0" /> XL Rock Panels
+      </div>
+                      <div style="color: #6b6b6b; display: inline-block; font-size: 12px">
+                        <input type="checkbox" name="interest_in_basalt" value="Basalt IL Tiles" style="margin: 0" /> Basalt IL Tiles
+      </div>
+                      <div style="color: #6b6b6b; display: inline-block; font-size: 12px">
+                        <input type="checkbox" name="interest_in_basalt_3d" value="Basalt 3D" style="margin: 0" /> Basalt 3D
+      </div>
+                    </div>
+                  </div>
+                  <div class="row collapse">
+                    <div class="small-3 columns">
+                      <input type="text" name="field_quantity" placeholder="Quantity" style="max-width: 80px" />
+                    </div>
+                    <div class="small-9 columns" style="color: #6b6b6b; font-size: 12px"">
+                      <label class="float-left" style="margin-right: 5px">Units:&nbsp;</label>
                       <input type="radio" name="field_units" value="sq. feet" /> Feet&sup2;
       <input type="radio" name="field_units" value="aq. meters" /> Meters&sup2;
     </div>
