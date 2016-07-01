@@ -2045,7 +2045,7 @@ p {
   margin-bottom: 20px;
 }
 
-body {
+.off-canvas-content {
   background: url(/assets/images/theme/bg-stripe.jpg) repeat;
 }
 
