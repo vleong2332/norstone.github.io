@@ -9,6 +9,8 @@
  * Licensed under MIT Open Source
  */
 
+@import "https://fonts.googleapis.com/css?family=Abel:regular|Josefin Slab:regular|Open+Sans:300,400,600,700,800|Open Sans Condensed:700";
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 /**
@@ -333,7 +335,7 @@ optgroup {
  */
 
 .foundation-mq {
-  font-family: "small=0em&medium=40em&large=64em&xlarge=75em&xxlarge=90em";
+  font-family: "small=0em&medium=40em&large=58.75em&xlarge=58.75em&xxlarge=58.75em";
 }
 
 html {
@@ -389,7 +391,7 @@ button {
 }
 
 .row {
-  max-width: 75rem;
+  max-width: 58.75rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -531,7 +533,7 @@ button {
   }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 58.75em) {
   .large-3 {
     width: 25%;
   }
@@ -724,7 +726,7 @@ a img {
 }
 
 hr {
-  max-width: 75rem;
+  max-width: 58.75rem;
   height: 0;
   border-right: 0;
   border-top: 0;
@@ -793,7 +795,7 @@ cite:before {
   text-align: justify;
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 58.75em) {
   .large-text-right {
     text-align: right;
   }
@@ -1244,7 +1246,7 @@ select::-ms-expand {
   }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 58.75em) {
   .menu.large-horizontal > li {
     display: table-cell;
   }
@@ -1467,7 +1469,7 @@ body {
 @media screen and (min-width: 40em) {
   .reveal {
     width: 600px;
-    max-width: 75rem;
+    max-width: 58.75rem;
   }
 }
 
@@ -1570,13 +1572,13 @@ body {
   }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 58.75em) {
   .hide-for-large {
     display: none !important;
   }
 }
 
-@media screen and (max-width: 63.9375em) {
+@media screen and (max-width: 58.6875em) {
   .show-for-large {
     display: none !important;
   }
@@ -2078,11 +2080,7 @@ body {
   font-size: 11px;
 }
 
-.row {
-  max-width: 900px;
-}
-
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 58.75em) {
   .product-header {
     background: #dfdcdc url("/assets/images/theme/banner-product-gradient.png") repeat-x;
   }
@@ -2251,9 +2249,13 @@ body {
   right: 20px;
 }
 
+#select-color {
+  margin-top: 17px;
+}
+
 .standard {
   font-family: open sans, "Myriad Pro", Arial, Tahoma, Sans-Serif;
-  margin: 35px 0;
+  margin: 35px 0 10px;
   font-size: 23px;
   line-height: 36px;
   font-weight: lighter;
@@ -2318,8 +2320,9 @@ a.color-secondary {
 
 .xx-large {
   font-family: "Open Sans";
-  font-size: 42px;
+  font-size: 40px;
   font-weight: lighter;
+  letter-spacing: -2px;
 }
 
 .products-overview .tabs-title a {
@@ -2342,7 +2345,7 @@ a.color-secondary {
   font-size: 14px;
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 58.75em) {
   #norstone-menu {
     background-image: url(/assets/images/theme/navbar-bg.jpg);
     background-repeat: repeat;
@@ -2386,20 +2389,28 @@ a.color-secondary {
   display: inline-block;
 }
 
-.navigation-large .menu a {
+.navigation-large .menu li a {
   font-weight: bold;
+  margin: 0 15px;
   opacity: 0.5;
-  padding: 0.7rem 1.7rem;
+  padding: 0;
   text-transform: uppercase;
+  width: 113px;
 }
 
-.navigation-large .menu a:hover,
-.navigation-large .menu a.active {
+.navigation-large .menu li a:hover,
+.navigation-large .menu li a.active {
   opacity: 1;
 }
 
-.navigation-large .menu a p {
+.navigation-large .menu li a p {
   font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.navigation-large .menu li a img {
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 40em) {
@@ -2423,7 +2434,7 @@ a.color-secondary {
 }
 
 .navigation-small {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   padding-bottom: 6px;
 }
 
@@ -2543,9 +2554,10 @@ cite:before {
   display: inline-block;
   font-family: "Open Sans";
   font-size: 19px;
+  font-weight: 600;
   height: 37px;
   line-height: 37px;
-  padding: 0 20px;
+  padding: 0 15px;
   text-align: center;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
@@ -2666,27 +2678,55 @@ cite:before {
   position: relative;
 }
 
-@media screen and (max-width: 63.9375em) {
+@media screen and (max-width: 58.6875em) {
   .pictured-product {
     margin: 0 auto;
     width: 200px;
   }
 }
 
+.large-up-1 .pictured-product {
+  margin: 0 5px 10px;
+  width: auto;
+}
+
+.large-up-1 .pictured-product .card--title {
+  float: none;
+  margin-top: 10px;
+  position: initial;
+  text-align: left;
+}
+
 .collapse .pictured-product {
   margin: 0 5px 10px;
   min-height: 280px;
+  width: auto;
+}
+
+.collapse .pictured-product .card--title {
+  margin-top: 10px;
+  position: initial;
+  text-align: left;
 }
 
 .card--title {
+  bottom: 0;
   color: #737373;
   display: block;
+  float: right;
   font-family: Josefin Slab;
   font-size: 24px;
   line-height: 24px;
-  margin-top: 20px;
+  position: absolute;
+  right: 4px;
+  text-align: right;
   text-transform: uppercase;
-  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .card--title {
+    position: relative;
+  }
 }
 
 .card--type {
@@ -2732,6 +2772,12 @@ cite:before {
   line-height: 28px;
 }
 
+.color-styles > div {
+  margin-right: 20px;
+  float: left;
+  width: 70px;
+}
+
 .menu a {
   background-color: transparent;
   color: #1c778f;
@@ -2752,7 +2798,7 @@ cite:before {
 
 .product-color {
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   width: 100%;
   display: inline-block;
   position: relative;
@@ -2768,12 +2814,9 @@ cite:before {
   content: '';
 }
 
-.product-color div {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
+.product-color.active {
+  border: 4px solid #4fb2d5;
+  box-shadow: inset 0 0 40px #000;
 }
 
 .orbit-container:hover .orbit-previous,
