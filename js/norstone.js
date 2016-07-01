@@ -80,7 +80,9 @@ $(function() {
   })
 
   // Fix accordion + equalizer bug.
-  setTimeout(function() {
-    $('[data-equalizer]').delay(10).foundation('_reflow');
-  }, 1000);
+  if (Foundation.MediaQuery.atLeast('medium')) {
+    setTimeout(function() {
+      $('[data-equalizer]').delay(10).foundation('_reflow');
+    }, 1000);
+  }
 });
