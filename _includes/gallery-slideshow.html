@@ -9,6 +9,8 @@
     </li>
     {% endfor %}
   </ul>
+  <a class="float-left scroll-left xx-large color-primary" style="padding: 0 10px" href="#">&lsaquo;</a>
+  <a class="float-right scroll-right xx-large color-primary" style="padding: 0 10px" href="#">&rsaquo;</a>
   <nav class="orbit-bullets">
     {% for image in page.gallery %}
     <button data-slide="{{ forloop.index0 }}"{% if image.type %} data-product-type="{{ image.type }}"{% endif %}>

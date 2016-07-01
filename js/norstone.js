@@ -58,4 +58,24 @@ $(function() {
       $mobile_accordion_content.addClass('accordion-content').hide();
     }
   });
+
+  // Scrolling for galleries.
+  var $thumbs = $('.orbit-bullets');
+  var thumbScrollWidth = $thumbs.width();
+
+  $('.scroll-left').click(function(e) {
+    $thumbs.animate(
+      { scrollLeft: '-=' + thumbScrollWidth }, 1000
+    );
+
+    return false;
+  })
+
+  $('.scroll-right').click(function(e) {
+    $thumbs.animate(
+      { scrollLeft: '+=' + thumbScrollWidth }, 1000
+    );
+
+    return false;
+  })
 });

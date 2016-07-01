@@ -8,6 +8,8 @@
     </li>
     {% endfor %}
   </ul>
+  <a class="float-left scroll-left xx-large color-primary" style="padding: 0 10px" href="#">&lsaquo;</a>
+  <a class="float-right scroll-right xx-large color-primary" style="padding: 0 10px" href="#">&rsaquo;</a>
   <nav class="orbit-bullets">
     {% for slide in page.slides %}
     <button data-slide="{{ forloop.index0 }}"><img src="{{ slide.image }}" alt="{{ slide.title }}" title="" width="76" height="47"{% if forloop.index0 == 0 %} class="is-active"{% endif %} /></button>
