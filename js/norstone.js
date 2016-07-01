@@ -78,4 +78,11 @@ $(function() {
 
     return false;
   })
+
+  // Fix accordion + equalizer bug.
+  if (Foundation.MediaQuery.atLeast('medium')) {
+    setTimeout(function() {
+      $('[data-equalizer]').delay(10).foundation('_reflow');
+    }, 1000);
+  }
 });
