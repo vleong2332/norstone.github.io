@@ -310,12 +310,6 @@ cite {
   }
 }
 
-.orbit-container:hover {
-  .orbit-previous, .orbit-next {
-    display: inline-block;
-  }
-}
-
 .orbit-container {
   @include breakpoint(small only) {
     figcaption {

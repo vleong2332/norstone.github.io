@@ -95,6 +95,7 @@ $(function() {
     }
   });
 
+  // Update pictured product during gallery transition.
   $(window).on('slidechange.zf.orbit', function(event, slide) {
     var block = $('.pictured-product');
     var type = productTypes[$(slide).attr('data-product-type')];
@@ -102,5 +103,14 @@ $(function() {
     $('img', block).attr('src', type.image);
     $('.pictured-product-title a', block).html(type.title);
     $('.pictured-product a', block).attr('href', type.link);
+  });
+
+  // Fade in/out gallery navigation arrows on hover.
+  $('.orbit-container').hover(function() {
+    $('.orbit-previous', this).fadeIn('slow');
+    $('.orbit-next', this).fadeIn('slow');
+  }, function() {
+    $('.orbit-previous', this).fadeOut('slow');
+    $('.orbit-next', this).fadeOut('slow');
   });
 });
