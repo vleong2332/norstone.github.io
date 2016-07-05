@@ -175,7 +175,7 @@ cite {
   padding: 10px 0 10px 40px;
 }
 
-.pictured-product {
+.card {
   background-color: $white;
   border: 1px solid #e6e6e6;
   box-shadow: 0 4px 5px -1px #bbb;
@@ -188,7 +188,7 @@ cite {
 }
 
 .large-up-1 {
-  .pictured-product {
+  .card {
     margin: 0 5px 10px;
     width: auto;
     .card--title {
@@ -201,7 +201,7 @@ cite {
 }
 
 .collapse {
-  .pictured-product {
+  .card {
     margin: 0 5px 10px;
     min-height: 280px;
     width: auto;
