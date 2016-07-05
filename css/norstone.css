@@ -2677,7 +2677,7 @@ cite:before {
   padding: 10px 0 10px 40px;
 }
 
-.pictured-product {
+.card {
   background-color: #fefefe;
   border: 1px solid #e6e6e6;
   box-shadow: 0 4px 5px -1px #bbb;
@@ -2686,31 +2686,31 @@ cite:before {
 }
 
 @media screen and (max-width: 58.6875em) {
-  .pictured-product {
+  .card {
     margin: 0 auto;
     width: 200px;
   }
 }
 
-.large-up-1 .pictured-product {
+.large-up-1 .card {
   margin: 0 5px 10px;
   width: auto;
 }
 
-.large-up-1 .pictured-product .card--title {
+.large-up-1 .card .card--title {
   float: none;
   margin-top: 10px;
   position: initial;
   text-align: left;
 }
 
-.collapse .pictured-product {
+.collapse .card {
   margin: 0 5px 10px;
   min-height: 280px;
   width: auto;
 }
 
-.collapse .pictured-product .card--title {
+.collapse .card .card--title {
   margin-top: 10px;
   position: initial;
   text-align: left;
@@ -2824,11 +2824,6 @@ cite:before {
 .product-color.active {
   border: 4px solid #4fb2d5;
   box-shadow: inset 0 0 40px #000;
-}
-
-.orbit-container:hover .orbit-previous,
-.orbit-container:hover .orbit-next {
-  display: inline-block;
 }
 
 @media screen and (max-width: 39.9375em) {

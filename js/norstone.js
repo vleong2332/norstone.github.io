@@ -86,23 +86,8 @@ $(function() {
     }, 1000);
   }
 
-  var productTypes = loadProductTypes();
-  $(window).on('slidechange.zf.orbit', function(event, slide) {
-    loadSidebar(slide);
-  });
-});
-
-function loadSidebar(a) {
-  var block = $('.pictured-product');
-  var type = productTypes[$(a).attr('data-product-type')];
-
-  $('img', block).attr('src', type.image);
-  $('.pictured-product-title a', block).html(type.title);
-  $('.pictured-product a', block).attr('href', type.link);
-}
-
-function loadProductTypes() {
-  return $.ajax({
+  var productTypes = [];
+  $.ajax({
     type: 'GET',
     url: '/gallery/pictured.json',
     dataType: 'json',
@@ -110,4 +95,26 @@ function loadProductTypes() {
       productTypes = data;
     }
   });
-}
+
+  // Update pictured product during gallery transition.
+  $(window).on('slidechange.zf.orbit', function(event, slide) {
+    var $slide = $(slide);
+    if (slide.attr('data-product-type')) {
+      var block = $('.pictured-product');
+      var type = productTypes[$(slide).attr('data-product-type')];
+
+      $('img', block).attr('src', type.image);
+      $('.pictured-product-title a', block).html(type.title);
+      $('.pictured-product a', block).attr('href', type.link);
+    }
+  });
+
+  // Fade in/out gallery navigation arrows on hover.
+  $('.orbit-container').hover(function() {
+    $('.orbit-previous', this).fadeIn('slow');
+    $('.orbit-next', this).fadeIn('slow');
+  }, function() {
+    $('.orbit-previous', this).fadeOut('slow');
+    $('.orbit-next', this).fadeOut('slow');
+  });
+});
