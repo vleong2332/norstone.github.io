@@ -23,7 +23,7 @@ build:
     - bundle-install
     - script:
         name: install uncss
-        code: npm install -g uncss
+        code: npm install -g uncss@0.13.0
     - script:
         name: generate site
         code: bundle exec jekyll build --trace
