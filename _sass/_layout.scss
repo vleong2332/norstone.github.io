@@ -145,12 +145,6 @@
   }
 }
 
-@include breakpoint(medium) {
-  .product-category h3 {
-    margin: 180px 0 10px;
-  }
-}
-
 .product-category {
   h2 {
     float: left;
@@ -216,6 +210,19 @@
     bottom: 20px;
     position: absolute;
     right: 20px;
+  }
+}
+
+.products-overview .tabs-panel {
+  .left {
+    bottom: 40px;
+    left: 20px;
+    position: absolute;
+  }
+  .right {
+    bottom: 40px;
+    right: 20px;
+    position: absolute;
   }
 }
 
