@@ -49,6 +49,15 @@
   }
 }
 
+#gallery-type {
+  @include breakpoint(medium) {
+    margin-top: 7px;
+  }
+  @include breakpoint(small) {
+    margin-top: 50px;
+  }
+}
+
 @include breakpoint(large) {
   .product-header {
     background: #dfdcdc url('/assets/images/theme/banner-product-gradient.png') repeat-x;
