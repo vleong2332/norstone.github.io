@@ -150,6 +150,9 @@
     float: left;
     line-height: 29px;
     margin-bottom: 0;
+    @include breakpoint(small only) {
+      float: right;
+    }
   }
   h3 {
     color: $white;
@@ -165,6 +168,9 @@
     float: right;
     height: auto;
     text-transform: lowercase;
+    @include breakpoint(medium down) {
+      clear: right;
+    }
     li {
       float: left;
       height: 34px;
