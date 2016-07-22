@@ -2203,16 +2203,16 @@ p {
   background-position: -101px -43px;
 }
 
-@media screen and (min-width: 40em) {
-  .product-category h3 {
-    margin: 180px 0 10px;
-  }
-}
-
 .product-category h2 {
   float: left;
   line-height: 29px;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .product-category h2 {
+    float: right;
+  }
 }
 
 .product-category h3 {
@@ -2230,6 +2230,12 @@ p {
   float: right;
   height: auto;
   text-transform: lowercase;
+}
+
+@media screen and (max-width: 58.6875em) {
+  .product-category .tabs {
+    clear: right;
+  }
 }
 
 .product-category .tabs li {
@@ -2282,6 +2288,18 @@ p {
   bottom: 20px;
   position: absolute;
   right: 20px;
+}
+
+.products-overview .tabs-panel .left {
+  bottom: 40px;
+  left: 20px;
+  position: absolute;
+}
+
+.products-overview .tabs-panel .right {
+  bottom: 40px;
+  right: 20px;
+  position: absolute;
 }
 
 #select-color {
@@ -2813,6 +2831,12 @@ cite:before {
   background-position: 0 -220px;
   height: 22px;
   line-height: 28px;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .color-styles {
+    width: 200px;
+  }
 }
 
 .color-styles > div {
