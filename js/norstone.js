@@ -99,9 +99,9 @@ $(function() {
   // Update pictured product during gallery transition.
   $(window).on('slidechange.zf.orbit', function(event, slide) {
     var $slide = $(slide);
-    if (slide.attr('data-product-type')) {
+    if ($slide.attr('data-product-type')) {
       var block = $('.pictured-product');
-      var type = productTypes[$(slide).attr('data-product-type')];
+      var type = productTypes[$slide.attr('data-product-type')];
 
       $('img', block).attr('src', type.image);
       $('.pictured-product-title a', block).html(type.title);
