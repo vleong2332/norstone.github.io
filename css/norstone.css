@@ -492,6 +492,23 @@ button {
   float: left;
 }
 
+.small-up-2 > .column {
+  width: 50%;
+  float: left;
+}
+
+.small-up-2 > .column:nth-of-type(1n) {
+  clear: none;
+}
+
+.small-up-2 > .column:nth-of-type(2n+1) {
+  clear: both;
+}
+
+.small-up-2 > .column:last-child {
+  float: left;
+}
+
 @media screen and (min-width: 40em) {
   .medium-push-2 {
     position: relative;
@@ -2086,6 +2103,16 @@ p {
 #footer p {
   color: #fefefe;
   font-size: 11px;
+}
+
+#gallery-type {
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 40em) {
+  #gallery-type {
+    margin-top: 7px;
+  }
 }
 
 @media screen and (min-width: 58.75em) {
