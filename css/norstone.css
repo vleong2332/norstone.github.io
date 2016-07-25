@@ -639,6 +639,7 @@ button {
     float: left;
   }
 
+  .large-collapse > .column,
   .large-collapse > .columns {
     padding-left: 0;
     padding-right: 0;
@@ -2837,12 +2838,6 @@ cite:before {
   background-position: 0 -220px;
   height: 22px;
   line-height: 28px;
-}
-
-@media screen and (max-width: 39.9375em) {
-  .color-styles {
-    width: 200px;
-  }
 }
 
 .color-styles > div {
