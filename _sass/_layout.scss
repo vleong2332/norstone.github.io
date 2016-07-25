@@ -82,6 +82,11 @@
 .slider-main {
   margin-bottom: 30px;
   position: relative;
+  .orbit-slide > div {
+    @include breakpoint(xxlarge) {
+      background-size: 100%;
+    }
+  }
   .orbit-bullets {
     margin: 0;
     position: absolute;
