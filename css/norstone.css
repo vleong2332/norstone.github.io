@@ -335,7 +335,7 @@ optgroup {
  */
 
 .foundation-mq {
-  font-family: "small=0em&medium=40em&large=58.75em&xlarge=58.75em&xxlarge=58.75em";
+  font-family: "small=0em&medium=40em&large=58.75em&xlarge=58.75em&xxlarge=100em";
 }
 
 html {
@@ -2147,6 +2147,12 @@ p {
   position: relative;
 }
 
+@media screen and (min-width: 100em) {
+  .slider-main .orbit-slide > div {
+    background-size: 100%;
+  }
+}
+
 .slider-main .orbit-bullets {
   margin: 0;
   position: absolute;
@@ -2843,6 +2849,12 @@ cite:before {
   margin-right: 20px;
   float: left;
   width: 70px;
+}
+
+.image-shadow {
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
 }
 
 .menu a {
