@@ -268,15 +268,10 @@ cite {
   }
 }
 
-.color-styles {
-  @include breakpoint(small only) {
-    width: 200px;
-  }
-  > div {
-    margin-right: 20px;
-    float: left;
-    width: 70px;
-  }
+.color-styles > div {
+  margin-right: 20px;
+  float: left;
+  width: 70px;
 }
 
 .image-shadow {
