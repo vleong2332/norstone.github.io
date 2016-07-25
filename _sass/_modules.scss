@@ -378,6 +378,7 @@ cite {
   }
   .orbit-bullets {
     overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
     white-space: nowrap;
     button {
       background: transparent;
