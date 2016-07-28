@@ -21,8 +21,8 @@
   letter-spacing: 3px
 }
 
-a:hover {
-  color: map-get($foundation-palette, secondary);
+a, a:hover {
+  color: #4fb1d5;
 }
 
 p {

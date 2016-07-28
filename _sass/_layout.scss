@@ -172,6 +172,7 @@
     border: none;
     float: right;
     height: auto;
+    margin-top: 5px;
     text-transform: lowercase;
     @include breakpoint(medium down) {
       clear: right;

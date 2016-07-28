@@ -396,6 +396,9 @@ cite {
 
 .tabs-title {
   border-right: 1px solid transparent;
+  @include breakpoint(small only) {
+    margin-bottom: 1px;
+  }
   a {
     background-color: #cdcccc;
     color: map-get($foundation-palette, primary);
