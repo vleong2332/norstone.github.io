@@ -2236,6 +2236,7 @@ p {
   border: none;
   float: right;
   height: auto;
+  margin-top: 5px;
   text-transform: lowercase;
 }
 
@@ -2335,8 +2336,9 @@ p {
   letter-spacing: 3px;
 }
 
+a,
 a:hover {
-  color: #1c778f;
+  color: #4fb1d5;
 }
 
 p {
