@@ -88,7 +88,7 @@ $(function() {
 
   var productTypes = [];
 
-  $.get('/gallery/pictured.json')
+  $.getJSON('/gallery/pictured.json')
     .done(function(data) {
       productTypes = data;
       $(window).on('slidechange.zf.orbit', function(event, slide) {
