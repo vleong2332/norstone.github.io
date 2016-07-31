@@ -86,28 +86,28 @@ $(function() {
     }, 1000);
   }
 
-  var productTypes = [];
-  $.ajax({
-    type: 'GET',
-    url: '/gallery/pictured.json',
-    dataType: 'json',
-    success: function (data) {
+  var productTypes = {};
+
+  $.getJSON('/gallery/pictured.json')
+    .done(function(data) {
       productTypes = data;
-    }
-  });
+      $(window).on('slidechange.zf.orbit', function(event, slide) {
+        var $slide = $(slide);
+        if ($slide.attr('data-product-type')) {
+          var block = $('.pictured-product .card');
+          var type = productTypes[$slide.attr('data-product-type')];
 
-  // Update pictured product during gallery transition.
-  $(window).on('slidechange.zf.orbit', function(event, slide) {
-    var $slide = $(slide);
-    if ($slide.attr('data-product-type')) {
-      var block = $('.pictured-product .card');
-      var type = productTypes[$slide.attr('data-product-type')];
+          $('img', block).attr('src', type.image);
+          $('.card--title', block).html(type.title);
+          $('a', block).attr('href', type.link);
+        }
+      });
+    })
+    .fail(function(e) {
+      console.log(e);
+    });
 
-      $('img', block).attr('src', type.image);
-      $('.pictured-product-title a', block).html(type.title);
-      $('.pictured-product .card a', block).attr('href', type.link);
-    }
-  });
+
 
   // Fade in/out gallery navigation arrows on hover.
   $('.orbit-container').hover(function() {
