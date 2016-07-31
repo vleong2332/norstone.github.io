@@ -83,6 +83,9 @@
   @include breakpoint(small only) {
     height: 300px;
   }
+  @include breakpoint(medium down) {
+    box-shadow: inset 0 10px 20px 0 #333;
+  }
 }
 
 .slider-main {
