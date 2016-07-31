@@ -100,12 +100,12 @@ $(function() {
   $(window).on('slidechange.zf.orbit', function(event, slide) {
     var $slide = $(slide);
     if ($slide.attr('data-product-type')) {
-      var block = $('.pictured-product');
+      var block = $('.pictured-product .card');
       var type = productTypes[$slide.attr('data-product-type')];
 
       $('img', block).attr('src', type.image);
       $('.pictured-product-title a', block).html(type.title);
-      $('.pictured-product a', block).attr('href', type.link);
+      $('.pictured-product .card a', block).attr('href', type.link);
     }
   });
 

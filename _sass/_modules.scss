@@ -179,37 +179,42 @@ cite {
   background-color: $white;
   border: 1px solid #e6e6e6;
   box-shadow: 0 4px 5px -1px #bbb;
+  margin: 0 5px 10px;
   padding: 5px;
   position: relative;
-  @include breakpoint(medium down) {
-    margin: 0 auto;
-    width: 200px;
-  }
+  width: auto;
 }
 
-.large-up-1 {
-  .card {
-    margin: 0 5px 10px;
-    width: auto;
-    .card--title {
-      float: none;
-      margin-top: 10px;
-      position: initial;
-      text-align: left;
-    }
-  }
-}
-
-.collapse {
+.other-galleries {
   .card {
     margin: 0 5px 10px;
     min-height: 280px;
-    width: auto;
-    .card--title {
-      margin-top: 10px;
-      position: initial;
-      text-align: left;
+    width: initial;
+    @include breakpoint (large) {
+      .card--image {
+        margin-bottom: 0;
+      }
+      .card--title {
+        float: none;
+        margin: 10px 0 20px;
+        position: initial;
+        text-align: left;
+      }
     }
+  }
+}
+
+.pictured-product .card {
+  margin: 0 5px 10px;
+  width: initial;
+  .card--image {
+    margin-bottom: 0;
+  }
+  .card--title {
+    float: none;
+    margin: 10px 0 20px;
+    position: initial;
+    text-align: left;
   }
 }
 
@@ -225,9 +230,12 @@ cite {
   right: 4px;
   text-align: right;
   text-transform: uppercase;
-  @include breakpoint(small only) {
-    position: relative;
-  }
+  width: 50%;
+}
+
+.card--image {
+  display: block;
+  margin-bottom: 55px;
 }
 
 .card--type {
