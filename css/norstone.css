@@ -2127,6 +2127,12 @@ p {
   padding: 30px 0;
 }
 
+@media screen and (max-width: 58.6875em) {
+  .product-body h2 {
+    padding-top: 20px;
+  }
+}
+
 .orbit-container li > div {
   background-position: center center;
 }
@@ -2604,6 +2610,7 @@ cite:before {
   text-transform: uppercase;
 }
 
+.mobile-accordion .is-active .accordion-title span,
 .accordion-item.is-active span {
   background: url("/assets/images/theme/active-arrow-down.png") no-repeat left center;
 }
@@ -2744,37 +2751,43 @@ cite:before {
   background-color: #fefefe;
   border: 1px solid #e6e6e6;
   box-shadow: 0 4px 5px -1px #bbb;
+  margin: 0 5px 10px;
   padding: 5px;
   position: relative;
+  width: auto;
 }
 
-@media screen and (max-width: 58.6875em) {
-  .card {
-    margin: 0 auto;
-    width: 200px;
+.other-galleries .card {
+  margin: 0 5px 10px;
+  min-height: 280px;
+  width: initial;
+}
+
+@media screen and (min-width: 58.75em) {
+  .other-galleries .card .card--image {
+    margin-bottom: 0;
+  }
+
+  .other-galleries .card .card--title {
+    float: none;
+    margin: 10px 0 20px;
+    position: initial;
+    text-align: left;
   }
 }
 
-.large-up-1 .card {
+.pictured-product .card {
   margin: 0 5px 10px;
-  width: auto;
+  width: initial;
 }
 
-.large-up-1 .card .card--title {
+.pictured-product .card .card--image {
+  margin-bottom: 0;
+}
+
+.pictured-product .card .card--title {
   float: none;
-  margin-top: 10px;
-  position: initial;
-  text-align: left;
-}
-
-.collapse .card {
-  margin: 0 5px 10px;
-  min-height: 280px;
-  width: auto;
-}
-
-.collapse .card .card--title {
-  margin-top: 10px;
+  margin: 10px 0 20px;
   position: initial;
   text-align: left;
 }
@@ -2791,12 +2804,12 @@ cite:before {
   right: 4px;
   text-align: right;
   text-transform: uppercase;
+  width: 50%;
 }
 
-@media screen and (max-width: 39.9375em) {
-  .card--title {
-    position: relative;
-  }
+.card--image {
+  display: block;
+  margin-bottom: 55px;
 }
 
 .card--type {
@@ -2983,6 +2996,12 @@ cite:before {
 
 .tabs-title {
   border-right: 1px solid transparent;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .tabs-title {
+    margin-bottom: 1px;
+  }
 }
 
 .tabs-title a {
