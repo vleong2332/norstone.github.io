@@ -1,5 +1,6 @@
 ---
 title: Have A Seat, Let's Talk About Slate Tile
+image: /assets/images/blog/Slate-Stone-Blog.jpg
 excerpt: Slate tile and other sedimentary based stone tiles are wildly popular due to their range of colors, ease of use, and in many instances, great value. While these products aren't as durable as most ceramics or porcelain tiles, slate tile and other stone tiles can be easily maintained with a few simple steps and will offer the uniquely natural qualities that a manufactured product just won't have. Read on for some tips about caring for your slate tile and other sedimentary based stone tiles.
 ---
 

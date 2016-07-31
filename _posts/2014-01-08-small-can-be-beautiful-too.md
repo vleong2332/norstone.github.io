@@ -1,5 +1,6 @@
 ---
 title: Small Can Be Beautiful Too
+image: /assets/images/blog/Small-is-Beautiful-Design.jpg
 excerpt: A small home made almost completely of larch wood in Austria dazzles us with its imaginative composition of traditionalism and futurism. Simply stunning, come check this gem out.
 ---
 

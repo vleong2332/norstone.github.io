@@ -1,5 +1,6 @@
 ---
 title: The Basics of Sustainable Architecture
+image: /assets/images/blog/SustainableArchitectureBlog1.jpg
 excerpt:  In the not-too-distant future, we’ll look back effortlessly through our 3-D screens at the hallmark trends of today, and one thing that is sure to stand out as so remarkably simple yet so important that happened during this time is the revolution in design known as Sustainable Architecture. It is, without question, the Architecture and Design industry’s biggest fundamental shift of today, and is embedding itself in every fabric of our future. Let's discuss some of the important principles involved in Sustainable Architecture, and see what shakes out.
 ---
 

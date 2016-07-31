@@ -1,5 +1,6 @@
 ---
 title: Norstone Industry Series - Tumbled Stone
+image: /assets/images/blog/Tumbled-Stone-Blog.jpg
 excerpt: Tumbled Stone is to polished marble as those $500 "vintage" designer jeans are to a brand new pair of Levis. Have no fear Norstonians, this isn't SAT English - but it is our latest Blog where we take a closer look at what all the fuss is about when you take a perfectly good stone and make it look old.
 ---
 

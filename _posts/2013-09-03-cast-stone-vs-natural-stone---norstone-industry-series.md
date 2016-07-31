@@ -1,5 +1,6 @@
 ---
 title: Cast Stone vs Natural Stone – Norstone Industry Series
+image: /assets/images/blog/Real-Fake(1).jpg
 excerpt:  What are the big differences between natural stone and cast, or manmade, stone products - and why are those differences important?  Here's a high level industry targeted look at the differences and some guidance on picking the right material for your project.
 ---
 

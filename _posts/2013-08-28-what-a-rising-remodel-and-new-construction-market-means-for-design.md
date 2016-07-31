@@ -1,5 +1,6 @@
 ---
 title: What A Rising Remodel and New Construction Market Means for Design
+image: /assets/images/blog/NaturalStoneDesignTrends.png
 excerpt:  As the economy continues its steady climb and the residential markets become less acrimonious to first time home buyers and investors once again, designing a space with a strong personal signature has become the hallmark trend of today’s emerging remodel and new construction market. Creating a space that is uniquely yours means finding materials that set you apart. With this increased demand for higher end materials comes a growing landscape of suppliers and vendors like Norstone that are rising up to meet your needs. This guide will review the essentials to ensure you choose a vendor who cares about your signature design as much as you do.
 ---
 

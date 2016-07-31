@@ -1,5 +1,6 @@
 ---
 title: Design Your Patio with Natural Stone
+image: /assets/images/blog/Natural-Stone-Patio-Banner.jpg
 excerpt:  For many people, outdoor living space is more than just a nice feature, it's a necessity. Whether it's a small rooftop terrace overlooking a city skyline or a large space shaded in the leafy suburbs, outdoor spaces allow us to look away from the glare of our screens, breathe some fresh air and reconnect with nature. Natural stone finish options abound in these spaces and can be used on flooring, walls, seating and speciality features like outdoor grill islands and water features. This article visits on relevant design ideas and concepts for natural stone patios.
 ---
 [![](/assets/images/blog/Natural-Stone-Patio-Banner.jpg)]({{ page.url }})

@@ -1,5 +1,6 @@
 ---
 title: What the term "Split Face" actually means...
+image: /assets/images/blog/SplitFace.jpg
 excerpt:  If you've ever heard the term "split face" in reference to a building material and weren't quite sure what that meant - you're not alone! This is maybe one of the broadest and most over-used terms in the stone industry and can be used to describe almost any product with a natural, unprocessed finish. Today's blog discusses more about what split face means throughout the industry, how split face products are made, and why they might be a good fit for your next project!
 ---
 
