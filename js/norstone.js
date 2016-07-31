@@ -87,14 +87,14 @@ $(function() {
   }
 
   var productTypes = [];
-  $.ajax({
-    type: 'GET',
-    url: '/gallery/pictured.json',
-    dataType: 'json',
-    success: function (data) {
+
+  $.get('/gallery/pictured.json')
+    .done(function(data) {
       productTypes = data;
-    }
-  });
+    })
+    .fail(function(e) {
+      console.log(e);
+    });
 
   // Update pictured product during gallery transition.
   $(window).on('slidechange.zf.orbit', function(event, slide) {
