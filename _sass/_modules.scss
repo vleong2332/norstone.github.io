@@ -43,8 +43,7 @@ cite {
     text-transform: uppercase;
   }
 }
-
-.accordion-item.is-active span {
+.mobile-accordion .is-active .accordion-title span, .accordion-item.is-active span {
   background: url("/assets/images/theme/active-arrow-down.png") no-repeat left center;
 }
 
