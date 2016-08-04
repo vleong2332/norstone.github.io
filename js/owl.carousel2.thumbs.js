@@ -152,6 +152,7 @@
 
         //set default options
         var options = this.owl.options;
+        $('<a class="float-left scroll-left xx-large color-primary" style="padding: 0 10px" href="#">‹</a><a class="float-right scroll-right xx-large color-primary" style="padding: 0 10px" href="#">›</a>').appendTo(this.$element);
 
         //create thumbcontainer
         if (!options.thumbsPrerendered) {
