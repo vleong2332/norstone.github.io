@@ -60,18 +60,19 @@ $(function() {
   });
 
   // Scrolling for galleries.
-  var $thumbs = $('.orbit-bullets');
-  var thumbScrollWidth = $thumbs.width();
-
-  $('.scroll-left').click(function(e) {
+  $('body').on('click', '.scroll-left', function(e) {
+    var $thumbs = $('.owl-thumbs');
+    var thumbScrollWidth = $thumbs.width();
     $thumbs.animate(
       { scrollLeft: '-=' + thumbScrollWidth }, 1000
     );
 
     return false;
-  })
+  });
 
-  $('.scroll-right').click(function(e) {
+  $('body').on('click', '.scroll-right', function(e) {
+    var $thumbs = $('.owl-thumbs');
+    var thumbScrollWidth = $thumbs.width();
     $thumbs.animate(
       { scrollLeft: '+=' + thumbScrollWidth }, 1000
     );
@@ -91,8 +92,9 @@ $(function() {
   $.getJSON('/gallery/pictured.json')
     .done(function(data) {
       productTypes = data;
-      $(window).on('slidechange.zf.orbit', function(event, slide) {
-        var $slide = $(slide);
+      $slider.on('changed.owl.carousel', function(event) {
+        var images = $('.owl-item')
+        var $slide = $('.orbit-slide', images[event.item.index]);
         if ($slide.attr('data-product-type')) {
           var block = $('.pictured-product .card');
           var type = productTypes[$slide.attr('data-product-type')];
@@ -107,7 +109,62 @@ $(function() {
       console.log(e);
     });
 
+  var $slider = $('.owl-carousel').owlCarousel({
+    items: 1,
+    dots: false,
+    nav: true,
+    navText: false,
+    navContainer: '.owl-nav',
+    loop: true,
+    thumbs: true,
+    thumbImage: true
+  });
 
+  // Build select list for filter.
+  var filterOptions = [];
+  $('.orbit-slide').each(function() {
+    var $tags = $(this).data('tags');
+    if ($tags) {
+      for (var i = 0; i < $tags.length; i++) {
+        if (filterOptions.indexOf($tags[i]) == -1) {
+          filterOptions.push($tags[i]);
+        }
+      }
+    }
+  });
+  filterOptions.sort();
+
+  if (filterOptions.length > 0) {
+    var $select = $('<select><option value="">Sort This Gallery</option>');
+
+    for (var i = 0; i < filterOptions.length; i++) {
+      var opt = filterOptions[i];
+      $select.append($("<option>").attr('value', opt).text(opt));
+    }
+
+    // Add the select list below "Additional Galleries".
+    $('.gallery-drop').append($select);
+
+    // Make a clone of slides for filtering.
+    $slides = $('.owl-item').clone();
+
+    // Filter the gallery based off the selection.
+    $select.on('change', function() {
+      var content = '';
+      if (this.value != '') {
+        $("> div[data-tags*='" + this.value + "']", $slides).each(function() {
+          content += this.outerHTML;
+        });
+      } else {
+        $slides.each(function() {
+          content += this.outerHTML;
+        })
+      }
+
+      $slider.trigger('replace.owl.carousel', content);
+      $slider.trigger('refresh.owl.carousel');
+    });
+  }
 
   // Fade in/out gallery navigation arrows on hover.
   $('.orbit-container').hover(function() {
@@ -116,5 +173,13 @@ $(function() {
   }, function() {
     $('.orbit-previous', this).fadeOut('slow');
     $('.orbit-next', this).fadeOut('slow');
+  });
+
+  $('.slideshow').hover(function() {
+    $('.owl-prev', this).fadeIn('slow');
+    $('.owl-next', this).fadeIn('slow');
+  }, function() {
+    $('.owl-prev', this).fadeOut('slow');
+    $('.owl-next', this).fadeOut('slow');
   });
 });
