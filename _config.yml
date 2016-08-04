@@ -38,6 +38,7 @@ sass:
     - _sass
     - bower_components/foundation-sites/scss
     - bower_components/motion-ui/src
+    - bower_components/owl.carousel/src/scss
 uncss:
   stylesheets:            # a list of stylesheets to be processed; mandatory
     - css/norstone.css

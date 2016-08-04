@@ -5,6 +5,7 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import 'owl.carousel';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -50,6 +51,12 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+@import 'core';
+@import 'animate';
+@import 'autoheight';
+@import 'lazyload';
+@import 'video';
 
 @import "reset";
 @import "layout";
