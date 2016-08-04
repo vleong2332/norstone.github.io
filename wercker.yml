@@ -22,9 +22,6 @@ build:
           export LANGUAGE=en_US.UTF-8
     - bundle-install
     - script:
-        name: install uncss
-        code: npm install -g uncss@0.13.0
-    - script:
         name: generate site
         code: bundle exec jekyll build --trace
     - script:
