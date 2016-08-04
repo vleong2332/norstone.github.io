@@ -4,7 +4,7 @@
     <div class="owl-nav"></div>
     <div class="owl-carousel" data-slider-id="1">
       {% for image in page.gallery %}
-      <div class="{% if forloop.index0==0 %}class='is-active' {% endif %} orbit-slide" {% if image.type %} data-product-type="{{ image.type }}"{% endif %} data-tags="[&#34;{{ image.tags | join: '&#34;, &#34;' }}&#34;]">
+      <div class="{% if forloop.index0==0 %}class='is-active' {% endif %} orbit-slide" {% if image.type %} data-product-type="{{ image.type }}"{% endif %}{% if image.tags %} data-tags="[&#34;{{ image.tags | join: '&#34;, &#34;' }}&#34;]"{% endif %}>
         <img src="{{ image.src }}" alt="{{ image.alt }}">
       </div>
       {% endfor %}

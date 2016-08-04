@@ -120,6 +120,52 @@ $(function() {
     thumbImage: true
   });
 
+  // Build select list for filter.
+  var filterOptions = [];
+  $('.orbit-slide').each(function() {
+    var $tags = $(this).data('tags');
+    if ($tags) {
+      for (var i = 0; i < $tags.length; i++) {
+        if (filterOptions.indexOf($tags[i]) == -1) {
+          filterOptions.push($tags[i]);
+        }
+      }
+    }
+  });
+  filterOptions.sort();
+
+  if (filterOptions.length > 0) {
+    var $select = $('<select><option value="">Sort This Gallery</option>');
+
+    for (var i = 0; i < filterOptions.length; i++) {
+      var opt = filterOptions[i];
+      $select.append($("<option>").attr('value', opt).text(opt));
+    }
+
+    // Add the select list below "Additional Galleries".
+    $('.gallery-drop').append($select);
+
+    // Make a clone of slides for filtering.
+    $slides = $('.owl-item').clone();
+
+    // Filter the gallery based off the selection.
+    $select.on('change', function() {
+      var content = '';
+      if (this.value != '') {
+        $("> div[data-tags*='" + this.value + "']", $slides).each(function() {
+          content += this.outerHTML;
+        });
+      } else {
+        $slides.each(function() {
+          content += this.outerHTML;
+        })
+      }
+
+      $slider.trigger('replace.owl.carousel', content);
+      $slider.trigger('refresh.owl.carousel');
+    });
+  }
+
   // Fade in/out gallery navigation arrows on hover.
   $('.orbit-container').hover(function() {
     $('.orbit-previous', this).fadeIn('slow');
