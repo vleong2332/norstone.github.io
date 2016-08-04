@@ -60,18 +60,19 @@ $(function() {
   });
 
   // Scrolling for galleries.
-  var $thumbs = $('.orbit-bullets');
-  var thumbScrollWidth = $thumbs.width();
-
-  $('.scroll-left').click(function(e) {
+  $('body').on('click', '.scroll-left', function(e) {
+    var $thumbs = $('.owl-thumbs');
+    var thumbScrollWidth = $thumbs.width();
     $thumbs.animate(
       { scrollLeft: '-=' + thumbScrollWidth }, 1000
     );
 
     return false;
-  })
+  });
 
-  $('.scroll-right').click(function(e) {
+  $('body').on('click', '.scroll-right', function(e) {
+    var $thumbs = $('.owl-thumbs');
+    var thumbScrollWidth = $thumbs.width();
     $thumbs.animate(
       { scrollLeft: '+=' + thumbScrollWidth }, 1000
     );
@@ -91,8 +92,9 @@ $(function() {
   $.getJSON('/gallery/pictured.json')
     .done(function(data) {
       productTypes = data;
-      $(window).on('slidechange.zf.orbit', function(event, slide) {
-        var $slide = $(slide);
+      $slider.on('changed.owl.carousel', function(event) {
+        var images = $('.owl-item')
+        var $slide = $('.orbit-slide', images[event.item.index]);
         if ($slide.attr('data-product-type')) {
           var block = $('.pictured-product .card');
           var type = productTypes[$slide.attr('data-product-type')];
@@ -107,7 +109,16 @@ $(function() {
       console.log(e);
     });
 
-
+  var $slider = $('.owl-carousel').owlCarousel({
+    items: 1,
+    dots: false,
+    nav: true,
+    navText: false,
+    navContainer: '.owl-nav',
+    loop: true,
+    thumbs: true,
+    thumbImage: true
+  });
 
   // Fade in/out gallery navigation arrows on hover.
   $('.orbit-container').hover(function() {
@@ -116,5 +127,13 @@ $(function() {
   }, function() {
     $('.orbit-previous', this).fadeOut('slow');
     $('.orbit-next', this).fadeOut('slow');
+  });
+
+  $('.slideshow').hover(function() {
+    $('.owl-prev', this).fadeIn('slow');
+    $('.owl-next', this).fadeIn('slow');
+  }, function() {
+    $('.owl-prev', this).fadeOut('slow');
+    $('.owl-next', this).fadeOut('slow');
   });
 });

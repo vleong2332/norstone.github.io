@@ -361,13 +361,16 @@ cite {
   h2 {
     margin: 0;
   }
+  .slideshow {
+    position: relative;
+  }
   .orbit-next {
     margin-right: 11px;
   }
   .orbit-previous {
     margin-left: 11px;
   }
-  .orbit-container img {
+  .owl-item img {
     background-color: $white;
     border: 1px solid #e6e6e6;
     -moz-box-shadow: 0 4px 5px -1px #bbb;
@@ -378,16 +381,52 @@ cite {
     width: 100%;
     z-index: 0;
   }
-  .orbit-bullets {
+  .owl-thumbs {
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
+    margin-top: 10px;
     white-space: nowrap;
-    button {
-      background: transparent;
-      border-radius: initial;
-      height: auto;
-      margin: auto;
-      width: auto;
+    img {
+      margin: 2px;
+      width: 76px;
+    }
+  }
+  .owl-nav {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .owl-prev {
+    background: url('/assets/images/theme/arrow-left.png') no-repeat right top;
+    cursor: pointer;
+    display: none;
+    height: 55px;
+    padding: 0 20px;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-45%);
+    left: 10px;
+    width: 31px;
+    z-index: 2;
+    &:hover, &:active, &:focus {
+      background: url('/assets/images/theme/arrow-left.png') no-repeat right -58px;
+    }
+  }
+  .owl-next {
+    background: url('/assets/images/theme/arrow-right.png') no-repeat left top;
+    cursor: pointer;
+    display: none;
+    height: 55px;
+    padding: 0 20px;
+    position: absolute;
+    right: 10px;
+    top: 45%;
+    transform: translateY(-45%);
+    width: 31px;
+    z-index: 2;
+    &:hover, &:active, &:focus {
+      background: url('/assets/images/theme/arrow-right.png') no-repeat left -58px;
     }
   }
 }
