@@ -92,24 +92,12 @@ $(function() {
   $.getJSON('/gallery/pictured.json')
     .done(function(data) {
       productTypes = data;
-      $slider.on('changed.owl.carousel', function(event) {
-        var images = $('.owl-item')
-        var $slide = $('.orbit-slide', images[event.item.index]);
-        if ($slide.attr('data-product-type')) {
-          var block = $('.pictured-product .card');
-          var type = productTypes[$slide.attr('data-product-type')];
-
-          $('img', block).attr('src', type.image);
-          $('.card--title', block).html(type.title);
-          $('a', block).attr('href', type.link);
-        }
-      });
     })
     .fail(function(e) {
       console.log(e);
     });
 
-  var $slider = $('.owl-carousel').owlCarousel({
+  var slider_options = {
     items: 1,
     dots: false,
     nav: true,
@@ -118,6 +106,26 @@ $(function() {
     loop: true,
     thumbs: true,
     thumbImage: true
+  };
+
+  var $slider = $('.owl-carousel');
+
+  // Make a clone of slides for filtering.
+  $slides = $('.orbit-slide').clone();
+
+  $slider.owlCarousel(slider_options);
+
+  $slider.on('changed.owl.carousel refreshed.owl.carousel', function(event) {
+    var images = $('.owl-item')
+    var $slide = $('.orbit-slide', images[event.item.index]);
+    if ($slide.attr('data-product-type')) {
+      var block = $('.pictured-product .card');
+      var type = productTypes[$slide.attr('data-product-type')];
+
+      $('img', block).attr('src', type.image);
+      $('.card--title', block).html(type.title);
+      $('a', block).attr('href', type.link);
+    }
   });
 
   // Build select list for filter.
@@ -145,14 +153,12 @@ $(function() {
     // Add the select list below "Additional Galleries".
     $('.gallery-drop').append($select);
 
-    // Make a clone of slides for filtering.
-    $slides = $('.owl-item').clone();
-
     // Filter the gallery based off the selection.
     $select.on('change', function() {
       var content = '';
       if (this.value != '') {
-        $("> div[data-tags*='" + this.value + "']", $slides).each(function() {
+        var filter = "[data-tags*='" + this.value + "']";
+        $(filter, $slides).addBack(filter).each(function() {
           content += this.outerHTML;
         });
       } else {
@@ -161,8 +167,12 @@ $(function() {
         })
       }
 
-      $slider.trigger('replace.owl.carousel', content);
-      $slider.trigger('refresh.owl.carousel');
+      // Re-instantiate the carousel.
+      $slider
+        .trigger('destroy.owl.carousel')
+        .before('<div class="owl-nav">')
+        .html(content)
+        .owlCarousel(slider_options);
     });
   }
 
