@@ -1,24 +1,33 @@
-<form action="/how-to-buy" accept-charset="UTF-8" method="post" enctype="multipart/form-data">
+<form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads983222000011193033 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
+
+  <!-- Do not remove this code. -->
+  <input type='text' style='display:none;' name='xnQsjsdp' value='9b3d2834bcb7d6b6001a49e3bbb389f013750d41e1b68c22e1a5df5b28cc0ae4'/>
+  <input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+  <input type='text' style='display:none;' name='xmIwtLD' value='3eb312b2c96dfcebb1d32e34d12ece65e386af6a53b27f90e98a14f14b6b90e2'/>
+  <input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+  <input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;norstone.github.io&#x2f;thank-you&#x2f;' />
+  <!-- Do not remove this code. -->
+
   <div class="row">
     <div class="medium-6 columns">
-      <input type="text" name="field_first_name" size="60" placeholder="First name" class="required" />
+      <input type="text" name="First Name" size="60" placeholder="First name" class="required" />
     </div>
     <div class="medium-6 columns">
-      <input type="text" name="field_last_name" size="60" placeholder="Last name" class="required" />
+      <input type="text" name="Last Name" size="60" placeholder="Last name" class="required" />
     </div>
   </div>
-  <input type="text" name="field_company_name" size="60" placeholder="Company name" />
+  <input type="text" name="Company" size="60" placeholder="Company name" />
   <div class="row">
     <div class="medium-6 columns">
-      <input type="text" name="field_email" size="60" placeholder="Email" class="required" />
+      <input type="text" name="Email" size="60" placeholder="Email" class="required" />
     </div>
     <div class="medium-6 columns">
-      <input type="text" name="field_phone" size="60" placeholder="Phone" class="required" />
+      <input type="text" name="Phone" size="60" placeholder="Phone" class="required" />
     </div>
   </div>
   <div class="row">
     <div class="medium-8 columns">
-      <select name="field_country" class="required">
+      <select name="Country" class="required">
         <option value="Country" disabled selected>Country</option>
         <option value="United States">United States</option>
         <option value="Canada">Canada</option>
@@ -262,7 +271,7 @@
       </select>
     </div>
     <div class="medium-4 columns">
-      <input type="text" name="field_postal_code" size="60" placeholder="Postal code" class="required" />
+      <input type="text" name="Zip Code" size="60" placeholder="Postal code" class="required" />
     </div>
   </div>
   <div class="row collapse">
@@ -305,38 +314,42 @@
   <input class="button--main float-right" type="submit" value="Submit" />
 </form>
 <script>
-  var mndFileds = new Array('Last Name', 'Email');
-  var fldLangVal = new Array('Last Name', 'Email');
-
-  function reloadImg() {
-    if (document.getElementById('imgid').src.indexOf('&d') !== -1) {
-      document.getElementById('imgid').src = document.getElementById('imgid').src.substring(0, document.getElementById('imgid').src.indexOf('&d')) + '&d' + new Date().getTime();
-    } else {
-      document.getElementById('imgid').src = document.getElementById('imgid').src + '&d' + new Date().getTime();
-    }
-  }
+  var mndFileds=new Array('Last Name');
+  var fldLangVal=new Array('Last Name');
+  var name='';
+  var email='';
 
   function checkMandatory() {
-    for (i = 0; i < mndFileds.length; i++) {
-      var fieldObj = document.forms['WebToLeads983222000000074001'][mndFileds[i]];
+    for (i=0;i<mndFileds.length;i++) {
+      var fieldObj=document.forms['WebToLeads983222000011193033'][mndFileds[i]];
       if (fieldObj) {
-        if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
-          alert(fldLangVal[i] + ' cannot be empty');
-          fieldObj.focus();
-          return false;
-        } else if (fieldObj.nodeName == 'SELECT') {
-          if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
-            alert(fldLangVal[i] + ' cannot be none');
+        if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+          if (fieldObj.type =='file') {
+            alert('Please select a file to upload.');
             fieldObj.focus();
             return false;
           }
-        } else if (fieldObj.type == 'checkbox') {
+          alert(fldLangVal[i] +' cannot be empty.');
+          fieldObj.focus();
+          return false;
+        } else if (fieldObj.nodeName=='SELECT') {
+          if (fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+            alert(fldLangVal[i] +' cannot be none.');
+            fieldObj.focus();
+            return false;
+          }
+        } else if (fieldObj.type =='checkbox') {
           if (fieldObj.checked == false) {
-            alert('Please accept  ' + fldLangVal[i]);
+            alert('Please accept  '+fldLangVal[i]);
             fieldObj.focus();
             return false;
           }
         }
+        try {
+          if (fieldObj.name == 'Last Name') {
+            name = fieldObj.value;
+          }
+        } catch (e) {}
       }
     }
   }
