@@ -4373,21 +4373,20 @@ p {
   .product-body h2 {
     padding-top: 20px; } }
 
-.orbit-container li > div {
-  background-position: center center; }
-  @media screen and (min-width: 40em) {
-    .orbit-container li > div {
-      height: 475px; } }
-  @media screen and (max-width: 39.9375em) {
-    .orbit-container li > div {
-      height: 300px; } }
-  @media screen and (max-width: 58.6875em) {
-    .orbit-container li > div {
-      box-shadow: inset 0 10px 20px 0 #333; } }
-
 .slider-main {
   margin-bottom: 30px;
   position: relative; }
+  .slider-main .orbit-container li > div {
+    background-position: center center; }
+    @media screen and (min-width: 40em) {
+      .slider-main .orbit-container li > div {
+        height: 475px; } }
+    @media screen and (max-width: 39.9375em) {
+      .slider-main .orbit-container li > div {
+        height: 300px; } }
+    @media screen and (max-width: 58.6875em) {
+      .slider-main .orbit-container li > div {
+        box-shadow: inset 0 10px 20px 0 #333; } }
   @media screen and (min-width: 100em) {
     .slider-main .orbit-slide > div {
       background-size: 100%; } }
@@ -4454,45 +4453,50 @@ p {
   font-size: 65px;
   font-style: normal;
   text-transform: uppercase; }
-.product-category .tabs {
+.product-category [data-orbit] {
+  background: url("/assets/images/theme/bg-qtproducts-shadow.png") no-repeat center bottom;
+  margin-bottom: 30px;
+  padding-bottom: 20px; }
+.product-category .orbit-bullets {
   background: none;
   border: none;
   float: right;
   height: auto;
-  margin-top: 5px;
+  margin: 0;
   text-transform: lowercase; }
   @media screen and (max-width: 58.6875em) {
-    .product-category .tabs {
+    .product-category .orbit-bullets {
       clear: right; } }
-  .product-category .tabs li {
+  .product-category .orbit-bullets button {
+    background: url("/assets/images/theme/bg-quicktabs.png") no-repeat;
+    border-radius: 0;
+    color: #737373;
+    display: block;
     float: left;
-    height: 34px;
+    font-size: 14px;
+    height: 29px;
+    line-height: 20px;
     margin: 0 2px;
-    padding: 0;
-    height: auto; }
-    .product-category .tabs li a {
-      background: url("/assets/images/theme/bg-quicktabs.png") no-repeat;
-      color: #737373;
-      display: block;
-      font-size: 14px;
-      height: 29px;
-      line-height: 20px;
-      padding: 0;
-      padding-top: 5px;
-      text-align: center;
-      width: 110px; }
-    .product-category .tabs li:last-child {
+    padding: 5px 0 0 0;
+    text-align: center;
+    width: 110px; }
+    .product-category .orbit-bullets button:last-child {
       margin-right: 0; }
-    .product-category .tabs li.is-active a {
+    .product-category .orbit-bullets button.is-active {
       background-position: 0 -34px; }
-.product-category .tabs-content {
-  background: url("/assets/images/theme/bg-qtproducts-shadow.png") no-repeat center bottom;
+.product-category .orbit-container {
   border: none;
   clear: both;
-  margin-bottom: 30px;
-  padding-bottom: 20px;
   position: relative; }
-.product-category .tabs-panel {
+  .product-category .orbit-container .left {
+    bottom: 40px;
+    left: 20px;
+    position: absolute; }
+  .product-category .orbit-container .right {
+    bottom: 40px;
+    right: 20px;
+    position: absolute; }
+.product-category .orbit-slide {
   background: url("/assets/images/theme/bg-qtproducts.jpg") repeat;
   clear: both;
   min-height: 380px;
@@ -4502,15 +4506,6 @@ p {
   bottom: 20px;
   position: absolute;
   right: 20px; }
-
-.products-overview .tabs-panel .left {
-  bottom: 40px;
-  left: 20px;
-  position: absolute; }
-.products-overview .tabs-panel .right {
-  bottom: 40px;
-  right: 20px;
-  position: absolute; }
 
 #select-color {
   margin-top: 17px; }
@@ -4577,18 +4572,18 @@ input[type]:not([type="submit"]), textarea, select {
 .xxx-large {
   font-size: 65px; }
 
-.products-overview .tabs-title a {
+.product-category .orbit-bullets button {
   text-transform: lowercase; }
 
-.products-overview.tabs-content h4 {
+.product-category .orbit-slide h4 {
   font-size: 29px;
   margin-top: 50px;
   text-transform: uppercase; }
-.products-overview.tabs-content h5 {
+.product-category .orbit-slide h5 {
   font-size: 12px;
   margin-bottom: 5px;
   text-transform: uppercase; }
-.products-overview.tabs-content p {
+.product-category .orbit-slide p {
   font-size: 14px; }
 
 @media screen and (min-width: 58.75em) {

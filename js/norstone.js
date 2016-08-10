@@ -192,4 +192,9 @@ $(function() {
     $('.owl-prev', this).fadeOut('slow');
     $('.owl-next', this).fadeOut('slow');
   });
+
+  // Switch slides on product page on hover.
+  $('.product-category .orbit-bullets button').on('mouseover', function() {
+    $(this).click();
+  })
 });
