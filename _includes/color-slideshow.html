@@ -1,18 +1,12 @@
-<div class="slideshow-with-thumbnails" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
-  <ul class="orbit-container">
-    <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span></button>
-    <button class="orbit-next"><span class="show-for-sr">Next Slide</span></button>
-    {% for slide in page.slides %}
-    <li class="{% if forloop.index0==0 %}class='is-active' {% endif %} orbit-slide">
-      <img src="{{ slide.image }}" alt="{{ slide.title }}">
-    </li>
-    {% endfor %}
-  </ul>
-  <a class="float-left scroll-left xx-large color-primary" style="padding: 0 10px" href="#">&lsaquo;</a>
-  <a class="float-right scroll-right xx-large color-primary" style="padding: 0 10px" href="#">&rsaquo;</a>
-  <nav class="orbit-bullets">
-    {% for slide in page.slides %}
-    <button data-slide="{{ forloop.index0 }}"><img src="{{ slide.image }}" alt="{{ slide.title }}" title="" width="76" height="47"{% if forloop.index0 == 0 %} class="is-active"{% endif %} /></button>
-    {% endfor %}
-  </nav>
+<div class="slideshow-with-thumbnails">
+  <div class="slideshow clearfix">
+    <div class="owl-nav"></div>
+    <div class="owl-carousel" data-slider-id="1">
+      {% for slide in page.slides %}
+      <div class="{% if forloop.index0==0 %}class='is-active' {% endif %} orbit-slide">
+        <img src="{{ slide.image }}" alt="{{ slide.title }}">
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>
