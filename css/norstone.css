@@ -4678,6 +4678,46 @@ input[type]:not([type="submit"]), textarea, select {
         .navigation-small li a:hover, .navigation-small li a.active {
           background: #e3e3e3; } }
 
+.slide-in-left-fast.mui-enter {
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+  transform: translateX(-100%);
+  transition-property: transform, opacity;
+  backface-visibility: hidden; }
+.slide-in-left-fast.mui-enter.mui-enter-active {
+  transform: translateX(0); }
+
+.slide-out-left-fast.mui-leave {
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+  transform: translateX(0);
+  transition-property: transform, opacity;
+  backface-visibility: hidden; }
+.slide-out-left-fast.mui-leave.mui-leave-active {
+  transform: translateX(-100%); }
+
+.slide-in-right-fast.mui-enter {
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+  transform: translateX(100%);
+  transition-property: transform, opacity;
+  backface-visibility: hidden; }
+.slide-in-right-fast.mui-enter.mui-enter-active {
+  transform: translateX(0); }
+
+.slide-out-right-fast.mui-leave {
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+  transform: translateX(0);
+  transition-property: transform, opacity;
+  backface-visibility: hidden; }
+.slide-out-right-fast.mui-leave.mui-leave-active {
+  transform: translateX(100%); }
+
 hr {
   background: url("/assets/images/theme/bg-qtproducts-shadow-menu.png") no-repeat center bottom;
   border: none;
