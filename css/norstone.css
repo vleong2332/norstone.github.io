@@ -4623,7 +4623,7 @@ input[type]:not([type="submit"]), textarea, select {
 
 .navigation-large .menu li a {
   font-weight: bold;
-  margin: 0 25px;
+  margin: 0 20px;
   opacity: 0.5;
   padding: 0;
   text-transform: uppercase; }
