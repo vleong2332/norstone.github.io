@@ -1,3 +1,35 @@
+.slide-in-left-fast {
+  @include mui-slide(
+    $state: in,
+    $direction: right,
+    $duration: 200ms
+  );
+}
+
+.slide-out-left-fast {
+  @include mui-slide(
+    $state: out,
+    $direction: left,
+    $duration: 200ms
+  );
+}
+
+.slide-in-right-fast {
+  @include mui-slide(
+    $state: in,
+    $direction: left,
+    $duration: 200ms
+  );
+}
+
+.slide-out-right-fast {
+  @include mui-slide(
+    $state: out,
+    $direction: right,
+    $duration: 200ms
+  );
+}
+
 hr {
   background: url('/assets/images/theme/bg-qtproducts-shadow-menu.png') no-repeat center bottom;
   border: none;
