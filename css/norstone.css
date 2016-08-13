@@ -4453,10 +4453,6 @@ p {
   font-size: 65px;
   font-style: normal;
   text-transform: uppercase; }
-.product-category [data-orbit] {
-  background: url("/assets/images/theme/bg-qtproducts-shadow.png") no-repeat center bottom;
-  margin-bottom: 30px;
-  padding-bottom: 20px; }
 .product-category .orbit-bullets {
   background: none;
   border: none;
@@ -4497,11 +4493,15 @@ p {
     right: 20px;
     position: absolute; }
 .product-category .orbit-slide {
-  background: url("/assets/images/theme/bg-qtproducts.jpg") repeat;
-  clear: both;
-  min-height: 380px;
-  padding: 20px;
-  position: relative; }
+  background: url("/assets/images/theme/bg-qtproducts-shadow.png") no-repeat center bottom;
+  margin-bottom: 30px;
+  padding-bottom: 20px; }
+  .product-category .orbit-slide > .row {
+    background: url("/assets/images/theme/bg-qtproducts.jpg") repeat;
+    clear: both;
+    min-height: 380px;
+    padding: 20px;
+    position: relative; }
 .product-category .absolute-bottom-right {
   bottom: 20px;
   position: absolute;
