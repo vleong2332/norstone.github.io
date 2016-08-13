@@ -4362,16 +4362,23 @@ p {
     #gallery-type {
       margin-top: 7px; } }
 
-@media screen and (min-width: 58.75em) {
-  .product-header {
-    background: #dfdcdc url("/assets/images/theme/banner-product-gradient.png") repeat-x; } }
 .product-header {
   background-color: #dfdcdc;
   padding: 30px 0; }
+  @media screen and (min-width: 58.75em) {
+    .product-header {
+      background: #dfdcdc url("/assets/images/theme/banner-product-gradient.png") repeat-x; } }
+  @media screen and (max-width: 58.6875em) {
+    .product-header .large-8:first-child {
+      text-align: center; }
+    .product-header img {
+      width: 90%; } }
 
 @media screen and (max-width: 58.6875em) {
   .product-body h2 {
-    padding-top: 20px; } }
+    padding-top: 20px; }
+    .product-body h2 .slideshow-with-thumbnails {
+      margin-bottom: 20px; } }
 
 .slider-main {
   margin-bottom: 30px;
@@ -5011,6 +5018,9 @@ cite {
   .orbit-container .orbit-next:hover, .orbit-container .orbit-next:active, .orbit-container .orbit-next:focus {
     background: url("/assets/images/theme/arrow-right.png") no-repeat left -58px; }
 
+@media screen and (max-width: 58.6875em) {
+  .slideshow-with-thumbnails {
+    margin-bottom: 20px; } }
 .slideshow-with-thumbnails h2 {
   margin: 0; }
 .slideshow-with-thumbnails .slideshow {
