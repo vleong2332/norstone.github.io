@@ -175,11 +175,6 @@
     font-style: normal;
     text-transform: uppercase;
   }
-  [data-orbit] {
-    background: url('/assets/images/theme/bg-qtproducts-shadow.png') no-repeat center bottom;
-    margin-bottom: 30px;
-    padding-bottom: 20px;
-  }
   .orbit-bullets {
     background: none;
     border: none;
@@ -227,11 +222,16 @@
     }
   }
   .orbit-slide {
-    background: url('/assets/images/theme/bg-qtproducts.jpg') repeat;
-    clear: both;
-    min-height: 380px;
-    padding: 20px;
-    position: relative;
+    background: url('/assets/images/theme/bg-qtproducts-shadow.png') no-repeat center bottom;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    > .row {
+      background: url('/assets/images/theme/bg-qtproducts.jpg') repeat;
+      clear: both;
+      min-height: 380px;
+      padding: 20px;
+      position: relative;
+    }
   }
   .absolute-bottom-right {
     bottom: 20px;
