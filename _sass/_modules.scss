@@ -390,6 +390,9 @@ cite {
 }
 
 .slideshow-with-thumbnails {
+  @include breakpoint(medium down) {
+    margin-bottom: 20px;
+  }
   h2 {
     margin: 0;
   }
