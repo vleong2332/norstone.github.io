@@ -4509,7 +4509,7 @@ p {
   background: url("/assets/images/theme/bg-qtproducts-shadow.png") no-repeat center bottom;
   margin-bottom: 30px;
   padding-bottom: 20px; }
-  .product-category .orbit-slide > .row {
+  .product-category .orbit-slide > .row:first-child {
     background: url("/assets/images/theme/bg-qtproducts.jpg") repeat;
     clear: both;
     min-height: 380px;
@@ -4903,7 +4903,7 @@ cite {
     .orbit-var-height .orbit-container li {
       max-height: inherit !important; } }
 @media screen and (max-width: 58.6875em) {
-  .orbit-var-height .orbit-slide > .row > .large-6 {
+  .orbit-var-height .orbit-slide > .row > .small-6 {
     height: auto !important; } }
 
 .other-galleries .card {
