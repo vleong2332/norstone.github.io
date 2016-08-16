@@ -84,6 +84,15 @@ cite {
   padding: 20px 30px;
 }
 
+.accordion-small {
+  .tabs-title a {
+    @include breakpoint(medium down) {
+      font-size: 11px;
+      padding: .3rem .5rem;
+    }
+  }
+}
+
 .shadow {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.50);
 }
