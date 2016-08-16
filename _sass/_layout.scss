@@ -26,6 +26,15 @@
   padding-top: 1rem;
 }
 
+#required-tools .medium-10 > div > div {
+  @include breakpoint(medium down) {
+    margin-right: 5px !important;
+    img {
+      height: 77px;
+    }
+  }
+}
+
 #social-media-list li {
   a {
     padding: 0.2rem;
