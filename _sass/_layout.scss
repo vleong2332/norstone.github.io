@@ -242,7 +242,7 @@
     background: url('/assets/images/theme/bg-qtproducts-shadow.png') no-repeat center bottom;
     margin-bottom: 30px;
     padding-bottom: 20px;
-    > .row {
+    > .row:first-child {
       background: url('/assets/images/theme/bg-qtproducts.jpg') repeat;
       clear: both;
       min-height: 380px;
