@@ -4340,6 +4340,12 @@ p {
   border-top: 5px #6b6b6b solid;
   padding-top: 1rem; }
 
+@media screen and (max-width: 58.6875em) {
+  #required-tools .medium-10 > div > div {
+    margin-right: 5px !important; }
+    #required-tools .medium-10 > div > div img {
+      height: 77px; } }
+
 #social-media-list li a {
   padding: 0.2rem; }
 #social-media-list li:last-child a {
@@ -4770,6 +4776,11 @@ cite {
 .accordion-content {
   background-color: #e5e3e3;
   padding: 20px 30px; }
+
+@media screen and (max-width: 58.6875em) {
+  .accordion-small .tabs-title a {
+    font-size: 11px;
+    padding: .3rem .5rem; } }
 
 .shadow {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
