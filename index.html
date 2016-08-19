@@ -3,63 +3,96 @@ layout: default
 title: Norstone | Natural Stone Veneer | Natural Stone Products
 slides:
 - image: /assets/images/unsorted/Norstone-Charcoal-Standard-Series-Rock-Panel.jpg
+  image_mobile: /assets/images/unsorted/Norstone-Charcoal-Standard-Series-Rock-Panel.jpg
   caption: Natural Stone Designs for Stunning Spaces.
   link:
     text: View Our Gallery
     href: /gallery/
 - image: /assets/images/unsorted/Charcoal---Residential---Niagara-Falls-Feature-Home---Stacked-Stone-Facade-3.jpg
+  image_mobile: /assets/images/unsorted/Charcoal---Residential---Niagara-Falls-Feature-Home---Stacked-Stone-Facade-3.jpg
   caption: Norstone Natural Stacked Stone Veneers.
   link:
     text: View Our Products
     href: /products/
 - image: /assets/images/unsorted/Norstone-Ochre-Blend-Stacked-Stone-Veneer-Feature-Walls_0.jpg
+  image_mobile: /assets/images/unsorted/Norstone-Ochre-Blend-Stacked-Stone-Veneer-Feature-Walls_0.jpg
   caption: From Fireplace to Feature Wall, elevate your space.
   link:
     text: View Our Products
     href: /products/
 - image: /assets/images/unsorted/Norstone-Ochre-Blend-Rock-Panels-Ledgestone-Veneer-Fireplace.jpg
+  image_mobile: /assets/images/unsorted/Norstone-Ochre-Blend-Rock-Panels-Ledgestone-Veneer-Fireplace.jpg
   caption: Save Time. Save Cost. Love your project.
   link:
     text: View Our Products
     href: /products/
 - image: /assets/images/unsorted/Norstone-White-Quartz-Stacked-Stone-Veneer-Used-On-A-Kitchen.jpg
+  image_mobile: /assets/images/unsorted/Norstone-White-Quartz-Stacked-Stone-Veneer-Used-On-A-Kitchen.jpg
   caption: Fine Natural Stone Veneers for Interior Design.
   link:
     text: View Our Products
     href: /products/
 - image: /assets/images/unsorted/Norstone-Ochre-Blend-Rock-Panels-Exterior-Stacked-Stone-Column.jpg
+  image_mobile: /assets/images/unsorted/Norstone-Ochre-Blend-Rock-Panels-Exterior-Stacked-Stone-Column.jpg
   caption: Norstone Natural Stone Veneer. Redefine Rugged.
   link:
     text: View Our Products
     href: /products/
 - image: /assets/images/unsorted/Norstone-White-Quartz-Stacked-Stone-Rock-Fireplace-Surround.jpg
+  image_mobile: /assets/images/unsorted/Norstone-White-Quartz-Stacked-Stone-Rock-Fireplace-Surround.jpg
   caption: Sleek natural stone design without the price tag.
   link:
     text: View Our Products
     href: /products/
 - image: /assets/images/unsorted/Norstone-Charcoal-Rock-Panels-Commercial-Ledgestone-Fireplace.jpg
+  image_mobile: /assets/images/unsorted/Norstone-Charcoal-Rock-Panels-Commercial-Ledgestone-Fireplace.jpg
   caption: The world's most advanced natural stone system.
   link:
     text: View Our Products
     href: /products/
 - image: /assets/images/unsorted/Norstone-Ivory-Quartz-Thin-Stone-Veneers-For-Fireplace-Feature-Walls.jpg
+  image_mobile: /assets/images/unsorted/Norstone-Ivory-Quartz-Thin-Stone-Veneers-For-Fireplace-Feature-Walls.jpg
   caption: Natural Stacked Stone Veneer for all occassions.
   link:
     text: View Our Products
     href: /products/
 - image: /assets/images/unsorted/Norstone-Ochre-Blend-Stacked-Stone-Water-Feature.jpg
+  image_mobile: /assets/images/unsorted/Norstone-Ochre-Blend-Stacked-Stone-Water-Feature.jpg
   caption: Be Inspired by Norstone Natural Stone Products.
   link:
     text: View Our Products
     href: /products/
 - image: /assets/images/unsorted/Norstone-Ochre-Blend-Rock-Panels-Exterior-Stacked-Stone-Feature-Wall.jpg
+  image_mobile: /assets/images/unsorted/Norstone-Ochre-Blend-Rock-Panels-Exterior-Stacked-Stone-Feature-Wall.jpg
   caption: Thin Stone Veneer that rises to any occassion.
   link:
     text: View Our Products
     href: /products/
 ---
 
-<img class="orbit-image show-for-small-only" src="/assets/images/unsorted/Norstone---Charcoal-Standard-Series-Rock-Panel-2-copy.jpg" />
+<div class="slider-main show-for-small-only" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; timerDelay: 8000">
+  <ul class="orbit-container">
+    <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span></button>
+    <button class="orbit-next"><span class="show-for-sr">Next Slide</span></button>
+    {% for slide in page.slides %}
+    <li class="{% if forloop.index0==0 %}is-active {% endif %} orbit-slide">
+      <div style="background-image: url('{{ slide.image_mobile }}'); background-repeat: no-repeat"></div>
+      <figcaption class="orbit-caption x-large">
+        <div class="row columns" style="font-family: 'Open Sans'">
+          <a alt="View Norstone Product" class="float-right text-shadow box-shadow-center button--main" href="{{ slide.link.href }}">{{ slide.link.text }}</a>{{ slide.caption }}
+        </div>
+      </figcaption>
+    </li>
+    {% endfor %}
+  </ul>
+  <div class="row columns">
+    <nav class="orbit-bullets">
+      {% for slide in page.slides %}
+      <button data-slide="{{ forloop.index0 }}"{% if forloop.index0 == 0 %} class="is-active"{% endif %}><span class="show-for-sr"></span></button>
+      {% endfor %}
+    </nav>
+  </div>
+</div>
 <div class="slider-main show-for-medium" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; timerDelay: 8000">
   <ul class="orbit-container">
     <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span></button>
