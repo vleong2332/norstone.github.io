@@ -4340,6 +4340,13 @@ p {
   border-top: 5px #6b6b6b solid;
   padding-top: 1rem; }
 
+#logo img {
+  margin: 8px 0 15px;
+  width: 75%; }
+  @media screen and (min-width: 23.125em) {
+    #logo img {
+      width: 248px; } }
+
 @media screen and (max-width: 58.6875em) {
   #required-tools .medium-10 > div > div {
     margin-right: 5px !important; }
