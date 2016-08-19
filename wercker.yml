@@ -27,6 +27,9 @@ build:
     - script:
         name: delete extraneous files
         code: rm -r bower_components bower.json Gemfile* wercker.yml
+    - script:
+        name: html proofer
+        code: bundle exec htmlproofer ./_site
 deploy:
   steps:
     - leipert/git-push:
