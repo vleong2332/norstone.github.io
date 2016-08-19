@@ -4428,6 +4428,9 @@ p {
       display: inline-block; }
       .slider-main .orbit-bullets button.is-active, .slider-main .orbit-bullets button:visited.is-active {
         background: url(/assets/images/theme/pagination-active.png) no-repeat scroll left top transparent; }
+    @media screen and (max-width: 39.9375em) {
+      .slider-main .orbit-bullets {
+        right: 10px; } }
 
 .social-share-container {
   margin-bottom: 30px; }
