@@ -1,5 +1,7 @@
 ---
 title: Norstone Industry Series - Marble Tile Backsplash
+meta:
+  description: "Marble Tile Backsplash - Norstone Industry Series"
 excerpt: Granite, Marble, Quartz – the big three when it comes to high end stone countertop material. Ever wondered how these products would hold up when you turn that stone 90 degrees and put in on the backsplash? The answers might surprise you!
 ---
 

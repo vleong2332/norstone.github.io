@@ -1,5 +1,7 @@
 ---
 title: Norstone Classroom Series - Backsplash Trends
+meta:
+  description: "Backsplash Tile Designs - Norstone Industry Series"
 excerpt: Think of your kitchen or bath backsplash as a canvas where you can express your own creativity or embrace the latest trends in backsplash tile design, without the same cost and construction commitment as other elements of the space, like cabinets and countertops. Let's explore some more trends in backsplash design that might get you in the remodeling mood!
 ---
 

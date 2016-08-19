@@ -1,5 +1,7 @@
 ---
-title: The Basics of Designing With Travertine
+title: Norstone Designer Series - Travertine Tiles
+meta:
+  description: "Travertine Tiles - Norstone Designer Series"
 image: /assets/images/blog/Travertine-Tile-Blog.jpg
 excerpt: Sometimes as ubiquitous as it is beautiful, Travertine really is its own segment in the natural stone industry. When you start hearing words like tumbled, polished, honed or filled you know you're entering a world of light earthy tones with uses as diverse as the stone itself. Come learn the basics of this unique natural stone and why it might just be the perfect selection for your next project.
 ---
