@@ -140,6 +140,9 @@
         background: url(/assets/images/theme/pagination-active.png) no-repeat scroll left top transparent;
       }
     }
+    @include breakpoint(small only) {
+      right: 10px;
+    }
   }
 }
 
