@@ -452,25 +452,13 @@
                     <option value="Home&#x20;Owner">Home Owner</option>
                   </select>
                   <textarea cols="60" rows="5" placeholder="Message" name="Description" class="required">Tell us about your project.</textarea>
-                  <input type="text" maxlength="80" name="enterdigest" placeholder="Enter the Captcha" />
-                  <img id="imgid" src="https://crm.zoho.com/crm/CaptchaServlet?formId=3eb312b2c96dfcebb1d32e34d12ece65e386af6a53b27f90e98a14f14b6b90e2&grpid=9b3d2834bcb7d6b6001a49e3bbb389f013750d41e1b68c22e1a5df5b28cc0ae4">
-                  <a href="javascript:;" onclick="reloadImg()">Reload</a>
                   <input class="button--main float-right" type="submit" value="Submit" />
                 </form>
-                <iframe name="captchaFrame" style="display:none;"></iframe>
                 <script>
                   var mndFileds=new Array('Last Name');
                     var fldLangVal=new Array('Last Name');
                     var name='';
                     var email='';
-                  
-                    function reloadImg() {
-                      if (document.getElementById('imgid').src.indexOf('&d') !== -1 ) {
-                        document.getElementById('imgid').src=document.getElementById('imgid').src.substring(0,document.getElementById('imgid').src.indexOf('&d'))+'&d'+new Date().getTime();
-                      } else {
-                        document.getElementById('imgid').src = document.getElementById('imgid').src+'&d'+new Date().getTime();
-                      }
-                    }
                   
                     function checkMandatory() {
                       for (i=0;i<mndFileds.length;i++) {
