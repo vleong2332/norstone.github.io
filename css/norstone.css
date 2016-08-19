@@ -4935,7 +4935,8 @@ cite {
     float: none;
     margin: 10px 0 20px;
     position: initial;
-    text-align: left; }
+    text-align: left;
+    width: 60%; }
 
 .card--title {
   bottom: 0;
