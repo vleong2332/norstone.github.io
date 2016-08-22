@@ -1,6 +1,7 @@
 ---
-title: Norstone Classroom Series - How to Measure
+title: "Norstone Classroom Series - How to Measure"
 meta:
+  title: "Norstone Classroom Series - How to Measure"
   description: "One of the first steps in any project is going to be measuring the space, measuring the pertinent dimensions can be broken down into a few easy steps."
 image: /assets/images/blog/Blog%20Banner%20-%20Measure(1).png
 excerpt: "Got Dimensions? This is a quick tutorial on everything you need to know to measure your project for a stone veneer application.

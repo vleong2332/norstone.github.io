@@ -1,6 +1,7 @@
 ---
-title: Small Can Be Beautiful Too
+title: "Small Can Be Beautiful Too"
 meta:
+  title: "Compact Residential Architecture"
   description: "Small Can Be Beautiful too. Learn how small spaces maximize the impact of design elements."
 image: /assets/images/blog/Small-is-Beautiful-Design.jpg
 excerpt: A small home made almost completely of larch wood in Austria dazzles us with its imaginative composition of traditionalism and futurism. Simply stunning, come check this gem out.

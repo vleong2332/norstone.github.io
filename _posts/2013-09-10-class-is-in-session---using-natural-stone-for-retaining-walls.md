@@ -1,6 +1,7 @@
 ---
 title: Class is in Session - Using Natural Stone for Retaining Walls
 meta:
+  title: "Natural Stone Retaining Walls - Norstone Classroom Series"
   description: "Natural Stone Retaining Walls - Norstone Classroom Series Stacked Stone Retaining Walls Stone Veneer Retaining Walls"
 image: /assets/images/blog/StoneRetainingWall(4).jpg
 excerpt:  Natural Stone has long been the choice for retaining walls that last the test of time and now with advanced manufacturing techniques that enable manufacturers to cut stone into thin veneers, retaining walls can be built easily out of component parts, simplifying the installation even further.  This blog explores how thin natural stone veneer products like Norstone can effectively be used for retaining wall applications.

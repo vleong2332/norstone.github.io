@@ -1,6 +1,7 @@
 ---
-title: Get to Know How to Clean Natural Stone
+title: "Get to Know How to Clean Natural Stone"
 meta:
+  title: "How to Clean Natural Stone - Norstone Classroom Series"
   description: "How to Clean Natural Stone - Norstone Classroom Series Natural Stone Care"
 image: /assets/images/blog/HowToCleanNaturalStoneBlog.png
 excerpt:  There are a lot of misconceptions about natural stone being a hard surface to clean when the inevitable accident occurs. Don't let the thought of a spilled glass of red wine or junior going Picasso on your stone keep you up at night. Let us show you how these and other stains can be cleaned on natural stone surfaces.

@@ -1,6 +1,7 @@
 ---
-title: Designing with Norstone Series - Edge Options
+title: "Designing with Norstone Series - Edge Options"
 meta:
+  title: "Designing with Norstone Series - Edge Options"
   description: "The question how do you finish an exposed edge? The answer is, it's up to you! Depending on the final look you are trying to accomplish, there are several options we recommend."
 image: /assets/images/blog/Blog4a.jpg
 excerpt: "An in depth look at different ways to finish the exposed edges of Norstone Rock Panel system.

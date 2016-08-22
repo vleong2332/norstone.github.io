@@ -1,6 +1,7 @@
 ---
 title: "Norstone NDNS Blog is LIVE! Hello there."
 meta:
+  title: "Installing Norstone Rock Panels"
   description: "No longer just a product site, no longer just a beta, Norstone now has a living breathing Blog for our customers to enjoy, learn from, and share in."
 excerpt:  "No longer just a product site, no longer just a beta, Norstone now has a living breathing Blog for our customers to enjoy, learn from, and share in..."
 ---

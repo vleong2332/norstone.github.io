@@ -1,6 +1,7 @@
 ---
-title: Ledgestone Defined
+title: "Ledgestone Defined"
 meta:
+  title: "Ledgestone - Norstone Industry Series"
   description: "Ledgestone - Norstone Industry Series"
 image: /assets/images/blog/Ledgestone-Defined.jpg
 excerpt:  The horizontal stack is the basis for most stone masonry work and is the primary feature of what we call "ledgestone" in today's marketplace. One of the bigger advancements with ledgestone over the past 20 of so years changed the process from a back breaking labor intense process to what most installers today refer to as lick and stick. Come learn more about what ledgestone is and why with today's technology it's more achievable than ever.

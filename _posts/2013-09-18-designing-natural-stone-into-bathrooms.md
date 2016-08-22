@@ -1,6 +1,7 @@
 ---
-title: Designing Natural Stone into Bathrooms
+title: "Designing Natural Stone into Bathrooms"
 meta:
+  title: "Natural Stone Bathrooms - Designing with Norstone Series"
   description: "Natural Stone Bathrooms - Designing with Norstone Series, natural stone bathroom, stacked stone bathroom, stone veneer bathroom"
 image: /assets/images/blog/BathroomBlog(1).jpg
 excerpt:  Bathroom, restroom, lavatory or loo - whatever you call it we all know it's one of, if not the most important place in your home. With square feet often being a precious commodity, bathrooms challenge your design acumen to accomplish great things in small spaces. This article touches on how natural stone can be used on many surfaces of a bathroom serving both functional and aesthetic purposes to help create the luxurious spa like feel that will make you not want to leave.

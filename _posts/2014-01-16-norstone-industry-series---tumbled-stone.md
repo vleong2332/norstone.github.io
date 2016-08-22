@@ -1,6 +1,7 @@
 ---
 title: Norstone Industry Series - Tumbled Stone
 meta:
+  title: "Tumbled Stone - Norstone Industry Series"
   description: "Tumbled stone is a popular design trend for rustic and traditional spaces. Learn about designing with these stones and their properties."
 image: /assets/images/blog/Tumbled-Stone-Blog.jpg
 excerpt: Tumbled Stone is to polished marble as those $500 "vintage" designer jeans are to a brand new pair of Levis. Have no fear Norstonians, this isn't SAT English - but it is our latest Blog where we take a closer look at what all the fuss is about when you take a perfectly good stone and make it look old.
