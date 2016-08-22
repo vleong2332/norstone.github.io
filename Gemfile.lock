@@ -10,8 +10,13 @@ GEM
     addressable (2.4.0)
     colorator (1.1.0)
     colored (1.2)
+    css_press (0.3.2)
+      csspool-st (= 3.1.2)
+      json
+    csspool-st (3.1.2)
     ethon (0.9.0)
       ffi (>= 1.3.0)
+    execjs (2.7.0)
     ffi (1.9.14)
     forwardable-extended (2.6.0)
     html-proofer (3.0.6)
@@ -23,8 +28,11 @@ GEM
       parallel (~> 1.3)
       typhoeus (~> 0.7)
       yell (~> 2.0)
-    htmlbeautifier (1.1.1)
-    htmlcompressor (0.3.0)
+    html_press (0.8.2)
+      htmlentities
+      multi_css (>= 0.1.0)
+      multi_js (>= 0.1.0)
+    htmlentities (4.3.4)
     i18n (0.7.0)
     jekyll (3.2.1)
       colorator (~> 1.0)
@@ -41,10 +49,6 @@ GEM
       sass (~> 3.4)
     jekyll-sitemap (0.11.0)
       addressable (~> 2.4.0)
-    jekyll-tidy (0.0.1)
-      htmlbeautifier
-      htmlcompressor
-      jekyll
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     json (1.8.3)
@@ -56,9 +60,19 @@ GEM
     mercenary (0.3.6)
     mini_portile2 (2.1.0)
     minitest (5.9.0)
+    multi_css (0.1.0)
+      css_press
+    multi_js (0.1.0)
+      uglifier (~> 2)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
+    octopress-hooks (2.6.1)
+      jekyll (>= 2.0)
+    octopress-minify-html (1.3.1)
+      html_press (~> 0.8)
+      jekyll (>= 2.0)
+      octopress-hooks
     parallel (1.9.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
@@ -75,6 +89,9 @@ GEM
       ethon (>= 0.8.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
+    uglifier (2.7.2)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
     yell (2.0.6)
 
 PLATFORMS
@@ -85,8 +102,8 @@ DEPENDENCIES
   jekyll
   jekyll-feed
   jekyll-sitemap
-  jekyll-tidy
   json
+  octopress-minify-html
   rack
 
 BUNDLED WITH
