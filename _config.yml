@@ -33,7 +33,7 @@ defaults:
       type: posts
     values:
       layout: blog
-      permalink: /blog/:title.html
+      permalink: /blog/:title/
       classes: blog
 sass:
   load_paths:
