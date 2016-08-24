@@ -103,6 +103,12 @@
 .slider-main {
   margin-bottom: 30px;
   position: relative;
+  &.show-for-medium .orbit-container {
+    height: 475px !important;
+  }
+  &.show-for-small-only .orbit-container {
+    height: 300px !important;
+  }
   .orbit-container li > div {
     background-position: center center;
     @include breakpoint(medium) {
