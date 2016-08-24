@@ -13,14 +13,14 @@ gems:
 jekyll_tidy:
   compress_html: false
 collections:
-  collections:
+  products:
     output: true
   colors:
     output: true
 defaults:
   - scope:
       path: ""
-      type: collections
+      type: products
     values:
       layout: collection
   - scope:
