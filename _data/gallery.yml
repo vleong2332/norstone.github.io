@@ -31,7 +31,7 @@ interiors:
 kitchens:
   title: Kitchens
   columns: one
-  link: /gallery/application/kitchens/
+  link: /gallery/application/kitchen/
   image: /assets/images/unsorted/Ledgestone-Veneer-Panels-for-Kitchens.jpg
   type: app-gallery
 pools:
