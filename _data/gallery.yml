@@ -87,33 +87,33 @@ rock-panel-white:
 xl-rock-panel-interiors:
   title: XL Rock Panels Interiors
   columns: one
-  link: /gallery/xl-rock-panels/interiors/
+  link: /gallery/xlx-rock-panels/interiors/
   image: /assets/images/unsorted/DSC_2028-copy.jpg
-  type: xl-rock-panels
+  type: xlx-rock-panels
 xl-rock-panel-exteriors:
   title: XL Rock Panel Exteriors
   columns: one
-  link: /gallery/xl-rock-panels/exteriors/
+  link: /gallery/xlx-rock-panels/exteriors/
   image: /assets/images/unsorted/Ochre-XL1-copy-2.jpg
-  type: xl-rock-panels
+  type: xlx-rock-panels
 xl-rock-panel-aztec:
   title: XL Rock Panels Aztec
   columns: one
-  link: /gallery/xl-rock-panels/aztec/
+  link: /gallery/xlx-rock-panels/aztec/
   image: /assets/images/unsorted/Aztec-Gallery.jpg
-  type: xl-rock-panels
+  type: xlx-rock-panels
 xl-rock-panel-charcoal:
   title: XL Rock Panels Charcoal
   columns: one
-  link: /gallery/xl-rock-panels/charcoal/
+  link: /gallery/xlx-rock-panels/charcoal/
   image: /assets/images/unsorted/XL-Charcoal-Interior-copy-2.jpg
-  type: xl-rock-panels
+  type: xlx-rock-panels
 xl-rock-panel-ochre:
   title: XL Rock Panels Ochre Blend
   columns: one
-  link: /gallery/xl-rock-panels/ochre/
+  link: /gallery/xlx-rock-panels/ochre/
   image: /assets/images/unsorted/ochre-xlv-11-copy-2_0.jpg
-  type: xl-rock-panels
+  type: xlx-rock-panels
 basalt-interiors:
   title: Basalt Tile Interiors
   columns: one
