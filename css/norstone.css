@@ -4396,6 +4396,10 @@ p {
 .slider-main {
   margin-bottom: 30px;
   position: relative; }
+  .slider-main.show-for-medium .orbit-container {
+    height: 475px !important; }
+  .slider-main.show-for-small-only .orbit-container {
+    height: 300px !important; }
   .slider-main .orbit-container li > div {
     background-position: center center; }
     @media screen and (min-width: 40em) {
