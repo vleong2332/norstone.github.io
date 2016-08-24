@@ -15,7 +15,7 @@ This can be your guide to designing with this crowd favorite, helping you elevat
 
 ![Designer Series Ochre](/assets/images/blog/designer-series-ochre1.jpg)
 
-Even though the [Ochre](/products/rock-panels/ochre/) has a lot of variation and movement, it is actually very neutral. In regards to style, it's like a chameleon. It will take on the characteristics of whatever is around it. If used as a [backsplash](/gallery/application/backsplashes/) in a rustic kitchen, it will feel traditional and warm. If applied in a modern space with lighter colors and clean lines, it will appear contemporary and cutting edge.
+Even though the [Ochre](/products/rock-panels/ochre/) has a lot of variation and movement, it is actually very neutral. In regards to style, it's like a chameleon. It will take on the characteristics of whatever is around it. If used as a [backsplash](/gallery/application/backsplash/) in a rustic kitchen, it will feel traditional and warm. If applied in a modern space with lighter colors and clean lines, it will appear contemporary and cutting edge.
 
 Despite its many colors, [Ochre](/products/rock-panels/ochre/) is very neutral. It coordinates well with chocolate brown, ivory, maroon, orange, navy blue, grey, hunter green and red just to name a few. Think of Ochre like you think of Khaki pants – it is a staple that will never go out of style and goes with anything.
 

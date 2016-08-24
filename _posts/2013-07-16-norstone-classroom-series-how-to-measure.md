@@ -13,7 +13,7 @@ Let's take a look at them here."
 
 [![Blog Banner](/assets/images/blog/Blog-Banner---Measure(1).jpg)]({{ page.url }})
 
-<span style="font-size:16px;font-weight:lighter;letter-spacing:1px">One of the first steps</span> in any project is going to be measuring the space and determining material requirements in square feet (sq ft). Whether you are working on a [fireplace](/gallery/application/fireplace/), [backsplash](/gallery/application/backsplashes/), or [feature wall](/gallery/application/natural-stone-feature-walls/), measuring the pertinent dimensions can be broken down into a few easy steps:
+<span style="font-size:16px;font-weight:lighter;letter-spacing:1px">One of the first steps</span> in any project is going to be measuring the space and determining material requirements in square feet (sq ft). Whether you are working on a [fireplace](/gallery/application/fireplace/), [backsplash](/gallery/application/backsplash/), or [feature wall](/gallery/application/natural-stone-feature-walls/), measuring the pertinent dimensions can be broken down into a few easy steps:
 
 ![Ivory Feature Wall](/assets/images/blog/Ivory-Feature-Wall---How-to-Measure.jpg)(<span style="font-size: smaller;">To measure for this project, you would simply measure the height and width of the wall and height and width of the window)</span>
 
