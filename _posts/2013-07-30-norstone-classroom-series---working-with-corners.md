@@ -7,6 +7,7 @@ image: /assets/images/blog/Classroom-Session-2-Corner-Blog(1).jpg
 excerpt: "There comes a point in most stone veneer projects where the stone will need to go around an outside corner to either continue along, or terminate into another wall or structure. Calculating the right mix of field and corner units for your project the first time around is a critical step to staying on time and in budget.
 
 So don't let an outside corner bring your stacked stone project to a screeching halt - Here's a handy guide that explains how using our Rock Panel series Outside Corner Unit will have you turning corners in no time."
+permalink: /blog/norstone-classroom-session-working-corners-1/
 ---
 
 [![Blog Banner](/assets/images/blog/Classroom-Session-2-Corner-Blog(1).jpg)]({{ page.url }})
@@ -23,7 +24,7 @@ _Step 1 - Determine how many lineal feet of outside corner for your project._ In
 
 _Step 2 - Multiply your lineal feet x 2 to get the number of corner units._ Each corner unit is 6" tall, so by multiplying your lineal footage by 2, you calculate the total number of corner units you need. In our example, we have 16 lineal feet of outside corner, so we'll need 32 corner units.
 
-_Step 3 - Calculate the Total square footage of your project._ For help on measuring and [calculating square footage](/blog/norstone-classroom-series-how-to-measure/), visit our earlier [blog post](/blog/norstone-classroom-series-how-to-measure/) on this topic. In our example, the front facing walls of the fireplace total 48 sq ft and each side is 15.67 sq ft, for a total of 79.34 sq ft for the front and both sides. The firebox, where stone will not be needed, totals 10 sq ft, so the total sq ft for the project is 69.34 sq ft.
+_Step 3 - Calculate the Total square footage of your project._ For help on measuring and [calculating square footage](/blog/norstone-classroom-series-how-measure/), visit our earlier [blog post](/blog/norstone-classroom-series-how-measure/) on this topic. In our example, the front facing walls of the fireplace total 48 sq ft and each side is 15.67 sq ft, for a total of 79.34 sq ft for the front and both sides. The firebox, where stone will not be needed, totals 10 sq ft, so the total sq ft for the project is 69.34 sq ft.
 
 _Step 4 - Deduct the Corner Units from your Total Square Footage._ Since each corner unit is going to cover about one square foot of wall space with its 8" and 16" returns, you should deduct the appropriate amount of field units from the total sq ft of the project. In this example, the project requires 32 corner units and the total sq ft on the job is 69.34 sq ft. Deducting the corner units from the total square footage leaves us with 37.34 sq ft of field units and 32 sq ft of corner units.
 

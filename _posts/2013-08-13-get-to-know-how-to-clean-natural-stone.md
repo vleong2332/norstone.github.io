@@ -5,6 +5,7 @@ meta:
   description: "How to Clean Natural Stone - Norstone Classroom Series Natural Stone Care"
 image: /assets/images/blog/HowToCleanNaturalStoneBlog.png
 excerpt:  There are a lot of misconceptions about natural stone being a hard surface to clean when the inevitable accident occurs. Don't let the thought of a spilled glass of red wine or junior going Picasso on your stone keep you up at night. Let us show you how these and other stains can be cleaned on natural stone surfaces.
+permalink: /blog/how-clean-natural-stone-norstone-classroom-series/
 ---
 
 <span style="font-size:16px;font-weight:lighter;letter-spacing:1px">Natural stone is one of the oldest and most durable building materials in the world,</span> and while manmade hard surfaces like ceramic and porcelain offer incredible ease of use, don't discount natural stone because you think it might be hard to clean or keep up. A combination of selecting the right type of natural stone for your application, and some knowledge of natural stone care is all you need to enjoy a beautiful natural product and not worry about causing permanent damage.

@@ -4,6 +4,7 @@ meta:
   title: "Ceramic Wall Tile - Color Variation in Natural Stone vs Manmade Tile Products - Norstone Classroom Series"
   description: "Ceramic Wall Tile - Color Variation in Natural Stone vs Manmade Tile Products - Norstone Classroom Series"
 excerpt: There are many differences between manmade tile products, like porcelains and ceramics, as compared to natural stone. One of the most noticeable is color variation – something that can be tightly controlled when tile is manufactured versus something Mother Nature dictates when it comes to natural stone. Learn more about why color can vary and figure out what type of product works best for you.
+permalink: /blog/ceramic-wall-tile-%E2%80%93-color-variation-natural-stone-vs-manmade-tile-products-norstone-classroom-s/
 ---
 
 <span style="font-size:16px;font-weight:lighter;letter-spacing:1px">If you’re thinking that a hard surface is a good option for your next wall covering project,</span> one of the first decisions you’ll likely end up making is whether to go with a natural product, like a stone veneer, or a manmade product, like a porcelain or ceramic wall tile. One of the biggest differences between the two is with respect to color variation, so let’s dig a little deeper into each of these products to understand what the advantages are for each.

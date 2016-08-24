@@ -4,6 +4,7 @@ meta:
   title: "Backsplash Tile Designs - Norstone Industry Series"
   description: "Backsplash Tile Designs - Norstone Industry Series"
 excerpt: Think of your kitchen or bath backsplash as a canvas where you can express your own creativity or embrace the latest trends in backsplash tile design, without the same cost and construction commitment as other elements of the space, like cabinets and countertops. Let's explore some more trends in backsplash design that might get you in the remodeling mood!
+permalink: /blog/backsplash-tile-designs-norstone-industy-series/
 ---
 
 <span style="font-size:16px;font-weight:lighter;letter-spacing:1px">When you walk into a kitchen, one of the first things you notice is the backsplash.</span> It is the focal point of the room – what everything is centered around. It can tie together your cabinets, countertops and bring forth the general aesthetic of the space. Today, your backsplash options are endless. Some might be fads that fade fast, but exploring the current trends is inspiring, exciting, and the first step in finding what you'll fall in love with.

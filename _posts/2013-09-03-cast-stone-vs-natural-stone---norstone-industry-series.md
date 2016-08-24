@@ -5,6 +5,7 @@ meta:
   description: "Norstone, supplier of the best Natural Stone, stone wall cladding, stone veneer rock panels for water features, feature walls and stacked stone walls"
 image: /assets/images/blog/Real-Fake(1).jpg
 excerpt:  What are the big differences between natural stone and cast, or manmade, stone products - and why are those differences important?  Here's a high level industry targeted look at the differences and some guidance on picking the right material for your project.
+permalink: /blog/cast-stone-vs-natural-stone-%E2%80%93-norstone-industry-series/
 ---
 
 [![Real Fake](/assets/images/blog/Real-Fake(1).jpg)]({{ page.url }})

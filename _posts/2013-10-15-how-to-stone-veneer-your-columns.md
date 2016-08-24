@@ -5,6 +5,7 @@ meta:
   description: "Stone Veneer Columns - Norstone Classroom Series, stacked stone columns, natural stone columns, stone veneer columns"
 image: /assets/images/blog/ColumnsTutorial.png
 excerpt:  Columns run the gamut from stately accoutrement in grand entry ways to just plain unsightly, view blocking headaches in a basement. Whatever its purpose, stone veneer is a great option for finishing columns, providing either a singular unique look, or allowing you to extend the stone veneer to more than just the flat walls of your project. This article touches on the major points to consider when selecting a veneer for a natural stone column project.
+permalink: /blog/stone-veneer-columns-norstone-classroom-series/
 ---
 
 ![Stacked Stone Column](/assets/images/blog/Stacked-Stone-Column.jpg){: align="left"}<span style="font-size:16px;font-weight:lighter;letter-spacing:1px">The starting point of any stone veneer column job is going to be the outside corner.</span>Most stone veneer manufacturers now have outside corner units that are designed to turn outside corners, offer varying degrees of a seamless look at the corner itself, and make a natural stone column project easier to do today than ever before. Depending on the manufacturer, options for outside corners in the stone veneer industry range from preassembled corner units, simple dovetail corners, and more complex staggered patterns, like [Norstone](/)'s Interlocking Finger Jointed Corner. Let's take a quick look at each type of corner and the pros and cons of each.

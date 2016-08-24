@@ -5,6 +5,7 @@ meta:
   description: "Installing Norstone Around Outlets - Norstone Classroom Series"
 image: /assets/images/blog/Stone-Veneer-Backsplash-Blog.jpg
 excerpt: Whether it's charging up your phone or setting the mood with lighting, outlets and switches are a necessary and important part of many kitchen and bath backsplashes. However, when it comes time to renovate, figuring out how to work your new surface material around them might be more than you bargained for! This week's article is a great tutorial on how to work around outlets when installing a stacked stone backsplash and many of the lessons can be applied to other similar surfaces as well.
+permalink: /blog/installating-norstone-around-outlets-norstone-classroom-series/
 ---
 
 [![Stone veneer backsplash blog](/assets/images/blog/Stone-Veneer-Backsplash-Blog.jpg)]({{ page.url }})

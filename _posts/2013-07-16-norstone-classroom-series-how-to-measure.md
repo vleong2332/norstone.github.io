@@ -9,6 +9,7 @@ excerpt: "Got Dimensions? This is a quick tutorial on everything you need to kno
 One of the first steps in any project is going to be measuring the space and determining material requirements in square feet (sq ft). Whether you are working on a fireplace, backsplash, or feature wall, measuring the pertinent dimensions can be broken down into a few easy steps.
 
 Let's take a look at them here."
+permalink: /blog/norstone-classroom-series-how-measure/
 ---
 
 [![Blog Banner](/assets/images/blog/Blog-Banner---Measure(1).jpg)]({{ page.url }})

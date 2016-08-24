@@ -5,6 +5,7 @@ meta:
   description: "Small Can Be Beautiful too. Learn how small spaces maximize the impact of design elements."
 image: /assets/images/blog/Small-is-Beautiful-Design.jpg
 excerpt: A small home made almost completely of larch wood in Austria dazzles us with its imaginative composition of traditionalism and futurism. Simply stunning, come check this gem out.
+permalink: /blog/compact-residential-architecture-0/
 ---
 
 [![Small is beautiful blog](/assets/images/blog/Small-is-Beautiful-Design.jpg)]({{ page.url }})

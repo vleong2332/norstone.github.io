@@ -4,6 +4,7 @@ meta:
   title: "Backsplash Tile Designs - Norstone Industry Series"
   description: "Marble Tile Backsplash - Norstone Industry Series"
 excerpt: Granite, Marble, Quartz – the big three when it comes to high end stone countertop material. Ever wondered how these products would hold up when you turn that stone 90 degrees and put in on the backsplash? The answers might surprise you!
+permalink: /blog/marble-tile-backsplash-norstone-industy-series/
 ---
 
 <span style="font-size:16px;font-weight:lighter;letter-spacing:1px">Any time it comes to decorating a kitchen - appliances, cabinets and the hard surfaces are where all of the fun is.</span> And come to think of it, that’s about all a kitchen really is period. It’s also foot to foot the most expensive room to design, build or remodel, so we are talking about a major investment even if it’s the only space you are working on. At Norstone, we work with our customers everyday on backsplash projects that range in looks from rustic, using our [Ochre Rock Panels](/products/rock-panels/ochre/), to uber – modern, with our [Basalt Interlocking Tiles](/products/modern-wall-tile/). A trend we’re seeing lots of kitchens using is to extend their countertop surface to the backsplash. This can be used to create a more dynamic and bold looking kitchen, create a durable backsplash, and highlight the beauty of the material on a vertical surface.

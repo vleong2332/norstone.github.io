@@ -5,6 +5,7 @@ meta:
   description: "Designer Natural Stone Subway Tile"
 image: /assets/images/blog/Natural-Stone-Subway-Tile.jpg
 excerpt: "We recently bought a home and it is a fixer upper. My husband and I are already dreaming about the laundry list of projects we want to tackle. The first up is the bathroom. When brainstorming ideas for the design of the space, the various materials and textures to consider, my suggestion for the shower was subway tiles. They are classic, easy to clean, and affordable. However, my husband's automated response was \"Subway tiles? They are so boring!\" Little does he know the world of Subway tiles that exist..."
+permalink: /blog/designer-natural-stone-subway-tile/
 ---
 
 [![Natural stone subway tile](/assets/images/blog/Natural-Stone-Subway-Tile.jpg)]({{ page.url }})

@@ -166,7 +166,7 @@ basalt-3d-ebony:
 basement-retreat:
   title: Basement Retreat
   columns: two
-  link: /gallery/project/basement-retreat/
+  link: /gallery/project/stacked-stone-interior-basement-walls/
   image: /assets/images/unsorted/160over90_Norstone-08_WM-1800_0.jpg
   type: project-gallery
   type_text: Philadelphia, PA
@@ -180,14 +180,14 @@ berkshire-residence:
 concert-hall:
   title: Concert Hall
   columns: two
-  link: /gallery/project/rockport-performing-arts/
+  link: /gallery/project/rockport/
   image: /assets/images/unsorted/Rockport-copy-1800_1.jpg
   type: project-gallery
   type_text: Rockport, MA
 cyprus-residence:
   title: Cyprus Residence
   columns: two
-  link: /gallery/project/outdoor-living-in-cyprus/
+  link: /gallery/project/ivory-natural-stone-walls/
   image: /assets/images/unsorted/Cyprus-outdoor-fireplace_2.jpg
   type: project-gallery
   type_text: Paphos, Cyprus
@@ -215,7 +215,7 @@ matrix-hotel:
 niagara:
   title: Niagara Residence
   columns: two
-  link: /gallery/project/niagara-residence/
+  link: /gallery/project/modern-stacked-stone-residence/
   image: /assets/images/unsorted/Niagara-Residence-(24).jpg
   type: project-gallery
   type_text: Niagara Falls, NY

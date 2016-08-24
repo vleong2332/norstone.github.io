@@ -5,7 +5,9 @@ meta:
   description: "Real Stone vs Faux - Norstone Industry Series"
 image: /assets/images/blog/Real%20Stone%20Versus%20Faux%20Stone.png
 excerpt:  If you clicked over and are reading this article right now there is a good chance you discovered it while doing some research for a current or upcoming design project involving stone veneer. Natural stone has been the time honored choice for stone veneer since mankind started using it as a building material, but with recent advancements and the proliferation of manmade faux stone materials, you might be asking yourself what product is the right fit for your job? Read on for a comparison between the two and determine for yourself who is "King of the Mountain."
+permalink: /blog/real-stone-vs-faux-norstone-industry-series/
 ---
+
 [![Real Stone Versus Faux Stone](/assets/images/blog/Real-Stone-Versus-Faux-Stone.jpg)]({{ page.url }})
 
 ![Faux Stone Panels](/assets/images/blog/Faux-Stone-Panels.jpg){: align="right"} <span style="font-size:16px;font-weight:lighter;letter-spacing:1px">Quite often we find that one of the first decisions that must be made after choosing to specify a stone veneer look for a project is “should we go with natural stone or faux stone panels”?</span> Let's dive in and take a closer look at why natural stone is still the more popular building material.
