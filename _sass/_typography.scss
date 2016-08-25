@@ -25,7 +25,7 @@ a, a:hover {
   color: #4fb1d5;
 }
 
-p {
+p, ul, ol {
   color: map-get($foundation-palette, primary);
   font-family: open sans, "Myriad Pro", Arial, Tahoma, Sans-Serif;
   font-size: 14px;
