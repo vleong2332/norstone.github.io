@@ -49,13 +49,15 @@ $(function() {
     $mobile_accordion_content.removeClass('accordion-content');
   }
   $(window).on('changed.zf.mediaquery', function(event, newSize, oldSize) {
-    if (oldSize == 'small') {
-      $('[data-accordion]').foundation('up', $('.accordion-content'));
-      $mobile_accordion_content.show().removeClass('accordion-content');
-    }
-    else if (newSize == 'small') {
-      console.log($mobile_accordion_content);
-      $mobile_accordion_content.addClass('accordion-content').hide();
+    if ($('[data-accordion]').length > 0) {
+      if (oldSize == 'small') {
+        $('[data-accordion]').foundation('up', $('.accordion-content'));
+        $mobile_accordion_content.show().removeClass('accordion-content');
+      }
+      else if (newSize == 'small') {
+        console.log($mobile_accordion_content);
+        $mobile_accordion_content.addClass('accordion-content').hide();
+      }
     }
   });
 
