@@ -509,7 +509,7 @@ th {
   padding: 0; }
 
 .foundation-mq {
-  font-family: "small=0em&medium=46.0625em&large=58.75em&xlarge=58.75em&xxlarge=100em"; }
+  font-family: "small=0em&medium=40em&large=58.75em&xlarge=58.75em&xxlarge=100em"; }
 
 html {
   font-size: 100%;
@@ -591,7 +591,7 @@ button {
     max-width: none;
     margin-left: -0.625rem;
     margin-right: -0.625rem; }
-    @media screen and (min-width: 46.0625em) {
+    @media screen and (min-width: 40em) {
       .row .row {
         margin-left: -0.9375rem;
         margin-right: -0.9375rem; } }
@@ -609,7 +609,7 @@ button {
   float: left;
   padding-left: 0.625rem;
   padding-right: 0.625rem; }
-  @media screen and (min-width: 46.0625em) {
+  @media screen and (min-width: 40em) {
     .column, .columns {
       padding-left: 0.9375rem;
       padding-right: 0.9375rem; } }
@@ -890,7 +890,7 @@ button {
   margin-right: 0;
   float: left; }
 
-@media screen and (min-width: 46.0625em) {
+@media screen and (min-width: 40em) {
   .medium-1 {
     width: 8.33333%; }
 
@@ -1501,7 +1501,7 @@ h5 {
 h6 {
   font-size: 1rem; }
 
-@media screen and (min-width: 46.0625em) {
+@media screen and (min-width: 40em) {
   h1 {
     font-size: 3rem; }
 
@@ -1634,7 +1634,7 @@ kbd {
 .text-justify {
   text-align: justify; }
 
-@media screen and (min-width: 46.0625em) {
+@media screen and (min-width: 40em) {
   .medium-text-left {
     text-align: left; }
 
@@ -2263,7 +2263,7 @@ select {
     width: 100%; }
     .button-group.stacked .button:last-child, .button-group.stacked-for-small .button:last-child, .button-group.stacked-for-medium .button:last-child {
       margin-bottom: 0; }
-  @media screen and (min-width: 46.0625em) {
+  @media screen and (min-width: 40em) {
     .button-group.stacked-for-small .button {
       width: auto;
       margin-bottom: 0; } }
@@ -2271,7 +2271,7 @@ select {
     .button-group.stacked-for-medium .button {
       width: auto;
       margin-bottom: 0; } }
-  @media screen and (max-width: 46em) {
+  @media screen and (max-width: 39.9375em) {
     .button-group.stacked-for-small.expanded {
       display: block; }
       .button-group.stacked-for-small.expanded .button {
@@ -2357,7 +2357,7 @@ select {
     display: table-cell; }
   .menu.vertical > li {
     display: block; }
-  @media screen and (min-width: 46.0625em) {
+  @media screen and (min-width: 40em) {
     .menu.medium-horizontal > li {
       display: table-cell; }
     .menu.medium-vertical > li {
@@ -2587,7 +2587,7 @@ select {
   border-color: transparent transparent transparent #6b6b6b;
   border-left-style: solid;
   border-right-width: 0; }
-@media screen and (min-width: 46.0625em) {
+@media screen and (min-width: 40em) {
   .dropdown.menu.medium-horizontal > li.opens-left > .is-dropdown-submenu {
     left: auto;
     right: 0;
@@ -2803,7 +2803,7 @@ select {
   display: block; }
   .media-object img {
     max-width: none; }
-  @media screen and (max-width: 46em) {
+  @media screen and (max-width: 39.9375em) {
     .media-object.stack-for-small .media-object-section {
       padding: 0;
       padding-bottom: 1rem;
@@ -2889,7 +2889,7 @@ body {
     .is-open-right {
       transform: translateX(-250px); }
 
-@media screen and (min-width: 46.0625em) {
+@media screen and (min-width: 40em) {
   .position-left.reveal-for-medium {
     left: 0;
     z-index: auto;
@@ -3002,7 +3002,7 @@ body {
     display: none; }
     .pagination li:last-child, .pagination li:first-child {
       display: inline-block; }
-    @media screen and (min-width: 46.0625em) {
+    @media screen and (min-width: 40em) {
       .pagination li {
         display: inline-block; } }
   .pagination a,
@@ -3200,7 +3200,7 @@ html.is-reveal-open body {
   overflow-y: auto; }
   [data-whatinput='mouse'] .reveal {
     outline: 0; }
-  @media screen and (min-width: 46.0625em) {
+  @media screen and (min-width: 40em) {
     .reveal {
       min-height: 0; } }
   .reveal .column, .reveal .columns,
@@ -3208,26 +3208,26 @@ html.is-reveal-open body {
     min-width: 0; }
   .reveal > :last-child {
     margin-bottom: 0; }
-  @media screen and (min-width: 46.0625em) {
+  @media screen and (min-width: 40em) {
     .reveal {
       width: 600px;
       max-width: 58.75rem; } }
-  @media screen and (min-width: 46.0625em) {
+  @media screen and (min-width: 40em) {
     .reveal .reveal {
       left: auto;
       right: auto;
       margin: 0 auto; } }
   .reveal.collapse {
     padding: 0; }
-  @media screen and (min-width: 46.0625em) {
+  @media screen and (min-width: 40em) {
     .reveal.tiny {
       width: 30%;
       max-width: 58.75rem; } }
-  @media screen and (min-width: 46.0625em) {
+  @media screen and (min-width: 40em) {
     .reveal.small {
       width: 50%;
       max-width: 58.75rem; } }
-  @media screen and (min-width: 46.0625em) {
+  @media screen and (min-width: 40em) {
     .reveal.large {
       width: 90%;
       max-width: 58.75rem; } }
@@ -3242,7 +3242,7 @@ html.is-reveal-open body {
     margin-left: 0;
     border: 0;
     border-radius: 0; }
-  @media screen and (max-width: 46em) {
+  @media screen and (max-width: 39.9375em) {
     .reveal {
       top: 0;
       left: 0;
@@ -3614,7 +3614,7 @@ table.hover tr:nth-of-type(even):hover {
   .top-bar .top-bar-left,
   .top-bar .top-bar-right {
     width: 100%; }
-  @media screen and (min-width: 46.0625em) {
+  @media screen and (min-width: 40em) {
     .top-bar .top-bar-left,
     .top-bar .top-bar-right {
       width: auto; } }
@@ -3643,27 +3643,27 @@ table.hover tr:nth-of-type(even):hover {
 .invisible {
   visibility: hidden; }
 
-@media screen and (max-width: 46em) {
+@media screen and (max-width: 39.9375em) {
   .hide-for-small-only {
     display: none !important; } }
 
-@media screen and (max-width: 0em), screen and (min-width: 46.0625em) {
+@media screen and (max-width: 0em), screen and (min-width: 40em) {
   .show-for-small-only {
     display: none !important; } }
 
-@media screen and (min-width: 46.0625em) {
+@media screen and (min-width: 40em) {
   .hide-for-medium {
     display: none !important; } }
 
-@media screen and (max-width: 46em) {
+@media screen and (max-width: 39.9375em) {
   .show-for-medium {
     display: none !important; } }
 
-@media screen and (min-width: 46.0625em) and (max-width: 58.6875em) {
+@media screen and (min-width: 40em) and (max-width: 58.6875em) {
   .hide-for-medium-only {
     display: none !important; } }
 
-@media screen and (max-width: 46em), screen and (min-width: 58.75em) {
+@media screen and (max-width: 39.9375em), screen and (min-width: 58.75em) {
   .show-for-medium-only {
     display: none !important; } }
 
@@ -4328,7 +4328,7 @@ p {
 .no-js .top-bar {
   display: none; }
 
-@media screen and (min-width: 46.0625em) {
+@media screen and (min-width: 40em) {
   .no-js .top-bar {
     display: none; } }
 @media screen and (min-width: 58.75em) {
@@ -4371,7 +4371,7 @@ p {
 
 #gallery-type {
   margin-top: 50px; }
-  @media screen and (min-width: 46.0625em) {
+  @media screen and (min-width: 40em) {
     #gallery-type {
       margin-top: 7px; } }
 
@@ -4402,10 +4402,10 @@ p {
     height: 300px !important; }
   .slider-main .orbit-container li > div {
     background-position: center center; }
-    @media screen and (min-width: 46.0625em) {
+    @media screen and (min-width: 40em) {
       .slider-main .orbit-container li > div {
         height: 475px; } }
-    @media screen and (max-width: 46em) {
+    @media screen and (max-width: 39.9375em) {
       .slider-main .orbit-container li > div {
         height: 300px; } }
     @media screen and (max-width: 58.6875em) {
@@ -4432,7 +4432,7 @@ p {
       display: inline-block; }
       .slider-main .orbit-bullets button.is-active, .slider-main .orbit-bullets button:visited.is-active {
         background: url(/assets/images/theme/pagination-active.png) no-repeat scroll left top transparent; }
-    @media screen and (max-width: 46em) {
+    @media screen and (max-width: 39.9375em) {
       .slider-main .orbit-bullets {
         right: 10px; } }
 
@@ -4470,7 +4470,7 @@ p {
   float: left;
   line-height: 29px;
   margin-bottom: 0; }
-  @media screen and (max-width: 46em) {
+  @media screen and (max-width: 39.9375em) {
     .product-category h2 {
       float: right; } }
 .product-category h3 {
@@ -4663,12 +4663,12 @@ input[type]:not([type="submit"]), textarea, select {
     margin-bottom: 0; }
   .navigation-large .menu li a img {
     margin-bottom: 20px; }
-@media screen and (min-width: 46.0625em) {
+@media screen and (min-width: 40em) {
   .navigation-large .menu .divider-left {
     border-left: 1px solid #dcdcdc; }
   .navigation-large .menu .divider-right {
     border-right: 1px solid #fefefe; } }
-@media screen and (max-width: 46em) {
+@media screen and (max-width: 39.9375em) {
   .navigation-large .menu .divider-left {
     border-top: 1px solid #dcdcdc; }
   .navigation-large .menu .divider-right {
@@ -4690,12 +4690,12 @@ input[type]:not([type="submit"]), textarea, select {
       height: 41px;
       padding: 20px 8px;
       text-transform: uppercase; }
-  @media screen and (min-width: 46.0625em) {
+  @media screen and (min-width: 40em) {
     .navigation-small {
       background: url("/assets/images/theme/bg-qtproducts-shadow-gallery-menu.png") no-repeat center bottom; }
       .navigation-small li a:hover, .navigation-small li a.active {
         background: url("/assets/images/theme/subnav-small-arrow.png") no-repeat center bottom; } }
-  @media screen and (max-width: 46em) {
+  @media screen and (max-width: 39.9375em) {
     .navigation-small ul {
       width: 100%; }
     .navigation-small li {
@@ -5030,7 +5030,7 @@ cite {
     border: 4px solid #4fb2d5;
     box-shadow: inset 0 0 40px #000; }
 
-@media screen and (max-width: 46em) {
+@media screen and (max-width: 39.9375em) {
   .orbit-container figcaption {
     font-size: 12px;
     padding: 10px; }
@@ -5125,7 +5125,7 @@ cite {
 
 .tabs-title {
   border-right: 1px solid transparent; }
-  @media screen and (max-width: 46em) {
+  @media screen and (max-width: 39.9375em) {
     .tabs-title {
       margin-bottom: 1px; } }
   .tabs-title a {
@@ -5139,7 +5139,7 @@ cite {
   .tabs-title.is-active a {
     background-color: #e5e3e3;
     color: #4fb1d5; }
-  @media screen and (max-width: 46em) {
+  @media screen and (max-width: 39.9375em) {
     .tabs-title {
       float: none; }
       .tabs-title a {
