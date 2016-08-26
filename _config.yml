@@ -9,7 +9,6 @@ gems:
 - html-proofer
 - jekyll-sitemap
 - jekyll-feed
-- octopress-minify-html
 jekyll_tidy:
   compress_html: false
 collections:
