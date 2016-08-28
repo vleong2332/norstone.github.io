@@ -2,5 +2,4 @@ User-agent: *
 Crawl-delay: 10
 
 # Directories
-Disallow: /assets/
-Allow: /assets/pdfs
+Disallow: /assets/images/
