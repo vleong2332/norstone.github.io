@@ -2,7 +2,11 @@
 layout: default
 title: "404"
 permalink: /404.html
-
+other_galleries:
+- fireplaces
+- interiors
+- backsplashes
+- rock-panel-white
 ---
 
 <div class="column row text-center">
@@ -21,6 +25,17 @@ permalink: /404.html
         <li class="list-link"><a href="/client-testimonials">Testimonials</a></li>
         </li>
       </ul>
+    </div>
+  </div>
+  <hr />
+    <div class="row columns">
+      <h2 class="x-large color-primary">Here are A Few Galleries You Might Like</h2>
+    </div>
+    <div class="other-galleries row collapse medium-up-2 large-up-4">
+      {% for other in page.other_galleries %}
+      {% assign item = site.data.gallery[other] %}
+      {% include card.html %}
+      {% endfor %}
     </div>
   </div>
 </div>
