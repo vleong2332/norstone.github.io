@@ -662,7 +662,7 @@ layout: gallery
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}">
+    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.src }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>
@@ -673,7 +673,7 @@ layout: gallery
 {% endfor %}
 <div class="row">
   <div class="large-5 columns">
-    <img class="orbit-image" src="/assets/images/unsorted/Commercial-Ledgestone-Feature-Wall-Norstone.jpg" alt="Norstone Modern Stacked Stone Fireplace">
+    <img class="orbit-image" src="/assets/images/unsorted/Commercial-Ledgestone-Feature-Wall-Norstone.jpg" title="Commercial-Ledgestone-Feature-Wall-Norstone.jpg" alt="Norstone Modern Stacked Stone Fireplace">
   </div>
   <div class="large-7 columns">
     <h3 class="large color-primary">Get to Know This Product</h3>
@@ -687,7 +687,7 @@ layout: gallery
           <li class="list-link"><a href="/faq">FAQ</a></li>
           <li class="list-link"><a href="/client-testimonials">Testimonials</a></li>
           <li class="list-link">
-            <a href="/how-to-buy"><img src="/assets/images/unsorted/learn-how-to-buy-3-copy(1).png" width="135" height="30" alt="How to Buy"></a>
+            <a href="/how-to-buy"><img src="/assets/images/unsorted/learn-how-to-buy-3-copy(1).png" title="learn-how-to-buy-3-copy(1).png" width="135" height="30" alt="How to Buy"></a>
           </li>
         </ul>
       </div>
