@@ -1,0 +1,95 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+ErrorDocument 404 /404.html
+
+Redirect 301 /Ledgestone-Feature-Walls /ledgestone-feature-walls/
+Redirect 301 /Exterior-Stone-Veneer /exterior-stone-veneer/
+Redirect 301 /Natural-Stone-For-Feature-Walls /natural-stone-for-feature-walls/
+Redirect 301 /Natural-Stone-For-Pools /natural-stone-for-pools/
+Redirect 301 /Natural-Stone-Retaining-Walls /natural-stone-retaining-walls/
+Redirect 301 /Stone-Veneer-For-Interiors /stone-veneer-for-interiors/
+Redirect 301 /gallery/project/Stacked-Stone-Interior-Basement-Walls /gallery/project/stacked-stone-interior-basement-walls/
+Redirect 301 /gallery/project/Ivory-Natural-Stone-Walls /gallery/project/ivory-natural-stone-walls/
+Redirect 301 /gallery/application/Exteriors /gallery/application/exteriors/
+Redirect 301 /gallery/application/Backsplash /gallery/application/backsplash/
+Redirect 301 /stackedstonecladding.asp /products/stacked-stone-cladding/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone_Installation Guide(1).pdf" /assets/pdfs/Norstone_Installation-Guide(3).pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone Spec Sheet Basalt IL Tile.pdf" /assets/pdfs/Norstone-Spec-Sheet-Basalt-IL-Tile(1).pdf
+Redirect 301 /sites/default/files/file/installation_guide_pdf/MapeiMapelasticAquaDefense.pdf /assets/pdfs/MapeiMapelasticAquaDefense.pdf
+Redirect 301 /client-testimonials/popup /client-testimonials/
+Redirect 301 /3d-ebony /products/basalt-stone-panels/black-stone/
+Redirect 301 /3d-ash-grey /products/basalt-stone-panels/ash-grey-stone/
+Redirect 301 /stackedstonecladding.asp?gclid=CKbctbqm16kCFcjAKgod9w3uOA /products/stacked-stone-cladding/
+Redirect 301 "/sites/default/files/image/7-11-13 Updates/Norstone-Natural-Stacked-Stone-Veneer-Thin-Wall" /products/404.html
+Redirect 301 /assets/pdfs/Aquamix-Sealer /assets/pdfs/Aquamix-Sealer's-Choice-Gold.pdf
+Redirect 301 /testimonials.asp /client-testimonials/
+Redirect 301 "/gallery/project/Denmark Modern Enclave" /gallery/project/horsen-house/
+Redirect 301 /products/stacked-stone /products/stacked-stone-cladding/
+Redirect 301 /403 /products/404.html
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Aquamix Enrich 'N' Seal.pdf" /assets/pdfs/Aquamix-Enrich-'N'-Seal.pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Laticrete Hydroban.pdf" /assets/pdfs/Laticrete-Hydroban.pdf
+Redirect 301 /stacked_stone_rock_panel_charcoal.asp /products/rock-panels/charcoal/
+Redirect 301 /products/basalt-3d/ebony /products/basalt-stone-panels/black-stone/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/TEC Super Flex.pdf_2" /assets/pdfs/TEC-Super-Flex.pdf
+Redirect 301 /assets/pdfs/Aquamix-Enrich- /assets/pdfs/Aquamix-Enrich-'N'-Seal.pdf
+Redirect 301 /gallery/application/Interior /gallery/application/interiors/
+Redirect 301 /assets/pdfs/Norstone-Spec-Sheet-Basalt-IL-Tile /assets/pdfs/Norstone-Spec-Sheet-Basalt-IL-Tile(1).pdf
+Redirect 301 /assets/pdfs/Laticrete-System-Warranty /assets/pdfs/Laticrete-System-Warranty(1).pdf
+Redirect 301 /assets/pdfs/Mapei-Ultralite /assets/pdfs/Mapei-Ultralite(1).pdf
+Redirect 301 /sites/default/files/imagecache/610 /
+Redirect 301 /stacked_stone_rock_panel_ochre.asp /products/stacked-stone-cladding/
+Redirect 301 /gallery/project/treehouse%2520retreat /gallery/project/virginia-treehouse-retreat/
+Redirect 301 /node/274 /gallery/project/architects-office/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/TEC Super Flex.pdf" /assets/pdfs/TEC-Super-Flex.pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Laticrete 254.pdf" /assets/pdfs/Laticrete-254.pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Laticrete 9235.pdf" /assets/pdfs/Laticrete-9235.pdf
+Redirect 301 "/gallery/project/Rockport Performing Arts" /gallery/project/rockport/
+Redirect 301 /gallery/application/Fireplaces /gallery/application/fireplace/
+Redirect 301 /gallery/application/Kitchens /gallery/application/kitchen/
+Redirect 301 "/gallery/application/Feature Walls" /gallery/application/natural-stone-feature-walls/
+Redirect 301 /gallery/project/berkshire%2520residence /gallery/project/berkshire-residence/
+Redirect 301 /stacked_stone_rock_panel_ivoryquartz.asp /products/rock-panels/ivory/
+Redirect 301 /3d-exteriors /gallery/basalt-3d/exteriors/
+Redirect 301 /products/basalt-3d/grey /products/basalt-stone-panels/ash-grey-stone/
+Redirect 301 /assets/pdfs/Norstone_Installation-Guide /assets/pdfs/Norstone_Installation-Guide(3).pdf
+Redirect 301 /faq.asp /faq/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Mapei Ultralite(1).pdf" /assets/pdfs/Mapei-Ultralite(1).pdf
+Redirect 301 /contact.asp /contact-us/
+Redirect 301 /gallery/application/Feature%2520Walls /gallery/application/natural-stone-feature-walls/
+Redirect 301 /stacked_stone_rock_panel_whitequartz.asp /products/rock-panels/white/
+Redirect 301 /stackedstonecladding.asp?gclid=CK-JxcKbmJcCFRIcawodlmhS-A /products/stacked-stone-cladding/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/SGM Multi-Lite.pdf" /assets/pdfs/SGM-Multi-Lite.pdf
+Redirect 301 /stacked_stone_rock_panel_ochre.asp /products/rock-panels/ochre/
+Redirect 301 /gallery/featured/denver-multifamily /
+Redirect 301 /node/2 /
+Redirect 301 /image-1 /
+Redirect 301 /gallery/project/Modern-Stacked-Stone-Residence /gallery/project/modern-stacked-stone-residence/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone_Installation Guide(2).pdf" /assets/pdfs/Norstone_Installation-Guide(3).pdf
+Redirect 301 /gallery/application/Pools?page=1 /gallery/application/pools/
+Redirect 301 /gallery/application/Interiors /gallery/application/interiors/
+Redirect 301 /gallery/application/Pools /gallery/application/pools/
+Redirect 301 /m/products/basalt-stone-panels/ash-grey-stone /products/basalt-stone-panels/ash-grey-stone/
+Redirect 301 "/sites/default/files/file/Norstone Maintenace Guidelines.pdf" /assets/pdfs/Norstone-Short-and-Long-Term-Maintenance-Guidelines.pdf
+Redirect 301 /downloads/Norstone_MonaroStone_POS.pdf /
+Redirect 301 /mobile/products/basalt-stone-panels/ash-grey-stone /products/basalt-stone-panels/ash-grey-stone/
+Redirect 301 /sites/default/files/imagecache/680 /
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Aquamix Enrich" /assets/pdfs/Aquamix-Sealer's-Choice-Gold.pdf
+Redirect 301 /m/how-to-buy /how-to-buy/
+Redirect 301 /rock_panel_corners.asp /products/stacked-stone-cladding/
+Redirect 301 /st_monaro_grey.asp /
+Redirect 301 /sites/default/files/Norstone-Ivory-Quartz-Thin-Stone-Veneers-For-Fireplace-Feature-Walls.jpg%3F1317404751 /assets/images/unsorted/Norstone-Ivory-Quartz-Thin-Stone-Veneers-For-Fireplace-Feature-Walls.jpg
+Redirect 301 /gallery/getconfig.php?configfile=config.ini /gallery/
+Redirect 301 /mobile/natural-stacked-stone-for-fireplaces /gallery/application/fireplace/
+Redirect 301 /m/gallery/rock-panels/interiors /gallery/application/interiors/
+Redirect 301 /gallery/featured/matrix-hotel /gallery/project/the-matrix-hotel/
+Redirect 301 /sites/default/files/Norstone-White-Quartz-Stacked-Stone-Rock-Fireplace-Surround.jpg%3F1317404751 /assets/images/unsorted/Norstone-White-Quartz-Stacked-Stone-Rock-Fireplace-Surround.jpg
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/TEC Super Flex.pdf_1" /assets/pdfs/TEC-Super-Flex.pdf
+Redirect 301 /mobile/gallery/rock-panels/white http://dev.prod2.webenabled.net/products/rock-panels/white
+Redirect 301 /m/products http://dev.prod2.webenabled.net/products
+Redirect 301 /mobile/products http://dev.prod2.webenabled.net/products
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone_Installation Guide_Final.pdf" /products/stacked-stone-cladding/
+Redirect 301 "/downloads/reference library/Rock Panel Specification Sheet.pdf" /assets/pdfs/Norstone-Spec-Sheet-Rock-Panel.pdf
+Redirect 301 /waterfeatures.asp /gallery/application/pools/
+Redirect 301 /gallery/featured/rockport-concert-hall /gallery/project/rockport/
+Redirect 301 /gallery/featured/stanmore-residential-complex /gallery/project/stanmore-residential-complex/
