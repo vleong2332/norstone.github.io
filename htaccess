@@ -7,6 +7,12 @@ RewriteEngine on
 
 ErrorDocument 404 /404.html
 
+Redirect 301 /gallery/application/Showers /gallery/application/showers/
+Redirect 301 "/sites/default/files/file/Laticrete Masonry Veneer Mortar.pdf" /assets/pdfs/Laticrete-Masonry-Veneer-Mortar.pdf
+Redirect 301 ^/gallery/project/treehouse%2520retreat$ /gallery/project/virginia-treehouse-retreat/
+Redirect 301 "/images/Ochre RP Backsplash.jpg" /assets/images/unsorted/Ochre-Backsplash-Switch-Apples.jpg
+Redirect 301 /gallery/project/berkshire%2520residence /gallery/project/berkshire-residence/
+Redirect 301 /sites/default/files/Norstone-White-Quartz-Stacked-Stone-Rock-Fireplace-Surround.jpg?1317404751 /assets/images/unsorted/Norstone-White-Quartz-Natural-Stone-on-Interior-Fireplace.jpg
 Redirect 301 "/gallery/project/Matrix Hotel" /gallery/project/the-matrix-hotel/
 Redirect 301 /Ledgestone-Feature-Walls /ledgestone-feature-walls/
 Redirect 301 /Exterior-Stone-Veneer /exterior-stone-veneer/
@@ -98,3 +104,6 @@ Redirect 301 "/downloads/reference library/Rock Panel Specification Sheet.pdf" /
 Redirect 301 /waterfeatures.asp /gallery/application/pools/
 Redirect 301 /gallery/featured/rockport-concert-hall /gallery/project/rockport/
 Redirect 301 /gallery/featured/stanmore-residential-complex /gallery/project/stanmore-residential-complex/
+
+RewriteCond %{HTTP_HOST} ^nrstn.prod3.webenabled.net$ [NC]
+RewriteRule ^(.*)$ http://www.norstoneusa.com/$1 [R=301,L]
