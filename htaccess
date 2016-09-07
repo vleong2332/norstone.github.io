@@ -7,6 +7,7 @@ RewriteEngine on
 
 ErrorDocument 404 /404.html
 
+Redirect 301 "/gallery/project/Matrix Hotel" /gallery/project/the-matrix-hotel/
 Redirect 301 /Ledgestone-Feature-Walls /ledgestone-feature-walls/
 Redirect 301 /Exterior-Stone-Veneer /exterior-stone-veneer/
 Redirect 301 /Natural-Stone-For-Feature-Walls /natural-stone-for-feature-walls/
