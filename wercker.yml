@@ -32,7 +32,7 @@ build:
         code: rm -r bower_components bower.json Gemfile* wercker.yml
 deploy:
   steps:
-    - lukevivier/gh-pages:
+    - yuzroz/gh-pages:
         token: $GIT_TOKEN
         basedir: _site
         branch: master
