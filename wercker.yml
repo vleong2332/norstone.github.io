@@ -32,7 +32,7 @@ build:
         code: rm -r bower_components bower.json Gemfile* wercker.yml
 deploy:
   steps:
-    - ysqi/git-push:
+    - krlmlr/git-push:
         gh_oauth: $GIT_TOKEN
         basedir: _site
         branch: master
