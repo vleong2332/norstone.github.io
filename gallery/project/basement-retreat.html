@@ -24,13 +24,15 @@ other_galleries:
 - fireplaces
 rows:
 - image:
-    src: /assets/images/unsorted/PhillyBasement(2).png
     alt: Philly Basement
+    title: Philly Basement
+    src: /assets/images/unsorted/PhillyBasement(2).png
   heading: R&amp;R Never Looked So Good
   body: Ochre Rock Panels adorn nearly every wall of the lower level in this home in the city of brotherly love. The stone forms a perfect backdrop to frame a modern gas fireplace as well as signed Van Halen Guitar and serves as a functional bar backsplash and feature wall in the theatre nook of this custom designed lower level space. The clean and linear design of the Rock Panel is in full display as its more traditional brown &amp; grey color tones work perfectly with the modern style and furnishings of this space.
 - image:
-    src: /assets/images/unsorted/Ochre.png
     alt: Ochre
+    title: Ochre
+    src: /assets/images/unsorted/Ochre.png
   heading: Featured Products &amp; Design
   body: "The Philadelphia Basement project highlights the need for sufficient and varied lighting in any project that will recieve little or no sunlight, particularily when stone is involved.  The use of drop pendants, recessed cans, halogen pins, and a very cool backlit bottle rack all combine with the warm glow of the gas fireplace to bring out the brown earth tones of the Ochre Rock Panel and create a warm and inviting multi use space.</p><p><a href='/products/rock-panels/ochre/'>Visit Product Page</a>"
 layout: gallery
@@ -43,7 +45,7 @@ redirect_from:
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.src }}" alt="{{ row.image.alt }}" />
+    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}" />
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>

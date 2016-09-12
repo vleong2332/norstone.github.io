@@ -30,13 +30,15 @@ other_galleries:
 - niagara
 rows:
 - image:
-    src: /assets/images/unsorted/Horsen.png
     alt: Horsen House
+    title: Horsen House
+    src: /assets/images/unsorted/Horsen.png
   heading: A Flare for the Contemporary
   body: Proving the point that stone isn't just for fireplaces, this modern home in Denmark boldly used the Charcoal Rock Panel in the bathroom, shower, kitchen, living room and even garage area of the residence, not only creating continuity throughout the property, but also setting trends that we've seen followed across the pond.
 - image:
-    src: /assets/images/unsorted/stuff-to-know-2.png
     alt: Stuff to know
+    title: Stuff to know
+    src: /assets/images/unsorted/stuff-to-know-2.png
   heading: Featured Products &amp; Design
   body: "The Horsen House project in Denmark was one of the first projects where Norstone Rock Panels were used for a walk in shower wall, an application that has recently gained popularity in the design community with the proliferation of waterproofing methods for substrates making the idea possible. Projects like this, firmly planted on the leading edge of design and product innovation, solidify Norstone Rock Panels as a high performing and highly desired product.</p><p><a href='/products/rock-panels/charcoal/'>Visit Product Page</a>"
 layout: gallery
@@ -47,7 +49,7 @@ layout: gallery
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.src }}" alt="{{ row.image.alt }}" />
+    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}" />
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>

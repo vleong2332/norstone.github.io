@@ -45,28 +45,33 @@ other_galleries:
 - rock-panel-ochre
 rows:
 - image:
-    src: /assets/images/unsorted/Norstone-Natural-Stone-Waterfall.jpg
     alt: Norstone Natural Stone Waterfall
+    title: Norstone Natural Stone Waterfall
+    src: /assets/images/unsorted/Norstone-Natural-Stone-Waterfall.jpg
   heading: 100% Natural Stone, 100% Natural Beauty
   body: "Norstone <a href='/products/stacked-stone-cladding/'>Rock Panels</a> can be installed in wet environments without fading, cracking, or unnatural weathering. Being 100% natural stone, Norstone veneers were made outside and have been subjected to wet environments throughout their makeup."
 - image:
-    src: /assets/images/unsorted/Norstone-Natural-Stone-Rock-Waterfall.jpg
     alt: Norstone Natural Stone Rock Waterfall
+    title: Norstone Natural Stone Rock Waterfall
+    src: /assets/images/unsorted/Norstone-Natural-Stone-Rock-Waterfall.jpg
   heading: Dimension matters
   body: When choosing a ledgestone veneer for your pool’s risers and spill-ways, consider the fundamental dimensionality to the face of the product. Norstone Rock Panels and XL Rock Panels provide real dimension with world-class design.
 - image:
-    src: /assets/images/unsorted/OchreCorner(2).png
     alt: Ochre Corner
+    title: Ochre Corner
+    src: /assets/images/unsorted/OchreCorner(2).png
   heading: Stone That Lasts
   body: Norstone can be submerged because it’s 100% natural stone. It’s one of the most durable building products of all time. Chlorine? Salt Water? Go for it. Norstone is made from ultra-dense quartz, basalt, or quartzitic sedimentary rock, which means it stands up to any condition you want to put it through.
 - image:
-    src: /assets/images/unsorted/Norstone-Natural-Stone-Pool-Wall.jpg
     alt: Norstone Natural Stone Pool Wall
+    title: Norstone Natural Stone Pool Wall
+    src: /assets/images/unsorted/Norstone-Natural-Stone-Pool-Wall.jpg
   heading: Create Style With Stone
   body: Norstone is the stylish gem in any garden. Whether it’s the authentic earth-toned Ochre Blend or the cool toned Charcoal, either Rock Panel can turn your planters and landscaping walls into awe-inspiring features and focal points.
 - image:
-    src: /assets/images/unsorted/NorstoneStackedRockPanels.png
     alt: Rock Panels
+    title: Rock Panels
+    src: /assets/images/unsorted/NorstoneStackedRockPanels.png
   heading: Practical Considerations
   body: Pools are moisture rich environments, which means they need special care when installing. Norstone can be directly adhered to any pool wall, but we recommend using a waterproofing membrane, such as the Laticrete Hydroban product. Waterproofing your substrate can decrease the chance of efflorescence damaging your Norstone. We also recommend the use of a good quality penetrating sealer. Many exist in the market, but not all are equal. You can learn more from our team, or visit the recommended sealers on our installation guide page.
 layout: gallery
@@ -79,7 +84,7 @@ redirect_from:
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.src }}" alt="{{ row.image.alt }}">
+    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>

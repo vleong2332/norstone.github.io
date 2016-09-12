@@ -26,13 +26,15 @@ other_galleries:
 - niagara
 rows:
 - image:
-    src: /assets/images/unsorted/HLArch.png
     alt: HL Arch
+    title: HL Arch
+    src: /assets/images/unsorted/HLArch.png
   heading: H+L Designs for Creative Thinkers
   body: H+L Architecture inspires us by using Norstone Ochre Blend Rock Panels in their brand new office complex in Denver, CO. Inlaying bookshelves and art niches into our Stacked Stone is one of many ways to create a dynamic, well-designed environment with Norstone. Rounding out this project is a stunning fireplace situated in the lobby complementing the expansive views of the outside provided by large forward facing windows.
 - image:
-    src: /assets/images/unsorted/Ochre.png
     alt: Ochre
+    title: Ochre
+    src: /assets/images/unsorted/Ochre.png
   heading: Featured Products &amp; Design
   body: "The H+L Architecture project is most unique in the integration between the Ochre Rock Panels and all the other design elements of the space, including inlaid bookshelves, a fireplace, lighting, even a rolling ladder.  The panel system concept behind Norstone Rock Panels encourages the product to be installed very similar to tile, allowing for this type of detail work to be completed much easier as compared to hand stacked loose stone.</p><p><a href='/products/rock-panels/ochre'>Visit Product Page</a>"
 layout: gallery
@@ -43,7 +45,7 @@ layout: gallery
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.src }}" alt="{{ row.image.alt }}">
+    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>

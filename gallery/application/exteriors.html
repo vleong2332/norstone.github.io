@@ -94,12 +94,14 @@ other_galleries:
 rows:
 - image:
     alt: Norstone Harold Natural Exterior Stone Veneer For Outside
+    title: Norstone Harold Natural Exterior Stone Veneer For Outside
     src: /assets/images/unsorted/Norstone-Natural-Exterior-Stone-Veneer-Outside.jpg
   heading: Where It All Began
   body: Norstone Rock Panels originated as a landscaping product, and while architects and designers have found lots of other ways to use the product, its origins shine through when used as an exterior stacked stone.  The quartz and quartz based stones make the product incredibly durable and an excellent choice for an exterior wall cladding project.
 - image:
-    src: /assets/images/unsorted/Norstone-Natural-Exterior-Stacked-Stone.jpg
     alt: Norstone Revel Natural Exterior Stacked Stone
+    title: Norstone Revel Natural Exterior Stacked Stone
+    src: /assets/images/unsorted/Norstone-Natural-Exterior-Stacked-Stone.jpg
   heading: It's Bigger Out Here
   body: Exterior projects tends to be larger in size than interior projects - it's a simple fact that there is often lots more room outside than in.  Norstone's panel system allows for installers to achieve installation rates closely mirroring tile, far outpacing hand stacked loose stone, allowing for exterior stone veneer projects to be completed more quickly and cost effectively.  Norstone's larger format <a href="/products/thin-stone-veneer-panels">XL Rock Panels</a>, featuring larger individual stone sizes than the <a href="/products/stacked-stone-cladding">Standard Series</a>, are an ideal fit for many exterior stone cladding projects which would benefit from a larger and therefore more consistent look over a large installation.
 layout: gallery
@@ -112,7 +114,7 @@ redirect_from:
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.src }}" alt="{{ row.image.alt }}">
+    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>

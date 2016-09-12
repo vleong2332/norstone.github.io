@@ -48,18 +48,21 @@ other_galleries:
 - rock-panel-charcoal
 rows:
 - image:
-    src: /assets/images/unsorted/Norstone-Natural-Stone-Spa-Hot-Tub.jpg
     alt: Norstone Natural Stone Spa and Hot Tub
+    title: Norstone Natural Stone Spa and Hot Tub
+    src: /assets/images/unsorted/Norstone-Natural-Stone-Spa-Hot-Tub.jpg
   heading: Bringing the Spa Home
   body: "Using Norstone <a href='/products/stacked-stone-cladding'>Rock Panels</a> to create a natural stone shower wall is an excellent option for homeowners seeking to incorporate spa elements into their private bathrooms. Natural stone has long been a favorite finish of commercial spas for its rugged asethetic, durabilitiy, and sound dampening qualities, which can now be incorporated into a stone veneer shower wall straight out of a magazine."
 - image:
-    src: /assets/images/unsorted/Norstone-Ivory-Shower-Stone.jpg
     alt: Norstone Ivory Shower Stone
+    title: Norstone Ivory Shower Stone
+    src: /assets/images/unsorted/Norstone-Ivory-Shower-Stone.jpg
   heading: Making It Possible
   body: Creating a natural stone shower wall from a dry stacked thin veneer product like Norstone Rock Panels was impossible just a few years ago, but thanks to advancements in waterproofing technology, you can now achieve a fully water proofed substrate to which any natural stone or tile can be installed over using a thinset bed method.  This waterproofing layer prevents water intrusion into the cement board substrate and wall cavity and directs the water, with gravity's help, to the shower pan and drain.
 - image:
-    src: /assets/images/unsorted/Norstone-Stacked-Stone-Shower.jpg
     alt: Norstone Stacked Stone Shower
+    title: Norstone Stacked Stone Shower
+    src: /assets/images/unsorted/Norstone-Stacked-Stone-Shower.jpg
   heading: Practical Considerations
   body: "Stone veneer used in a shower should be sealed upon completion of the installation with a quality water based natural stone sealer and resealed at regular intervals per the sealer manufacturer's recommendations.  When necessary, the stone is best cleaned using detergent based soaps and a stiff plastic bristle brush.  An exhaust fan is helpful to evacuate the moist air out of the shower stall during and after each use, helping keep the stone veneer shower wall clean.</p><p><a href='/assets/pdfs/Norstone-Short-and-Long-Term-Maintenance-Guidelines.pdf'>Norstone's Short &amp; Long Term Maintenance Guidelines</a>"
 layout: gallery
@@ -72,7 +75,7 @@ redirect_from:
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.src }}" alt="{{ row.image.alt }}">
+    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>
