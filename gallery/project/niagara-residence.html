@@ -31,13 +31,15 @@ other_galleries:
 - xl-rock-panel-charcoal
 rows:
 - image:
-    src: /assets/images/unsorted/Niagara.png
     alt: Niagara Home
+    title: Niagara Home
+    src: /assets/images/unsorted/Niagara.png
   heading: Norstone Rock Panels for Modern Facades
   body: The principal feature of the 1.85 acre site fronting the Niagara River just upstream from the Horseshoe Falls is the long unobstructed river views across the full 164 ft width of the property. The 4700 sq.ft of interior living space and 1200 sq.ft of covered terrace were crafted to embrace this feature and find a balance between the relative transparency encouraged by the views and the privacy concerns of the owners.
 - image:
-    src: /assets/images/unsorted/stuff-to-know-2.png
     alt: Charcoal Rock Panel Information
+    title: Charcoal Rock Panel Information
+    src: /assets/images/unsorted/stuff-to-know-2.png
   heading: Featured Products &amp; Design
   body: "The Charcoal Rock Panel, paired with the large grey dimensional stone on the Niagra House, offer up a great contrast in both color and composition to the wood finish used extensively throughout the home's exterior doors, awnings and terrace walls. Beautifully illuminated up and down by over fifty spot and flood lights, the Niagra house and the Charcoal Rock Panels sparkle on cold New York nights.</p><p><a href='/products/rock-panels/charcoal'>Visit Product Page</a>"
 layout: gallery
@@ -50,7 +52,7 @@ redirect_from:
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.src }}" alt="{{ row.image.alt }}" />
+    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}" />
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>

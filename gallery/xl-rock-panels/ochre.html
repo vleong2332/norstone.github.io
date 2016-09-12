@@ -118,13 +118,15 @@ gallery:
   - Outdoor Kitchen
 rows:
 - image:
-    src: /assets/images/unsorted/Norstone-Natural-Siding-for-Landscapes.jpg
     alt: Norstone Natural Stone Veneer Fireplace TV Surround
+    title: Norstone Natural Stone Veneer Fireplace TV Surround
+    src: /assets/images/unsorted/Norstone-Natural-Siding-for-Landscapes.jpg
   heading: Ochre XL Rock Panel &#8482;
   body: Part of our high performance <a href="/products/thin-stone-veneer-panels/">natural stone veneer wall panels</a>, Ochre XL Rock Panels are formed from a variety of types of natural stone, all belonging to the quartz-sedimentary family. Through their unique shape and material, the XL Rock Panels lock together to create a stunning, seamless <a href="/gallery/application/exteriors/">landscape stone</a> facade. Speed and a seamliess finish are the hallmarks of our XL Collection where Ochre is the most popular color of the group.
 - image:
-    src: /assets/images/unsorted/XLOchre-Landscaping-Exterior-Stone-Rock-Panel.png
     alt: Norstone Stack Stone Fireplace
+    title: Norstone Stack Stone Fireplace
+    src: /assets/images/unsorted/XLOchre-Landscaping-Exterior-Stone-Rock-Panel.png
   heading: Designed for Elegance, Built to Perform.
   body: Meticulously shaped by hand into 6" x 24" Units, Ochre XL Stone Veneer Rock Panels install efficinetly and - unlike other thin veneer panels in the market - <em>precisely</em>. Each panel is carefully crafted and checked against a rigorous set of quality control standards to ensure the product you get installs right the first time.</p><p><a href="/products/thin-stone-veneer-panels/ochre/">Visit Product Page</a>
 other_galleries:
@@ -140,7 +142,7 @@ layout: gallery
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}" title="{{ row.image.src }}" />
+    <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}" title="{{ row.image.title }}" />
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>

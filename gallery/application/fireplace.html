@@ -176,28 +176,33 @@ other_galleries:
 - rock-panel-charcoal
 rows:
 - image:
-    src: /assets/images/unsorted/Norstone-Natural-Stone-Veneer-Fireplace-TV-Surround.jpg
     alt: Norstone Natural Stone Veneer Fireplace TV Surround
+    title: Norstone Natural Stone Veneer Fireplace TV Surround
+    src: /assets/images/unsorted/Norstone-Natural-Stone-Veneer-Fireplace-TV-Surround.jpg
   heading: Center of a Room. Center of a Home.
   body: Fireplaces are a natural gathering place, and are often not just the focal point of a room, but often the focal point of the entire home, proving a respite of warmth, conversation, and meditation from the outside world. Experts agree that renovating a tired, worn out, and outdated fireplace has the same return on investment as updating a kitchen or bathroom, but with a much smaller price tag. Natural stone veneer panels are an excellent choice for such a renovation, offering a cost effective, easy to install application.
 - image:
-    src: /assets/images/unsorted/Norstone-Stack-Stone-Fireplace.png
     alt: Norstone Stack Stone Fireplace
+    title: Norstone Stack Stone Fireplace
+    src: /assets/images/unsorted/Norstone-Stack-Stone-Fireplace.png
   heading: The World's Finest Corner Detail
   body: Corners are one of the single most important details to choosing any stacked stone veneer for a fireplace. So we poured over every detail and concept for making the perfect corner. After carefully manufacturing and testing one iteration after another, we eventually concluded that - for a thin natural stacked stone veneer to “turn a corner” properly - it had to be crafted using “fingers” that seamlessly interlock…as if they were made that way in nature. Don’t settle for less than the best when it comes to this detail.
 - image:
-    src: /assets/images/unsorted/Norstone-Indoor-Stone-Fireplace-Surround.jpg
     alt: Norstone Indoor Stone Fireplace Surround
+    title: Norstone Indoor Stone Fireplace Surround
+    src: /assets/images/unsorted/Norstone-Indoor-Stone-Fireplace-Surround.jpg
   heading: Color and Design Matter
   body: "Whether you&rsquo;re envisioning a rustic, colonial, contemporary, modern, or Old World space, color and design add up to making your project look just right. Natural Stone Colors vary naturally, which is what makes it an authentic material to incorporate into projects. Our four colors, <a href='/products/rock-panels/ochre'>Ochre</a>, <a href='/products/rock-panels/charcoal'>Charcoal</a>, <a href='/products/rock-panels/white'>White</a>, and <a href='/products/rock-panels/ivory'>Ivory</a> can be easily adapted into all color schemes and the clean lines of the product are equally well suited to all different types of design."
 - image:
-    src: /assets/images/unsorted/Norstone-Stacked-Stone-Fireplace-Surround.jpg
     alt: Norstone Stacked Stone Fireplace Surround
+    title: Norstone Stacked Stone Fireplace Surround
+    src: /assets/images/unsorted/Norstone-Stacked-Stone-Fireplace-Surround.jpg
   heading: Build it Right
   body: "Whether you&rsquo;re renovating an old brick fireplace, or building one anew, our world-class customer service team will walk you through the right process for you. During a fireplace renovation, you tend to encounter more obstacles than if you are building new. For example, is your existing fireplace built from brick? Is it flat drywall? There are different ways to handle each of these conditions.</p> <p><a href='/assets/pdfs/Norstone_Installation-Guide(2).pdf'> Norstone's Installation Guide</a>"
 - image:
-    src: /assets/images/unsorted/Norstone-White-Quartz-Natural-Stone-on-Interior-Fireplace.jpg
     alt: Norstone Exterior Stone Fireplace
+    title: Norstone Exterior Stone Fireplace
+    src: /assets/images/unsorted/Norstone-White-Quartz-Natural-Stone-on-Interior-Fireplace.jpg
   heading: Hearth or No Hearth
   body: One of the most common questions about fireplaces is whether or not to have a hearth. Many modern gas fireplaces that use Norstone do not have hearths, but many rustic fireplaces that we work on do. Be sure to peruse our galleries for projects that look like yours to get a better idea of whether or not this is right for you.
 layout: gallery
@@ -208,7 +213,7 @@ layout: gallery
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.src }}" alt="{{ row.image.alt }}">
+    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>

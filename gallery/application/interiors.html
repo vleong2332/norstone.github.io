@@ -66,18 +66,21 @@ other_galleries:
 - xl-rock-panel-interiors
 rows:
 - image:
-    src: /assets/images/unsorted/Norstone-Interior-Stone-Wall-Panels.jpg
     alt: Norstone Horsen Interior Stone Wall Panels
+    title: Norstone Horsen Interior Stone Wall Panels
+    src: /assets/images/unsorted/Norstone-Interior-Stone-Wall-Panels.jpg
   heading: Norstone, Anywhere &amp; Everywhere
   body: "Norstone <a href='/products/stacked-stone-cladding'>Rock Panels</a> are a great choice for any interior stone project where a unique and fresh look is desired.  Projects ranging from entryways, alcoves, stairwells, accent and feature walls, powder rooms, fireplaces and many more are all suitable for an interior stacked stone wall.  It never ceases to amaze the team at Norstone the different ways our customers dream up to use our products."
 - image:
-    src: /assets/images/unsorted/Norstone-Install-Stone-Panels-Inside-Home_Office-Project.jpg
     alt: Norstone Brusch Interior Stone Panels Installation Project
+    title: Norstone Brusch Interior Stone Panels Installation Project
+    src: /assets/images/unsorted/Norstone-Install-Stone-Panels-Inside-Home_Office-Project.jpg
   heading: Starting Out Right
   body: "The most important consideration for an interior stone veneer project is making sure the wall itself is suitable for installation.  Norstone Rock Panels weigh about 12.5 lbs / sq ft, making most normal drywall or sheetrock wall substrates unsuitable for an interior rock wall installation.  This is easily remedied by installating cement board over the existing wallboard and then installing the interior stone veneer over the freshly prepared substrate.</p><a href='/how-to-install-stacked-stone'>Norstone&rsquo;s Installation Page</a>"
 - image:
-    src: /assets/images/unsorted/Norstone-Interior-Stacked-Stone-Veneer-Wall.jpg
     alt: Norstone Pompano Interior Stacked Stone Veneer Wall
+    title: Norstone Pompano Interior Stacked Stone Veneer Wall
+    src: /assets/images/unsorted/Norstone-Interior-Stacked-Stone-Veneer-Wall.jpg
   heading: Finishing Touches
   body: A number of options are available for adding extra design elements to an interior stone veneer wall. One of the most popular is lighting, which can be projected either upward, downward, or designed to back light the stone, and controlled for brightness and color.  Art pieces can also be incorporated into an interior stacked stone project, using a diamond-tipped masonry drill bit to drill through the stone to set the anchor points.
 layout: gallery
@@ -90,7 +93,7 @@ redirect_from:
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.src }}" alt="{{ row.image.alt }}">
+    <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>
