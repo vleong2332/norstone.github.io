@@ -4,7 +4,7 @@
     <div class="owl-carousel" data-slider-id="1">
       {% for slide in page.slides %}
       <div class="{% if forloop.index0==0 %}class='is-active' {% endif %} orbit-slide">
-        <img src="{{ slide.image }}" alt="{{ slide.title }}" title="{{ slide.image }}">
+        <img src="{{ slide.src }}" alt="{{ slide.alt }}" title="{{ slide.title }}">
       </div>
       {% endfor %}
     </div>
