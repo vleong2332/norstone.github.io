@@ -49,7 +49,6 @@ $(function() {
         $mobile_accordion_content.show().removeClass('accordion-content');
       }
       else if (newSize == 'small') {
-        console.log($mobile_accordion_content);
         $mobile_accordion_content.addClass('accordion-content').hide();
       }
     }
