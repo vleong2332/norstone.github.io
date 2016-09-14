@@ -30,9 +30,6 @@ build:
     - script:
         name: delete extraneous files
         code: rm -r bower_components bower.json Gemfile* wercker.yml
-    - add-ssh-key:
-        keyname: WEBENABLED_KEY
-        host: nrstn.prod3.webenabled.net
 deploy-github:
   steps:
     - yuzroz/gh-pages:
@@ -41,8 +38,23 @@ deploy-github:
         branch: master
 deploy-webenabled:
   steps:
+    - script:
+        name: rsync install
+        code: |
+          sudo apt-get update
+          sudo apt-get install -y rsync
+    - add-to-known_hosts:
+        hostname: nrstn.prod3.webenabled.net
+    - mktemp:
+        envvar: PRIVATEKEY_PATH
+    - create-file:
+        name: write key
+        filename: $PRIVATEKEY_PATH
+        content: $WEBENABLED_KEY_PRIVATE
+        overwrite: true
     - sjoerdmulder/rsync-deploy:
         user: w_nrstn
         host: nrstn.prod3.webenabled.net
+        source: ./_site/
         directory: ~/public_html/norstoneusa.com/pub
-        sshkey: $WEBENABLED_KEY_PRIVATE
+        sshkey: $PRIVATEKEY_PATH
