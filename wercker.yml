@@ -30,9 +30,19 @@ build:
     - script:
         name: delete extraneous files
         code: rm -r bower_components bower.json Gemfile* wercker.yml
-deploy:
+    - add-ssh-key:
+        keyname: WEBENABLED_KEY
+        host: nrstn.prod3.webenabled.net
+deploy-github:
   steps:
     - yuzroz/gh-pages:
         token: $GIT_TOKEN
         basedir: _site
         branch: master
+deploy-webenabled:
+  steps:
+    - sjoerdmulder/rsync-deploy:
+        user: w_nrstn
+        host: nrstn.prod3.webenabled.net
+        directory: ~/public_html/norstoneusa.com/pub
+        sshkey: $WEBENABLED_KEY_PRIVATE
