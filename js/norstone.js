@@ -8,13 +8,7 @@ $(function() {
 
   // Add Pinterest social share icon.
   if ($('.social-share-container').length > 0) {
-    var pinterest = {
-      url: document.URL,
-      media: 'http://' + document.domain + '/' + $('#product-photo img').attr('src'),
-      description: $('.photo-container h2').html()
-    }
-    var href = '//pinterest.com/pin/create/button/?' + $.param(pinterest);
-    $('.social-share-container').prepend('<a class="social-share-pinterest" target="_blank" href="' + href + '">Pinterest</a>');
+    $('.social-share-container').prepend('<a class="social-share-pinterest" target="_blank" href="//pinterest.com/pin/create/button/">Pinterest</a>');
   }
 
   // Smooth scrolling.
@@ -117,6 +111,12 @@ $(function() {
   // Make a clone of slides for filtering.
   $slides = $('.orbit-slide').clone();
 
+  $slider.on('initialized.owl.carousel', function(event) {
+    var $images = $('.owl-item')
+    var $slide = $('.orbit-slide', $images[event.item.index]);
+    pinterest_update($('img', $slide));
+  });
+
   $slider.owlCarousel(slider_options);
 
   $slider.on('changed.owl.carousel refreshed.owl.carousel', function(event) {
@@ -130,6 +130,8 @@ $(function() {
       $('.card--title', block).html(type.title);
       $('a', block).attr('href', type.link);
     }
+
+    pinterest_update($('img', $slide));
   });
 
   // Build select list for filter.
@@ -208,3 +210,13 @@ $(function() {
     });
   }
 });
+
+var pinterest_update = function($image) {
+  var pinterest = {
+    url: document.URL,
+    media: 'http://' + document.domain + '/' + $image.attr('src'),
+    description: $image.attr('title')
+  }
+
+  $('.social-share-pinterest').attr('href', '//pinterest.com/pin/create/button/?' + $.param(pinterest));
+}
