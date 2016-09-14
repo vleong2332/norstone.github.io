@@ -119,8 +119,8 @@ $(function() {
   $slider.owlCarousel(slider_options);
 
   $slider.on('changed.owl.carousel refreshed.owl.carousel', function(event) {
-    var images = $('.owl-item')
-    var $slide = $('.orbit-slide', images[event.item.index]);
+    var $images = $('.owl-item')
+    var $slide = $('.orbit-slide', $images[event.item.index]);
     if ($slide.attr('data-product-type')) {
       var block = $('.pictured-product .card');
       var type = productTypes[$slide.attr('data-product-type')];
