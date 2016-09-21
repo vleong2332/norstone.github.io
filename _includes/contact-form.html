@@ -316,10 +316,7 @@
   <input class="button--main float-right" type="submit" value="Submit" />
 </form>
 <script>
-  var mndFields = new Array('Last Name');
-  var fldLangVal = new Array('Last Name');
-  var name='';
-  var email='';
+  var mndFields = new Array('Last Name', 'Phone', 'Email', 'Zip Code');
 
   function checkMandatory() {
     for (i=0; i < mndFields.length; i++) {
@@ -331,18 +328,18 @@
             fieldObj.focus();
             return false;
           }
-          alert(fldLangVal[i] + ' cannot be empty.');
+          alert(mndFields[i] + ' cannot be empty.');
           fieldObj.focus();
           return false;
         } else if (fieldObj.nodeName == 'SELECT') {
           if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
-            alert(fldLangVal[i] + ' cannot be none.');
+            alert(mndFields[i] + ' cannot be none.');
             fieldObj.focus();
             return false;
           }
         } else if (fieldObj.type == 'checkbox') {
           if (fieldObj.checked == false) {
-            alert('Please accept  '+ fldLangVal[i]);
+            alert('Please accept  '+ mndFields[i]);
             fieldObj.focus();
             return false;
           }
