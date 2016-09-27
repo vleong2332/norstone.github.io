@@ -113,9 +113,10 @@ layout: gallery
 redirect_from:
 - "/gallery/application/Backsplash"
 ---
+
 <h1 class="standard standard-gallery text-center">Stacked Stone Backsplashes that&nbsp;Rock with Norstone.</h1>
 <hr>
-<p>{% for row in page.rows %}</p>
+{% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
     <img class="orbit-image" src="{{ row.image.src }}" alt="{{ row.image.alt }}" title="{{ row.image.title }}">
@@ -126,6 +127,7 @@ redirect_from:
   </div>
   <hr>
 </div>
+{% endfor %}
 <div class="large-5 columns large-push-7">
     <img class="orbit-image" src="/assets/images/unsorted/Norstone-Bathroom-Backsplash-Tile-Natural-Stone-Veneer.jpg" alt="Norstone Bathroom Backsplash Tile Used on HGTV Television Show Bathtastic" title="Norstone Bathroom Backsplash Tile Natural Stone Veneer">
   </div>
