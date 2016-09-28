@@ -133,7 +133,7 @@ redirect_from:
 ---
 <h1 class="standard standard-gallery text-center">INTERIOR STONE VENEER WALLS THAT ROCK</h1>
 <hr>
-<p>{% for row in page.rows %}</p>
+{% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
     <img class="orbit-image" src="{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}">
@@ -144,6 +144,7 @@ redirect_from:
   </div>
   <hr>
 </div>
+{% endfor %}
 <div class="large-5 columns large-push-7">
     <img class="orbit-image" src="/assets/images/unsorted/Norstone-Interior-Rock-Wall-Cladding.jpg" title="Norstone Interior Rock Wall Cladding" alt="Interior Rock Wall Cladding used on columns in an underground Wine Cellar">
   </div>
