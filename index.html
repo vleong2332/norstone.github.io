@@ -87,7 +87,7 @@ layout: default
   <div class="row columns">
     <nav class="orbit-bullets">
       {% for slide in page.slides %}
-      <button data-slide="{{ forloop.index0 }}" {%="" if="" forloop.index0="=" 0="" %}="" class="is-active" endif=""></button>
+      <button data-slide="{{ forloop.index0 }}"{% if forloop.index0 == 0 %} class="is-active"{% endif %}><span class="show-for-sr"></span></button>
       {% endfor %}
     </nav>
   </div>
@@ -103,7 +103,7 @@ layout: default
 <div class="row columns">
     <nav class="orbit-bullets">
       {% for slide in page.slides %}
-      <button data-slide="{{ forloop.index0 }}" {%="" if="" forloop.index0="=" 0="" %}="" class="is-active" endif=""></button>
+      <button data-slide="{{ forloop.index0 }}"{% if forloop.index0 == 0 %} class="is-active"{% endif %}><span class="show-for-sr"></span></button>
       {% endfor %}
     </nav>
   </div>
