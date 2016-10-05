@@ -7,7 +7,6 @@ exclude:
 - bower_components
 gems:
 - html-proofer
-- jekyll-sitemap
 - jekyll-feed
 - jekyll-redirect-from
 jekyll_tidy:
