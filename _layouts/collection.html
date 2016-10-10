@@ -5,13 +5,13 @@ title: Norstone Gallery
 
 {% assign collection_or_color = page.path | downcase | split: '/' %}
 {% assign collection_or_color = collection_or_color[0] %}
-<div class="product-header">
+<span itemscope itemtype="http://schema.org/Product"><div class="product-header">
   <div class="row large-collapse">
     <div class="large-8 columns">
-      <a href="{{ page.header.link }}"><img class="orbit-image" alt="{{ page.header.subtitle }}" title="{{ page.header.subtitle }}" src="{{ page.header.image }}" /></a>
+      <a href="{{ page.header.link }}"><img itemprop="image" class="orbit-image" alt="{{ page.header.subtitle }}" title="{{ page.header.subtitle }}" src="{{ page.header.image }}" /></a>
     </div>
     <div class="large-4 columns">
-      <h1 class="xx-large color-secondary text-center large-text-right" style="margin-bottom: 5px">{{ page.header.title }}</h1>
+      <h1 itemprop="name" class="xx-large color-secondary text-center large-text-right" style="margin-bottom: 5px">{{ page.header.title }}</h1>
       <h2 class="small color-primary text-center large-text-right">{{ page.header.subtitle }}</h2>
       <p class="text-justify">{{ page.header.description }}</p>
       {% if collection_or_color == '_products' %}
@@ -25,7 +25,7 @@ title: Norstone Gallery
 <div class="row columns show-for-large">
   {% include navigation-products-small.html %}
 </div>
-<div class="row product-body">
+<div itemprop="brand" itemscope itemtype="http://schema.org/Brand" itemref="_logo6" class="row product-body">
   <div class="large-8 columns">
     {{ content }}
   </div>
