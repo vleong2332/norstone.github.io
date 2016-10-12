@@ -6,7 +6,7 @@ meta:
 excerpt: Stacked stone is an age building old term that literally refers to constructing walls out of slabs of stone in various sizes. Romans used stacked stone walls in Europe to mark territories and some can still be found today. In New England you can find walls from early settlers that are moss covered and blending into tree lines.
 permalink: /blog/norstone-industry-series-what-is-stacked-stone/
 ---
-Stacked stone is an age building old term that literally refers to constructing walls out of slabs of stone in various sizes. Romans used stacked stone walls in Europe to mark territories and some can still be found today. In New England you can find walls from early settlers that are moss covered and blending into tree lines.
+Stacked stone is an age old building term that literally refers to constructing walls out of slabs of stone in various sizes. Romans used stacked stone walls in Europe to mark territories and some can still be found today. In New England you can find walls from early settlers that are moss covered and blending into tree lines.
 ![New England Stacked Stone Wall]({{ site.baseurl }}/assets/images/New England Stacked Stone Wall.png)
 
 In days past, people would use the stones they had available, hand cutting and laying stones. A traditional stacked stone wall might not even use a bonding agent like concrete. Stones would be laid so carefully that the weight of the stones and their positioning in the wall is what held them together.
