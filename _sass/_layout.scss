@@ -292,7 +292,7 @@
     background-repeat: repeat;
     font-size: 32px;
     color: #5a5959;
-    padding: 5px 5px 20px;
+    padding: 10px 20px 18px;
     text-align: center;
     display: inline-block;
     font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
@@ -330,7 +330,7 @@
       }
     }
     .middle {
-      margin-top: 20px;
+      margin-top: 5px;
       background-color: #39879b;
       width: 100%;
       margin-bottom: 10px;
@@ -346,7 +346,7 @@
           font-size: 30px;
         }
       }
-    }  
+    }
   }
   .main-content {
     margin-top: -20px;
@@ -411,13 +411,13 @@
           padding: 0 4px;
           position: relative;
           top: 6px;
-        }  
+        }
       }
     }
     .items-container {
       width: 100%;
       position: relative;
-      display: flex; 
+      display: flex;
       flex-direction: row;
       margin-top: 15px;
       .item {
@@ -449,7 +449,7 @@
           background: -moz-radial-gradient(center, ellipse cover, #afcfd7 0%, #39879b 100%);
           background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #afcfd7), color-stop(100%, #39879b));
           background: -webkit-radial-gradient(center, ellipse cover, #afcfd7 0%, #39879b 100%);
-          background: -o-radial-gradient(center, ellipse cover, #afcfd7 0%, #39879b 100%); 
+          background: -o-radial-gradient(center, ellipse cover, #afcfd7 0%, #39879b 100%);
           background: -ms-radial-gradient(center, ellipse cover, #afcfd7 0%, #39879b 100%);
           background: radial-gradient(ellipse at center, #afcfd7 0%, #39879b 100%);
           filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afcfd7', endColorstr='#39879b',GradientType=1 );
@@ -464,7 +464,7 @@
           background: -moz-radial-gradient(center, ellipse cover, #808080 0%, #636363 100%);
           background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #808080), color-stop(100%, #636363));
           background: -webkit-radial-gradient(center, ellipse cover, #808080 0%, #636363 100%);
-          background: -o-radial-gradient(center, ellipse cover, #808080 0%, #636363 100%); 
+          background: -o-radial-gradient(center, ellipse cover, #808080 0%, #636363 100%);
           background: -ms-radial-gradient(center, ellipse cover, #808080 0%, #636363 100%);
           background: radial-gradient(ellipse at center, #808080 0%, #636363 100%);
           filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808080', endColorstr='#636363',GradientType=1);
@@ -529,10 +529,10 @@
       background: url("../assets/images/how-to-buy/r1.png");
       background-size: 100% 100%;
       background-repeat: no-repeat;
-      text-transform: uppercase;  
+      text-transform: uppercase;
       font-size: 35px;
       color: #b7b7b7;
-      padding: 20px 5px 43px;
+      padding: 15px 5px 43px;
       text-align: center;
       font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
       margin-bottom: 10px;
@@ -553,6 +553,6 @@
           font-size: 13px;
         }
       }
-    }  
+    }
   }
 }
