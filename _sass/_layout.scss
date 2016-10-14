@@ -277,3 +277,282 @@
 #select-color {
   margin-top: 17px;
 }
+
+.container {
+  background-color: #eaeaea;
+  margin: auto;
+  width: 82%;
+  max-width: 990px;
+  text-align: center;
+  display: table;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  .title-container {
+    background: url("../assets/images/how-to-buy/bgwhite.png");
+    background-repeat: repeat;
+    font-size: 32px;
+    color: #5a5959;
+    padding: 5px 5px 20px;
+    text-align: center;
+    display: inline-block;
+    font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
+  }
+  .top-container {
+    position: relative;
+    z-index: 2;
+    margin-top: -20px;
+    .info-container {
+      padding: 0 40px;
+      .bgView {
+        margin-top: -10px;
+        background-color: #fff;
+        border:2px solid lightgray;
+        margin-bottom: 20px;
+        h3 {
+          margin-top: 10px;
+          margin-bottom: 0;
+          font-size: 19px;
+          font-weight: bold;
+          color: #5a5959;
+        }
+        p {
+          text-align: left;
+          font-size: 12px;
+          line-height: 1.4;
+          padding: 10px 20px;
+          span.blue {
+            color: #3aa4cb;
+          }
+          span.black {
+            color: #000;
+          }
+        }
+      }
+    }
+    .middle {
+      margin-top: 20px;
+      background-color: #39879b;
+      width: 100%;
+      margin-bottom: 10px;
+      h2 {
+        color: white;
+        text-align: center;
+        font-size: 20px;
+         padding: 10px 10px;
+        -webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+        box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+        @include breakpoint(784px) {
+          font-size: 30px;
+        }
+      }
+    }  
+  }
+  .main-content {
+    margin-top: -20px;
+    .blackView {
+      background: url("../assets/images/how-to-buy/bgblack.png");
+      background-repeat: repeat;
+      border-radius: 5px;
+      position: relative;
+      display: table;
+      width: 100%;
+      margin-bottom: 10px;
+      text-align: left;
+      &:first-child {
+        margin-top: 20px;
+      }
+      > span {
+        position: absolute;
+        top: 0;
+        border-radius: 50%;
+        color: white;
+        border: 1px solid white;
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        line-height: 26px;
+        bottom: 0;
+        margin: auto 0;
+        left: 8px;
+      }
+      p {
+        font-size: 14px;
+        color: white;
+        padding: 8px 0 8px 40px;
+        margin: 0;
+        margin-left: 10px;
+        line-height: 1;
+        span {
+          font-size: 12px;
+          color: #3aa4cb;
+          font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
+        }
+      }
+    }
+    .requestItems {
+      width: 80%;
+      background-color: white;
+      margin-left: calc(10%);
+      margin-top: 20px;
+      border:2px solid lightgray;
+      p {
+        font-size: 30px;
+        text-align: center;
+        font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
+        line-height: 1;
+        padding: 0 0 5px;
+        margin-bottom: 0;
+        margin-top: -5px;
+        > span:first-child {
+          font-size: 50px;
+          color: #3aa4cb;
+          text-shadow: 1px 1px 1px #000;
+          padding: 0 4px;
+          position: relative;
+          top: 6px;
+        }  
+      }
+    }
+    .items-container {
+      width: 100%;
+      position: relative;
+      display: flex; 
+      flex-direction: row;
+      margin-top: 15px;
+      .item {
+        top: 50px;
+        border-radius: 50%;
+        color: #6b6b6b;
+        border: 5px solid white;
+        width: 90px;
+        height: 90px;
+        text-align: center;
+        line-height: 90px;
+        bottom: 0;
+        margin: auto;
+        background-color: #fff;
+        font-size: 25px;
+        font-weight: 100;
+        text-shadow: 1px 1px 1px #000;
+        font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
+        p {
+          line-height: 21px;
+          margin-top: 16px;
+          margin-left: -18px;
+          margin-right: -18px;
+          font-size: 20px;
+          color: white;
+          font-weight: 600;
+        }
+        &:nth-child(2) {
+          background: -moz-radial-gradient(center, ellipse cover, #afcfd7 0%, #39879b 100%);
+          background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #afcfd7), color-stop(100%, #39879b));
+          background: -webkit-radial-gradient(center, ellipse cover, #afcfd7 0%, #39879b 100%);
+          background: -o-radial-gradient(center, ellipse cover, #afcfd7 0%, #39879b 100%); 
+          background: -ms-radial-gradient(center, ellipse cover, #afcfd7 0%, #39879b 100%);
+          background: radial-gradient(ellipse at center, #afcfd7 0%, #39879b 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afcfd7', endColorstr='#39879b',GradientType=1 );
+          width: 100px;
+          height: 100px;
+          line-height: 100px;
+          color: white;
+          font-size: 30px;
+          text-indent: -8px;
+        }
+        &:last-child {
+          background: -moz-radial-gradient(center, ellipse cover, #808080 0%, #636363 100%);
+          background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #808080), color-stop(100%, #636363));
+          background: -webkit-radial-gradient(center, ellipse cover, #808080 0%, #636363 100%);
+          background: -o-radial-gradient(center, ellipse cover, #808080 0%, #636363 100%); 
+          background: -ms-radial-gradient(center, ellipse cover, #808080 0%, #636363 100%);
+          background: radial-gradient(ellipse at center, #808080 0%, #636363 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#808080', endColorstr='#636363',GradientType=1);
+          color: white;
+        }
+      }
+    }
+    .contact {
+      width: 100%;
+      left: calc(10% + 10px);
+      margin-top: 10px;
+      p {
+        background: url("../assets/images/how-to-buy/r2.png");
+        width: 40%;
+        border-radius: 5px;
+        background-color: #636363;
+        padding: 15px 10px;
+        text-align: center;
+        font-size: 18px;
+        display: inline-block;
+      }
+      div.number {
+        color: #f49160;
+        display: inline-block;
+        font-size: 20px;
+        padding: 10px;
+        background: url(../assets/images/how-to-buy/bgwhite.png);
+        position: relative;
+        font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
+        font-weight: 600;
+        line-height: 1.1;
+        .overlay {
+          position: absolute;
+          background: white;
+          opacity: 0.25;
+          -webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+          -moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+          box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+        }
+      }
+      div.call {
+        background-image: url(../assets/images/how-to-buy/r2.png);
+        display: inline-block;
+        background-position: 0;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 60px;
+        padding: 0 45px 0 15px;
+        color: lightgrey;
+        line-height: 60px;
+        font-size: 20px;
+        font-weight: 100;
+        top: -25px;
+        position: relative;
+        left: 15px;
+        z-index: 1;
+        font-weight: 600;
+        font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
+      }
+    }
+    .contact-email {
+      background: url("../assets/images/how-to-buy/r1.png");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      text-transform: uppercase;  
+      font-size: 35px;
+      color: #b7b7b7;
+      padding: 20px 5px 43px;
+      text-align: center;
+      font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
+      margin-bottom: 10px;
+      @include breakpoint(1094px) {
+        font-size: 42px;
+      }
+    }
+    .required {
+      text-align: left;
+      p {
+        color: #3aa4cb;
+        margin-bottom: 0;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 0;
+        > span {
+          color : #5a5959;
+          font-size: 13px;
+        }
+      }
+    }  
+  }
+}
