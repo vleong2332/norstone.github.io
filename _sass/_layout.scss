@@ -434,19 +434,19 @@
         width: 85px;
         height: 85px;
         text-align: center;
-        line-height: 85px;
+        line-height: 78px;
         bottom: 0;
         margin: auto;
         background-color: #fff;
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 100;
         text-shadow: 1px 1px 1px #000;
         font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
         @include breakpoint(420px) {
           width: 90px;
           height: 90px;
-          line-height: 90px;
-          font-size: 25px;
+          line-height: 80px;
+          font-size: 22px;
         }
         p {
           line-height: 21px;
@@ -470,7 +470,7 @@
           filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afcfd7', endColorstr='#39879b',GradientType=1 );
           width: 95px;
           height: 95px;
-          line-height: 95px;
+          line-height: 88px;
           color: white;
           font-size: 22px;
           text-indent: -2px;
@@ -552,7 +552,7 @@
         background: url("../assets/images/how-to-buy/r1.png");
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        text-transform: uppercase;  
+        text-transform: uppercase;
         font-size: 25px;
         color: #b7b7b7;
         padding: 20px 5px 43px;
