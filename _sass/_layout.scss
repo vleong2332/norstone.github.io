@@ -445,7 +445,7 @@
         @include breakpoint(420px) {
           width: 90px;
           height: 90px;
-          line-height: 80px;
+          line-height: 84px;
           font-size: 22px;
         }
         p {
@@ -477,7 +477,7 @@
           @include breakpoint(420px){
             width: 100px;
             height: 100px;
-            line-height: 100px;
+            line-height: 94px;
             font-size: 30px;
             text-indent: -8px;
           }
