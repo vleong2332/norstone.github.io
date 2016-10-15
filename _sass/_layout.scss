@@ -290,12 +290,15 @@
   .title-container {
     background: url("../assets/images/how-to-buy/bgwhite.png");
     background-repeat: repeat;
-    font-size: 32px;
+    font-size: 28px;
     color: #5a5959;
     padding: 10px 20px 18px;
     text-align: center;
     display: inline-block;
     font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
+    @include breakpoint(420px){
+      font-size: 32px;
+    }
   }
   .top-container {
     position: relative;
@@ -397,13 +400,16 @@
       margin-top: 20px;
       border:2px solid lightgray;
       p {
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
         font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
         line-height: 1;
         padding: 0 0 5px;
         margin-bottom: 0;
         margin-top: -5px;
+        @include breakpoint(420px){
+          font-size: 30px;
+        }
         > span:first-child {
           font-size: 50px;
           color: #3aa4cb;
@@ -425,10 +431,10 @@
         border-radius: 50%;
         color: #6b6b6b;
         border: 5px solid white;
-        width: 90px;
-        height: 90px;
+        width: 85px;
+        height: 85px;
         text-align: center;
-        line-height: 90px;
+        line-height: 85px;
         bottom: 0;
         margin: auto;
         background-color: #fff;
@@ -436,14 +442,23 @@
         font-weight: 100;
         text-shadow: 1px 1px 1px #000;
         font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
+        @include breakpoint(420px) {
+          width: 90px;
+          height: 90px;
+          line-height: 90px;
+          font-size: 25px;
+        }
         p {
           line-height: 21px;
           margin-top: 16px;
           margin-left: -18px;
           margin-right: -18px;
-          font-size: 20px;
+          font-size: 17px;
           color: white;
           font-weight: 600;
+          @include breakpoint(420px) {
+            font-size: 20px;
+          }
         }
         &:nth-child(2) {
           background: -moz-radial-gradient(center, ellipse cover, #afcfd7 0%, #39879b 100%);
@@ -453,12 +468,19 @@
           background: -ms-radial-gradient(center, ellipse cover, #afcfd7 0%, #39879b 100%);
           background: radial-gradient(ellipse at center, #afcfd7 0%, #39879b 100%);
           filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#afcfd7', endColorstr='#39879b',GradientType=1 );
-          width: 100px;
-          height: 100px;
-          line-height: 100px;
+          width: 95px;
+          height: 95px;
+          line-height: 95px;
           color: white;
-          font-size: 30px;
-          text-indent: -8px;
+          font-size: 22px;
+          text-indent: -2px;
+          @include breakpoint(420px){
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            font-size: 30px;
+            text-indent: -8px;
+          }
         }
         &:last-child {
           background: -moz-radial-gradient(center, ellipse cover, #808080 0%, #636363 100%);
@@ -515,7 +537,7 @@
         padding: 0 45px 0 15px;
         color: lightgrey;
         line-height: 60px;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 100;
         top: -25px;
         position: relative;
@@ -525,33 +547,38 @@
         font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
       }
     }
-    .contact-email {
-      background: url("../assets/images/how-to-buy/r1.png");
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-      text-transform: uppercase;
-      font-size: 35px;
-      color: #b7b7b7;
-      padding: 15px 5px 43px;
-      text-align: center;
-      font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
-      margin-bottom: 10px;
-      @include breakpoint(1094px) {
-        font-size: 42px;
-      }
-    }
-    .required {
-      text-align: left;
-      p {
-        color: #3aa4cb;
-        margin-bottom: 0;
-        font-size: 16px;
-        font-weight: bold;
-        padding: 0;
-        > span {
-          color : #5a5959;
-          font-size: 13px;
+    .contact-input-form{
+      .contact-email {
+        background: url("../assets/images/how-to-buy/r1.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        text-transform: uppercase;  
+        font-size: 25px;
+        color: #b7b7b7;
+        padding: 20px 5px 43px;
+        text-align: center;
+        font-family: "Myriad Pro", Arial, Tahoma, Sans-Serif;
+        margin-bottom: 10px;
+        @include breakpoint(420px) {
+          font-size: 35px;
         }
+      }
+      .required {
+        text-align: left;
+        p {
+          color: #3aa4cb;
+          margin-bottom: 0;
+          font-size: 16px;
+          font-weight: bold;
+          padding: 0;
+          > span {
+            color : #5a5959;
+            font-size: 13px;
+          }
+        }
+      }
+      .row.collapse .small-3.columns label{
+        line-height: 1.5;
       }
     }
   }
