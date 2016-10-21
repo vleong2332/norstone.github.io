@@ -1,6 +1,6 @@
 {% assign current = page.url | downcase | split: '/' %}
-<h2 class="large color-primary"><img alt="Triangle" title="color-triangle.png" src="/assets/images/theme/color-triangle.png" /> Select Your <span style="color: #1c778f">Rock Panel</span>:</h2>
-<div class="row large-collapse small-up-2 large-up-1">
+<h2 class="large color-primary"><img alt="Triangle" title="color-triangle.png" src="/assets/images/theme/color-triangle.png" /> Select Your <span style="color: #1c778f">{{ page.type }}</span>:</h2>
+<div class="row small-up-2 large-up-1">
   {% for product in page.products %}
   <div class="column">
     <h4 class="color-primary" style="margin-bottom:0">{{ product.title }}</h4>
