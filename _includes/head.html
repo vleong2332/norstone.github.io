@@ -9,4 +9,9 @@
   <meta name="revisit-after" content="1 day" />
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
   <link type="text/css" rel="stylesheet" media="all" href="/css/norstone.css" />
+  {% if page.schema %}
+  <script type="application/ld+json">
+    {% yaml_to_json schema %}
+  </script>
+  {% endif %}
 </head>
