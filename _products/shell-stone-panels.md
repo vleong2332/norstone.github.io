@@ -1,7 +1,7 @@
 ---
 title: Shell Stone Panels
 date: '2016-11-04 14:26:02'
-layout: gallery
+layout: collection
 meta:
   description: The Basalt 3D Tile Collection. Every Stone, Meticulously Set By Hand.
     Comprised of precision-cut blocks of Basalt stone, popularly known as Lava stone.
@@ -43,6 +43,12 @@ Basalt 3D Tiles offer a "stepped" interlocking edge profile whereby one panel wi
 Basalt 3D Tiles incorporate Norstone's World-Class two-part, finger-jointed corner system. Saving every project the head-ache of having to miter their corners, this two-piece system offers a hassle free, interlocking installation, providing a look so seamless that it preserves the authentic nature of the stone. Because they require little skill on the part of the contractors fixing our rock panels to a wall, they significantly reduce installation time and onsite labor costs, especially when compared to the time and skill involved in cutting and forming mitered corners.
 
 [See Our Featured Projects Gallery](/gallery/project/)
+
+[](/gallery/project/)
+
+[](/gallery/project/)
+
+[](/gallery/project/)
 
 [<img width="12" height="9" class="arrow" alt="arrows-img" title="arrows-img.png" src="/assets/images/theme/arrows-img.png">](/gallery/project/)
 
@@ -90,7 +96,7 @@ Each box contains 5.625 square feet. Each crate contains 48 boxes, or 270sf.
 
 Basalt Stone is an extrusive igneous rock formed by the rapid cooling of basalt magmas and lavas at or near the earth’s surface. The un-weathered Basalt that our products are manufactured from exhibit pristine grey to black coloring that has been untouched by the elements for millions of years and is peerless in terms of beauty in the natural stone world, making the Basalt IL tile the perfect choice for modern wall tile applications.
 
-<span itemprop="name">Norstone</span> Basalt 3D is made from 100% natural stone and create a modern wall tile look as unique as it is contemporary.  
+<span itemprop="name">Norstone</span> Basalt 3D is made from 100% natural stone and create a modern wall tile look as unique as it is contemporary.
 
 Ash Grey and Ebony Basalt are both pure Basalt.
 
@@ -118,9 +124,9 @@ _For more detailed installation instructions, please visit our [installation gui
 #### Installation
 {:.color-primary}
 
-One of the main benefits of Norstone Basalt 3D is the ease with which they can be installed. The panel system provides for rapid installation over prepared cementitious surfaces, such as cement board, brick / block, or a traditional lathe and scratch coat using a polymer modified tile thinset. Basalt 3D is ideally cut on a tile wet saw and are highly calibrated, allowing the installer to interlock one panel into its neighboring panels, thus creating the highly desirable dry stack look and eliminating the need to grout or point mortar between individual pieces or units.  
+One of the main benefits of Norstone Basalt 3D is the ease with which they can be installed. The panel system provides for rapid installation over prepared cementitious surfaces, such as cement board, brick / block, or a traditional lathe and scratch coat using a polymer modified tile thinset. Basalt 3D is ideally cut on a tile wet saw and are highly calibrated, allowing the installer to interlock one panel into its neighboring panels, thus creating the highly desirable dry stack look and eliminating the need to grout or point mortar between individual pieces or units.
 
-Basalt is a porous natural stone and should be sealed in both interior and exterior applications to minimize and prevent any staining of the product. Water based, penetrating sealers should be used and applied per manufacturer's instructions. Variants of sealers can tested and used to achieve differing effects and sheens.  
+Basalt is a porous natural stone and should be sealed in both interior and exterior applications to minimize and prevent any staining of the product. Water based, penetrating sealers should be used and applied per manufacturer's instructions. Variants of sealers can tested and used to achieve differing effects and sheens.
 
 The beauty of the Basalt 3D lies in its simplicity, and whether part of a large scale commercial application, or a small residential project, all levels of installers will find the Basalt 3D quick and easy to install and a pleasure to work with.
 
@@ -136,9 +142,9 @@ Basalt 3D should be sealed with water based penetrating natural stone sealer. Di
 #### Pricing & Availability
 {:.color-primary}
 
-**Norstone's Basalt 3D Stone Panel Range is now available nationwide.**  
+**Norstone's Basalt 3D Stone Panel Range is now available nationwide.**
 
-Wherever you might be located, Norstone can be purchased either manufacturer-direct from our offices or via a trained distributor in your local area. Norstone products are consistently kept <span itemprop="availability">In Stock</span> either in distributor warehouses around the country or in one of our national distribution hubs. This means shorter lead-times for most projects.  
+Wherever you might be located, Norstone can be purchased either manufacturer-direct from our offices or via a trained distributor in your local area. Norstone products are consistently kept <span itemprop="availability">In Stock</span> either in distributor warehouses around the country or in one of our national distribution hubs. This means shorter lead-times for most projects.
 
 To be connected to a distributor or for help with your project directly, we encourage you to give us a call. You can reach your regional office by calling us at **1 (866) 717 4548,** or please connect with us via our [contact form](/contact-us).
 
@@ -147,5 +153,11 @@ To be connected to a distributor or for help with your project directly, we enco
 </div>
 
 [View Our Installation Guide](/how-to-install-stacked-stone)
+
+[](/how-to-install-stacked-stone)
+
+[](/how-to-install-stacked-stone)
+
+[](/how-to-install-stacked-stone)
 
 [<img width="12" height="9" alt="arrows-img" title="arrows-img.png" class="arrow" src="/assets/images/theme/arrows-img.png">](/how-to-install-stacked-stone)
