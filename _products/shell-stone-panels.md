@@ -10,18 +10,18 @@ meta:
 permalink: "/products/shell-stone-panels"
 header:
   title: Shell Stone Panels
-  image: assets/images/Silver+Grey+Granite+and+Shell+Stone.JPG
-  link: "/products/shell-stone-panels/tan/"
+  image: assets/images/ShellStone.JPG
+  link: "/products/basalt-stone-panels/ash-grey-stone/"
   subtitle: Stone Veneer Made of Shells
   description: "<span itemprop=description>With lines so clean, precision so exact,
     our Shell StonePanels  deliver a next-level contemporary look that is NOT to be
     missed. <em>Get your samples today!</em></span>"
 products:
 - title: Tan
-  link: "/products/shell-stone-panels/tan/"
-  image: assets/images/Silver+Grey+Granite+and+Shell+Stone-1.JPG
+  link: "/products/basalt-stone-panels/ash-grey-stone/"
+  image: assets/images/ShellStone-1.JPG
 gallery:
-  text: View Our Basalt IL Tile Photo Gallery
+  text: View Our Shell Stone Panels Photo Gallery
   link: "/gallery/basalt-3d/"
 ---
 ## The Basalt 3D Tile Collection
@@ -43,6 +43,14 @@ Basalt 3D Tiles offer a "stepped" interlocking edge profile whereby one panel wi
 Basalt 3D Tiles incorporate Norstone's World-Class two-part, finger-jointed corner system. Saving every project the head-ache of having to miter their corners, this two-piece system offers a hassle free, interlocking installation, providing a look so seamless that it preserves the authentic nature of the stone. Because they require little skill on the part of the contractors fixing our rock panels to a wall, they significantly reduce installation time and onsite labor costs, especially when compared to the time and skill involved in cutting and forming mitered corners.
 
 [See Our Featured Projects Gallery](/gallery/project/)
+
+[](/gallery/project/)
+
+[](/gallery/project/)
+
+[](/gallery/project/)
+
+[](/gallery/project/)
 
 [](/gallery/project/)
 
@@ -153,6 +161,14 @@ To be connected to a distributor or for help with your project directly, we enco
 </div>
 
 [View Our Installation Guide](/how-to-install-stacked-stone)
+
+[](/how-to-install-stacked-stone)
+
+[](/how-to-install-stacked-stone)
+
+[](/how-to-install-stacked-stone)
+
+[](/how-to-install-stacked-stone)
 
 [](/how-to-install-stacked-stone)
 
