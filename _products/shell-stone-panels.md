@@ -7,7 +7,7 @@ meta:
     Comprised of precision-cut blocks of Basalt stone, popularly known as Lava stone.
     Norstone's new interlocking tiles are hand-assembled with absolute & exacting
     standards.
-permalink: "/products/shell-stone-panels"
+permalink: "/products/shell-stone-panels/"
 header:
   title: Shell Stone Panels
   image: assets/images/ShellStone.JPG
@@ -43,6 +43,10 @@ Basalt 3D Tiles offer a "stepped" interlocking edge profile whereby one panel wi
 Basalt 3D Tiles incorporate Norstone's World-Class two-part, finger-jointed corner system. Saving every project the head-ache of having to miter their corners, this two-piece system offers a hassle free, interlocking installation, providing a look so seamless that it preserves the authentic nature of the stone. Because they require little skill on the part of the contractors fixing our rock panels to a wall, they significantly reduce installation time and onsite labor costs, especially when compared to the time and skill involved in cutting and forming mitered corners.
 
 [See Our Featured Projects Gallery](/gallery/project/)
+
+[](/gallery/project/)
+
+[](/gallery/project/)
 
 [](/gallery/project/)
 
@@ -161,6 +165,10 @@ To be connected to a distributor or for help with your project directly, we enco
 </div>
 
 [View Our Installation Guide](/how-to-install-stacked-stone)
+
+[](/how-to-install-stacked-stone)
+
+[](/how-to-install-stacked-stone)
 
 [](/how-to-install-stacked-stone)
 
