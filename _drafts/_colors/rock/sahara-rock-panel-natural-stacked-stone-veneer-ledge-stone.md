@@ -7,7 +7,7 @@ meta:
     is the perfect combination of color and versatility. With a broad range of neutral
     colors, along with popular accents, Ochre Blend is a perfect complement or  center
     of attention in any design.
-permalink: "/products/rock-panels/ochre/"
+permalink: "/products/rock-panels/sahara/"
 header:
   title: Sahara
   image: assets/images/shellstone.JPG
@@ -44,6 +44,8 @@ slides:
 {:.medium .color-secondary}
 
 Our Ochre Blend color is the perfect combination of color and versatility. Encompassing a broad range of neutral colors, along with popular accents, Ochre Blend will be either the perfect complement or the center of attention in whatever application it is used. From a classic roaring fireplace in a Vermont ski lodge to the back drop of a Miami sushi bar, Ochre Blend’s versatility makes it our most popular and best selling color. [Complete Ochre Rock Panel Photo Gallery](/gallery/rock-panels/ochre)
+
+[](/gallery/rock-panels/ochre)
 
 [](/gallery/rock-panels/ochre)
 
