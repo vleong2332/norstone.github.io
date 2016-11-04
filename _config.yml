@@ -44,6 +44,27 @@ defaults:
       type: colors
     values:
       layout: collection
+      title: ""
+      meta:
+        description: ""
+      permalink: ""
+      header:
+        title: ""
+        image: ""
+        link: ""
+        subtitle: ""
+        description: ""
+      products:
+      - title: ""
+        link: ""
+        image: ""
+      gallery:
+        text: ""
+        link: ""
+      slides:
+      - alt: ""
+        title: ""
+        src: ""
   - scope:
       path: ""
       type: posts
