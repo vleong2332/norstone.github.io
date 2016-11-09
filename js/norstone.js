@@ -213,7 +213,7 @@ $(function() {
 var pinterest_update = function($image) {
   var pinterest = {
     url: document.URL,
-    media: 'http://' + document.domain + '/' + $image.attr('src'),
+    media: $image.attr('src'),
     description: $image.attr('title')
   }
 
