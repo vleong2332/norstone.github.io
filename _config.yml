@@ -70,14 +70,16 @@ defaults:
   - scope:
       path: ""
       type: posts
-      title: ""
-      meta:
-        title: ""
-        description: ""
     values:
       layout: blog
       permalink: /blog/:title/
       classes: blog
+      title: ""
+      meta:
+        title: ""
+        description: ""
+      image: ""
+      excerpt: ""
 sass:
   load_paths:
     - _sass
