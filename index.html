@@ -1,7 +1,8 @@
 ---
 title: Natural Stone Veneer | Natural Stone Products
 slides:
-- image: /assets/images/unsorted/Norstone-Charcoal-Standard-Series-Rock-Panel.jpg
+- h1: true
+  image: /assets/images/unsorted/Norstone-Charcoal-Standard-Series-Rock-Panel.jpg
   image_mobile: /assets/images/unsorted/norstone-stone-veneer-concert-hall.jpg
   caption: Natural Stone Designs for Stunning Spaces.
   link:
@@ -108,7 +109,12 @@ schema:
       <div style="background-image: url('{{ slide.image }}'); background-repeat: no-repeat"></div>
       <figcaption class="orbit-caption x-large">
         <div class="row columns" style="font-family: 'Open Sans'">
-          <a alt="View Norstone Product" class="float-right text-shadow box-shadow-center button--main" href="{{ slide.link.href }}">{{ slide.link.text }}</a>{{ slide.caption }}
+          <a alt="View Norstone Product" class="float-right text-shadow box-shadow-center button--main" href="{{ slide.link.href }}">{{ slide.link.text }}</a>
+          {% if slide.h1 %}
+          <h1 style="margin-bottom:0">{{ slide.caption }}</h1>
+          {% else %}
+          <h2 style="margin-bottom:0">{{ slide.caption }}</h2>
+          {% endif %}
         </div>
       </figcaption>
     </li>
