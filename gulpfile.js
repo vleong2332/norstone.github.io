@@ -3,7 +3,8 @@ var sass = require('gulp-sass');
 var child = require('child_process');
 var gutil = require('gulp-util');
 
-gulp.task('default', ['sass', 'jekyll', 'sass:watch']);
+gulp.task('default', ['sass', 'jekyll:serve', 'sass:watch']);
+gulp.task('build', ['sass', 'jekyll']);
 
 gulp.task('sass', function () {
   return gulp.src('./_css/norstone.scss')
@@ -23,6 +24,19 @@ gulp.task('sass:watch', function () {
 });
 
 gulp.task('jekyll', () => {
+  const jekyll = child.spawn('jekyll', ['build']);
+
+  const jekyllLogger = (buffer) => {
+    buffer.toString()
+      .split(/\n/)
+      .forEach((message) => gutil.log('Jekyll: ' + message));
+  };
+
+  jekyll.stdout.on('data', jekyllLogger);
+  jekyll.stderr.on('data', jekyllLogger);
+});
+
+gulp.task('jekyll:serve', () => {
   const jekyll = child.spawn('jekyll', ['serve']);
 
   const jekyllLogger = (buffer) => {
