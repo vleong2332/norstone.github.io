@@ -31,17 +31,20 @@ gulp.task('sass:watch', function() {
 });
 
 gulp.task('js', function() {
-  return gulp.src([
-    './_js/jquery.js',
-    './_js/what-input.js',
-    './_js/foundation.js',
-    './_js/owl.carousel.min.js',
-    './_js/owl.carousel2.thumbs.js',
-    './_js/norstone.js'
-    ])
-    .pipe(concat('norstone.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest('js'));
+  return es.merge(
+    gulp.src([
+      './_js/jquery.js',
+      './_js/what-input.js',
+      './_js/foundation.js',
+      './_js/owl.carousel.min.js',
+      './_js/owl.carousel2.thumbs.js',
+      './_js/norstone.js'
+      ])
+      .pipe(concat('norstone.js'))
+      .pipe(uglify()),
+    gulp.src('./_js/landing.js')
+  )
+  .pipe(gulp.dest('js'));
 });
 
 gulp.task('jekyll', function() {
