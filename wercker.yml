@@ -2,11 +2,12 @@ box: ruby
 build:
   steps:
     - script:
-        name: bower install
+        name: npm packages install
         code: |
           sudo apt-get update
           sudo apt-get install -y nodejs-legacy npm
           sudo npm install -g bower
+          sudo npm install
           bower install --allow-root
     - script:
         name: set locale
@@ -21,15 +22,14 @@ build:
           export LANG=en_US.UTF-8
           export LANGUAGE=en_US.UTF-8
     - bundle-install
-    - script:
-        name: generate site
-        code: bundle exec jekyll build --trace
+    - hgen/gulp:
+        tasks: build
     - script:
         name: html proofer
         code: bundle exec htmlproofer --disable-external ./_site
     - script:
         name: delete extraneous files
-        code: rm -r bower_components bower.json Gemfile* wercker.yml
+        code: rm -r bower_components node_modules bower.json Gemfile* wercker.yml
 deploy-github:
   steps:
     - yuzroz/gh-pages:
