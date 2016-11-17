@@ -1,8 +1,10 @@
 .jekyll-metadata
 .sass-cache/
-bower_components/
 _builds/
 _cache/
 _projects/
 _site/
 _steps/
+bower_components/
+css/
+node_modules/
