@@ -16,7 +16,8 @@ gulp.task('sass', function() {
           './bower_components/foundation-sites/scss',
           './bower_components/motion-ui/src',
           './bower_components/owl.carousel/src/scss'
-        ]
+        ],
+        outputStyle: 'compressed'
       }).on('error', sass.logError)),
       gulp.src('./_css/landing.css')
     )
