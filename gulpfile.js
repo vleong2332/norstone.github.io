@@ -1,11 +1,13 @@
 var gulp = require('gulp');
+var concat = require('gulp-concat');
 var sass = require('gulp-sass');
-var child = require('child_process');
+var uglify = require('gulp-uglify');
 var gutil = require('gulp-util');
+var child = require('child_process');
 var es = require('event-stream');
 
-gulp.task('default', ['sass', 'jekyll:serve', 'sass:watch']);
-gulp.task('build', ['sass', 'jekyll']);
+gulp.task('default', ['sass', 'js', 'jekyll:serve', 'sass:watch']);
+gulp.task('build', ['sass', 'js', 'jekyll']);
 
 gulp.task('sass', function() {
   return es.merge(
@@ -26,6 +28,20 @@ gulp.task('sass', function() {
 
 gulp.task('sass:watch', function() {
   gulp.watch('./_css/**/*.scss', ['sass']);
+});
+
+gulp.task('js', function() {
+  return gulp.src([
+    './_js/jquery.js',
+    './_js/what-input.js',
+    './_js/foundation.js',
+    './_js/owl.carousel.min.js',
+    './_js/owl.carousel2.thumbs.js',
+    './_js/norstone.js'
+    ])
+    .pipe(concat('norstone.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('js'));
 });
 
 gulp.task('jekyll', function() {
