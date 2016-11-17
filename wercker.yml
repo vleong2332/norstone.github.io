@@ -1,17 +1,16 @@
-box: ruby
+box: mwallasch/docker-ruby-node
+
 build:
   steps:
-    - script:
-        name: npm packages install
-        code: |
-          sudo apt-get update
-          sudo apt-get install -y nodejs-legacy npm
-          sudo npm install -g bower
-          sudo npm install
-          bower install --allow-root
+    # Install all required NodeJS and Ruby dependencies
+    - bundle-install
+    - npm-install
+
+    # Set locale
     - script:
         name: set locale
         code: |
+          sudo apt-get update
           sudo apt-get install -y locales
           dpkg-reconfigure locales
           locale-gen C.UTF-8
@@ -21,21 +20,31 @@ build:
           export LC_ALL=C.UTF-8
           export LANG=en_US.UTF-8
           export LANGUAGE=en_US.UTF-8
-    - bundle-install
-    - hgen/gulp:
-        tasks: build
+
+    # Compile all static assets with Bower and Gulp
+    - script:
+        name: Install Bower dependencies
+        code: node node_modules/bower/bin/bower install --allow-root
+    - script:
+        name: Rebuild node sass?
+        code: npm rebuild node-sass
+    - script:
+        name: Compile static assets
+        code: node node_modules/gulp/bin/gulp build
     - script:
         name: html proofer
         code: bundle exec htmlproofer --disable-external ./_site
     - script:
         name: delete extraneous files
-        code: rm -r bower_components node_modules bower.json Gemfile* wercker.yml
+        code: rm -r bower_components bower.json package.json gulpfile.js Gemfile* wercker.yml
+
 deploy-github:
   steps:
     - yuzroz/gh-pages:
         token: $GIT_TOKEN
         basedir: _site
         branch: master
+
 deploy-webenabled:
   steps:
     - script:
