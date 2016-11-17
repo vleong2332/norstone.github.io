@@ -3,6 +3,8 @@ var sass = require('gulp-sass');
 var child = require('child_process');
 var gutil = require('gulp-util');
 
+gulp.task('default', ['sass', 'jekyll', 'sass:watch']);
+
 gulp.task('sass', function () {
   return gulp.src('./_css/norstone.scss')
     .pipe(sass({
