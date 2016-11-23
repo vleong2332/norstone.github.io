@@ -2,6 +2,7 @@ var child = require('child_process');
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 var filelog = require('gulp-filelog');
+var htmlmin = require('gulp-htmlmin');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var gutil = require('gulp-util');
@@ -12,7 +13,7 @@ gulp.task('default', function(done) {
 });
 
 gulp.task('build', function(done) {
-  sequence('sass', 'js', 'jekyll', done);
+  sequence('sass', 'js', 'jekyll', 'html-minify', done);
 });
 
 gulp.task('sass', function() {
@@ -62,7 +63,13 @@ gulp.task('js', function() {
     .pipe(filelog());
 });
 
-gulp.task('jekyll', function() {
+gulp.task('html-minify', function() {
+  return gulp.src('_site/**/*.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(gulp.dest('_site'));
+});
+
+gulp.task('jekyll', function(gulpCallback) {
   const jekyll = child.spawn('jekyll', ['build']);
 
   const jekyllLogger = function(buffer) {
@@ -75,6 +82,8 @@ gulp.task('jekyll', function() {
 
   jekyll.stdout.on('data', jekyllLogger);
   jekyll.stderr.on('data', jekyllLogger);
+
+  jekyll.on('exit', gulpCallback);
 });
 
 gulp.task('jekyll:serve', function() {
