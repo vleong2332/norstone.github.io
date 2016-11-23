@@ -72,3 +72,4 @@ deploy-s3:
       key-secret: $AWS_SECRET_ACCESS_KEY
       bucket-url: $AWS_BUCKET
       source-dir: ./_site/
+      opts: --add-header=Cache-Control:max-age=60
