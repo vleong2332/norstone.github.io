@@ -5,6 +5,12 @@ author: Rassan Grant
 markdown: kramdown
 exclude:
 - bower_components
+- node_modules
+- Gemfile*
+- bower.json
+- gulpfile.js
+- package.json
+- wercker.yml
 gems:
 - html-proofer
 - jekyll-feed
