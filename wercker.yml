@@ -67,3 +67,11 @@ deploy-webenabled:
         source: ./_site/
         directory: ~/public_html/norstoneusa.com/pub
         sshkey: $PRIVATEKEY_PATH
+
+deploy-s3:
+  steps:
+    - s3sync:
+      key-id: $AWS_ACCESS_KEY_ID
+      key-secret: $AWS_SECRET_ACCESS_KEY
+      bucket-url: $AWS_BUCKET
+      source-dir: ./_site/
