@@ -1,13 +1,9 @@
 {
-  "name": "foundation-sites-template",
+  "name": "norstone-bower",
   "version": "1.0.0",
-  "authors": [
-    "ZURB <foundation@zurb.com>"
-  ],
-  "description": "Basic template for a new Foundation for Sites project.",
-  "main": "index.html",
+  "description": "Javascript and CSS libraries required for norstoneusa.com.",
   "license": "MIT",
-  "homepage": "http://foundation.zurb.com",
+  "homepage": "http://www.norstoneusa.com",
   "dependencies": {
     "foundation-sites": "~6.2.0",
     "motion-ui": "~1.2.2",
