@@ -50,11 +50,11 @@ gulp.task('js', function() {
 
   // Compile JS.
   return gulp.src([
-    './_js/jquery.js',
-    './_js/what-input.js',
-    './_js/foundation.js',
-    './_js/owl.carousel.min.js',
-    './_js/owl.carousel2.thumbs.js',
+    './bower_components/jquery/dist/jquery.js',
+    './bower_components/what-input/what-input.js',
+    './bower_components/foundation-sites/dist/foundation.js',
+    './bower_components/owl.carousel/dist/owl.carousel.js',
+    './bower_components/owl.carousel2.thumbs/dist/owl.carousel2.thumbs.js',
     './_js/norstone.js'
     ])
     .pipe(concat('norstone.js'))
