@@ -13,7 +13,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-filelog": "^0.4.1",
     "gulp-htmlmin": "^3.0.0",
-    "gulp-sass": "^2.3.2",
+    "gulp-sass": "^3.0.0",
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.7",
     "run-sequence": "^1.2.2"
