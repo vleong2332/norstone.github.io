@@ -22,6 +22,10 @@ collections:
     output: true
   colors:
     output: true
+  gallery_list:
+    output: true
+  gallery:
+    output: true
 defaults:
   - scope:
       path: ""
@@ -73,6 +77,40 @@ defaults:
       - alt: ""
         title: ""
         src: ""
+  - scope:
+      path: ""
+      type: gallery_list
+    values:
+      layout: gallery-list
+      title: ""
+      meta:
+        title: ""
+        description: ""
+      permalink: ""
+      images: ""
+  - scope:
+      path: ""
+      type: gallery
+    values:
+      layout: gallery
+      title: ""
+      meta:
+        description: ""
+      permalink: ""
+      product: ""
+      gallery:
+      - alt: ""
+        title: ""
+        src: ""
+        type: ""
+      other_galleries: ""
+      rows:
+      - image:
+          alt: ""
+          title: ""
+          src: ""
+        heading: ""
+        body: ""
   - scope:
       path: ""
       type: posts

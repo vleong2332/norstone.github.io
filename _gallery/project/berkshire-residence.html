@@ -1,0 +1,56 @@
+---
+title: "Interior and Exterior Residential Natural Stone Walls"
+meta:
+  title: "Interior and Exterior Residential Natural Stone Walls"
+  description: "Interior and Exterior Residential Natural Stone Walls"
+permalink: /gallery/project/berkshire-residence/
+product: "Berkshire Residence"
+pictured: xl-rock-panel-ochre
+gallery:
+- alt: Stacked Stone Ledgestone Veneer Wall
+  src: /assets/images/gallery/Stacked_Stone_Ledgestone_Veneer_Wall.jpg
+- alt: Natural Stacked Stone Veneer Example
+  src: /assets/images/gallery/ochre-xlv-8-copy.jpg
+- alt: Interior Beautiful Stacked Stone Feature Wall in Gym
+  src: /assets/images/gallery/Interior_Beautiful_Stacked_Stone_Wall.jpg
+- alt: Natural Stacked Stone Veneer Example
+  src: /assets/images/gallery/ochre-xlv-2-copy.jpg
+- alt: Natural Stacked Stone Veneer Example
+  src: /assets/images/gallery/ochre-xlv-6-copy.jpg
+- alt: Natural Stacked Stone Veneer Example
+  src: /assets/images/gallery/ochre-xlv-5-copy.jpg
+- alt: Natural Stacked Stone Veneer Wall
+  src: /assets/images/gallery/Natural_Stacked_Stone_Wall.jpg
+other_galleries:
+- niagara
+- xl-rock-panel-ochre
+- feature-walls
+rows:
+- image:
+    alt: Berkshire
+    title: Berkshire
+    src: /assets/images/unsorted/Berkshire.png
+  heading: XL Rock Panels In Action In Berkshire
+  body: Norstone recently completed this Ochre XL installation within the Grounds of a Magnificent Manor House in Berkshire. Janine Stone Architects/Interior Designers specified Norstone Ochre XL to be installed on a Wall that commences from the Indoor Gymnasium, which then continues uninterrupted through a sheet of Glass and continues on to the Water feature.
+- image:
+    alt: XL Ochre
+    title: XL Ochre
+    src: /assets/images/unsorted/XLOchre.png
+  heading: Featured Products &amp; Design
+  body: "The larger format XL Series Rock Panel in Ochre is a great selection for this project due to the uninterrupted design and height of the wall stretching across three distinct areas.  The larger individual stones of the XL Series add to the strength and durability motif of the indoor gymnasium, and as natural stone, add an air of zen to the outdoor terrace and water feature.</p><p><a href='/products/thin-stone-veneer-panels/ochre/'>Visit Product Page</a>"
+---
+
+<h1 class="standard standard-gallery text-center">REMARKABLE AESTHETICS IN BERKSHIRE ENGLAND</h1>
+<hr />
+{% for row in page.rows %}
+<div class="row">
+  <div class="large-5 columns {% cycle '', 'large-push-7' %}">
+    <img class="orbit-image" src="{{ site.url }}{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}" />
+  </div>
+  <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
+    <h3 class="large color-primary">{{ row.heading }}</h3>
+    <p class="text-justify">{{ row.body }}</p>
+  </div>
+  <hr />
+</div>
+{% endfor %}

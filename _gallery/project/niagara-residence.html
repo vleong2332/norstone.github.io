@@ -1,0 +1,62 @@
+---
+title: "Gallery | Exterior Stone Cladding | Niagara Riverhouse"
+meta:
+  description: "Beautifully illuminated up and down by over fifty spot and flood lights, the Niagra house and the Charcoal Rock Panels sparkle on cold New York nights."
+permalink: /gallery/project/modern-stacked-stone-residence/
+product: "The Niagara Residence"
+pictured: rock-panel-charcoal
+gallery:
+- alt: Natural Stacked Stone Veneer Example
+  src: /assets/images/gallery/Niagara-Residence-(24)_0.jpg
+- alt: Natural Stacked Stone Veneer Example
+  src: /assets/images/gallery/Niagara-Residence-(12)a.jpg
+- alt: Natural Stacked Stone Veneer Example
+  src: /assets/images/gallery/Niagara-Residence-(4)-copy.jpg
+- alt: Natural Stacked Stone Veneer Example
+  src: /assets/images/gallery/Niagara-Residence-(32).jpg
+- alt: Natural Stacked Stone Veneer Example
+  src: /assets/images/gallery/Niagara-Residence-(3).jpg
+- alt: Natural Stacked Stone Veneer Example
+  src: /assets/images/gallery/Niagara-Residence-(1).jpg
+- alt: Natural Stacked Stone Veneer Example
+  src: /assets/images/gallery/Niagara-Residence-(23).jpg
+- alt: Natural Stacked Stone Veneer Example
+  src: /assets/images/gallery/Niagara-Residence-(14).jpg
+- alt: Natural Stacked Stone Veneer Example
+  src: /assets/images/gallery/Niagara-Residence.jpg
+other_galleries:
+- rock-panel-exteriors
+- xl-rock-panel-exteriors
+- rock-panel-charcoal
+- xl-rock-panel-charcoal
+rows:
+- image:
+    alt: Niagara Home
+    title: Niagara Home
+    src: /assets/images/unsorted/Niagara.png
+  heading: Norstone Rock Panels for Modern Facades
+  body: The principal feature of the 1.85 acre site fronting the Niagara River just upstream from the Horseshoe Falls is the long unobstructed river views across the full 164 ft width of the property. The 4700 sq.ft of interior living space and 1200 sq.ft of covered terrace were crafted to embrace this feature and find a balance between the relative transparency encouraged by the views and the privacy concerns of the owners.
+- image:
+    alt: Charcoal Rock Panel Information
+    title: Charcoal Rock Panel Information
+    src: /assets/images/unsorted/stuff-to-know-2.png
+  heading: Featured Products &amp; Design
+  body: "The Charcoal Rock Panel, paired with the large grey dimensional stone on the Niagra House, offer up a great contrast in both color and composition to the wood finish used extensively throughout the home's exterior doors, awnings and terrace walls. Beautifully illuminated up and down by over fifty spot and flood lights, the Niagra house and the Charcoal Rock Panels sparkle on cold New York nights.</p><p><a href='/products/rock-panels/charcoal'>Visit Product Page</a>"
+redirect_from:
+  - /gallery/project/Modern-Stacked-Stone-Residence
+---
+
+<h1 class="standard standard-gallery text-center">NIAGARA RIVERHOUSE IS THE NEW MODERN</h1>
+<hr />
+{% for row in page.rows %}
+<div class="row">
+  <div class="large-5 columns {% cycle '', 'large-push-7' %}">
+    <img class="orbit-image" src="{{ site.url }}{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}" />
+  </div>
+  <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
+    <h3 class="large color-primary">{{ row.heading }}</h3>
+    <p class="text-justify">{{ row.body }}</p>
+  </div>
+  <hr />
+</div>
+{% endfor %}
