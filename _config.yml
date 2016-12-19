@@ -79,7 +79,7 @@ defaults:
         src: ""
   - scope:
       path: ""
-      type: gallery_list
+      type: gallery_lists
     values:
       layout: gallery-list
       title: ""
@@ -90,7 +90,7 @@ defaults:
       images: ""
   - scope:
       path: ""
-      type: gallery
+      type: galleries
     values:
       layout: gallery
       title: ""
