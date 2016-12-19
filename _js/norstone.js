@@ -89,6 +89,7 @@ $(function() {
   $.getJSON('/pictured.json')
     .done(function(data) {
       productTypes = data;
+      $slider.owlCarousel(slider_options);
     })
     .fail(function(e) {
       console.log(e);
@@ -116,9 +117,7 @@ $(function() {
     pinterest_update($('img', $slide));
   });
 
-  $slider.owlCarousel(slider_options);
-
-  $slider.on('changed.owl.carousel refreshed.owl.carousel', function(event) {
+  $slider.on('initialized.owl.carousel changed.owl.carousel refreshed.owl.carousel', function(event) {
     var $images = $('.owl-item')
     var $slide = $('.orbit-slide', $images[event.item.index]);
     if ($slide.attr('data-product-type')) {

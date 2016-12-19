@@ -1,10 +1,4 @@
 {% assign current = page.url | downcase | split: '/' %}
-{% if page.pictured %}
-{% assign pictured = site.data.pictured[page.pictured] %}
-{% else %}
-{% assign type = page.gallery[0].type %}
-{% assign pictured = site.data.pictured[type] %}
-{% endif %}
 <div class="row columns show-for-medium">
   <h2 class="medium color-primary show-for-large" style="font-size: 18px; margin: 29px 0 10px">SHARE THIS GALLERY</h2>
   <div class="social-share-container show-for-large">
@@ -16,9 +10,9 @@
   <div class="column pictured-product" style="margin-bottom: 20px">
     <h2 class="medium color-primary" style="font-size: 18px; margin-bottom: 10px">PICTURED PRODUCT</h2>
     <div class="card">
-      <a class="card--image" href="{{ pictured.link }}"><img src="{{ site.url }}{{ pictured.image }}" class="orbit-image" alt="{{ pictured.title }}" title="{{ pictured.title }}"></a>
-      <div><a class="card--title color-primary" href="{{ pictured.link }}">{{ pictured.title | upcase }}</a></div>
-      <a class="x-small color-secondary" style="background: url('/assets/images/theme/bg-link-arrows.png') no-repeat center right; display: block" href="{{ pictured.link }}">Visit Product Page</a>
+      <a class="card--image" href=""><img src="" class="orbit-image" alt="" title=""></a>
+      <div><a class="card--title color-primary" href=""></a></div>
+      <a class="x-small color-secondary" style="background: url('/assets/images/theme/bg-link-arrows.png') no-repeat center right; display: block" href="">Visit Product Page</a>
     </div>
   </div>
   <div class="column">
