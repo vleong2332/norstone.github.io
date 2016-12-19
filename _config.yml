@@ -22,9 +22,9 @@ collections:
     output: true
   colors:
     output: true
-  gallery_list:
+  gallery_lists:
     output: true
-  gallery:
+  galleries:
     output: true
 defaults:
   - scope:
