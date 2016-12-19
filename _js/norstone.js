@@ -86,7 +86,7 @@ $(function() {
 
   var productTypes = {};
 
-  $.getJSON('/gallery/pictured.json')
+  $.getJSON('/pictured.json')
     .done(function(data) {
       productTypes = data;
     })
