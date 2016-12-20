@@ -9,7 +9,7 @@ var gutil = require('gulp-util');
 var sequence = require('run-sequence');
 
 gulp.task('default', function(done) {
-  sequence('sass', 'js', 'jekyll:serve', 'sass:watch', done);
+  sequence('sass', 'js', 'jekyll:serve', 'sass:watch', 'js:watch', done);
 });
 
 gulp.task('build', function(done) {
@@ -61,6 +61,10 @@ gulp.task('js', function() {
     .pipe(uglify())
     .pipe(gulp.dest('js'))
     .pipe(filelog());
+});
+
+gulp.task('js:watch', function() {
+  gulp.watch('./_js/**/*.js', ['js']);
 });
 
 gulp.task('html-minify', function() {
