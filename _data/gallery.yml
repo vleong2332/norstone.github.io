@@ -201,3 +201,9 @@ treehouse-retreat:
   image: /assets/images/unsorted/Washington-DC-Home-2_2.jpg
   type: project-gallery
   type_text: Washington, DC
+basalt-pool:
+  title: Basalt IL Pools
+  link: /gallery/basalt-il-tiles/pools/
+  image: /assets/images/unsorted/Norstone%20Grey%20Basalt%20IL%20SC-13.jpg
+  type: project-gallery
+  type_text: Basalt IL Pools
