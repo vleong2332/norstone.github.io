@@ -75,15 +75,6 @@ $(function() {
     return false;
   })
 
-  // Fix accordion + equalizer bug.
-  if (Foundation.MediaQuery.atLeast('medium')) {
-    if ($('[data-equalizer]').length > 0) {
-      setTimeout(function() {
-        $('[data-equalizer]').delay(10).foundation('_reflow');
-      }, 1000);
-    }
-  }
-
   var productTypes = {};
 
   $.getJSON('/pictured.json')
