@@ -103,6 +103,7 @@ defaults:
         title: ""
         src: ""
         type: ""
+        tags: ""
       other_galleries: ""
       rows:
       - image:
