@@ -35,6 +35,13 @@ build:
         name: html proofer
         code: bundle exec htmlproofer --disable-external ./_site
 
+  # Send notification to Slack
+  after-steps:
+    - slack-notifier:
+      url: $SLACK_URL
+      channel: static-conversion
+      username: werckerbot
+
 deploy-github:
   steps:
     - yuzroz/gh-pages:
