@@ -111,6 +111,9 @@ Redirect 301 /terms.asp /terms/
 RewriteCond %{HTTP_HOST} ^nrstn.prod3.webenabled.net$ [NC]
 RewriteRule ^(.*)$ http://www.norstoneusa.com/$1 [R=301,L]
 
+RewriteCond %{HTTP_HOST} ^norstoneusa\.com$
+RewriteRule ^(.*) http://www.norstoneusa.com/$1 [R=301]
+
 # One year for image files
 <filesMatch ".(jpg|jpeg|png|gif|ico)$">
 Header set Cache-Control "max-age=31536000, public"
