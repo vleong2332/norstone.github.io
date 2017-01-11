@@ -218,7 +218,7 @@ rows:
     title: Norstone Indoor Stone Fireplace Surround
     src: /assets/images/unsorted/Norstone-Indoor-Stone-Fireplace-Surround.jpg
   heading: Color and Design Matter
-  body: "Whether you&rsquo;re envisioning a rustic, colonial, contemporary, modern, or Old World space, color and design add up to making your project look just right. Natural Stone Colors vary naturally, which is what makes it an authentic material to incorporate into projects. Our four colors, <a href='/products/rock-panels/ochre'>Ochre</a>, <a href='/products/rock-panels/charcoal'>Charcoal</a>, <a href='/products/rock-panels/white'>White</a>, and <a href='/products/rock-panels/ivory'>Ivory</a> can be easily adapted into all color schemes and the clean lines of the product are equally well suited to all different types of design."
+  body: "Whether you&rsquo;re envisioning a rustic, colonial, contemporary, modern, or Old World space, color and design add up to making your project look just right. Natural Stone Colors vary naturally, which is what makes it an authentic material to incorporate into projects. Our four colors, <a href='{{ site.baseurl }}{% link _colors/rock/ochre.html %}'>Ochre</a>, <a href='/products/rock-panels/charcoal'>Charcoal</a>, <a href='/products/rock-panels/white'>White</a>, and <a href='/products/rock-panels/ivory'>Ivory</a> can be easily adapted into all color schemes and the clean lines of the product are equally well suited to all different types of design."
 - image:
     alt: Norstone Stacked Stone Fireplace Surround
     title: Norstone Stacked Stone Fireplace Surround
@@ -254,7 +254,7 @@ rows:
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>
-    <p class="text-justify">{{ row.body }}</p>
+    <p class="text-justify">{{ row.body | liquify }}</p>
   </div>
   <hr />
 </div>
