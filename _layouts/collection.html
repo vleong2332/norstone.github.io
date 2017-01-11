@@ -11,8 +11,8 @@ title: Norstone Gallery
       <a href="{{ page.header.link }}"><img itemprop="image" class="orbit-image" alt="{{ page.header.subtitle }}" title="{{ page.header.subtitle }}" src="{{ site.url }}{{ page.header.image }}" /></a>
     </div>
     <div class="large-4 columns">
-      <h1 itemprop="name" class="xx-large color-secondary text-center large-text-right" style="margin-bottom: 5px">{{ page.header.title }}</h1>
-      <h2 class="small color-primary text-center large-text-right">{{ page.header.subtitle }}</h2>
+      <h2 itemprop="name" class="xx-large color-secondary text-center large-text-right" style="margin-bottom: 5px">{{ page.header.title }}</h2>
+      <h1 class="small color-primary text-center large-text-right">{{ page.header.subtitle }}</h1>
       <p class="text-justify">{{ page.header.description }}</p>
       {% if collection_or_color == '_products' %}
       <a class="button--main float-right" href="#select-color">Select Color Below</a>
