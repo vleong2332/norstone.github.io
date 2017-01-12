@@ -111,6 +111,7 @@ Redirect 301 /sites/default/files/file/installation_guide_pdf/Norstone%20Rock%20
 Redirect 301 /blog/installing-norstone-rock-panels /how-to-install-stacked-stone/
 Redirect 301 /blog/norstone-insallation-video /how-to-install-stacked-stone/
 Redirect 301 /gallery/application/Feature%2520Walls /gallery/application/natural-stone-feature-walls/
+Redirect 301 /sites/default/files/file/installation_guide_pdf/Prosoco%20Stone,%20Tile%20&%20Masonry%20Protector.pdf /assets/pdfs/Prosoco-Stone-Tile-Masonry-Protector.pdf
 
 RewriteCond %{HTTP_HOST} ^nrstn.prod3.webenabled.net$ [NC]
 RewriteRule ^(.*)$ http://www.norstoneusa.com/$1 [R=301,L]
