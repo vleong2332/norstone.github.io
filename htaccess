@@ -110,7 +110,7 @@ Redirect 301 /terms.asp /terms/
 Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone Rock Panel Architectural CSI Specification.pdf" /assets/pdfs/Norstone-Spec-Sheet-Rock-Panel.pdf
 Redirect 301 /blog/installing-norstone-rock-panels /how-to-install-stacked-stone/
 Redirect 301 /blog/norstone-insallation-video /how-to-install-stacked-stone/
-Redirect 301 "/gallery/application/Feature Walls" /gallery/application/natural-stone-feature-walls/
+Redirect 301 "/gallery/application/Feature  Walls" /gallery/application/natural-stone-feature-walls/
 Redirect 301 "/sites/default/files/file/installation_guide_pdf/Prosoco[\s]Stone,[\s]Tile[\s]&[\s]Masonry[\s]Protector.pdf" /assets/pdfs/Prosoco-Stone-Tile-Masonry-Protector.pdf
 
 RewriteCond %{HTTP_HOST} ^nrstn.prod3.webenabled.net$ [NC]
