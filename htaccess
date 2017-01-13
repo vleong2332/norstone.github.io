@@ -13,7 +13,7 @@ Redirect 301 /gallery/application/Showers /gallery/application/showers/
 Redirect 301 "/sites/default/files/file/Laticrete Masonry Veneer Mortar.pdf" /assets/pdfs/Laticrete-Masonry-Veneer-Mortar.pdf
 Redirect 301 ^/gallery/project/treehouse%2520retreat$ /gallery/project/virginia-treehouse-retreat/
 Redirect 301 "/images/Ochre RP Backsplash.jpg" /assets/images/unsorted/Ochre-Backsplash-Switch-Apples.jpg
-Redirect 301 /gallery/project/berkshire%2520residence /gallery/project/berkshire-residence/
+Redirect 301 "/gallery/project/berkshire  residence" /gallery/project/berkshire-residence/
 Redirect 301 /sites/default/files/Norstone-White-Quartz-Stacked-Stone-Rock-Fireplace-Surround.jpg?1317404751 /assets/images/unsorted/Norstone-White-Quartz-Natural-Stone-on-Interior-Fireplace.jpg
 Redirect 301 "/gallery/project/Matrix Hotel" /gallery/project/the-matrix-hotel/
 Redirect 301 /Ledgestone-Feature-Walls /ledgestone-feature-walls/
@@ -69,7 +69,7 @@ Redirect 301 /assets/pdfs/Norstone_Installation-Guide /assets/pdfs/Norstone_Inst
 Redirect 301 /faq.asp /faq/
 Redirect 301 "/sites/default/files/file/installation_guide_pdf/Mapei Ultralite(1).pdf" /assets/pdfs/Mapei-Ultralite(1).pdf
 Redirect 301 /contact.asp /contact-us/
-Redirect 301 /gallery/application/Feature%2520Walls /gallery/application/natural-stone-feature-walls/
+Redirect 301 "/gallery/application/Feature  Walls" /gallery/application/natural-stone-feature-walls/
 Redirect 301 /stacked_stone_rock_panel_whitequartz.asp /products/rock-panels/white/
 Redirect 301 /stackedstonecladding.asp?gclid=CK-JxcKbmJcCFRIcawodlmhS-A /products/stacked-stone-cladding/
 Redirect 301 "/sites/default/files/file/installation_guide_pdf/SGM Multi-Lite.pdf" /assets/pdfs/SGM-Multi-Lite.pdf
@@ -109,37 +109,37 @@ Redirect 301 /gallery/featured/stanmore-residential-complex /gallery/project/sta
 Redirect 301 /terms.asp /terms/
 Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone Rock Panel Architectural CSI Specification.pdf" /assets/pdfs/Norstone-Spec-Sheet-Rock-Panel.pdf
 Redirect 301 /blog/installing-norstone-rock-panels /how-to-install-stacked-stone/
+Redirect 301 /blog/installing-norstone-rock /how-to-install-stacked-stone/
 Redirect 301 /blog/norstone-insallation-video /how-to-install-stacked-stone/
 Redirect 301 "/gallery/application/Feature  Walls" /gallery/application/natural-stone-feature-walls/
 Redirect 301 "/sites/default/files/file/installation_guide_pdf/Prosoco[\s]Stone,[\s]Tile[\s]&[\s]Masonry[\s]Protector.pdf" /assets/pdfs/Prosoco-Stone-Tile-Masonry-Protector.pdf
 Redirect 301 /products/stacked-stone- /products/stacked-stone-cladding/
-Redirect 301 /sites/default/files/file/installation_guide_pdf/Basalt%20ASTM%20C67%20Freeze%20Thaw%20Testing%20Report.pdf /assets/pdfs/Basalt-ASTM-C67-Freeze-Thaw-Testing-Report.pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Basalt ASTM C67 Freeze Thaw Testing Report.pdf" /assets/pdfs/Basalt-ASTM-C67-Freeze-Thaw-Testing-Report.pdf
 Redirect 301 /blog/fifth-post /blog/norstone-classroom-session-working-corners-1/
 Redirect 301 /comment/reply/10214 /blog/
-Redirect 301 "/sites/default/files/file/installation_guide_pdf/Aquamix%20Sealer's%20Choice%20Gold.pdf" /assets/pdfs/Aquamix-Sealer's-Choice-Gold.pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Aquamix Sealer's Choice Gold.pdf" /assets/pdfs/Aquamix-Sealer's-Choice-Gold.pdf
 Redirect 301 "/gallery/project/Basement  Retreat" /gallery/project/stacked-stone-interior-basement-walls/
-Redirect 301 /sites/default/files/file/installation_guide_pdf/Rock%20Panel%20Installation%20Substrate%20Detail%20-%20Open%20Stud%20Wall%20Exterior%20-%20Lathe%20and%20Mortar.pdf /assets/pdfs/Rock-Panel-Installation-Substrate-Detail---Open-Stud-Wall-Exterior---Cement-Board.pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Rock Panel Installation Substrate Detail - Open Stud Wall Exterior - Lathe and Mortar.pdf" /assets/pdfs/Rock-Panel-Installation-Substrate-Detail---Open-Stud-Wall-Exterior---Cement-Board.pdf
 Redirect 301 /blog/nors /blog/
-Redirect 301 /404 /404/
 Redirect 301 /blog/norston /blog/
 Redirect 301 "blog/norstone-d...</li>              <li id=?page=1"  /blog/
-Redirect 301 /blog/norstone-diy-infograp?page=1 /blog/norstone-diy-infographic/
+Redirect 301 "/blog/norstone-diy-infograp?page=1" /blog/norstone-diy-infographic/
 Redirect 301 /comment/reply/9940 /blog/
 Redirect 301 /produc  /products/
 Redirect 301 /blog/nors?page=1 /blog/
 Redirect 301 "/gallery/project/berkshire  residence" /gallery/project/berkshire-residence/
 Redirect 301 /products/404.html /products/
-Redirect 301 /gallery/project/Basement%20Retreat /gallery/project/stacked-stone-interior-basement-walls/
+Redirect 301 "/gallery/project/Basement Retreat" /gallery/project/stacked-stone-interior-basement-walls/
 Redirect 301 /3d-interiors /gallery/basalt-3d/interiors/
 Redirect 301 /modules/node/node.css?f /
 Redirect 301 /xl-rock-panels-aztec /products/thin-stone-veneer-panels/aztec/
 Redirect 301 /sites/default/files/image/Learn-How-To-Buy-New-Banner2 /assets/images/unsorted/Learn-How-To-Buy-New-Banner2(1)6.png
-Redirect 301 /sites/default/files/file/installation_guide_pdf/NorstoneUSA_Installation%20Guide_basalt.pdf /assets/pdfs/Norstone_Installation%20Guide_Basalt-2016.pdf
-Redirect 301 /sites/default/files/file/installation_guide_pdf/Norstone_Installation%20Guide(3).pdf /assets/pdfs/Norstone_Installation%20Guide-2016.pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/NorstoneUSA_Installation Guide_basalt.pdf" /assets/pdfs/Norstone_Installation%20Guide_Basalt-2016.pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone_Installation Guide(3).pdf" /assets/pdfs/Norstone_Installation%20Guide-2016.pdf
 Redirect 301 /gallery/89 /gallery/
 Redirect 301 /gallery/featured/philadelphia-lower-level-retreat /gallery/project/stacked-stone-interior-basement-walls/
 Redirect 301 /products/rock-panels/whiteNorstone /products/rock-panels/white/
-Redirect 301 /sites/default/files/file/installation_guide_pdf/Rock%20Panel%20ASTM%20C67%20Freeze%20Thaw%20Testing%20Report.pdf /assets/pdfs/Rock-Panel-ASTM-C67-Freeze-Thaw-Testing-Report.pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Rock Panel ASTM C67 Freeze Thaw Testing Report.pdf" /assets/pdfs/Rock-Panel-ASTM-C67-Freeze-Thaw-Testing-Report.pdf
 Redirect 301 /modules/system/defaults.css?f /
 Redirect 301 /sites/default/files/file/installation_guide_pdf/Mapei /assets/pdfs/Mapei-Ultralite(1).pdf
 Redirect 301 /assets/pdfs/Norstone_Installation /assets/pdfs/Norstone_Installation%20Guide-2016.pdf
