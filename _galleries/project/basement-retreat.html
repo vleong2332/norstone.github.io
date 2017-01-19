@@ -7,22 +7,22 @@ permalink: /gallery/project/stacked-stone-interior-basement-walls/
 product: "Basement Bar Remodel"
 gallery:
 - alt: Stacked Stone Fireplace
-  src: /assets/images/gallery/160over90_Norstone-04_WM-1800.jpg
+  src: assets/images/gallery/160over90_Norstone-04_WM-1800.jpg
   type: rock-panel-ochre
 - alt: Ochre Rock Panels for Interior Stacked Stone Feature Walls
-  src: /assets/images/gallery/160over90_Norstone-06_WM-1800.jpg
+  src: assets/images/gallery/160over90_Norstone-06_WM-1800.jpg
   type: rock-panel-ochre
 - alt: Ochre Rock Panels for Stacked Stone Bar
-  src: /assets/images/gallery/160over90_Norstone-08_WM-1800_1.jpg
+  src: assets/images/gallery/160over90_Norstone-08_WM-1800_1.jpg
   type: rock-panel-ochre
 - alt: Stacked Stone Veneer for Basement Bar
-  src: /assets/images/gallery/160over90_Norstone-12_WM-1800_0.jpg
+  src: assets/images/gallery/160over90_Norstone-12_WM-1800_0.jpg
   type: rock-panel-ochre
 - alt: Ochre Rock Panels for Interior Stacked Stone Feature Walls
-  src: /assets/images/gallery/160over90_Norstone-15_WM-1800.jpg
+  src: assets/images/gallery/160over90_Norstone-15_WM-1800.jpg
   type: rock-panel-ochre
 - alt: Natural Stacked Stone Veneer Example
-  src: /assets/images/gallery/160over90_Norstone-05_WM-1800.jpg
+  src: assets/images/gallery/160over90_Norstone-05_WM-1800.jpg
   type: rock-panel-ochre
 other_galleries:
 - rock-panel-interiors
@@ -32,13 +32,13 @@ rows:
 - image:
     alt: Philly Basement
     title: Philly Basement
-    src: /assets/images/unsorted/PhillyBasement(2).png
+    src: assets/images/unsorted/PhillyBasement(2).png
   heading: R&amp;R Never Looked So Good
   body: Ochre Rock Panels adorn nearly every wall of the lower level in this home in the city of brotherly love. The stone forms a perfect backdrop to frame a modern gas fireplace as well as signed Van Halen Guitar and serves as a functional bar backsplash and feature wall in the theatre nook of this custom designed lower level space. The clean and linear design of the Rock Panel is in full display as its more traditional brown &amp; grey color tones work perfectly with the modern style and furnishings of this space.
 - image:
     alt: Ochre
     title: Ochre
-    src: /assets/images/unsorted/Ochre.png
+    src: assets/images/unsorted/Ochre.png
   heading: Featured Products &amp; Design
   body: "The Philadelphia Basement project highlights the need for sufficient and varied lighting in any project that will recieve little or no sunlight, particularily when stone is involved.  The use of drop pendants, recessed cans, halogen pins, and a very cool backlit bottle rack all combine with the warm glow of the gas fireplace to bring out the brown earth tones of the Ochre Rock Panel and create a warm and inviting multi use space.</p><p><a href='/products/rock-panels/ochre/'>Visit Product Page</a>"
 redirect_from:
@@ -50,7 +50,7 @@ redirect_from:
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    <img class="orbit-image" src="{{ site.url }}{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}" />
+    <img class="orbit-image" src="{{ site.url }}/{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}" />
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>

@@ -11,22 +11,22 @@ product: Springhaus Basalt 3D Fireplace
 gallery:
 - alt: 'Springhaus Basalt 3D Grey Fireplace '
   title: 'Springhaus Basalt 3D Grey Fireplace '
-  src: "/assets/images/Basalt-3D-1.jpg"
+  src: "assets/images/Basalt-3D-1.jpg"
   type: basalt-3d-ash-grey
   tags: []
 - alt: 'Springhaus Basalt 3D Grey Fireplace '
   title: 'Springhaus Basalt 3D Grey Fireplace '
-  src: "/assets/images/Basalt-3D-4.jpg"
+  src: "assets/images/Basalt-3D-4.jpg"
   type: basalt-3d-ash-grey
   tags: []
 - alt: Springhaus Basalt 3D Grey Fireplace
   title: Springhaus Basalt 3D Grey Fireplace
-  src: "/assets/images/Basalt-3D-2.jpg"
+  src: "assets/images/Basalt-3D-2.jpg"
   type: basalt-3d-ash-grey
   tags: []
 - alt: Springhaus Basalt 3D Grey Fireplace
   title: Springhaus Basalt 3D Grey Fireplace
-  src: "/assets/images/Basalt-3D-3.jpg"
+  src: "assets/images/Basalt-3D-3.jpg"
   type: basalt-3d-ash-grey
   tags: []
 other_galleries:
@@ -63,7 +63,7 @@ rows:
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    <img class="orbit-image" src="{{ site.url }}{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}">
+    <img class="orbit-image" src="{{ site.url }}/{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>

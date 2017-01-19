@@ -5,10 +5,10 @@
   <div class="column">
     <h4 class="color-primary" style="margin-bottom:0">{{ product.title }}</h4>
     {% assign productlink = product.link | downcase | split: '/' %}
-    <a class="product-color{% if productlink[3] == current[3] %} active{% endif %}" href="{{ product.link }}" style="background-image: url({{ site.url }}/{{ product.image }})"></a>
+    <a class="product-color{% if productlink[3] == current[3] %} active{% endif %}" href="{{ site.url }}/{{ product.link }}" style="background-image: url({{ site.url }}/{{ product.image }})"></a>
   </div>
   {% endfor %}
 </div>
 <div class="row columns">
-  <p><a href="{{ page.gallery.link }}">{{ page.gallery.text }}<img width="12" height="9" alt="arrows-img" title="arrows-img.png" class="arrow" src="/assets/images/theme/arrows-img.png" /></a></p>
+  <p><a href="{{ site.url }}/{{ page.gallery.link }}">{{ page.gallery.text }}<img width="12" height="9" alt="arrows-img" title="arrows-img.png" class="arrow" src="/assets/images/theme/arrows-img.png" /></a></p>
 </div>

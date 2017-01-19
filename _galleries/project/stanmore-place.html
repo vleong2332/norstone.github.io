@@ -7,25 +7,25 @@ permalink: /gallery/project/stanmore-residential-complex/
 product: "The Stanmore Complex"
 gallery:
 - alt: Natural Stacked Stone Veneer Example
-  src: /assets/images/gallery/London-Multifamily---Stanmore_1.jpg.crop_display_0.jpg
+  src: assets/images/gallery/London-Multifamily---Stanmore_1.jpg.crop_display_0.jpg
   type: rock-panel-charcoal
 - alt: Natural Stacked Stone Veneer Example
-  src: /assets/images/gallery/London-Multifamily_0.jpg
+  src: assets/images/gallery/London-Multifamily_0.jpg
   type: rock-panel-charcoal
 - alt: Natural Stacked Stone Veneer Example
-  src: /assets/images/gallery/London-Multifamily-4_0.jpg
+  src: assets/images/gallery/London-Multifamily-4_0.jpg
   type: rock-panel-charcoal
 - alt: Natural Stacked Stone Veneer Example
-  src: /assets/images/gallery/London-Multifamily-3_0.jpg
+  src: assets/images/gallery/London-Multifamily-3_0.jpg
   type: rock-panel-charcoal
 - alt: Natural Stacked Stone Veneer Example
-  src: /assets/images/gallery/Norstone-Charcoal-Rock-Panels-Stanmore-12.jpg
+  src: assets/images/gallery/Norstone-Charcoal-Rock-Panels-Stanmore-12.jpg
   type: rock-panel-charcoal
 - alt: Natural Stacked Stone Veneer Example
-  src: /assets/images/gallery/screen-capture-528.jpg
+  src: assets/images/gallery/screen-capture-528.jpg
   type: rock-panel-charcoal
 - alt: Natural Stacked Stone Veneer Example
-  src: /assets/images/gallery/London-Multifamily---Standmore-2.jpg
+  src: assets/images/gallery/London-Multifamily---Standmore-2.jpg
   type: rock-panel-charcoal
 other_galleries:
 - niagara
@@ -35,13 +35,13 @@ rows:
 - image:
     alt: Stanmore complex
     title: Stanmore complex
-    src: /assets/images/unsorted/FeaturedProjectDetails_Stanmore3.png
+    src: assets/images/unsorted/FeaturedProjectDetails_Stanmore3.png
   heading: The Details
   body: The Stanmore multipurpose complex offers a massive selection of residential dwelling options as well as commercial storefronts. Its setting helps to achieve the right balance between the city and the country. Although the West End is only 30 minutes away, the development sits in a leafy suburb. Demonstrating a wonderful mix between contemporary and Victorian styling, this complex shows off its Norstone product with pride.
 - image:
     alt: Stanmore Design and Ownership team
     title: Stanmore Design and Ownership team
-    src: /assets/images/unsorted/stuff-to-know-2.png
+    src: assets/images/unsorted/stuff-to-know-2.png
   heading: Featured Products &amp; Design
   body: "The Stanmore Design and Ownership team were looking for a product that would stand up to the often harsh climate and elements of London.  Unsatisfied with the performance of slate for the exterior water feature areas, the team turned to Norstone's superior Quartz based products which met all of their needs including freeze / thaw stability in moisture rich environments.</p><p><a href='/products/rock-panels/charcoal/'>Visit Product Page</a>"
 ---
@@ -51,7 +51,7 @@ rows:
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    <img class="orbit-image" src="{{ site.url }}{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}">
+    <img class="orbit-image" src="{{ site.url }}/{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>
