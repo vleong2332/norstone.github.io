@@ -6,7 +6,7 @@ meta:
   description: 'The Springhaus designed Basalt 3D Fireplace is truly a show stopper
     in the midst of an incredibly well designed room, backdropped by the awe inspiring
     Rocky Mountains North of Denver.  '
-permalink: "/gallery/project/springhaus-basalt3d-fireplace"
+permalink: "/gallery/project/springhaus-basalt3d-fireplace/"
 product: Springhaus Basalt 3D Fireplace
 gallery:
 - alt: 'Springhaus Basalt 3D Grey Fireplace '
