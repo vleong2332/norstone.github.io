@@ -9,19 +9,19 @@ permalink: "/gallery/project/virginia-treehouse-retreat/"
 product: Luxury Vacation Home
 gallery:
 - alt: Stacked Stone Veneer Backsplash for a Kitchen
-  src: "/assets/images/gallery/Washington-DC-Home-2.jpg"
+  src: "assets/images/gallery/Washington-DC-Home-2.jpg"
   type: rock-panel-white
 - alt: Natural Stacked Stone Veneer Example
-  src: "/assets/images/gallery/Norstone-Ledgestone-Panel-Backsplash_0.jpg"
+  src: "assets/images/gallery/Norstone-Ledgestone-Panel-Backsplash_0.jpg"
   type: rock-panel-white
 - alt: Natural Stacked Stone Veneer Example
-  src: "/assets/images/gallery/Norstone-White-Quartz-Natural-Stone-Feature-Wall-Drystack_0.jpg"
+  src: "assets/images/gallery/Norstone-White-Quartz-Natural-Stone-Feature-Wall-Drystack_0.jpg"
   type: rock-panel-white
 - alt: Natural Stacked Stone Veneer Example
-  src: "/assets/images/gallery/Norstone-Dry-Stacked-Natural-Stone-Veneer-Fireplace_0.jpg"
+  src: "assets/images/gallery/Norstone-Dry-Stacked-Natural-Stone-Veneer-Fireplace_0.jpg"
   type: rock-panel-white
 - alt: White Quartz Natural Stacked Stone Veneer for Fireplace
-  src: "/assets/images/gallery/Washington-DC-Home_0.jpg"
+  src: "assets/images/gallery/Washington-DC-Home_0.jpg"
   type: rock-panel-white
 other_galleries:
 - rock-panel-white
@@ -31,7 +31,7 @@ rows:
 - image:
     alt: Virginia House
     title: Virginia House
-    src: "/assets/images/unsorted/VirginiaHouse.png"
+    src: "assets/images/unsorted/VirginiaHouse.png"
   heading: A Virginia Treehouse Retreat
   body: This rural Virginia home boasts an impressive offering of Norstone White Rock
     Panels throughout the main living areas. Starting in the formal living room, a
@@ -43,7 +43,7 @@ rows:
 - image:
     alt: Treehouse project
     title: Treehouse project
-    src: "/assets/images/unsorted/White.png"
+    src: "assets/images/unsorted/White.png"
   heading: Featured Products &amp; Design
   body: The Treehouse project is a classic example of creating flow across multiple
     spaces using materials and finishes.  The dual sided fireplace, clad in White
@@ -59,7 +59,7 @@ rows:
 {% for row in page.rows %}
 <div class="row">
   <div class="large-5 columns {% cycle '', 'large-push-7' %}">
-    <img class="orbit-image" src="{{ site.url }}{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}">
+    <img class="orbit-image" src="{{ site.url }}/{{ row.image.src }}" title="{{ row.image.title }}" alt="{{ row.image.alt }}">
   </div>
   <div class="large-7 columns {% cycle '', 'large-pull-5' %}">
     <h3 class="large color-primary">{{ row.heading }}</h3>

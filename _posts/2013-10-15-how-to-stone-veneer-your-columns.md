@@ -3,7 +3,7 @@ title: "How To Stone Veneer Your Columns"
 meta:
   title: "Stone Veneer Columns - Norstone Classroom Series"
   description: "Stone Veneer Columns - Norstone Classroom Series, stacked stone columns, natural stone columns, stone veneer columns"
-image: /assets/images/blog/ColumnsTutorial.png
+image: assets/images/blog/ColumnsTutorial.png
 excerpt:  Columns run the gamut from stately accoutrement in grand entry ways to just plain unsightly, view blocking headaches in a basement. Whatever its purpose, stone veneer is a great option for finishing columns, providing either a singular unique look, or allowing you to extend the stone veneer to more than just the flat walls of your project. This article touches on the major points to consider when selecting a veneer for a natural stone column project.
 permalink: /blog/stone-veneer-columns-norstone-classroom-series/
 ---
