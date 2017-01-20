@@ -207,3 +207,9 @@ basalt-pool:
   image: assets/images/Norstone%20Grey%20Basalt%20IL%20SC-13.jpg
   type: project-gallery
   type_text: Basalt IL Pools
+springhaus-fireplace:
+ title: Springhaus Fireplace
+ link: gallery/project/springhaus-basalt3d-fireplace/
+ image: assets/images/unsorted/springhaus-fireplace-denver-colorado.jpg
+ type: project-gallery
+ type_text: Fort Collins, CO
