@@ -1,6 +1,6 @@
 ---
 title: Gallery | Grey 3D Basalt at Colorado Mountain Retreat
-date: '2017-01-18 21:52:03'
+date: '2017-01-18 00:00:00'
 layout: gallery
 meta:
   description: 'The Springhaus designed Basalt 3D Fireplace is truly a show stopper
@@ -11,22 +11,22 @@ product: Springhaus Basalt 3D Fireplace
 gallery:
 - alt: 'Springhaus Basalt 3D Grey Fireplace '
   title: 'Springhaus Basalt 3D Grey Fireplace '
-  src: "assets/images/Basalt-3D-1.jpg"
+  src: assets/images/Basalt-3D-1.jpg
   type: basalt-3d-ash-grey
   tags: []
 - alt: 'Springhaus Basalt 3D Grey Fireplace '
   title: 'Springhaus Basalt 3D Grey Fireplace '
-  src: "assets/images/Basalt-3D-4.jpg"
+  src: assets/images/Basalt-3D-4.jpg
   type: basalt-3d-ash-grey
   tags: []
 - alt: Springhaus Basalt 3D Grey Fireplace
   title: Springhaus Basalt 3D Grey Fireplace
-  src: "assets/images/Basalt-3D-2.jpg"
+  src: assets/images/Basalt-3D-2.jpg
   type: basalt-3d-ash-grey
   tags: []
 - alt: Springhaus Basalt 3D Grey Fireplace
   title: Springhaus Basalt 3D Grey Fireplace
-  src: "assets/images/Basalt-3D-3.jpg"
+  src: assets/images/Basalt-3D-3.jpg
   type: basalt-3d-ash-grey
   tags: []
 other_galleries:
@@ -37,7 +37,7 @@ rows:
 - image:
     alt: Springhaus Fireplace
     title: Springhaus Fireplace
-    src: ''
+    src: "/assets/images/FeaturedProjectDetails_Springhaus.png"
   heading: The Details
   body: This amazingly well designed residence North of Denver successfully marries
     two different types of stone in one jaw dropping fireplace.  Only surpassed by
@@ -48,7 +48,7 @@ rows:
 - image:
     alt: A Parade Worthy Project
     title: A Parade Worthy Project
-    src: ''
+    src: "/assets/images/Grey Basalt 3D Corner.png"
   heading: A Parade Worthy Project
   body: "\"Norstone delivers quality products that make a statement in any application.
     When it came time to select finishes for the Parade of Homes project's fireplace,
