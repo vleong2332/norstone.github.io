@@ -5,7 +5,7 @@
   <div class="column">
     <h4 class="color-primary" style="margin-bottom:0">{{ product.title }}</h4>
     {% assign productlink = product.link | downcase | split: '/' %}
-    <a class="product-color{% if productlink[3] == current[3] %} active{% endif %}" href="{{ site.url }}/{{ product.link }}" style="background-image: url({{ site.url }}/{{ product.image }})"></a>
+    <a class="product-color{% if productlink[2] == current[3] %} active{% endif %}" href="{{ site.url }}/{{ product.link }}" style="background-image: url({{ site.url }}/{{ product.image }})"></a>
   </div>
   {% endfor %}
 </div>
