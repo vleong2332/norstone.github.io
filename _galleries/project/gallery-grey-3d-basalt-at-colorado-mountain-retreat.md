@@ -11,22 +11,22 @@ product: Springhaus Basalt 3D Fireplace
 gallery:
 - alt: 'Springhaus Basalt 3D Grey Fireplace '
   title: 'Springhaus Basalt 3D Grey Fireplace '
-  src: "assets/images/norstone-lavastone-panel-fireplace-colorado.jpg"
+  src: "assets/images/unsorted/norstone-lavastone-panel-fireplace-colorado.jpg"
   type: basalt-3d-ash-grey
   tags: []
 - alt: 'Springhaus Basalt 3D Grey Fireplace '
   title: 'Springhaus Basalt 3D Grey Fireplace '
-  src: "assets/images/norstone-lava-stone-on-a-gas-insert-fireplace.jpg"
+  src: "assets/images/unsorted/norstone-lava-stone-on-a-gas-insert-fireplace.jpg"
   type: basalt-3d-ash-grey
   tags: []
 - alt: Springhaus Basalt 3D Grey Fireplace
   title: Springhaus Basalt 3D Grey Fireplace
-  src: "assets/images/norstone-lava-stone-stacked-panel-fireplace.jpg"
+  src: "assets/images/unsorted/norstone-lava-stone-stacked-panel-fireplace.jpg"
   type: basalt-3d-ash-grey
   tags: []
 - alt: Springhaus Basalt 3D Grey Fireplace
   title: Springhaus Basalt 3D Grey Fireplace
-  src: "assets/images/norstone-lava-stone-on-a-fireplace.jpg"
+  src: "assets/images/unsorted/norstone-lava-stone-on-a-fireplace.jpg"
   type: basalt-3d-ash-grey
   tags: []
 other_galleries:
