@@ -3,6 +3,7 @@ title: "Norstone Classroom Series - Ceramic Wall Tile – Color Variation in Nat
 meta:
   title: "Ceramic Wall Tile - Color Variation in Natural Stone vs Manmade Tile Products - Norstone Classroom Series"
   description: "Ceramic Wall Tile - Color Variation in Natural Stone vs Manmade Tile Products - Norstone Classroom Series"
+image: assets/images/natural-stone-color-variation-Blog.jpg
 excerpt: There are many differences between manmade tile products, like porcelains and ceramics, as compared to natural stone. One of the most noticeable is color variation – something that can be tightly controlled when tile is manufactured versus something Mother Nature dictates when it comes to natural stone. Learn more about why color can vary and figure out what type of product works best for you.
 permalink: /blog/ceramic-wall-tile-%E2%80%93-color-variation-natural-stone-vs-manmade-tile-products-norstone-classroom-s/
 ---
