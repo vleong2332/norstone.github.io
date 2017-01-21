@@ -3,6 +3,7 @@ title: "Norstone Industry Series - The Rise of DIY Stone Veneer Walls?"
 meta:
   title: "Norstone Industry Series - The Rise of Do-It-Yourself Ledgestone Projects"
   description: "Do-it-yourself projects are more and more common these days, and companies like Norstone are making home projects like Ledgestone Walls an easy affair. In this Norstone Industry Series, join us to learn about the growing trend in 2016 of DIY home-based projects."
+image: assets/images/norstone-diy-Blog.jpg
 excerpt: Do-it-yourself projects are more and more common these days, and companies like Norstone are making home projects like Ledgestone Walls an easy affair. In this Norstone Industry Series, join us to learn about the growing trend in 2016 of DIY home-based projects.
 permalink: /blog/norstone-diy-infographic/
 ---
