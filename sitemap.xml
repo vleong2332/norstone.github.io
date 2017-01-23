@@ -4,7 +4,7 @@
     <loc>http://www.norstoneusa.com/</loc>
     <lastmod>2017-01-19</lastmod>
     <changefreq>daily</changefreq>
-    <priority>1</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>http://www.norstoneusa.com/products/stacked-stone-cladding/</loc>
@@ -41,6 +41,12 @@
     <lastmod>2017-01-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
+  </url>
+	<url>
+    <loc>http://www.norstoneusa.com/blog/fireplace-renovations-small-budget-project-with-big-return-on-investment/</loc>
+    <lastmod>2017-01-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>http://www.norstoneusa.com/blog/designing-norstone-series-what-rising-remodel-and-new-construction-market-means-design/</loc>
