@@ -138,6 +138,12 @@
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
   </url>
+	<url>
+    <loc>http://www.norstoneusa.com/gallery/project/springhaus-basalt3d-fireplace/</loc>
+    <lastmod>2017-01-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>http://www.norstoneusa.com/gallery/project/ivory-natural-stone-walls/</loc>
     <lastmod>2017-01-19</lastmod>
