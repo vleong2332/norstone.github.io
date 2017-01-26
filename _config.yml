@@ -123,5 +123,8 @@ defaults:
       meta:
         title: ""
         description: ""
-      image: ""
+      image:
+        src: ""
+        title: ""
+        alt: ""
       excerpt: ""

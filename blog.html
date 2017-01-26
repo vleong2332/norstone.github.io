@@ -13,7 +13,7 @@ layout: blog-list
     <h3><a href="{{ site.url }}{{ post.url }}" class="x-large color-primary">{{ post.title }}</a>
     <p>Posted on {{ post.date | date: '%B %d' }}</p>
   </header>
-  {% if post.image %}<img src="{{ site.url }}/{{ post.image }}" alt="Post Image" title="{{ post.image }}" />{% endif %}
+  {% if post.image.src != '' %}<img src="{{ site.url }}/{{ post.image.src }}" alt="{{ post.image.alt }}" title="{{ post.image.title }}" />{% endif %}
   <p>{{ post.excerpt | strip_html }}</p>
   <a class="color-secondary float-right" href="{{ site.url }}{{ post.url }}">read more <img alt="arrow-img" title="arrows-img.png" src="/assets/images/theme/arrows-img.png" /></a>
 </article>

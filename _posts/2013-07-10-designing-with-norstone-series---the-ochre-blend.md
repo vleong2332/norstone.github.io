@@ -3,7 +3,10 @@ title: 'Designing with Norstone Series - The "Ochre Blend"'
 meta:
   title: "Designing with Norstone Series - The Ochre Blend"
   description: "Of all Norstone's rock panels, Ochre has the most color variation to it. You will find shades of gray, rust and beige. It will provide a visually interesting feature that will catch your attention but is still neutral enough to go with a multitude of colors and styles."
-image: assets/images/blog/BlogTest.jpg
+image:
+  title: Post Image
+  alt: Post Image
+  src: assets/images/blog/BlogTest.jpg
 excerpt:  "Of all the rock panels,the Ochre Blend has the most color variation to it. You will find shades of gray, rust and beige. If you are lucky, you will even receive panels with hints of blue and green. Since the Ochre is made up of a combination of sedimentary rock and quartz, you will also notice that it has a slight gold glimmer that will catch your eye.
 
 This can be your guide to designing with this crowd favorite, helping you elevate your project from ordinary to extraordinary."

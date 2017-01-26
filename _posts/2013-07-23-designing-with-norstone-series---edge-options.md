@@ -3,7 +3,10 @@ title: "Designing with Norstone Series - Edge Options"
 meta:
   title: "Designing with Norstone Series - Edge Options"
   description: "The question how do you finish an exposed edge? The answer is, it's up to you! Depending on the final look you are trying to accomplish, there are several options we recommend."
-image: assets/images/blog/Blog4a.jpg
+image:
+  title: Post Image
+  alt: Post Image
+  src: assets/images/blog/Blog4a.jpg
 excerpt: "An in depth look at different ways to finish the exposed edges of Norstone Rock Panel system.
 
 When working on a backsplash, fireplace, feature wall or any other application that does not require corners or terminate into another wall or abutment, you might find yourself with an exposed edge, which begs the question how do you finish an exposed edge? The answer is, it's up to you! This is a place in your project where you can get a bit creative and really give your application a unique touch. Depending on the final look you are trying to accomplish, there are several options we recommend."

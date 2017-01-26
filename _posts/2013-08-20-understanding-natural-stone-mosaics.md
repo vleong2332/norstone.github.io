@@ -3,7 +3,10 @@ title: "Understanding Natural Stone Mosaics"
 meta:
   title: "Natural Stone Mosaics - Designing with Norstone Series"
   description: "Natural Stone Mosaics - Designing with Norstone Series"
-image: assets/images/blog/MosaicTileBlog(1).jpg
+image:
+  title: Post Image
+  alt: Post Image
+  src: assets/images/blog/MosaicTileBlog(1).jpg
 excerpt:  Mosaic design has been used for centuries to create everything from functional floor and wall coverings to some of the most impressive pieces of art known to man in a variety of different mediums including natural stone. Learn more in this article about the practical aspects of selecting and working with today's natural stone mosaic finishes.
 permalink: /blog/natural-stone-mosaics-norstone-design-series/
 ---

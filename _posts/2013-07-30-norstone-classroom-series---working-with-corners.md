@@ -3,7 +3,10 @@ title: "Norstone Classroom Series - Working With Corners"
 meta:
   title: "Norstone Classroom Session - Working With Corners"
   description: "There is no other manufacturer that uses multiple fingers per unit to create a seamless, interlocking unit that allows for consistent stone texture and cleft all the way around the corner."
-image: assets/images/blog/Classroom-Session-2-Corner-Blog(1).jpg
+image:
+  title: Post Image
+  alt: Post Image
+  src: assets/images/blog/Classroom-Session-2-Corner-Blog(1).jpg
 excerpt: "There comes a point in most stone veneer projects where the stone will need to go around an outside corner to either continue along, or terminate into another wall or structure. Calculating the right mix of field and corner units for your project the first time around is a critical step to staying on time and in budget.
 
 So don't let an outside corner bring your stacked stone project to a screeching halt - Here's a handy guide that explains how using our Rock Panel series Outside Corner Unit will have you turning corners in no time."

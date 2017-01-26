@@ -5,7 +5,10 @@ meta:
   title: Norstone Industry Series - What is Stacked Stone?
   description: What is Stacked Stone? In this Norstone Industry Series, join us for
     a lesson on what stacked stone really means in today's building world.
-image: assets/images/what-is-stacked-stone-Blog.jpg
+image:
+  title: Post Image
+  alt: Post Image
+  src: assets/images/what-is-stacked-stone-Blog.jpg
 excerpt: Stacked stone is an age old building term that literally refers to constructing
   walls out of slabs of stone in various sizes. Romans used stacked stone walls in
   Europe to mark territories and some can still be found today. In New England you

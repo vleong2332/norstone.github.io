@@ -8,7 +8,10 @@ meta:
   title: Fireplace Renovations - Small Budget Project with Big Return On Investment
   description: Fantastic article showing how any homeowner, investor, or flipper with
     only a small budget can renovate a fireplace and see a good return on investment.
-image: '/assets/images/unsorted/ROI-Stone-Fireplace.jpg'
+image:
+  title: Post Image
+  alt: Post Image
+  src: assets/images/unsorted/ROI-Stone-Fireplace.jpg
 excerpt: Big returns on a small budget are music to any homeowner, investor, or flipper's
   ears.  When a blockbuster budget to re-do the kitchen or bathrooms isn't in the
   cards, or if you've been diligent and have some money leftover at the end of a big

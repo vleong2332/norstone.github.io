@@ -3,7 +3,10 @@ title: "Designing with Norstone Series - Natural Stone Backsplashes"
 meta:
   title: "Ideas for a Natural Stone Backsplash - Designing with Norstone"
   description: "Ideas for a Natural Stone Backsplash - Designing with Norstone"
-image: assets/images/blog/BlogBacksplashes.jpg
+image:
+  title: Post Image
+  alt: Post Image
+  src: assets/images/blog/BlogBacksplashes.jpg
 excerpt: "When designing a kitchen, there are a lot of little details to think about - cabinets, countertops, appliances, island or no island, flooring and more. The one detail that is often overlooked, or saved for last, is the backsplash - but it shouldn't be!  The backsplash can tie all the little details together and be the finishing touch on the kitchen.
 
 Here are a few design ideas using natural stone as a non traditional backsplash medium."

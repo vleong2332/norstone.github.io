@@ -5,7 +5,10 @@ meta:
   title: Stone Veneer over Brick - Norstone Classroom Series
   description: Our stone can be easily installed on brick. Learn how simple it is
     to breath new style into old bricks.
-image: "assets/images/blog/Veneer-Over-Brick.jpg"
+image:
+  title: Post Image
+  alt: Post Image
+  src: assets/images/blog/Veneer-Over-Brick.jpg
 excerpt: Brick was and still is a very popular building material, particularily for
   residential fireplaces. Whether it's been a few years, or a few decades, the brick
   will look pretty much the same, but your tastes might have moved on. Stone Veneer
@@ -26,4 +29,4 @@ permalink: "/blog/stone-veneer-over-brick-norstone-classroom-series/"
 
 Leveraging the rapid installation a panel system provides, most DIY installers can turn an old worn out brick fireplace into the centerpiece of a room in about a weekend. So if you are looking for something that will be easy to install, cost effective, and last for as long as you want it to, consider installing stone veneer over an existing brick substrate and enjoy your refreshed space!
 
-Lastly, for a more detailed look at how to install stacked stone over brick, be sure to consult our comprehensive [installation guide](/how-to-install-stacked-stone/), or if you're just looking for a little inspiration for your own project, then grab a cup of coffee and head on over to our [exterior stone veneer siding gallery](/gallery/application/exteriors/). 
+Lastly, for a more detailed look at how to install stacked stone over brick, be sure to consult our comprehensive [installation guide](/how-to-install-stacked-stone/), or if you're just looking for a little inspiration for your own project, then grab a cup of coffee and head on over to our [exterior stone veneer siding gallery](/gallery/application/exteriors/).

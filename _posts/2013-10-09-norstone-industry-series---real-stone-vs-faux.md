@@ -3,7 +3,10 @@ title: "Norstone Industry Series - Real Stone vs Faux"
 meta:
   title: "Real Stone vs Faux - Norstone Industry Series"
   description: "Real Stone vs Faux - Norstone Industry Series"
-image: assets/images/blog/Real%20Stone%20Versus%20Faux%20Stone.png
+image:
+  title: Post Image
+  alt: Post Image
+  src: assets/images/blog/Real%20Stone%20Versus%20Faux%20Stone.png
 excerpt:  If you clicked over and are reading this article right now there is a good chance you discovered it while doing some research for a current or upcoming design project involving stone veneer. Natural stone has been the time honored choice for stone veneer since mankind started using it as a building material, but with recent advancements and the proliferation of manmade faux stone materials, you might be asking yourself what product is the right fit for your job? Read on for a comparison between the two and determine for yourself who is "King of the Mountain."
 permalink: /blog/real-stone-vs-faux-norstone-industry-series/
 ---

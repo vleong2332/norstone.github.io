@@ -3,7 +3,10 @@ title: "Norstone Classroom Series - How to Measure"
 meta:
   title: "Norstone Classroom Series - How to Measure"
   description: "One of the first steps in any project is going to be measuring the space, measuring the pertinent dimensions can be broken down into a few easy steps."
-image: assets/images/blog/Blog%20Banner%20-%20Measure(1).png
+image:
+  title: Post Image
+  alt: Post Image
+  src: assets/images/blog/Blog%20Banner%20-%20Measure(1).png
 excerpt: "Got Dimensions? This is a quick tutorial on everything you need to know to measure your project for a stone veneer application.
 
 One of the first steps in any project is going to be measuring the space and determining material requirements in square feet (sq ft). Whether you are working on a fireplace, backsplash, or feature wall, measuring the pertinent dimensions can be broken down into a few easy steps.
