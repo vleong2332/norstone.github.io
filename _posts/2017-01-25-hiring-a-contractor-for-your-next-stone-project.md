@@ -1,6 +1,6 @@
 ---
 title: Hiring a Contractor For Your Next Stone Project
-date: '2017-01-25 17:57:02'
+date: '2017-01-25 00:00:00'
 layout: blog
 permalink: "/blog/:title/"
 classes: blog
@@ -9,9 +9,9 @@ meta:
   description: A cool article giving a high level overview of some important things
     to think about when hiring a contractor for a tile or stone installation.
 image:
-  title: Post Image
-  alt: Post Image
-  src: "assets/images/Small Level on Rock Panel Installation-2.jpg"
+  title: Natural Stone Installation over Cement Board
+  alt: Natural Stone Installation over Cement Board
+  src: assets/images/Small Level on Rock Panel Installation-2.jpg
 excerpt: Although all of Norstone products are DIY friendly, sometimes you just don't
   have the motivation to learn or time to install your next stone project yourself.  Hiring
   a contractor can be a daunting task for someone without experience or knowledge
