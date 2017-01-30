@@ -95,6 +95,7 @@ defaults:
       layout: gallery
       title: ""
       meta:
+        title: ""
         description: ""
       permalink: ""
       product: ""
