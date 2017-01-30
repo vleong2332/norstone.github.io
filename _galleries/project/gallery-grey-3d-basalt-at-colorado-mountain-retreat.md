@@ -3,6 +3,7 @@ title: Gallery | Grey 3D Basalt at Colorado Mountain Retreat
 date: '2017-01-18 00:00:00'
 layout: gallery
 meta:
+  title: Gallery | Grey 3D Basalt at Colorado Mountain Retreat
   description: 'The Springhaus designed Basalt 3D Fireplace is truly a show stopper
     in the midst of an incredibly well designed room, backdropped by the awe inspiring
     Rocky Mountains North of Denver.  '
