@@ -472,14 +472,11 @@
           height: 95px;
           line-height: 88px;
           color: white;
-          font-size: 22px;
-          text-indent: -2px;
+          font-size: 140%;
           @include breakpoint(420px){
             width: 100px;
             height: 100px;
             line-height: 94px;
-            font-size: 30px;
-            text-indent: -8px;
           }
         }
         &:last-child {
