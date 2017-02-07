@@ -173,7 +173,7 @@ sitemap: false
                             </div>
                             <div class="form-item" id="edit-field-landing-project-value-wrapper">
                               <label for="edit-field-landing-project-value">I&#039;m working on </label>
-                              <select name="Description" class="form-select" id="edit-field-landing-project-value">
+                              <select name="LEADCF8" class="form-select" id="edit-field-landing-project-value">
                                 <option value="" selected="selected">- None -</option>
                                 <option value="Fireplace">Fireplace</option>
                                 <option value="Kitchen">Kitchen</option>
@@ -491,7 +491,7 @@ Basalt Lava tiles are designed for:<br />
     </div>
   </div>
   <script>
-    var mndFields = new Array('Last Name', 'Phone', 'Email', 'Zip Code');
+    var mndFields = new Array('Last Name', 'Phone', 'Email', 'Zip Code', 'LEADCF8');
 
     function checkMandatory() {
       for (i=0; i < mndFields.length; i++) {
@@ -503,6 +503,12 @@ Basalt Lava tiles are designed for:<br />
               fieldObj.focus();
               return false;
             }
+
+            // Give "I'm working on" field a better description.
+            if (mndFields[i] == 'LEADCF8') {
+              mndFields[i] = "I'm working on";
+            }
+
             alert(mndFields[i] + ' cannot be empty.');
             fieldObj.focus();
             return false;
