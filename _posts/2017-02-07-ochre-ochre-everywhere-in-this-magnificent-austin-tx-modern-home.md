@@ -5,7 +5,7 @@ layout: blog
 permalink: "/blog/:title/"
 classes: blog
 meta:
-  title: ''
+  title: Ochre, Ochre Everywhere in this Magnificent Austin, TX Modern Home
   description: ''
 image:
   src: ''
