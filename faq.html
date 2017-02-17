@@ -275,7 +275,7 @@ layout: default
       <a href="" class="accordion-title"><span>{{ section.title }}</span></a>
       <div class="accordion-content" data-tab-content="">
         {% for item in section.questions %}
-        <p class="faq-question"><strong>Q • {{ item.q }}</strong></p>
+        <h2 class="faq-question" style="color:#6b6b6b;font-weight:bold">Q • {{ item.q }}</h2>
         <p class="faq-answer"><strong>A</strong> • <em>{{ item.a }}</em></p>
         {% endfor %}
       </div>
