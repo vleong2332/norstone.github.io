@@ -5,6 +5,9 @@ permalink: .htaccess
 Options +FollowSymLinks
 RewriteEngine on
 
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{SERVER_NAME}/$1 [R,L]
+
 ErrorDocument 404 /404.html
 
 Redirect 301 /assets/images/gallery/IMGP1531_cropped2-copy-1800.jpg /assets/images/gallery/Norstone-White-Stacked-Stone-Veneer.jpg
