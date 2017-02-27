@@ -17,7 +17,7 @@ excerpt: This is one of our new favorite fireplaces, designed by the amazing tea
   home.
 date: 2017-02-27 11:14
 ---
-Mixing and matching colors is something any good designer can hang their hat on. Coordinating a counter top to cabinet color, or flooring to an accent wall is an everyday thing. But it's not everyday you see a designer, like the team over at Springhaus Designs in Ft. Collins, CO, mix two colors and two materials on one fireplace – which they did on this recently completed front range home. Using our [Basalt Ebony 3D Pane](https://www.norstoneusa.com/products/basalt-stone-panels/black-stone/)l for the sides and corners, meeting up with a vertical band of lighter colored natural stone tiles, this fireplace oozes a modern feel with the smooth finishes, geometric 3D look, and color pallete.
+Mixing and matching colors is something any good designer can hang their hat on. Coordinating a counter top to cabinet color, or flooring to an accent wall is an everyday thing. But it's not everyday you see a designer, like the team over at Springhaus Designs in Ft. Collins, CO, mix two colors and two materials on one fireplace – which they did on this recently completed front range home. Using our [Basalt Grey 3D Panel](https://www.norstoneusa.com/products/basalt-stone-panels/ash-grey-stone/) for the sides and corners, meeting up with a vertical band of lighter colored natural stone tiles, this fireplace oozes a modern feel with the smooth finishes, geometric 3D look, and color pallete.  
 
 ![Mixed Stone Panel Fireplace in Northern Colorado]({{ site.baseurl }}/assets/images/Mixed%20Stone%20Panel%20Fireplace%20-%20Northern%20Colorado.jpg)
 
