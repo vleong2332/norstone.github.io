@@ -158,10 +158,10 @@ Redirect 301 /comment/reply/10653 /blog/
 Redirect 301 /mobile/ /
 
 RewriteCond %{HTTP_HOST} ^nrstn.prod3.webenabled.net$ [NC]
-RewriteRule ^(.*)$ http://www.norstoneusa.com/$1 [R=301,L]
+RewriteRule ^(.*)$ https://www.norstoneusa.com/$1 [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^norstoneusa\.com$
-RewriteRule ^(.*) http://www.norstoneusa.com/$1 [R=301]
+RewriteRule ^(.*) https://www.norstoneusa.com/$1 [R=301]
 
 # One year for image files
 <filesMatch ".(jpg|jpeg|png|gif|ico)$">
