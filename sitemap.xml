@@ -607,6 +607,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.norstoneusa.com/products/stacked-stone-cladding/</loc>
+    <lastmod>2017-01-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.norstoneusa.com/products/rock-panels/charcoal/</loc>
     <lastmod>2017-01-19</lastmod>
     <changefreq>daily</changefreq>
@@ -629,12 +635,6 @@
     <lastmod>2017-01-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.norstoneusa.com/products/stacked-stone-cladding/</loc>
-    <lastmod>2017-01-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.norstoneusa.com/products/thin-stone-veneer-panels/</loc>
