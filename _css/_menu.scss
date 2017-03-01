@@ -124,3 +124,8 @@
     }
   }
 }
+
+// Hack for IE9 and lower.
+.lt-ie10 .off-canvas {
+  right: -250px;
+}
