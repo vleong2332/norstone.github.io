@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://www.norstoneusa.com/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Norstone-Ochre-Blend-Rock-Panel-Stacked-Stone-Veneer-Panel.png</image:loc>
         <image:title>Norstone Ochre Blend Stacked Stone Veneer for Feature Walls, Fireplaces, Backsplashes, and Retaining Walls</image:title>
@@ -23,28 +23,10 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.norstoneusa.com/products/thin-stone-veneer-panels/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Norstone-Natural-Thin-Stone-Veneer-Panel--Aztec-2.png</image:loc>
-        <image:title>Thin Stone Veneer Panels just got Bolder</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Charcoal-XL-Field-Diagram.png</image:loc>
-        <image:title>Norstone's Dry Stack Stone Veneer Panel Unit</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/XL-Charcoal-CNDiagram(2).png</image:loc>
-        <image:title>Norstone's Dry Stacked Stone Wall Unit</image:title>
-      </image:image>
-  </url>
-  <url>
     <loc>https://www.norstoneusa.com/gallery/application/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/theme/menu-large-rock.png</image:loc>
         <image:title>Rock Panels</image:title>
@@ -103,10 +85,28 @@
       </image:image>
   </url>
   <url>
+    <loc>https://www.norstoneusa.com/products/thin-stone-veneer-panels/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Norstone-Natural-Thin-Stone-Veneer-Panel--Aztec-2.png</image:loc>
+        <image:title>Thin Stone Veneer Panels just got Bolder</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Charcoal-XL-Field-Diagram.png</image:loc>
+        <image:title>Norstone's Dry Stack Stone Veneer Panel Unit</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/XL-Charcoal-CNDiagram(2).png</image:loc>
+        <image:title>Norstone's Dry Stacked Stone Wall Unit</image:title>
+      </image:image>
+  </url>
+  <url>
     <loc>https://www.norstoneusa.com/gallery/application/fireplace/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Norstone-Charcoal-Standard-Series-Rock-Panel-2-copy.jpg</image:loc>
         <image:title>A Stacked Stone Fireplace in a modern living room environment with a flame</image:title>
@@ -242,9 +242,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/products/basalt-stone-panels/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Basalt-3D-Stacked-Stone-Panels-2(1).png</image:loc>
         <image:title>Dimensional Ledgestone Ahead of its Time.</image:title>
@@ -260,9 +260,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/norstone-classroom-session-working-corners-1/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Classroom-Session-2-Corner-Blog(1).jpg</image:loc>
         <image:title>Blog Banner</image:title>
@@ -286,9 +286,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/norstone-classroom-series-how-measure/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Blog-Banner---Measure(1).jpg</image:loc>
         <image:title>Blog Banner</image:title>
@@ -312,9 +312,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/contact-us/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Charcoal-Natural-Stone-Close-Up-Contact-Us(1).jpg</image:loc>
         <image:title>Contact Norstone</image:title>
@@ -326,9 +326,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/application/natural-stone-feature-walls/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Natural-Stone-Veneers-in-a-Restaurant-Setting.jpg</image:loc>
         <image:title>Natural Stone Veneers in a Restaurant Setting</image:title>
@@ -432,9 +432,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/products/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/theme/menu-large-rock.png</image:loc>
         <image:title>Rock Panels</image:title>
@@ -513,28 +513,102 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.norstoneusa.com/products/stacked-stone-cladding/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://www.norstoneusa.com/products/rock-panels/ochre/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Norstone-Natural-Stacked-Stone-Veneer-Thin-Wall-Panels.png</image:loc>
-        <image:title>Stacked Stone Veneer Wall Panels</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/theme/banner-product-rock-ochre-corner.png</image:loc>
+        <image:title>World Class Stone Veneer</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Norstone-Rock-Panel-Veneer-Diagram-Measurement.png</image:loc>
-        <image:title>Norstone's Rock Panel Veneer Diagram Measurement</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Ochre-RPs-pool-Narrabeen-069-copy_Small-1800_0.jpg</image:loc>
+        <image:title>Ochre Blend Rock Panels used on a pool Water Feature</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Norstone-Stone-Panel-Wall-Cladding-Diagram.png</image:loc>
-        <image:title>Norstone's Stone Panel Wall Cladding Diagram</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Denver-Custom-Home-4_0.jpg</image:loc>
+        <image:title>Natural Stacked Stone Columns</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Hansson-fireplace-copyWM-1800.jpg</image:loc>
+        <image:title>Natural Stacked Stone Veneer Fireplace</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/00043-copy.jpg</image:loc>
+        <image:title>Natural Stacked Stone Veneer Example</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/20-30-1500.jpg</image:loc>
+        <image:title>Ochre Rock Panels</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Norstone-Ochre-Rock-Panels-HL-20-copy-2300.jpg</image:loc>
+        <image:title>Natural Ledgestone Veneer Panel for Walls</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Freeman_Residence_01-1800.jpg</image:loc>
+        <image:title>Natural Stacked Stone Veneer Home</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Ochre-RP_diagram-copy.png</image:loc>
+        <image:title>Ochre Field Unit Panel</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/OchreCN_diagram.png</image:loc>
+        <image:title>Ochre Corner Rock Panel</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://www.norstoneusa.com/products/rock-panels/white/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/theme/banner-rock-panel-white.png</image:loc>
+        <image:title>World Class Stone Veneer</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/White-Quartz-Stone-Feature-Wall-in-New-York.jpg</image:loc>
+        <image:title>White Quartz Feature Wall in New York</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Norstone-White-FP_0.jpg</image:loc>
+        <image:title>White Quartz Stone Fireplace</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Norstone-White-Rock-Panels-MK-1-copy-1800_0.jpg</image:loc>
+        <image:title>Natural Stone Wall in Modern Kitchen</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/1D1I1000-copy_wm-1800.jpg</image:loc>
+        <image:title>Stacked Stone Feaeture wall on Entertainment Center</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/1D1I0969-copy_wm-1800.jpg</image:loc>
+        <image:title>Contemporary Stacked Stone Feature Wall</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/White-Fireplace-Denmark-1800.jpg</image:loc>
+        <image:title>White Quartz Natural Stacked Stone Veneer for Feature Wall</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Norstone-White-Rock-Panels-Matrix-L2-copy-2200.jpg</image:loc>
+        <image:title>Natural Stacked Stone Veneer Example</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/WhiteRP_diagram-copy.png</image:loc>
+        <image:title>White Field Unit Panel</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/WhiteCN_diagram-copy.png</image:loc>
+        <image:title>White Corner Rock Panel</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/rock-panels/white/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/White-Quartz-Feature-Wall.jpg</image:loc>
         <image:title>Natural Stacked Stone Veneer Example</image:title>
@@ -685,56 +759,10 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.norstoneusa.com/products/rock-panels/ochre/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/theme/banner-product-rock-ochre-corner.png</image:loc>
-        <image:title>World Class Stone Veneer</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Ochre-RPs-pool-Narrabeen-069-copy_Small-1800_0.jpg</image:loc>
-        <image:title>Ochre Blend Rock Panels used on a pool Water Feature</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Denver-Custom-Home-4_0.jpg</image:loc>
-        <image:title>Natural Stacked Stone Columns</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Hansson-fireplace-copyWM-1800.jpg</image:loc>
-        <image:title>Natural Stacked Stone Veneer Fireplace</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/00043-copy.jpg</image:loc>
-        <image:title>Natural Stacked Stone Veneer Example</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/20-30-1500.jpg</image:loc>
-        <image:title>Ochre Rock Panels</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Norstone-Ochre-Rock-Panels-HL-20-copy-2300.jpg</image:loc>
-        <image:title>Natural Ledgestone Veneer Panel for Walls</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Freeman_Residence_01-1800.jpg</image:loc>
-        <image:title>Natural Stacked Stone Veneer Home</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Ochre-RP_diagram-copy.png</image:loc>
-        <image:title>Ochre Field Unit Panel</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/OchreCN_diagram.png</image:loc>
-        <image:title>Ochre Corner Rock Panel</image:title>
-      </image:image>
-  </url>
-  <url>
     <loc>https://www.norstoneusa.com/products/thin-stone-veneer-panels/aztec/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Light-Beige-Ledgerstone-Panel.png</image:loc>
         <image:title>Earth Tones Made Brighter</image:title>
@@ -777,10 +805,28 @@
       </image:image>
   </url>
   <url>
+    <loc>https://www.norstoneusa.com/products/stacked-stone-cladding/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Norstone-Natural-Stacked-Stone-Veneer-Thin-Wall-Panels.png</image:loc>
+        <image:title>Stacked Stone Veneer Wall Panels</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Norstone-Rock-Panel-Veneer-Diagram-Measurement.png</image:loc>
+        <image:title>Norstone's Rock Panel Veneer Diagram Measurement</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Norstone-Stone-Panel-Wall-Cladding-Diagram.png</image:loc>
+        <image:title>Norstone's Stone Panel Wall Cladding Diagram</image:title>
+      </image:image>
+  </url>
+  <url>
     <loc>https://www.norstoneusa.com/gallery/project/virginia-treehouse-retreat/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Washington-DC-Home-2.jpg</image:loc>
         <image:title>Stacked Stone Veneer Backsplash for a Kitchen</image:title>
@@ -816,9 +862,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/project/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/theme/menu-large-rock.png</image:loc>
         <image:title>Rock Panels</image:title>
@@ -890,9 +936,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/designing-norstone-series-edge-options/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Blog4a.jpg</image:loc>
         <image:title>Blog Banner</image:title>
@@ -915,52 +961,10 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.norstoneusa.com/gallery/project/springhaus-basalt3d-fireplace/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/norstone-lavastone-panel-fireplace-colorado.jpg</image:loc>
-        <image:title>Springhaus Basalt 3D Grey Fireplace </image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/norstone-lava-stone-on-a-gas-insert-fireplace.jpg</image:loc>
-        <image:title>Springhaus Basalt 3D Grey Fireplace </image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/norstone-lava-stone-stacked-panel-fireplace.jpg</image:loc>
-        <image:title>Springhaus Basalt 3D Grey Fireplace</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/norstone-lava-stone-on-a-fireplace.jpg</image:loc>
-        <image:title>Springhaus Basalt 3D Grey Fireplace</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com//assets/images/FeaturedProjectDetails_Springhaus.png</image:loc>
-        <image:title>Springhaus Fireplace</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com//assets/images/Grey%20Basalt%203D%20Corner.png</image:loc>
-        <image:title>A Parade Worthy Project</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/DSC_1963-copy-2.jpg</image:loc>
-        <image:title>Basalt Tile Ash Grey</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Modern-Basalt-Backsplash.jpg</image:loc>
-        <image:title>Basalt Tile Ebony</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Black-Stone-Feature-Wall-Lobby.jpg.crop_display_0.jpg</image:loc>
-        <image:title>Basalt 3D Interiors</image:title>
-      </image:image>
-  </url>
-  <url>
     <loc>https://www.norstoneusa.com/gallery/project/berkshire-residence/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Stacked_Stone_Ledgestone_Veneer_Wall.jpg</image:loc>
         <image:title>Stacked Stone Ledgestone Veneer Wall</image:title>
@@ -1007,56 +1011,52 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.norstoneusa.com/products/thin-stone-veneer-panels/ochre/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.norstoneusa.com/gallery/project/springhaus-basalt3d-fireplace/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Beige-Ledgestone-Paneling(2).png</image:loc>
-        <image:title>Large Scale Stone Veneer</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/norstone-lavastone-panel-fireplace-colorado.jpg</image:loc>
+        <image:title>Springhaus Basalt 3D Grey Fireplace </image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Stacked_Stone_Ledgestone_Veneer_Wall.jpg</image:loc>
-        <image:title>Stacked Stone Ledgestone Veneer Wall</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/norstone-lava-stone-on-a-gas-insert-fireplace.jpg</image:loc>
+        <image:title>Springhaus Basalt 3D Grey Fireplace </image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Thinstone_Ledgestone_Veneer_Wall_0.jpg</image:loc>
-        <image:title>Natural Stacked Stone Veneer Example</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/norstone-lava-stone-stacked-panel-fireplace.jpg</image:loc>
+        <image:title>Springhaus Basalt 3D Grey Fireplace</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Interior_Beautiful_Stacked_Stone_Wall.jpg</image:loc>
-        <image:title>Interior Beautiful Stacked Stone Feature Wall in Gym</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/norstone-lava-stone-on-a-fireplace.jpg</image:loc>
+        <image:title>Springhaus Basalt 3D Grey Fireplace</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Natural_Stacked_Stone_Wall.jpg</image:loc>
-        <image:title>Natural Stacked Stone Veneer Wall</image:title>
+        <image:loc>https://www.norstoneusa.com//assets/images/FeaturedProjectDetails_Springhaus.png</image:loc>
+        <image:title>Springhaus Fireplace</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Thin-Stone-Steps.jpg</image:loc>
-        <image:title>Thin Stone Veneer for Landscaping</image:title>
+        <image:loc>https://www.norstoneusa.com//assets/images/Grey%20Basalt%203D%20Corner.png</image:loc>
+        <image:title>A Parade Worthy Project</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Norstone-Ochre-Rock-Panels-FP-1-copy-2200.jpg</image:loc>
-        <image:title>Thin Stone Veneer for Pools</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/DSC_1963-copy-2.jpg</image:loc>
+        <image:title>Basalt Tile Ash Grey</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Norstone-Ochre-Rock-Panels-FP-2-copy-2200.jpg</image:loc>
-        <image:title>Thin Stone Veneer for Pools</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Modern-Basalt-Backsplash.jpg</image:loc>
+        <image:title>Basalt Tile Ebony</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Ochre-XL-Field-Diagram.png</image:loc>
-        <image:title>Ochre Field Unit Panel</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/XL-Ochre-CNDiagram.png</image:loc>
-        <image:title>Ochre Corner Rock Panel</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Black-Stone-Feature-Wall-Lobby.jpg.crop_display_0.jpg</image:loc>
+        <image:title>Basalt 3D Interiors</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/basalt-3d/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/theme/menu-large-rock.png</image:loc>
         <image:title>Rock Panels</image:title>
@@ -1099,10 +1099,56 @@
       </image:image>
   </url>
   <url>
+    <loc>https://www.norstoneusa.com/products/thin-stone-veneer-panels/ochre/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Beige-Ledgestone-Paneling(2).png</image:loc>
+        <image:title>Large Scale Stone Veneer</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Stacked_Stone_Ledgestone_Veneer_Wall.jpg</image:loc>
+        <image:title>Stacked Stone Ledgestone Veneer Wall</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Thinstone_Ledgestone_Veneer_Wall_0.jpg</image:loc>
+        <image:title>Natural Stacked Stone Veneer Example</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Interior_Beautiful_Stacked_Stone_Wall.jpg</image:loc>
+        <image:title>Interior Beautiful Stacked Stone Feature Wall in Gym</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Natural_Stacked_Stone_Wall.jpg</image:loc>
+        <image:title>Natural Stacked Stone Veneer Wall</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Thin-Stone-Steps.jpg</image:loc>
+        <image:title>Thin Stone Veneer for Landscaping</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Norstone-Ochre-Rock-Panels-FP-1-copy-2200.jpg</image:loc>
+        <image:title>Thin Stone Veneer for Pools</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Norstone-Ochre-Rock-Panels-FP-2-copy-2200.jpg</image:loc>
+        <image:title>Thin Stone Veneer for Pools</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Ochre-XL-Field-Diagram.png</image:loc>
+        <image:title>Ochre Field Unit Panel</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/XL-Ochre-CNDiagram.png</image:loc>
+        <image:title>Ochre Corner Rock Panel</image:title>
+      </image:image>
+  </url>
+  <url>
     <loc>https://www.norstoneusa.com/gallery/basalt-3d/grey/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Modern-Grey-Basalt-Stone-Feature-Wall.jpg</image:loc>
         <image:title>Modern Grey Basalt Stone Feature Wall</image:title>
@@ -1154,9 +1200,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/products/rock-panels/charcoal/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/theme/banner-rock-panel-charcoal.png</image:loc>
         <image:title>World Class Stone Veneer</image:title>
@@ -1200,9 +1246,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/rock-panels/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/theme/menu-large-rock.png</image:loc>
         <image:title>Rock Panels</image:title>
@@ -1238,9 +1284,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/rock-panels/exteriors/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/norstone-ochre-stone-veneer-home-facade.jpg</image:loc>
         <image:title>Natural Stacked Stone Veneer Example</image:title>
@@ -1520,9 +1566,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/theme/menu-large-rock.png</image:loc>
         <image:title>Rock Panels</image:title>
@@ -1669,52 +1715,10 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.norstoneusa.com/products/modern-wall-tile/grey/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/theme/banner-basalt-grey.png</image:loc>
-        <image:title>Mounted Natural Stone Tile Strips</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Basalt-Grey---Residential---San-Francisco---Courtyard-2.jpg</image:loc>
-        <image:title>Smooth Grey Stone Feature Wall Courtyard in San Francisco</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Basalt-Grey---Residential---Washington-DC---Pool-2.jpg</image:loc>
-        <image:title>Basalt Smooth Pool Stone For Water Feature in Atlanta</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/DSC_0289-1800.jpg</image:loc>
-        <image:title>Basalt Stone Veneer Wall</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/DSC_1980-copy-2.jpg</image:loc>
-        <image:title>Natural Stacked Stone Veneer Example</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Natural-Stone-Basalt-Wall-Tile-Landscape-Veneer-Wall-in-Washington-DC.jpg</image:loc>
-        <image:title>Natural Stone Basalt Wall Tile Landscape Veneer Wall in Washington DC</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Contemporary-Natural-Stone-Veneer-for-Homes2_0.jpg</image:loc>
-        <image:title>Natural Stacked Stone Veneer Example</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/DSC_1952-copy-2.jpg</image:loc>
-        <image:title>Natural Stacked Stone Veneer Example</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/GreyBasaltDiagram.png</image:loc>
-        <image:title>Ochre Field Unit Panel</image:title>
-      </image:image>
-  </url>
-  <url>
     <loc>https://www.norstoneusa.com/gallery/basalt-il-tiles/interiors/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Black-Stone-Fireplace-Drexel-University-1.jpg</image:loc>
         <image:title>Black Basalt Stone Veneer on Commercial University Fireplace</image:title>
@@ -1809,10 +1813,52 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.norstoneusa.com/gallery/application/showers/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://www.norstoneusa.com/products/modern-wall-tile/grey/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/theme/banner-basalt-grey.png</image:loc>
+        <image:title>Mounted Natural Stone Tile Strips</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Basalt-Grey---Residential---San-Francisco---Courtyard-2.jpg</image:loc>
+        <image:title>Smooth Grey Stone Feature Wall Courtyard in San Francisco</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Basalt-Grey---Residential---Washington-DC---Pool-2.jpg</image:loc>
+        <image:title>Basalt Smooth Pool Stone For Water Feature in Atlanta</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/DSC_0289-1800.jpg</image:loc>
+        <image:title>Basalt Stone Veneer Wall</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/DSC_1980-copy-2.jpg</image:loc>
+        <image:title>Natural Stacked Stone Veneer Example</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Natural-Stone-Basalt-Wall-Tile-Landscape-Veneer-Wall-in-Washington-DC.jpg</image:loc>
+        <image:title>Natural Stone Basalt Wall Tile Landscape Veneer Wall in Washington DC</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/Contemporary-Natural-Stone-Veneer-for-Homes2_0.jpg</image:loc>
+        <image:title>Natural Stacked Stone Veneer Example</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/product/DSC_1952-copy-2.jpg</image:loc>
+        <image:title>Natural Stacked Stone Veneer Example</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/GreyBasaltDiagram.png</image:loc>
+        <image:title>Ochre Field Unit Panel</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://www.norstoneusa.com/gallery/application/showers/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Ochre-Real-Stone-Veneers-Used-in-Bathroom.jpg</image:loc>
         <image:title>Natural Stone Veneers Used in Bathroom</image:title>
@@ -1888,9 +1934,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/natural-stone-bathrooms-designing-norstone-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/BathroomBlog(1).jpg</image:loc>
         <image:title>Bathroom Blog</image:title>
@@ -1914,9 +1960,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/project/stacked-stone-interior-basement-walls/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/160over90_Norstone-04_WM-1800.jpg</image:loc>
         <image:title>Stacked Stone Fireplace</image:title>
@@ -1956,9 +2002,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/how-to-install-stacked-stone/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/theme/installation-rock-panels.png</image:loc>
         <image:title>Rock Panel Installation</image:title>
@@ -2046,9 +2092,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/project/architects-office/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Denver-Architects-Office-2_0.jpg</image:loc>
         <image:title>Interior Stacked Stone Wall with Fireplace</image:title>
@@ -2092,9 +2138,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/xlx-rock-panels/interiors/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Gold-Stacking-Stone-Panel.jpg</image:loc>
         <image:title>Gold Stacking Stone Panel</image:title>
@@ -2178,9 +2224,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/project/rockport/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Rockport-copy-1800_2.jpg</image:loc>
         <image:title>Natural Stacked Stone Veneer Example</image:title>
@@ -2227,10 +2273,36 @@
       </image:image>
   </url>
   <url>
+    <loc>https://www.norstoneusa.com/gallery/basalt-3d/retail/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/IMG_5136-1.JPG</image:loc>
+        <image:title>Ebony - 3D Lobby</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Modern-Basalt-Backsplash.jpg</image:loc>
+        <image:title>Basalt Tile Ebony</image:title>
+      </image:image>
+  </url>
+  <url>
     <loc>https://www.norstoneusa.com/blog/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com//assets/images/Charcoal%20Stone%20Tile%20Shower.jpg</image:loc>
+        <image:title>Charcoal Stone Tile Shower</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com//assets/images/Aztec%20Stacked%20Stone%20Backsplash%20-%20Orlando,%20FL.jpg</image:loc>
+        <image:title>Aztec Stacked Stone Backsplash - Orlando, FL</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com//assets/images/Ochre%20Stacked%20Stone%20Wall%20-%20Sunburst%20Chandelier%20Austin,%20TX.jpg</image:loc>
+        <image:title>Design School - How to Pick a Great Lighting Fixture for your stone veneer wall</image:title>
+      </image:image>
       <image:image>
         <image:loc>https://www.norstoneusa.com//assets/images/Basalt%20Stone%20Panel%20Fireplace%20-%20Fort%20Collins,%20CO.jpg</image:loc>
         <image:title>Basalt Stone Panel Fireplace in Fort Collins, CO</image:title>
@@ -2389,38 +2461,54 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.norstoneusa.com/gallery/basalt-3d/retail/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://www.norstoneusa.com/blog/design-school-pairing-lighting-fixtures-with-stone-veneer-for-amazing-results/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/IMG_5136-1.JPG</image:loc>
-        <image:title>Ebony - 3D Lobby</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/Ochre%20Blend%20Feature%20Wall%20-%20Atlanta%20Loft.jpg</image:loc>
+        <image:title>Ochre Blend Feature Wall in Atlanta Loft Space</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Modern-Basalt-Backsplash.jpg</image:loc>
-        <image:title>Basalt Tile Ebony</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/Ivory%20Rock%20Panel%20Wine%20Room%20Wall.jpg</image:loc>
+        <image:title>Ivory Stone Veneer Wine Cellar</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/Ochre%20Stacked%20Stone%20Wall%20-%20Sunburst%20Chandelier%20Austin,%20TX-1.jpg</image:loc>
+        <image:title>Ochre Stacked Stone Feature Wall with Sunburst Chandelier in Austin, TX</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/Basalt%20Ash%20Grey%203D%20Stone%20Panel%20-%20Modern%20Fan%20-%20Tampa,%20FL.jpg</image:loc>
+        <image:title>Basalt Grey 3D Panel on Modern Fireplacein Tampa, FL</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/White%20Quartz%20Stone%20Veneer%20Wall%20-%20Cafe%20Sign%20-%20Orlando,%20FL.jpg</image:loc>
+        <image:title>White Quartz Stone Veneer Cafe Wall in Orlando, FL</image:title>
       </image:image>
   </url>
   <url>
-    <loc>https://www.norstoneusa.com/blog/two-toned-modern-fireplace-in-ft-collins-co/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <loc>https://www.norstoneusa.com/blog/marble-tile-backsplash-norstone-industy-series/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/Mixed%20Stone%20Panel%20Fireplace%20-%20Northern%20Colorado.jpg</image:loc>
-        <image:title>Mixed Stone Panel Fireplace in Northern Colorado</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/blog/Marble-Tile-Backsplash---Onyx.jpg</image:loc>
+        <image:title>Onyx backsplash</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/Basalt%20Stone%20Panel%20Fireplace%20with%20Rocky%20Mountain%20Background.jpg</image:loc>
-        <image:title>Basalt Stone Panle Fireplace with Rocky Mountain Background</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/blog/Marble-Tile-Backsplash---Quartz.jpg</image:loc>
+        <image:title>Quartz backsplash</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/blog/Marble-Tile-Backsplash---Quartz2.jpg</image:loc>
+        <image:title>Quartz backsplash</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/backsplash-tile-designs-norstone-industy-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Backsplash-Tile-Designs---E&amp;S.jpg</image:loc>
         <image:title>E&amp;S</image:title>
@@ -2439,10 +2527,24 @@
       </image:image>
   </url>
   <url>
+    <loc>https://www.norstoneusa.com/blog/two-toned-modern-fireplace-in-ft-collins-co/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/Mixed%20Stone%20Panel%20Fireplace%20-%20Northern%20Colorado.jpg</image:loc>
+        <image:title>Mixed Stone Panel Fireplace in Northern Colorado</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/Basalt%20Stone%20Panel%20Fireplace%20with%20Rocky%20Mountain%20Background.jpg</image:loc>
+        <image:title>Basalt Stone Panle Fireplace with Rocky Mountain Background</image:title>
+      </image:image>
+  </url>
+  <url>
     <loc>https://www.norstoneusa.com/blog/real-stone-vs-faux-norstone-industry-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Real-Stone-Versus-Faux-Stone.jpg</image:loc>
         <image:title>Real Stone Versus Faux Stone</image:title>
@@ -2465,28 +2567,28 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.norstoneusa.com/blog/marble-tile-backsplash-norstone-industy-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <loc>https://www.norstoneusa.com/blog/designing-norstone-series-what-rising-remodel-and-new-construction-market-means-design/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/blog/Marble-Tile-Backsplash---Onyx.jpg</image:loc>
-        <image:title>Onyx backsplash</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/blog/Indoor-Outdoor-Patio.jpg</image:loc>
+        <image:title>Indoor Outdoor Patio</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/blog/Marble-Tile-Backsplash---Quartz.jpg</image:loc>
-        <image:title>Quartz backsplash</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/blog/Stacked-Stone-Fireplace.jpg</image:loc>
+        <image:title>Stacked Stone Fireplace</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/blog/Marble-Tile-Backsplash---Quartz2.jpg</image:loc>
-        <image:title>Quartz backsplash</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/blog/Charcoal-Natural-Stone-Foyer.jpg</image:loc>
+        <image:title>Charcoal Natural Stone Foyer</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/natural-stone-patios-designing-norstone-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Natural-Stone-Patio-Banner.jpg</image:loc>
         <image:title>Natural Stone Patio Banner</image:title>
@@ -2509,28 +2611,10 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.norstoneusa.com/blog/designing-norstone-series-what-rising-remodel-and-new-construction-market-means-design/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/blog/Indoor-Outdoor-Patio.jpg</image:loc>
-        <image:title>Indoor Outdoor Patio</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/blog/Stacked-Stone-Fireplace.jpg</image:loc>
-        <image:title>Stacked Stone Fireplace</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/blog/Charcoal-Natural-Stone-Foyer.jpg</image:loc>
-        <image:title>Charcoal Natural Stone Foyer</image:title>
-      </image:image>
-  </url>
-  <url>
     <loc>https://www.norstoneusa.com/blog/fireplace-renovations-small-budget-project-with-big-return-on-investment/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/fp1.JPG</image:loc>
         <image:title>Cement Board Install</image:title>
@@ -2542,9 +2626,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/products/basalt-stone-panels/ash-grey-stone/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Light-Basalt-3D-Ledgestone-Tile-For-Fireplaces(2)(1).png</image:loc>
         <image:title>A Modern Stone Tile to Rule Them All.</image:title>
@@ -2588,9 +2672,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/xlx-rock-panels/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/theme/menu-large-rock.png</image:loc>
         <image:title>Rock Panels</image:title>
@@ -2626,9 +2710,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/project/stanmore-residential-complex/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/London-Multifamily---Stanmore_1.jpg.crop_display_0.jpg</image:loc>
         <image:title>Natural Stacked Stone Veneer Example</image:title>
@@ -2671,10 +2755,28 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.norstoneusa.com/gallery/basalt-il-tiles/grey/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://www.norstoneusa.com/blog/ceramic-wall-tile-%E2%80%93-color-variation-natural-stone-vs-manmade-tile-products-norstone-classroom-s/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/blog/Ceramic-Wall-Tile---Natural-Stone-Veneer.jpg</image:loc>
+        <image:title>Natural stone veneer</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/blog/Ceramic-Wall-Tile---Kitchen-Backsplash.jpg</image:loc>
+        <image:title>Kitchen backsplash</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/blog/Ceramic-Wall-Tile---Natural-Stone-Look.jpg</image:loc>
+        <image:title>Natural stone look</image:title>
+      </image:image>
+  </url>
+  <url>
+    <loc>https://www.norstoneusa.com/gallery/basalt-il-tiles/grey/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Basalt-Grey---Residential---San-Francisco---Courtyard-2.jpg</image:loc>
         <image:title>Smooth Grey Stone Feature Wall Courtyard in San Francisco</image:title>
@@ -2765,28 +2867,10 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.norstoneusa.com/blog/ceramic-wall-tile-%E2%80%93-color-variation-natural-stone-vs-manmade-tile-products-norstone-classroom-s/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/blog/Ceramic-Wall-Tile---Natural-Stone-Veneer.jpg</image:loc>
-        <image:title>Natural stone veneer</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/blog/Ceramic-Wall-Tile---Kitchen-Backsplash.jpg</image:loc>
-        <image:title>Kitchen backsplash</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/blog/Ceramic-Wall-Tile---Natural-Stone-Look.jpg</image:loc>
-        <image:title>Natural stone look</image:title>
-      </image:image>
-  </url>
-  <url>
     <loc>https://www.norstoneusa.com/blog/norstone-color-series-designing-ochre-blend/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/BlogTest.jpg</image:loc>
         <image:title>Blog Header</image:title>
@@ -2802,9 +2886,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/natural-stone-mosaics-norstone-design-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/MosaicTileBlog(1).jpg</image:loc>
         <image:title>Mosaic Tile Blog</image:title>
@@ -2832,9 +2916,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/rock-panels/ivory/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Ivory-Outdoor-Feature-Wall-Entertainment-Center.jpg</image:loc>
         <image:title>Natural Stacked Stone Veneer Example</image:title>
@@ -3050,65 +3134,37 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/norstone-diy-infographic/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Norstone-ledgestone-veneer-DIY-infographic-1.jpg</image:loc>
         <image:title>Norstone Ledgestone Veneer DIY Infographic</image:title>
       </image:image>
   </url>
   <url>
-    <loc>https://www.norstoneusa.com/products/rock-panels/white/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
+    <loc>https://www.norstoneusa.com/blog/stone-veneer-columns-norstone-classroom-series/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/theme/banner-rock-panel-white.png</image:loc>
-        <image:title>World Class Stone Veneer</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/blog/Stacked-Stone-Column.jpg</image:loc>
+        <image:title>Stacked Stone Column</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/White-Quartz-Stone-Feature-Wall-in-New-York.jpg</image:loc>
-        <image:title>White Quartz Feature Wall in New York</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/blog/Norstone-Corner-Units-for-Stone-Veneer-Columns.jpg</image:loc>
+        <image:title>Norstone Corner Units for Stone Veneer Columns</image:title>
       </image:image>
       <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Norstone-White-FP_0.jpg</image:loc>
-        <image:title>White Quartz Stone Fireplace</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Norstone-White-Rock-Panels-MK-1-copy-1800_0.jpg</image:loc>
-        <image:title>Natural Stone Wall in Modern Kitchen</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/1D1I1000-copy_wm-1800.jpg</image:loc>
-        <image:title>Stacked Stone Feaeture wall on Entertainment Center</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/1D1I0969-copy_wm-1800.jpg</image:loc>
-        <image:title>Contemporary Stacked Stone Feature Wall</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/White-Fireplace-Denmark-1800.jpg</image:loc>
-        <image:title>White Quartz Natural Stacked Stone Veneer for Feature Wall</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/product/Norstone-White-Rock-Panels-Matrix-L2-copy-2200.jpg</image:loc>
-        <image:title>Natural Stacked Stone Veneer Example</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/WhiteRP_diagram-copy.png</image:loc>
-        <image:title>White Field Unit Panel</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/unsorted/WhiteCN_diagram-copy.png</image:loc>
-        <image:title>White Corner Rock Panel</image:title>
+        <image:loc>https://www.norstoneusa.com/assets/images/blog/Natural-Stone-Columns.jpg</image:loc>
+        <image:title>Natural Stone Columns</image:title>
       </image:image>
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/application/interiors/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Interior-Ledgestone-Panels-for-Restaurant-Design.jpg</image:loc>
         <image:title>Interior Ledgestone Veneer Panels for Restaurant Design</image:title>
@@ -3203,28 +3259,10 @@
       </image:image>
   </url>
   <url>
-    <loc>https://www.norstoneusa.com/blog/stone-veneer-columns-norstone-classroom-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/blog/Stacked-Stone-Column.jpg</image:loc>
-        <image:title>Stacked Stone Column</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/blog/Norstone-Corner-Units-for-Stone-Veneer-Columns.jpg</image:loc>
-        <image:title>Norstone Corner Units for Stone Veneer Columns</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.norstoneusa.com/assets/images/blog/Natural-Stone-Columns.jpg</image:loc>
-        <image:title>Natural Stone Columns</image:title>
-      </image:image>
-  </url>
-  <url>
     <loc>https://www.norstoneusa.com/products/modern-wall-tile/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Norstone-Basalt-Lava-Stone-Interlocking-Wall-Tiles.png</image:loc>
         <image:title>Basalt Lava Interlocking Wall Tiles</image:title>
@@ -3236,9 +3274,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/rock-panels/charcoal/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Grey-Natural-Stone-Veneers-Used-on-a-Feature-Wall.jpg</image:loc>
         <image:title>Grey Natural Stone Veneers Used on a Feature Wall</image:title>
@@ -3634,9 +3672,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/application/kitchen/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Ledgerstone-Panels-for-Kitchens.jpg</image:loc>
         <image:title>Ledgerstone Panels for Kitchens</image:title>
@@ -3700,9 +3738,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/project/modern-stacked-stone-residence/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Niagara-Residence-(24)_0.jpg</image:loc>
         <image:title>Natural Stacked Stone Veneer Example</image:title>
@@ -3754,9 +3792,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/products/modern-wall-tile/ebony/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/theme/banner-basalt-ebony.png</image:loc>
         <image:title>Mounted Natural Stone Tile Strips</image:title>
@@ -3796,9 +3834,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/client-testimonials/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/unsorted/boeing.png</image:loc>
         <image:title>Norstone Products are used on Boeing Headquarters in Seattle Washington</image:title>
@@ -3842,9 +3880,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/basalt-il-tiles/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/theme/menu-large-rock.png</image:loc>
         <image:title>Rock Panels</image:title>
@@ -3888,9 +3926,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/application/backsplash/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/MG_0026-copy.jpg</image:loc>
         <image:title>Stacked Stone Backsplash with White Floating Cabinet and modern glass guard protector above stove</image:title>
@@ -3970,9 +4008,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/mosaic-tile-backsplash-norstone-designer-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Mosaic-Tile-Backsplash.jpg</image:loc>
         <image:title>Mosaic Tile backsplash</image:title>
@@ -3996,9 +4034,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/basalt-il-tiles/ebony/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Black-Stone-Fireplace-Drexel-University-1.jpg</image:loc>
         <image:title>Black Basalt Stone Veneer on Commercial University Fireplace</image:title>
@@ -4074,9 +4112,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/application/pools/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Ochre-RPs-pool-Narrabeen-069-copy_Small-1800_0.jpg</image:loc>
         <image:title>Ochre Blend Rock Panels used on a pool Water Feature</image:title>
@@ -4156,9 +4194,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/installating-norstone-around-outlets-norstone-classroom-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Stone-Veneer-Backsplash-Blog.jpg</image:loc>
         <image:title>Stone veneer backsplash blog</image:title>
@@ -4178,9 +4216,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/tumbled-stone-norstone-industry-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Tumbled-Stone-Blog.jpg</image:loc>
         <image:title>Tumbled stone blog</image:title>
@@ -4200,9 +4238,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/split-face-stone-norstone-industry-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/SplitFace.jpg</image:loc>
         <image:title>Split face</image:title>
@@ -4230,9 +4268,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/rock-panels/interiors/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/norstone-natural-stone-veneer-panels-used-on-concert-hall-walls.jpg</image:loc>
         <image:title>Natural Stone Veneers Used in Bathroom</image:title>
@@ -4708,9 +4746,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/how-clean-natural-stone-norstone-classroom-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Slate-with-Iron-Rust-Stains.jpg</image:loc>
         <image:title>Slate with Iron Rust Stains</image:title>
@@ -4734,9 +4772,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/xlx-rock-panels/charcoal/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/NaturalThinStone-copy.jpg</image:loc>
         <image:title>Natural Thin Stone Facade</image:title>
@@ -4808,9 +4846,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/basalt-3d/exteriors/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Modern-Grey-Stacked-Stone-Veneer.jpg</image:loc>
         <image:title>Ultra Modern Grey Stacked Stone for Commercial Complex</image:title>
@@ -4878,9 +4916,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/what-is-the-difference-between-different-types-of-thinset-and-what-s-the-best-thinset-for-stacked-stone-installations/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/Thinset%20for%20Stone%20Veneer%20with%20Trowel.jpg</image:loc>
         <image:title>Thinset for Stone Veneer with Trowel</image:title>
@@ -4896,9 +4934,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/ledgestone-norstone-industry-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Ledgestone-Defined.jpg</image:loc>
         <image:title>Ledgestone defined</image:title>
@@ -4918,9 +4956,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/the-importance-of-samples-in-any-stone-or-tile-project/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/Norstone%20Stacked%20Stone%20Sample%20Box.JPG</image:loc>
         <image:title>Norstone Stacked Stone Sample Box</image:title>
@@ -4936,9 +4974,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/natural-stone-retaining-walls-norstone-classroom-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/StoneRetainingWall(4).jpg</image:loc>
         <image:title>Stone Retaining Wall</image:title>
@@ -4957,10 +4995,32 @@
       </image:image>
   </url>
   <url>
+    <loc>https://www.norstoneusa.com/blog/outside-the-box-stone-design-ideas-for-your-next-remodel-or-new-build/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/Stacked%20Stone%20Shower%20Wall%20-%20Denmark.jpg</image:loc>
+        <image:title>Stacked Stone Shower Wall Denmark</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/Circular%20Stone%20Stairwell%20-%20Atlanta,%20GA.jpg</image:loc>
+        <image:title>Circular Stone Stairwell Atlanta, GA</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/Stacked%20Stone%20Home%20Music%20Studio%20-%20Philadephia,%20PA.jpg</image:loc>
+        <image:title>Stacked Stone Home Music Studio Philadephia, PA</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/Stone%20Veneer%20Circle%20Cut%20Out%20-%20Seychelles,%20Africa.jpg</image:loc>
+        <image:title>Stone Veneer Circular Cut Out Seychelles</image:title>
+      </image:image>
+  </url>
+  <url>
     <loc>https://www.norstoneusa.com/blog/slate-tile-norstone-classroom-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Slate-Stone-Blog.jpg</image:loc>
         <image:title>Slate Stone blog</image:title>
@@ -4979,10 +5039,28 @@
       </image:image>
   </url>
   <url>
+    <loc>https://www.norstoneusa.com/blog/light-and-bright-aztec-stacked-stone-backsplash-in-orlando-fl/</loc>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/Aztec%20Stacked%20Stone%20Kitchen%20Backsplash%20-%20Orlando,%20FL.jpg</image:loc>
+        <image:title>Aztec Stacked Stone Kitchen Backsplash Orlando, FL</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/Aztec%20Stacked%20Stone%20Kitchen%20Island%20-%20Orlando,%20FL-1.jpg</image:loc>
+        <image:title>Aztec Stacked Stone Kitchen Island Orlando, FL</image:title>
+      </image:image>
+      <image:image>
+        <image:loc>https://www.norstoneusa.com/assets/images/Aztec%20Stacked%20Stone%20Backsplash%20Close%20Up%20-%20Orlando,%20FL.jpg</image:loc>
+        <image:title>Aztec Stacked Stone Backsplash Close Up Orlando, FL</image:title>
+      </image:image>
+  </url>
+  <url>
     <loc>https://www.norstoneusa.com/blog/designing-norstone-series-natural-stone-backsplashes/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/BlogBacksplashes.jpg</image:loc>
         <image:title>Blog Backsplashes</image:title>
@@ -5006,9 +5084,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/basalt-3d/interiors/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Modern-Grey-Basalt-Stone-Feature-Wall.jpg</image:loc>
         <image:title>Modern Grey Basalt Stone Feature Wall</image:title>
@@ -5040,9 +5118,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/basics-sustainable-architecture-and-natural-stone/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/SustainableArchitectureBlog1.jpg</image:loc>
         <image:title>Sustainable Architecture Blog</image:title>
@@ -5062,9 +5140,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/project/horsen-house/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Norstone-Charcoal-Rock-Panels-Used-in-a-shower.jpg</image:loc>
         <image:title>Norstone Charcoal Rock Panels Used in a shower</image:title>
@@ -5116,9 +5194,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/xlx-rock-panels/ochre/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Ochre-XL2-copy.jpg</image:loc>
         <image:title>Natural Stone Entryway</image:title>
@@ -5206,9 +5284,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/designer-natural-stone-subway-tile/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Natural-Stone-Subway-Tile.jpg</image:loc>
         <image:title>Natural stone subway tile</image:title>
@@ -5224,9 +5302,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/travertine-tiles-norstone-designer-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Travertine-Tile-Blog.jpg</image:loc>
         <image:title>Travertine tile blog</image:title>
@@ -5246,9 +5324,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/products/thin-stone-veneer-panels/charcoal/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Grey-Ledgestone-Paneling.png</image:loc>
         <image:title>Large Scale Stone Veneer</image:title>
@@ -5292,9 +5370,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/stone-veneer-over-brick-norstone-classroom-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Veneer-Over-Brick.jpg</image:loc>
         <image:title>Veneer Over Brick</image:title>
@@ -5314,9 +5392,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/application/exteriors/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/00026.jpg</image:loc>
         <image:title>Natural Stacked Stone Veneer Example</image:title>
@@ -5452,9 +5530,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/design-trends-when-it-comes-to-stone-smooth-is-in/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/Basalt%20Interlocking%20Tile%20Grey%20-%20Residential%20-%20San%20Francisco%20-%20Courtyard-1.jpg</image:loc>
         <image:title>Basalt Interlocking Tile Grey - Residential - San Francisco - Courtyard</image:title>
@@ -5470,9 +5548,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/xlx-rock-panels/aztec/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Gold-Stacking-Stone-Panel.jpg</image:loc>
         <image:title>Gold Stacking Stone Panel</image:title>
@@ -5520,9 +5598,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/products/basalt-stone-panels/black-stone/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/unsorted/Dark-Basalt-3D-Ledgestone-Tile-For-Fireplaces-2(1)(1).png</image:loc>
         <image:title>Stone Wall Tile Built for Modern Design.</image:title>
@@ -5566,9 +5644,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/cast-stone-vs-natural-stone-%E2%80%93-norstone-industry-series/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Real-Fake(1).jpg</image:loc>
         <image:title>Real Fake</image:title>
@@ -5588,9 +5666,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/basalt-il-tiles/exteriors/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Basalt-Grey---Residential---San-Francisco---Courtyard-2_0.jpg</image:loc>
         <image:title>Natural Stacked Stone Veneer Example</image:title>
@@ -5670,9 +5748,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/project/ivory-natural-stone-walls/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Norstone-Ivory-Rock-Panels-JJ-5-2300.jpg</image:loc>
         <image:title>Natural Stacked Stone Veneer Example</image:title>
@@ -5720,9 +5798,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/hiring-a-contractor-for-your-next-stone-project/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/Small%20Level%20on%20Rock%20Panel%20Installation.jpg</image:loc>
         <image:title>Level on Rock Panel Installation</image:title>
@@ -5738,9 +5816,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/project/the-matrix-hotel/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Norstone-White-Rock-Panels-Matrix-L2-copy-2200.jpg</image:loc>
         <image:title>Natural Stacked Stone Veneer Example</image:title>
@@ -5776,9 +5854,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/compact-residential-architecture-0/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/blog/Small-is-Beautiful-Design.jpg</image:loc>
         <image:title>Small is beautiful blog</image:title>
@@ -5802,9 +5880,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/products/rock-panels/ivory/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/theme/banner-rock-panel-ivory.png</image:loc>
         <image:title>World Class Stone Veneer</image:title>
@@ -5848,9 +5926,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/basalt-3d/ebony/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Black-Stacked-Stone-Columns_0.jpg</image:loc>
         <image:title>Grey Stone Columns</image:title>
@@ -5894,9 +5972,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/rock-panels/ochre/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Ochre-RPs-pool-Narrabeen-069-copy_Small-1800_0.jpg</image:loc>
         <image:title>Ochre Blend Rock Panels used on a pool Water Feature</image:title>
@@ -6352,9 +6430,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/blog/ochre-ochre-everywhere-in-this-magnificent-austin-tx-modern-home/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/Ochre%20Stone%20Feature%20Wall%20-%20Austin,%20TX-2.jpg</image:loc>
         <image:title>Ochre Stone Feature Wall - Austin, TX</image:title>
@@ -6370,9 +6448,9 @@
   </url>
   <url>
     <loc>https://www.norstoneusa.com/gallery/xlx-rock-panels/exteriors/</loc>
-    <lastmod>2017-02-27</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
+    <lastmod>2017-03-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
       <image:image>
         <image:loc>https://www.norstoneusa.com/assets/images/gallery/Ochre-XL2-copy.jpg</image:loc>
         <image:title>Natural Stone Entryway</image:title>
