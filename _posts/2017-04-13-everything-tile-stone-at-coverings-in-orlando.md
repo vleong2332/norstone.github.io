@@ -1,6 +1,6 @@
 ---
 layout: blog
-permalink: "/blog/norstone-color-series-designing-ochre-blend/"
+permalink: "/blog/:title/"
 classes: blog
 title: Everything Tile & Stone at Coverings in Orlando
 meta:
