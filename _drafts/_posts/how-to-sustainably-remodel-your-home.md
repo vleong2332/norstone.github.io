@@ -138,10 +138,6 @@ When thinking about starting small, you can also take a step back and conceptual
 
 Another idea that is mindful of space is to double up on the purposes of your rooms. You can easily add a washer and dryer to a kitchen or bedroom in a discreet way, or even into a hallway or a closet. Open-concept homes often have one large room that serves as the kitchen area, living room, and dining room.
 
-
-###Room by Room
-
-
 ### The Kitchen
 
 
@@ -177,11 +173,17 @@ living room, and dining room.
 
 
 ```
- &amp;lt;h2&amp;gt;Room by Room&amp;lt;/h2&amp;gt;
+ &amp;amp;lt;h2&amp;amp;gt;Room by Room&amp;amp;lt;/h2&amp;amp;gt;
+
 
 
 ```
+
+
 ![Sustainable Home Remodel Ideas - Dallas Fireplace]({{ site.baseurl }}/assets/images/Sustainable%20Home%20Remodel%20Ideas%20-%20Dallas%20Fireplace.jpg)
+
+
+
 
 ### The Kitchen
 
@@ -231,9 +233,13 @@ All sustainable products are not created equal. Like Energy Star, there are cert
 
 Avoid volatile organic compounds (VOCs), since due to off-gassing; they greatly contribute to air pollution. For some, this may be difficult to prioritize in your remodel because it is intangible. However, according to the EPA, VOCs pose long-term health problems like:
 
+
 * eye, nose, and throat irritation
+
 * headaches, loss of coordination, and nausea
+
 * damage to liver, kidney, and central nervous system
+
 * some organics can cause cancer in animals and humans
 
 
@@ -248,7 +254,9 @@ When it comes to countertops, backsplashes, wall space, and flooring, natural st
 
 There are two aspects that can make painting eco-friendly:
 
+
 1. The types of paint you select
+
 1. How you dispose of your paint waste
 
 
@@ -293,9 +301,13 @@ Even if some products say that they are “green” or “all natural”, they m
 
 Here are some sample questions that an environmentally-friendly designer should be able to answer:
 
+
 * “What is your process to incorporate my needs into a successful kitchen design?”
+
 * “How are you positive that the selected design and new architecture of my home will last a lifetime?”
+
 * “What materials do you find to be more durable, and also do not emit toxins into the air?”
+
 * “What are some fads you are seeing that we should avoid when creating a green living space?”
 
 
@@ -330,17 +342,28 @@ Sources
 Mother Earth News:
 
 
+1. [Guide to Living Wisely (Website)](http://www.motherearthnews.com/green-homes/home-renovation-impact-environment-zbcz1507)
 
-1. Guide to Living Wisely (Website)
-1. The Top 10 Myths About Green Home Remodeling (2017) by Elemental Green
-1. The List: The 5 Least Green Items in Your Home (2014) by Recycle Bank (Website)
-1. Norstone: New Dimensions in Natural Stone (2017) (Website)
-1. 10 Eco-Friendly Ways to Design Your Home (2012) by Freshome (Website)
-1. Planning a Green Remodel (2017) by This Old House (Website)
-1. Green Guard: The FIrst Aid People (2017) (Website)
-1. Green Property: George Clarke's Top 20 Ways to Make Your Home Eco-Friendly (2010) by The Telegraph Media Group Limited (Website)
-1. 25 Ideas for an Environmentally Friendly Kitchen (2014) by The Boston Globe (Website)
-1. Energy Star: The Simple Choice for Energy Efficiency (Website)
-1. How to Go Green: Bathroom Renovation (2007) by Treehugger: The Way Forward Is Here (Website)
-1. Sustainability and Paint by Paint Quality Institute (Website)
-1. Advantages and Disadvantages of Solar Power (2013) by Clean Technica (Website)
+1. [The Top 10 Myths About Green Home Remodeling (2017) by Elemental Green](http://elemental.green/the-top-10-myths-about-green-home-remodeling/)
+
+1. [The List: The 5 Least Green Items in Your Home (2014) by Recycle Bank (Website)](https://livegreen.recyclebank.com/the-list-the-5-least-green-items-in-your-home)
+
+1. [Norstone: New Dimensions in Natural Stone (2017) (Website)](https://www.norstoneusa.com/)
+
+1. [10 Eco-Friendly Ways to Design Your Home (2012) by Freshome (Website)](http://freshome.com/2012/10/25/10-eco-friendly-ways-to-renovate-your-home/)
+
+1. [Planning a Green Remodel (2017) by This Old House (Website)](https://www.thisoldhouse.com/ideas/planning-green-remodel)
+
+1. [Green Guard: The FIrst Aid People (2017) (Website)](http://www.greenguard.com/)
+
+1. [Green Property: George Clarke's Top 20 Ways to Make Your Home Eco-Friendly (2010) by The Telegraph Media Group Limited (Website)](http://www.telegraph.co.uk/finance/property/green/7939220/Green-property-George-Clarkes-top-20-ways-to-make-your-home-eco-friendly.html)
+
+1. [25 Ideas for an Environmentally Friendly Kitchen (2014) by The Boston Globe (Website)](https://www.bostonglobe.com/magazine/2014/09/03/ideas-for-environmentally-friendly-kitchen/LattGrhI5mraIy1WtwP29O/story.html)
+
+1. [Energy Star: The Simple Choice for Energy Efficiency (Website)](https://www.energystar.gov/)
+
+1. [How to Go Green: Bathroom Renovation (2007) by Treehugger: The Way Forward Is Here (Website)](http://www.treehugger.com/htgg/how-to-go-green-bathroom-renovation.html)
+
+1. [Sustainability and Paint by Paint Quality Institute (Website)](http://www.paintquality.com/en/understanding-paint/sustainability)
+
+1. [Advantages and Disadvantages of Solar Power (2013) by Clean Technica (Website)](https://cleantechnica.com/2013/10/08/advantages-disadvantages-solar-power/)
