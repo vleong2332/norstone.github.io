@@ -17,9 +17,6 @@ excerpt: Sustainability and green building practices are important factors to co
   as well, all while sticking to a budget.
 date: 2017-04-17 14:57
 ---
-# How to Sustainably Remodel Your Home
-
-
 ## Environmental Impact of Home Remodeling
 
 
