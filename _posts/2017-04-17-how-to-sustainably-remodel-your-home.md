@@ -138,6 +138,8 @@ When thinking about starting small, you can also take a step back and conceptual
 
 Another idea that is mindful of space is to double up on the purposes of your rooms. You can easily add a washer and dryer to a kitchen or bedroom in a discreet way, or even into a hallway or a closet. Open-concept homes often have one large room that serves as the kitchen area, living room, and dining room.
 
+## Room by Room
+
 ### The Kitchen
 
 
@@ -173,7 +175,8 @@ living room, and dining room.
 
 
 ```
- &amp;amp;lt;h2&amp;amp;gt;Room by Room&amp;amp;lt;/h2&amp;amp;gt;
+ &amp;amp;amp;lt;h2&amp;amp;amp;gt;Room by Room&amp;amp;amp;lt;/h2&amp;amp;amp;gt;
+
 
 
 
@@ -231,7 +234,7 @@ Knowing what you are purchasing when it comes to remodeling your home is arguabl
 All sustainable products are not created equal. Like Energy Star, there are certifications that indicate a level of sustainability, such as the Greenguard certification. This will help optimize the indoor air quality of your home. The best way to do this is to look for materials that will not emit toxic chemicals into the air.
 
 
-Avoid volatile organic compounds (VOCs), since due to off-gassing; they greatly contribute to air pollution. For some, this may be difficult to prioritize in your remodel because it is intangible. However, according to the EPA, VOCs pose long-term health problems like:
+Avoid volatile organic compounds (VOCs), since due to off-gassing; they greatly contribute to air pollution. For some, this may be difficult to prioritize in your remodel because it is intangible. However, [according to the EPA](https://www.epa.gov/indoor-air-quality-iaq/volatile-organic-compounds-impact-indoor-air-quality#Health_Effects), VOCs pose long-term health problems like:
 
 
 * eye, nose, and throat irritation
