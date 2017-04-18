@@ -292,11 +292,10 @@ Shopping locally will allow you to save on shipping. Though shipping may not be 
 Buying pre-owned materials is another general way to cut renovation costs. There are many local sources for used hardware, plumbing, cabinetry, appliances, and countertops. Salvaged building supply stores are growing and becoming more popular all over the country, as well.
 
 
-Sources
-Mother Earth News:
+Sources:
 
 
-1. [Guide to Living Wisely (Website)](http://www.motherearthnews.com/green-homes/home-renovation-impact-environment-zbcz1507)
+1. [Mother Earth News: Guide to Living Wisely (Website)](http://www.motherearthnews.com/green-homes/home-renovation-impact-environment-zbcz1507)
 
 1. [The Top 10 Myths About Green Home Remodeling (2017) by Elemental Green](http://elemental.green/the-top-10-myths-about-green-home-remodeling/)
 
