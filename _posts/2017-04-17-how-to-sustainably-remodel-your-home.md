@@ -138,54 +138,8 @@ When thinking about starting small, you can also take a step back and conceptual
 
 Another idea that is mindful of space is to double up on the purposes of your rooms. You can easily add a washer and dryer to a kitchen or bedroom in a discreet way, or even into a hallway or a closet. Open-concept homes often have one large room that serves as the kitchen area, living room, and dining room.
 
-## Room by Room
 
-### The Kitchen
-
-
-An eco-friendly kitchen possesses a design that embodies healthy living as well as energy efficiency. Nontoxic materials used in the kitchen are central to having a sustainable kitchen as well.
-
-
-From cabinetry to flooring, these products often have added urea formaldehyde, which emits gases and endangers healthy living. Glue, sealant, paint, and coating also have toxins that should be avoided.
-
-
-When designing your kitchen, it is advised to go for more classic looks, rather than adhering to today’s trends. Not only will it cost you money to replace out-of-style colors and countertops, but it also fuels waste buildup by frequently ripping out and replacing these materials.
-
-
-A backsplash is a favorite final touch for many homeowners. This can be one of the most sustainable elements in your green kitchen. Norstone Rock Panels are commonly used for stacked stone backsplashes as they have one of the most durable finishes, and use a natural stone sealer. When combined with chic glass in a modern kitchen, stacked stone really stands out in kitchen design.
-High-efficiency insulation
-Solar technology
-
-
-The next step of your green remodel can tackle things like using:
-Sustainably harvested woods
-Reclaimed lumber for system rebuilding
-Reclaimed fixtures
-Rainwater collection as part of your home plumbing system
-
-
-If you love the idea of renovating your home to be more energy efficient, but can’t take on a full house remodel, think about remodeling on a room-by-room basis. It may feel more realistic to take on the upgrading of kitchen appliances to be more sustainable, instead of picturing all of the things in your home that need to be addressed.
-
-
-When thinking about starting small, you can also take a step back and conceptualize how much space you actually need in your home. If you have a room that doesn’t get much use, you can either reduce your overall square footage or repurpose it into a space that would be further enjoyed. Smaller living spaces are ultimately more affordable, and have less negative impact on the environment by using less materials and emitting less toxins into the air.
-
-
-Another idea that is mindful of space is to double up on the purposes of your rooms. You can easily add a washer and dryer to a kitchen or bedroom in a discreet way, or even into a hallway or a closet. Open-concept homes often have one large room that serves as the kitchen area,
-living room, and dining room.
-
-
-```
- &amp;amp;amp;lt;h2&amp;amp;amp;gt;Room by Room&amp;amp;amp;lt;/h2&amp;amp;amp;gt;
-
-
-
-
-```
-
-
-![Sustainable Home Remodel Ideas - Dallas Fireplace]({{ site.baseurl }}/assets/images/Sustainable%20Home%20Remodel%20Ideas%20-%20Dallas%20Fireplace.jpg)
-
-
+## Room by Room![Sustainable Home Remodel Ideas - Dallas Stone Fireplace]({{ site.baseurl }}/assets/images/Sustainable%20Home%20Remodel%20Ideas%20-%20Dallas%20Fireplace-1.jpg)
 
 
 ### The Kitchen
