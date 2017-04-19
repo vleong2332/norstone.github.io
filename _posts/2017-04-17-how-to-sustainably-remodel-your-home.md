@@ -17,6 +17,8 @@ excerpt: Sustainability and green building practices are important factors to co
   as well, all while sticking to a budget.
 date: 2017-04-17 14:57
 ---
+
+
 ## Environmental Impact of Home Remodeling
 
 
@@ -136,7 +138,12 @@ When thinking about starting small, you can also take a step back and conceptual
 Another idea that is mindful of space is to double up on the purposes of your rooms. You can easily add a washer and dryer to a kitchen or bedroom in a discreet way, or even into a hallway or a closet. Open-concept homes often have one large room that serves as the kitchen area, living room, and dining room.
 
 
-## Room by Room![Sustainable Home Remodel Ideas - Dallas Stone Fireplace]({{ site.baseurl }}/assets/images/Sustainable%20Home%20Remodel%20Ideas%20-%20Dallas%20Fireplace-1.jpg)
+![Sustainable Home Remodel Ideas - Dallas Stone Fireplace]({{ site.baseurl }}/assets/images/Sustainable%20Home%20Remodel%20Ideas%20-%20Dallas%20Fireplace-1.jpg)
+
+
+
+
+## Room by Room
 
 
 ### The Kitchen
@@ -151,7 +158,7 @@ From cabinetry to flooring, these products often have added urea formaldehyde, w
 When designing your kitchen, it is advised to go for more classic looks, rather than adhering to today’s trends. Not only will it cost you money to replace out-of-style colors and countertops, but it also fuels waste buildup by frequently ripping out and replacing these materials.
 
 
-A backsplash is a favorite final touch for many homeowners. This can be one of the most sustainable elements in your green kitchen. Norstone Rock Panels are commonly used for [stacked stone backsplashes](https://www.norstoneusa.com/blog/light-and-bright-aztec-stacked-stone-backsplash-in-orlando-fl/) as they have one of the most durable finishes, and use a natural stone sealer. When combined with chic glass in a modern kitchen, stacked stone really stands out in kitchen design.![Sustainable Home Remodel Ideas - Orlando Backsplash]({{ site.baseurl }}/assets/images/Sustainable%20Home%20Remodel%20Ideas%20-%20Orlando%20Backsplash.jpg)
+A [stone backsplash](https://www.norstoneusa.com/gallery/application/backsplash/) is a favorite final touch for many homeowners. This can be one of the most sustainable elements in your green kitchen. Norstone Rock Panels are commonly used for [stacked stone](https://www.norstoneusa.com/products/stacked-stone-cladding/) backsplashes as they have one of the most durable finishes, and use a natural stone sealer. When combined with chic glass in a modern kitchen, stacked stone really stands out in kitchen design.![Sustainable Home Remodel Ideas - Orlando Backsplash]({{ site.baseurl }}/assets/images/Sustainable%20Home%20Remodel%20Ideas%20-%20Orlando%20Backsplash.jpg)
 
 
 ### Energy-Efficient Appliances
@@ -236,6 +243,7 @@ Solar panel systems create electricity without producing global warming pollutio
 
 It is also extremely cost efficient for society, saving billions of dollars as more homeowners choose to install it on their homes. The average savings over 20 years for Americans who install solar panels to their home in 2011 is projected to be just over $20,000.
 Other uses of solar energy include light tubes for day lighting, allowing you to bring in more light therefore cutting back on the need for artificial lighting. An investment in solar light tubes is returned in five to seven years, but comes with the added benefit of having much more daylight in your home. Though the design of skylights is different, the intent is similar to that of solar light tubes, as your energy is being used more efficiently for more lighting.
+
 Solar technology can also be used for heating your water. Buying solar hot water panels for your home heats the water you use in your home and your pool. In some countries, these hot water panels are commonly adopted. In the U.S., government incentives are available to help homeowners afford solar thermal panels. On average, hot water panels decrease water bills by 50 to 80 percent and have a financial payback in 6 to 10 years.
 If you find your lighting needs frequently changing, you can use solar landscape and patio lighting. They’re oftentimes found on lawns, but they are easy to relocate.
 Grants and tax incentives are made available by organizations like the Energy Investment Tax Credit, known also as the Solar Investment Tax Credit, providing a $30 federal tax credit for residential solar systems.
