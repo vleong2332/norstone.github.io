@@ -492,8 +492,28 @@ cite {
   }
 }
 
-.blog #content img {
-  padding: 10px;
+.blog {
+  h1 {
+    font-family: 'Josefin Slab';
+    font-size: 40px;
+    color: #6b6b6b;
+  }
+
+  h2 {
+    font-family: 'Abel';
+    font-size: 30px;
+    color: #6b6b6b;
+  }
+
+  h3 {
+    font-family: 'Abel';
+    font-size: 25px;
+    color: #6b6b6b;
+  }
+
+  #content img {
+    padding: 10px;
+  }
 }
 
 .tabs {
