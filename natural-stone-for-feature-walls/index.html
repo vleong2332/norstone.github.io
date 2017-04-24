@@ -1,6 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
 <head>
+  <!-- Google Analytics Content Experiment code -->
+<script>function utmx_section(){}function utmx(){}(function(){var
+k='10740104-3',d=document,l=d.location,c=d.cookie;
+if(l.search.indexOf('utm_expid='+k)>0)return;
+function f(n){if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.
+indexOf(';',i);return escape(c.substring(i+n.length+1,j<0?c.
+length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;d.write(
+'<sc'+'ript src="'+'http'+(l.protocol=='https:'?'s://ssl':
+'://www')+'.google-analytics.com/ga_exp.js?'+'utmxkey='+k+
+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='+new Date().
+valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
+</script><script>utmx('url','A/B');</script>
+<!-- End of Google Analytics Content Experiment code -->
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=8" />
   <title>Natural Stone Feature Walls</title>
@@ -441,6 +455,44 @@ Basalt Lava tiles are designed for:<br />
       </div>
     </div>
   </div>
+  <script>
+    var mndFields = new Array('Last Name', 'Phone', 'Email', 'Zip Code');
+
+    function checkMandatory() {
+      for (i=0; i < mndFields.length; i++) {
+        var fieldObj = document.forms['WebToLeads983222000011193033'][mndFields[i]];
+        if (fieldObj) {
+          if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length == 0) {
+            if (fieldObj.type =='file') {
+              alert('Please select a file to upload.');
+              fieldObj.focus();
+              return false;
+            }
+            alert(mndFields[i] + ' cannot be empty.');
+            fieldObj.focus();
+            return false;
+          } else if (fieldObj.nodeName == 'SELECT') {
+            if (fieldObj.options[fieldObj.selectedIndex].value == '-None-') {
+              alert(mndFields[i] + ' cannot be none.');
+              fieldObj.focus();
+              return false;
+            }
+          } else if (fieldObj.type == 'checkbox') {
+            if (fieldObj.checked == false) {
+              alert('Please accept  '+ mndFields[i]);
+              fieldObj.focus();
+              return false;
+            }
+          }
+          try {
+            if (fieldObj.name == 'Last Name') {
+              name = fieldObj.value;
+            }
+          } catch (e) {}
+        }
+      }
+    }
+  </script>
   <script type="text/javascript">
     var _sf_async_config = {
       uid: 26138,
