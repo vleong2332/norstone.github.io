@@ -156,6 +156,20 @@ Redirect 301 /m/gallery/application/pools/ /gallery/application/pools/
 Redirect 301 /mobile/gallery/application/pools/ /gallery/application/pools/
 Redirect 301 /comment/reply/10653 /blog/
 Redirect 301 /mobile/ /
+Redirect 301 /sites/default/files/file/installation_guide_pdf/Norstone%20Short%20and%20Long%20Term%20Maintenance%20Guidelines.pdf /assets/pdfs/Norstone-Short-and-Long-Term-Maintenance-Guidelines.pdf
+Redirect 301 /sites/default/files/file/installation_guide_pdf/Norstone%20Spec%20Sheet%20Basalt%20IL%20Tile(1).pdf /assets/pdfs/Norstone_Installation%20Guide_Basalt-2016.pdf
+Redirect 301 /blog/product-gallery-type/project-gallery /blog/
+Redirect 301 /gallery/application/Feature%2520Walls /gallery/application/natural-stone-feature-walls/
+Redirect 301 /node/96/ /
+Redirect 301 /taxonomy/term/65/0 /
+Redirect 301 /products/mode /products/
+Redirect 301 /blog/tags/web-site /blog/
+Redirect 301 /cyprus-residence /gallery/project/ivory-natural-stone-walls/
+Redirect 301 /products/thin-stone-%E2%80%8Bveneer-panels /products/thin-stone-veneer-panels/
+Redirect 301 /gallery/project/berkshire%2520residence /gallery/project/berkshire-residence/
+Redirect 301 /products/rock /products/stacked-stone-cladding/
+Redirect 301 /gallery/project/Niagara%2520Residence /gallery/project/modern-stacked-stone-residence/
+Redirect 301 /sites/default/files/file/installation_guide_pdf/Laticrete%20Independent%20Installation%20Specification%20Sheet.pdf /assets/pdfs/Laticrete-Independent-Installation-Specification-Sheet.pdf
 
 RewriteCond %{HTTP_HOST} ^nrstn.prod3.webenabled.net$ [NC]
 RewriteRule ^(.*)$ https://www.norstoneusa.com/$1 [R=301,L]
