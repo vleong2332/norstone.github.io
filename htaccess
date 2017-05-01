@@ -55,7 +55,7 @@ Redirect 301 /assets/pdfs/Laticrete-System-Warranty /assets/pdfs/Laticrete-Syste
 Redirect 301 /assets/pdfs/Mapei-Ultralite /assets/pdfs/Mapei-Ultralite(1).pdf
 Redirect 301 /sites/default/files/imagecache/610 /
 Redirect 301 /stacked_stone_rock_panel_ochre.asp /products/stacked-stone-cladding/
-Redirect 301 /gallery/project/treehouse%2520retreat /gallery/project/virginia-treehouse-retreat/
+Redirect 301 "/gallery/project/treehouse retreat" /gallery/project/virginia-treehouse-retreat/
 Redirect 301 /node/274 /gallery/project/architects-office/
 Redirect 301 "/sites/default/files/file/installation_guide_pdf/TEC Super Flex.pdf" /assets/pdfs/TEC-Super-Flex.pdf
 Redirect 301 "/sites/default/files/file/installation_guide_pdf/Laticrete 254.pdf" /assets/pdfs/Laticrete-254.pdf
@@ -160,7 +160,7 @@ Redirect 301 /sites/default/files/file/installation_guide_pdf/Norstone%20Short%2
 Redirect 301 /sites/default/files/file/installation_guide_pdf/Norstone%20Spec%20Sheet%20Basalt%20IL%20Tile(1).pdf /assets/pdfs/Norstone_Installation%20Guide_Basalt-2016.pdf
 Redirect 301 /blog/product-gallery-type/project-gallery /blog/
 Redirect 301 /gallery/application/Feature%2520Walls /gallery/application/natural-stone-feature-walls/
-Redirect 301 /node/96/ /
+Redirect 301 /node/96 /
 Redirect 301 /taxonomy/term/65/0 /
 Redirect 301 /products/mode /products/
 Redirect 301 /blog/tags/web-site /blog/
