@@ -64,7 +64,7 @@ Redirect 301 "/gallery/project/Rockport Performing Arts" /gallery/project/rockpo
 Redirect 301 /gallery/application/Fireplaces /gallery/application/fireplace/
 Redirect 301 /gallery/application/Kitchens /gallery/application/kitchen/
 Redirect 301 "/gallery/application/Feature Walls" /gallery/application/natural-stone-feature-walls/
-Redirect 301 /gallery/project/berkshire%2520residence /gallery/project/berkshire-residence/
+Redirect 301 "/gallery/project/berkshire  residence" /gallery/project/berkshire-residence/
 Redirect 301 /stacked_stone_rock_panel_ivoryquartz.asp /products/rock-panels/ivory/
 Redirect 301 /3d-exteriors /gallery/basalt-3d/exteriors/
 Redirect 301 /products/basalt-3d/grey /products/basalt-stone-panels/ash-grey-stone/
