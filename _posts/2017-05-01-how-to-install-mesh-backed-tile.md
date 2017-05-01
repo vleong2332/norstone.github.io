@@ -18,13 +18,15 @@ excerpt: Products like our Basalt Interlocking Tiles come mesh mounted to increa
   tile product successfully.
 date: 2017-05-01 12:02
 ---
-Mesh backed tile is a product both admired and despised in the industry.  Manufacturers and consumers love it because it allows for intricate tile patterns to be assembled and installed creating beautiful tile mosaics that were previously only achieved via an artisan hand laying the pieces.  On the flip side, mesh backed tile can drive unqualified installers crazy if they don't do simple things like plan accordingly for the pattern, or use quality setting materials and solid installation techniques to ensure a successful installation.  Here's a detailed step by step guide on how to successfully install mesh backed tile like our Basalt Interlocking Series.
+
+
+Mesh backed tile is a product both admired and despised in the industry.  Manufacturers and consumers love it because it allows for intricate tile patterns to be assembled and installed creating beautiful [tile mosaics](https://www.norstoneusa.com/blog/mosaic-tile-backsplash-norstone-designer-series/) that were previously only achieved via an artisan hand laying the pieces.  On the flip side, mesh backed tile can drive unqualified installers crazy if they don't do simple things like plan accordingly for the pattern, or use quality setting materials and solid installation techniques to ensure a successful installation.  Here's a detailed step by step guide on how to successfully install mesh backed tile like our [Basalt Interlocking Series](https://www.norstoneusa.com/products/modern-wall-tile/).
 
 ## Step 1: Understanding The Pattern
 
 Understand the pattern of the mesh backed tile and how that pattern works with the space to be tiled.  This is a critical step so often overlooked!  Mesh backed tiles that don't have a repeating pattern vertically can result in more waste.  A good way to know if your tile has a repeating pattern vertically is to put two tiles next to each other and flip one of them upside down.  If the horizontal lines of the two tiles still match up then your tiles have a repeating pattern.
 
-For mesh backed tiles without repeating patterns vertically, its important to plan for waste accordingly.  For example, if each of your tile units is 12” tall and you are are installing them on an 18” tall backsplash, you'll install one full unit, then cut the next unit in half to cover the 18”.  Since the half of the unit that was cut off does not match the pattern on the lower half it's likely that the cut off piece will  end up as waste.  So it's critical to understand your pattern and how that fits in the space to know how much to order.
+For mesh backed tiles without repeating patterns vertically, its important to plan for waste accordingly.  For example, if each of your tile units is 12” tall and you are are installing them on an 18” tall [backsplash](https://www.norstoneusa.com/blog/backsplash-tile-designs-norstone-industy-series/), you'll install one full unit, then cut the next unit in half to cover the 18”.  Since the half of the unit that was cut off does not match the pattern on the lower half it's likely that the cut off piece will  end up as waste.  So it's critical to understand your pattern and how that fits in the space to know how much to order.
 
 ![Mesh Backed Tile - Norstone Basalt Interlocking](/uploads/2017/05/01/Mesh%20Backed%20Tile%20-%20Norstone%20Basalt%20Interlocking.png)
 
