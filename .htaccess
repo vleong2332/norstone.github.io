@@ -51,7 +51,7 @@ Redirect 301 /assets/pdfs/Laticrete-System-Warranty /assets/pdfs/Laticrete-Syste
 Redirect 301 /assets/pdfs/Mapei-Ultralite /assets/pdfs/Mapei-Ultralite(1).pdf
 Redirect 301 /sites/default/files/imagecache/610 /
 Redirect 301 /stacked_stone_rock_panel_ochre.asp /products/stacked-stone-cladding/
-Redirect 301 /gallery/project/treehouse%2520retreat /gallery/project/virginia-treehouse-retreat/
+Redirect 301 "/gallery/project/treehouse retreat" /gallery/project/virginia-treehouse-retreat/
 Redirect 301 /node/274 /gallery/project/architects-office/
 Redirect 301 "/sites/default/files/file/installation_guide_pdf/TEC Super Flex.pdf" /assets/pdfs/TEC-Super-Flex.pdf
 Redirect 301 "/sites/default/files/file/installation_guide_pdf/Laticrete 254.pdf" /assets/pdfs/Laticrete-254.pdf
@@ -60,7 +60,7 @@ Redirect 301 "/gallery/project/Rockport Performing Arts" /gallery/project/rockpo
 Redirect 301 /gallery/application/Fireplaces /gallery/application/fireplace/
 Redirect 301 /gallery/application/Kitchens /gallery/application/kitchen/
 Redirect 301 "/gallery/application/Feature Walls" /gallery/application/natural-stone-feature-walls/
-Redirect 301 /gallery/project/berkshire%2520residence /gallery/project/berkshire-residence/
+Redirect 301 "/gallery/project/berkshire  residence" /gallery/project/berkshire-residence/
 Redirect 301 /stacked_stone_rock_panel_ivoryquartz.asp /products/rock-panels/ivory/
 Redirect 301 /3d-exteriors /gallery/basalt-3d/exteriors/
 Redirect 301 /products/basalt-3d/grey /products/basalt-stone-panels/ash-grey-stone/
@@ -152,6 +152,22 @@ Redirect 301 /m/gallery/application/pools/ /gallery/application/pools/
 Redirect 301 /mobile/gallery/application/pools/ /gallery/application/pools/
 Redirect 301 /comment/reply/10653 /blog/
 Redirect 301 /mobile/ /
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone Short and Long Term Maintenance Guidelines.pdf" /assets/pdfs/Norstone-Short-and-Long-Term-Maintenance-Guidelines.pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone Spec Sheet Basalt IL Tile(1).pdf" /assets/pdfs/Norstone_Installation%20Guide_Basalt-2016.pdf
+Redirect 301 /blog/product-gallery-type/project-gallery /blog/
+Redirect 301 /gallery/application/Feature%2520Walls /gallery/application/natural-stone-feature-walls/
+Redirect 301 /node/96 /
+Redirect 301 /node/272 /
+Redirect 301 /taxonomy/term/65/0 /
+Redirect 301 /products/mode /products/
+Redirect 301 /blog/tags/web-site /blog/
+Redirect 301 /cyprus-residence /gallery/project/ivory-natural-stone-walls/
+Redirect 301 /products/thin-stone-%E2%80%8Bveneer-panels /products/thin-stone-veneer-panels/
+Redirect 301 /gallery/project/berkshire%2520residence /gallery/project/berkshire-residence/
+Redirect 301 /products/rock /products/stacked-stone-cladding/
+Redirect 301 /gallery/project/Niagara%2520Residence /gallery/project/modern-stacked-stone-residence/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Laticrete Independent Installation Specification Sheet.pdf" /assets/pdfs/Laticrete-Independent-Installation-Specification-Sheet.pdf
+Redirect 301 /gallery/featured/suburban-new-jersey-feature-wall /gallery/project/virginia-treehouse-retreat/
 
 RewriteCond %{HTTP_HOST} ^nrstn.prod3.webenabled.net$ [NC]
 RewriteRule ^(.*)$ https://www.norstoneusa.com/$1 [R=301,L]
