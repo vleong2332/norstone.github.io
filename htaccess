@@ -173,6 +173,15 @@ Redirect 301 /gallery/project/Niagara%2520Residence /gallery/project/modern-stac
 Redirect 301 "/sites/default/files/file/installation_guide_pdf/Laticrete Independent Installation Specification Sheet.pdf" /assets/pdfs/Laticrete-Independent-Installation-Specification-Sheet.pdf
 Redirect 301 /gallery/featured/suburban-new-jersey-feature-wall /gallery/project/virginia-treehouse-retreat/
 Redirect 301 /products/basalt-3d /products/basalt-stone-panels/
+Redirect 301 /node/130 /
+Redirect 301 /gallery/application/Interiors&rct /gallery/application/interiors/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Laticrete%20255.pdf" /assets/pdfs/Laticrete-255.pdf
+Redirect 301 /comment/reply/8217 /blog/
+Redirect 301 /blog/cast-stone-vs-natural-stone-%25E2%2580%2593-norstone-industry-series /blog/cast-stone-vs-natural-stone-–-norstone-industry-series/
+Redirect 301 /gallery/project/Outdoor%20Living%20in%20Cyprus /gallery/project/ivory-natural-stone-walls/
+Redirect 301 /assets/images/Aztec%20Stacked%20Stone%20Kitchen%20Backsplash%20-%20Orlando /assets/images/Aztec%20Stacked%20Stone%20Kitchen%20Backsplash%20-%20Orlando,%20FL.jpg
+Redirect 301 /gallery/featured/rural-virginia-kitchen-family-room /gallery/project/virginia-treehouse-retreat/
+Redirect 301 /fireplace/ /gallery/application/fireplace/
 
 RewriteCond %{HTTP_HOST} ^nrstn.prod3.webenabled.net$ [NC]
 RewriteRule ^(.*)$ https://www.norstoneusa.com/$1 [R=301,L]
