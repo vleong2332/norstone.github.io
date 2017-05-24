@@ -6,6 +6,7 @@ permalink: "/blog/:title/"
 classes: blog
 meta:
   title: Fireplace Renovations - Small Budget Project with Big Return On Investment
+    - Norstone Blog
   description: Fantastic article showing how any homeowner, investor, or flipper with
     only a small budget can renovate a fireplace and see a good return on investment.
 image:
