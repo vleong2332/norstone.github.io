@@ -4,15 +4,15 @@ permalink: "/blog/:title/"
 classes: blog
 title: Design School – Pairing Lighting Fixtures with Stone Veneer for Amazing Results
 meta:
-  title: Design School – Pairing Lighting Fixtures with Stone Veneer for Amazing Results
+  title: Design School – Pairing Lighting Fixtures with Stone Veneer - Norstone Blog
   description: A blog article that explores how to select lighting fixtures that work
     well with stone veneer feature walls and projects.
 image:
-  src: "/assets/images/Ochre Stacked Stone Wall - Sunburst Chandelier Austin, TX.jpg"
   title: Design School - How to Pick a Great Lighting Fixture for your stone veneer
     wall
   alt: Design School - How to Pick a Great Lighting Fixture for your stone veneer
     wall
+  src: "/assets/images/Ochre Stacked Stone Wall - Sunburst Chandelier Austin, TX.jpg"
 excerpt: Lighting fixtures probably don't get enough credit for pulling the design
   of a room together.  They're an important part of any project, so let's explore
   and take a look some of our favorite stone veneer projects where the fixture adds
