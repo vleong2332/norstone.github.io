@@ -5,7 +5,7 @@ layout: blog
 permalink: "/blog/:title/"
 classes: blog
 meta:
-  title: Hiring a Contractor For Your Next Stone Project
+  title: Hiring a Contractor For Your Next Stone Project - Norstone Blog
   description: A cool article giving a high level overview of some important things
     to think about when hiring a contractor for a tile or stone installation.
 image:
