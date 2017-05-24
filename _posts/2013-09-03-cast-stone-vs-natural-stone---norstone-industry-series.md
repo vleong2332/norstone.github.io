@@ -1,14 +1,21 @@
 ---
-title: "Cast Stone vs Natural Stone – Norstone Industry Series"
+title: Cast Stone vs Natural Stone – Norstone Industry Series
 meta:
-  title: "Cast Stone vs Natural Stone – Norstone Industry Series"
-  description: "Norstone, supplier of the best Natural Stone, stone wall cladding, stone veneer rock panels for water features, feature walls and stacked stone walls"
+  title: Cast Stone vs Natural Stone – Norstone Industry Series - Norstone Blog
+  description: Norstone, supplier of the best Natural Stone, stone wall cladding,
+    stone veneer rock panels for water features, feature walls and stacked stone walls
 image:
   title: Post Image
   alt: Post Image
   src: assets/images/blog/Real-Fake(1).jpg
-excerpt:  What are the big differences between natural stone and cast, or manmade, stone products - and why are those differences important?  Here's a high level industry targeted look at the differences and some guidance on picking the right material for your project.
-permalink: /blog/cast-stone-vs-natural-stone-%E2%80%93-norstone-industry-series/
+excerpt: What are the big differences between natural stone and cast, or manmade,
+  stone products - and why are those differences important?  Here's a high level industry
+  targeted look at the differences and some guidance on picking the right material
+  for your project.
+permalink: "/blog/cast-stone-vs-natural-stone-%E2%80%93-norstone-industry-series/"
+date: '2013-09-03T00:00:00.000+00:00'
+layout: blog
+classes: blog
 ---
 
 [![Real Fake](/assets/images/blog/Real-Fake(1).jpg)]({{ page.url }})
