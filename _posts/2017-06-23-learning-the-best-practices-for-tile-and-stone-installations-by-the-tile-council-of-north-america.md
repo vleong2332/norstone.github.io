@@ -2,8 +2,8 @@
 layout: blog
 permalink: "/blog/:title/"
 classes: blog
-title: Learning the Best Practices for Tile and Stone Installations by the Tile Council
-  of North America
+title: Learning the Best Practices for Tile and Stone Installations from the Tile
+  Council of North America
 meta:
   title: Best Practices for Tile and Stone Installations by Tile Council of North
     America
