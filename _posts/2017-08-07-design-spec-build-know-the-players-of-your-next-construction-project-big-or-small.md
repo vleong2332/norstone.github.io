@@ -1,27 +1,26 @@
 ---
-layout: blog
-permalink: "/blog/design-spec-build/"
 classes: blog
-title: Design, Spec, Build – Know the Players of Your Next Construction Project Big
-  or Small
-meta:
-  title: Design, Spec, Build – Know the Players of Your Next Construction Project
-    Big or Small
-  description: A guide to help clients understand the roles and responsibilities of
-    the main players within the design, specify, and build process of a construction
-    project.
-image:
-  title: Design Specify Build Icon Collage
-  alt: Collage of icons representing the design, specification, and build processes
-    of construction
-  src: "/uploads/2017/08/07/Design Specify Build Icon Collage.jpg"
+date: 2017-08-07 00:00:00 +0000
 excerpt: At Norstone we get to work with clients on all levels of projects – from
   a small backsplash or fireplace where our homeowner client is installing the stone
   veneer themselves to large architecturally specified projects that can take years
   to develop.  If you've ever found yourself in the middle of a big project and aren't
   quite sure who is responsible for what, here's a great guide we compiled to make
   things clearer for us and our clients.
-date: 2017-08-07 00:00:00 +0000
+image:
+  title: Design Specify Build Icon Collage
+  alt: Collage of icons representing the design, specification, and build processes
+    of construction
+  src: "/uploads/2017/08/07/Design Specify Build Icon Collage.jpg"
+layout: blog
+meta:
+  title: Design, Spec, Build – Know the Players of Your Next Construction Project
+    Big or Small
+  description: A guide to help clients understand the roles and responsibilities of
+    the main players within the design, specify, and build process of a construction
+    project.
+permalink: "/blog/design-spec-build/"
+title: Design, Spec, Build – Know the Players of Your Next Construction Project
 ---
 
 
