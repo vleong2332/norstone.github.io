@@ -1,14 +1,25 @@
 ---
-title: "Have A Seat, Let's Talk About Slate Tile"
+title: Slate Tile - a Natural Stone Alternative to Ceramic Tile
 meta:
-  title: "Slate Tile - Norstone Classroom Series"
-  description: "Slate Tile - Norstone Classroom Series"
+  title: Slate Tile - the Natural Stone Alternative to Ceramic Tile
+  description: Detailed look at Natural Stone Slate Tiles for use in residential and
+    commercial flooring and wall tile projects including detail on what type of projects
+    they can be used on and the importance of sealing slate tile installations.
 image:
   title: Post Image
   alt: Post Image
   src: assets/images/blog/Slate-Stone-Blog.jpg
-excerpt: Slate tile and other sedimentary based stone tiles are wildly popular due to their range of colors, ease of use, and in many instances, great value. While these products aren't as durable as most ceramics or porcelain tiles, slate tile and other stone tiles can be easily maintained with a few simple steps and will offer the uniquely natural qualities that a manufactured product just won't have. Read on for some tips about caring for your slate tile and other sedimentary based stone tiles.
-permalink: /blog/slate-tile-norstone-classroom-series/
+excerpt: Slate tile and other sedimentary based stone tiles are wildly popular due
+  to their range of colors, ease of use, and in many instances, great value. While
+  these products aren't as durable as most ceramics or porcelain tiles, slate tile
+  and other stone tiles can be easily maintained with a few simple steps and will
+  offer the uniquely natural qualities that a manufactured product just won't have.
+  Read on for some tips about caring for your slate tile and other sedimentary based
+  stone tiles.
+permalink: "/blog/slate-tile-norstone-classroom-series/"
+date: 2013-12-17 00:00:00 +0000
+layout: blog
+classes: blog
 ---
 
 [![Slate Stone blog](/assets/images/blog/Slate-Stone-Blog.jpg)]({{ page.url }})
