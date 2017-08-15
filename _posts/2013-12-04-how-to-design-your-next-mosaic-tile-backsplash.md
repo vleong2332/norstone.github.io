@@ -1,14 +1,24 @@
 ---
-title: "How To Design Your Next Mosaic Tile Backsplash"
+title: How To Design Your Next Mosaic Tile Backsplash
 meta:
-  title: "Mosaic Tile Backsplash - Norstone Designer Series"
-  description: "Mosaic Tile Backsplash - Norstone Designer Series"
+  title: Mosaic Tile Backsplash - Norstone Designer Series
+  description: Detailed look at what makes Mosaic Tiles a great option for kitchen
+    and bath backsplashes, including glass, ceramic, porcelain, and natural stone
+    mosaic tiles.
 image:
   title: Post Image
   alt: Post Image
   src: assets/images/blog/Mosaic-Tile-Backsplash.jpg
-excerpt: A kitchen without a backsplash is like a car without windshield wipers - it can work some of the time, but when things get wet, watch out! A popular finish in today's kitchen design is the use of mosaic tiles backsplashes, made from a variety of materials including tile, glass, stone, even metal. Come with us and explore the difference between traditional hand laid mosaics and today's pre-mounted systems and see how a mosaic tile backsplash might be a good fit for your next kitchen remodel.
-permalink: /blog/mosaic-tile-backsplash-norstone-designer-series/
+excerpt: A kitchen without a backsplash is like a car without windshield wipers -
+  it can work some of the time, but when things get wet, watch out! A popular finish
+  in today's kitchen design is the use of mosaic tiles backsplashes, made from a variety
+  of materials including tile, glass, stone, even metal. Come with us and explore
+  the difference between traditional hand laid mosaics and today's pre-mounted systems
+  and see how a mosaic tile backsplash might be a good fit for your next kitchen remodel.
+permalink: "/blog/mosaic-tile-backsplash-norstone-designer-series/"
+date: 2013-12-04 00:00:00 +0000
+layout: blog
+classes: blog
 ---
 
 [![Mosaic Tile backsplash](/assets/images/blog/Mosaic-Tile-Backsplash.jpg)]({{ page.url }})
