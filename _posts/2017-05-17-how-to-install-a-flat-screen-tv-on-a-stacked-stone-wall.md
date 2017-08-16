@@ -15,11 +15,11 @@ excerpt: Stacked stone makes a great backdrop for a media wall and a question we
   asked all the time is how to hang a flat screen tv on the stone.  Keep reading our
   latest blog for the best solution to this quandary and some other tips and tricks
   we point out along the way.
-date: 2017-05-17 13:10
+date: 2017-05-17 00:00:00 +0000
 ---
 
 
-Over the years many of our customers have completed amazing feature walls using our stacked stone [rock panel products](https://www.norstoneusa.com/products/), and on quite a few of those feature walls they choose to hang a flat screen TV.  When we first started making our products TVs weren't flat and definitely didn't get hung on a wall, but as technology evolved and our customers pushed the design limits of their entertainment space the question about how to hang a flat screen tv on a [stacked stone wall](https://www.norstoneusa.com/blog/norstone-industry-series-what-is-stacked-stone/) was one we needed to answer.  Here's a quick “how to” guide for hanging a flat screen TV on a stacked stone wall.
+Over the years many of our customers have completed amazing feature walls using our [stacked stone rock panel products](https://www.norstoneusa.com/products/stacked-stone-cladding/), and on quite a few of those feature walls they choose to hang a flat screen TV.  When we first started making our products TVs weren't flat and definitely didn't get hung on a wall, but as technology evolved and our customers pushed the design limits of their entertainment space the question about how to hang a flat screen tv on a [stacked stone wall](https://www.norstoneusa.com/blog/norstone-industry-series-what-is-stacked-stone/) was one we needed to answer.  Here's a quick “how to” guide for hanging a flat screen TV on a stacked stone wall.
 
 ## Step 1: Determine the Scope of the Project
 
