@@ -41,7 +41,7 @@ Following the manufacturer' directions, install the wall mount directly onto the
 
 ## Step 5: Protect the Mount and Install the Stacked Stone
 
-Use painters or masking tape and some plastic sheeting to cover up the wall mount during installation of the stacked stone.  Install the stacked stone using a [polymer modified thinset ](https://www.norstoneusa.com/blog/what-is-the-difference-between-different-types-of-thinset-and-what-s-the-best-thinset-for-stacked-stone-installations/)and making the appropriate cuts around the mount.  It's a good idea to save some extra stone in a closet or attic such that if you ever decide to take the TV down from the wall, you can remove the mount and go back and fill in the gap with stone.
+Use painters or masking tape and some plastic sheeting to cover up the wall mount during installation of a [stacked stone product](https://www.norstoneusa.com/products/).  Install the stacked stone using a [polymer modified thinset ](https://www.norstoneusa.com/blog/what-is-the-difference-between-different-types-of-thinset-and-what-s-the-best-thinset-for-stacked-stone-installations/)and making the appropriate cuts around the mount.  It's a good idea to save some extra stone in a closet or attic such that if you ever decide to take the TV down from the wall, you can remove the mount and go back and fill in the gap with stone.
 
 ![Flat Screen TV installed on Stacked Stone Wall - Installing Stone](/uploads/2017/05/17/Flat%20Screen%20TV%20installed%20on%20Stacked%20Stone%20Wall%20-%20Installing%20Stone.jpg)
 
