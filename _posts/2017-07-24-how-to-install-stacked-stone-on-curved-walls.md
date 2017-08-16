@@ -1,28 +1,30 @@
 ---
-layout: blog
-permalink: "/blog/:title/"
 classes: blog
-title: How To Install Stacked Stone On Curved Walls
-meta:
-  title: How to installed stacked stone panels on curved walls
-  description: Detailed look at how to installed stacked stone in panel format on
-    curved or radius walls.
+date: 2017-07-24 00:00:00 +0000
+excerpt: Curved or radius walls provide a unique opportunity to use stacked stone
+  in a way not traditionally seen.  We've gotten a chance to work on some great radius
+  projects and wanted to share our tips and guidelines for using stacked stone on
+  radius walls.
 image:
   title: Stacked Stone Curved Wall Medical Office Lobby
   alt: Curved wall starting behind a reception desk and continuing over a large glass
     doorway in a modern industrial styled medical office.
   src: "/uploads/2017/07/24/Stacked Stone Radius Wall Medical Office Lobby-1.jpg"
-excerpt: Curved or radius walls provide a unique opportunity to use stacked stone
-  in a way not traditionally seen.  We've gotten a chance to work on some great radius
-  projects and wanted to share our tips and guidelines for using stacked stone on
-  radius walls.
-date: 2017-07-24 14:57
+layout: blog
+meta:
+  title: How to installed stacked stone panels on curved walls
+  description: Detailed look at how to installed stacked stone in panel format on
+    curved or radius walls.
+permalink: "/blog/:title/"
+title: How To Install Stacked Stone On Curved Walls
 ---
-One of big things that makes our [stacked stone rock panel products](https://www.norstoneusa.com/products/) so easy to work with is that its already been pre-assembled into a highly calibrated ready to install unit, that is more comparable to tile than to traditional loose hand stacked stone.  The panel system provides a lot of benefits, chief among them the ability for less skilled labor, including [DIY installation of stacked stone](https://www.norstoneusa.com/blog/norstone-diy-infographic/) by homeowners.  One of the drawbacks of the panel system is the lack of flexibility of the panel, in particular when working on curved or radius walls.  However, there are lots of great ways products like ours can be used on curved walls, so let's take a look at our guidelines for using stacked stone on radius walls.
+
+
+One of big things that makes our [stacked stone rock panel products](https://www.norstoneusa.com/products/stacked-stone-cladding/) so easy to work with is that its already been pre-assembled into a highly calibrated ready to install unit, that is more comparable to tile than to traditional loose hand stacked stone.  The panel system provides a lot of benefits, chief among them the ability for less skilled labor, including [DIY installation of stacked stone](https://www.norstoneusa.com/blog/norstone-diy-infographic/) by homeowners.  One of the drawbacks of the panel system is the lack of flexibility of the panel, in particular when working on curved or radius walls.  However, there are lots of great ways products like ours can be used on curved walls, so let's take a look at our guidelines for using stacked stone on radius walls.
 
 ## Step 1: Know the Radius of Your Wall
 
-The first step in understanding if a stacked stone panel product will work on a curved wall is to know what the actual curve,or radius of the wall is.  Radius is actually a unit of measure, normally given in feet, and expresses the length from the middle of a circle to the edge.  In other words, if you took a curved wall, and extended that curve out using an imaginary line to complete a full circle, the radius measurement would be how far it is from the center of the circle to any point on your wall.
+The first step in understanding if a [stacked stone panel product](https://www.norstoneusa.com/products/) will work on a curved wall is to know what the actual curve,or radius of the wall is.  Radius is actually a unit of measure, normally given in feet, and expresses the length from the middle of a circle to the edge.  In other words, if you took a curved wall, and extended that curve out using an imaginary line to complete a full circle, the radius measurement would be how far it is from the center of the circle to any point on your wall.
 
 ![Stacked Stone Curved Wall University Lounge](/uploads/2017/07/24/Stacked%20Stone%20Radius%20Wall%20University%20Lounge.JPG)
 
