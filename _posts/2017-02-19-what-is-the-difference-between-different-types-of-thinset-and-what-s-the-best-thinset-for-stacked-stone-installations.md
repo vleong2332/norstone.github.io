@@ -14,9 +14,11 @@ image:
 excerpt: Thinset forms that critical link between substrate and stone, but is all
   thinset the same?  This article is a definitive guide to different types of thinset
   and what is the best type to use for your next stacked stone veneer installation.
-date: 2017-02-19 21:06
+date: 2017-02-19 00:00:00 +0000
 ---
-If you wonder into your local home improvement or discount tile and flooring store to pick up supplies for your next tile or [stone veneer](/blog/norstone-industry-series-what-is-stacked-stone/) project, you'll likely find yourself at some point in the setting materials aisle confused by what you're seeing. There's thinset, mastic, mortars, epoxies, and additives that are available in a different variety of formats like pre-mixed and bucketed, powder and liquid. Some products are polymer modified, others have or require a latex additive. What does all this mean, and what is the right product for a stacked stone tile installation? Let's take a look at these different types of setting materials and learn more about what each type is best suited for.
+
+
+If you wonder into your local home improvement or discount tile and flooring store to pick up supplies for your next tile or [stone veneer](https://www.norstoneusa.com/products/stacked-stone-cladding/) project, you'll likely find yourself at some point in the setting materials aisle confused by what you're seeing. There's thinset, mastic, mortars, epoxies, and additives that are available in a different variety of formats like pre-mixed and bucketed, powder and liquid. Some products are polymer modified, others have or require a latex additive. What does all this mean, and what is the right product for a [stacked stone tile installation](https://www.norstoneusa.com/how-to-install-stacked-stone/)? Let's take a look at these different types of setting materials and learn more about what each type is best suited for.
 
 ![Thinset for Stone Veneer with Trowel]({{ site.baseurl }}/assets/images/Thinset%20for%20Stone%20Veneer%20with%20Trowel.jpg)
 
