@@ -1,25 +1,25 @@
 ---
-layout: blog
-permalink: "/blog/:title/"
 classes: blog
-title: Learning the Best Practices for Tile and Stone Installations from the Tile
-  Council of North America
+date: 2017-06-23 00:00:00 +0000
+excerpt: ''
+image:
+  title: NTCA Tile Installation Workshop
+  alt: 'NTCA Tile Instatllation Workshop at D&B Tile in South Florida '
+  src: "/uploads/2017/06/23/NTCA Tile Presentation-min.jpg"
+layout: blog
 meta:
   title: Best Practices for Tile and Stone Installations by Tile Council of North
     America
   description: A summary of recent workshops put on by the Tile Council of North America
     aimed at educating tile contractors on the best practices for installing stone
     and tile and becoming certified tile installers.
-image:
-  title: NTCA Tile Installation Workshop
-  alt: 'NTCA Tile Instatllation Workshop at D&B Tile in South Florida '
-  src: "/uploads/2017/06/23/NTCA Tile Presentation-min.jpg"
-excerpt: ''
-date: 2017-06-23 16:13
+permalink: "/blog/:title/"
+title: Learning the Best Practices for Tile and Stone Installations by the Tile Council
+  of North America
 ---
 
 
-One of the [things about Norstone that makes our products unique](https://www.norstoneusa.com/blog/what-makes-norstone-different-a-lot/) from other veneers is that we really see and sell the product as a precision tile, as opposed to a more traditional masonry product.  Traditional masonry involves taking relatively basic inputs, like plain cut stone and mortar, and leveraging the talents of the installer to create something beautiful on a wall.  We leverage our ability to produce this same look, but in a thin panel format, which allows the product to be installed by a tile setter in lieu of a stone mason.  So we're always interested in learning more about how tile is installed and common mistakes made installing tile so we can pass this information on to our clients.
+One of the [things about Norstone that makes our products unique](https://www.norstoneusa.com/blog/what-makes-norstone-different-a-lot/) from other veneers is that we really see and sell the product as a precision tile, as opposed to a more traditional masonry product.  Traditional masonry involves taking relatively basic inputs, like plain cut stone and mortar, and leveraging the talents of the installer to create something beautiful on a wall.  We leverage our ability to produce this same look, but in a thin panel format, which allows the product to be installed by a tile setter in lieu of a stone mason.  So we're always interested in [learning more about how tile is installed](https://www.norstoneusa.com/how-to-install-stacked-stone/) and common mistakes made installing tile so we can pass this information on to our clients.
 
 This past week one of our distribution partners in South Florida was hosting a series of workshops during the evening hours where they invited an educator from the Tile Council of North America to come and speak to their customers, who are primarily tile contractors, about the right and wrong way to be installing tile.  During these workshops the TCNA also promoted their certification program which allows an installer to become a TCNA certified installer.  Here's a quick highlight of some of the main topics covered in these workshops.
 
