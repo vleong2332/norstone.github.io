@@ -1,21 +1,25 @@
 ---
-title: Norstone Industry Series - What is Stacked Stone?
-date: '2016-09-28 00:00:00'
-meta:
-  title: Norstone Industry Series - What is Stacked Stone?
-  description: What is Stacked Stone? In this Norstone Industry Series, join us for
-    a lesson on what stacked stone really means in today's building world.
-image:
-  title: Post Image
-  alt: Post Image
-  src: assets/images/what-is-stacked-stone-Blog.jpg
+date: 2016-09-28 00:00:00 +0000
 excerpt: Stacked stone is an age old building term that literally refers to constructing
   walls out of slabs of stone in various sizes. Romans used stacked stone walls in
   Europe to mark territories and some can still be found today. In New England you
   can find walls from early settlers that are moss covered and blending into tree
   lines.
+image:
+  title: Post Image
+  alt: Post Image
+  src: assets/images/what-is-stacked-stone-Blog.jpg
+meta:
+  title: Norstone Industry Series - What is Stacked Stone?
+  description: What is Stacked Stone? In this Norstone Industry Series, join us for
+    a lesson on what stacked stone really means in today's building world.
 permalink: "/blog/norstone-industry-series-what-is-stacked-stone/"
+title: Norstone Industry Series - What is Stacked Stone?
+layout: blog
+classes: blog
 ---
+
+
 Stacked stone is an age old building term that literally refers to constructing walls out of slabs of stone in various sizes. Romans used stacked stone walls in Europe to mark territories and some can still be found today. In New England you can find walls from early settlers that are moss covered and blending into tree lines.
 
 ![New England Stacked Stone Wall]({{ site.url }}assets/images/New England Stacked Stone Wall.png)
@@ -32,4 +36,4 @@ Stacked stone veneer is a very affordable alternative to achieve a very contempo
 
 ![Basalt 3D Ash Grey Stacked Stone Fireplace - Austin]({{ site.url }}assets/images/Basalt 3D Ash Grey Stacked Stone Fireplace - Austin.png)
 
-With Norstone natural stacked stone panels we have innovated an intuitive installation process. Our stone veneer tiles feature a unique finger and groove for seamless installation. The benefits of our interlocking stone panel system are the most visible or maybe invisible on corners. No mitering and every panel lines up maintaining the consistent look of the stone, as if a master mason had laid them. While there are many products listed as stacked stone on the market, on natural stone will retain its original beauty year after year. The color it has today will not be diminished from exposure to the sun or elements. While stacked stone has a long history, Norstone’s stacked stone panels are one of a kind. Our customer service team is here to assist you at every stage of you project.
+With Norstone natural stacked stone panels we have innovated an intuitive installation process. Our stone veneer tiles feature a unique finger and groove for [seamless installation](https://www.norstoneusa.com/how-to-install-stacked-stone/). The benefits of our interlocking stone panel system are the most visible or maybe invisible on corners. No mitering and every panel lines up maintaining the consistent look of the stone, as if a master mason had laid them. While there are many products listed as stacked stone on the market, on natural stone will retain its original beauty year after year. The color it has today will not be diminished from exposure to the sun or elements. While stacked stone has a long history, Norstone’s stacked stone panels are one of a kind. Our customer service team is here to assist you at every stage of you project.
