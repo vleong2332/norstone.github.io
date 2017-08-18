@@ -27,7 +27,7 @@ The most common way we see stacked stone used in pools is on a raised beam appli
 
 ![Ochre Stacked Stone Raised Beam Water Feature in Pool](/uploads/2017/06/02/Ochre%20Stacked%20Stone%20Raised%20Beam%20Water%20Feature%20in%20Pool.JPG)
 
-Stacked stone is an excellent option for raised beams as it creates great contrast in terms of texture with the water and also brings the natural element of stone into the design.  Often times the raised beam will feature multiple heights and frequently will be paired with a water feature such as a waterfall, water bowl, or scupper to enhance the design with free flowing water coming over, through, or in front of the stone.
+Stacked stone is an excellent option for raised beams as it creates great contrast in terms of texture with the water and also brings the natural element of stone into the design.  Often times the raised beam will feature multiple heights and frequently will be paired with a water feature such as a waterfall, water bowl, or scupper to enhance the design with free flowing water coming over, through, or in front of the stone.  We visited this project ourselves and the homeowners love the way this water feature turned out.
 
 ![Ochre Stacked Stone Submerged Tile in Pool](/uploads/2017/06/02/Ochre%20Stacked%20Stone%20Submerged%20Tile%20in%20Pool.jpg)
 
