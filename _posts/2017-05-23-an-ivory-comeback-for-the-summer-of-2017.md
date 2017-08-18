@@ -17,13 +17,13 @@ excerpt: Color trends come and go, and one that we've noticed recently is a rene
   interest in our Ivory Blend color, so we decided to feature a residential project
   in Southwest Florida that used our Ivory Blend on the exterior as this week's featured
   project.
-date: 2017-05-23 11:58
+date: 2017-05-23 00:00:00 +0000
 ---
 
 
 Long a favorite of the Norstone team, our [Ivory Blend](https://www.norstoneusa.com/products/rock-panels/ivory/) color, which we have available in both our [Standard Series](https://www.norstoneusa.com/products/stacked-stone-cladding/) and [XL Series Rock Panels](https://www.norstoneusa.com/products/thin-stone-veneer-panels/), was on the opposite side of the recent “grey” color trend dominating neutral design colors of the past couple years.  We've always described the Ivory as a “blended” color with ranges from whites / off whites, to creams / ivories, and including some yellows and golds.  We've been pleasantly surprised to hear from many clients during the Spring and early Summer months of 2017 on a renewed interest in this color with many projects already installed or in various stages of design and construction.
 
-About two years ago, we got the opportunity to view and photograph a residential project in Southwest Florida that masterfully used our Ivory Standard Series Rock Panel on the exterior facade, both front and rear, on a new construction project.  Let's take a look at how stacked stone was used on this project and what makes it so special.
+About two years ago, we got the opportunity to view and photograph a residential project in Southwest Florida that masterfully used our Ivory Standard Series Rock Panel on the exterior facade, both front and rear, on a new construction project.  The homeowner and builder couldn't stop raving about how the stone came out so we made a special trip to this sunny section of Florida to see for ourselves.  Let's take a look at how stacked stone was used on this project and what makes it so special.
 
 ![Ivory Stacked Stone Veneer on Exterior Residential Facade](/uploads/2017/05/23/Ivory%20Stone%20Veneer%20-%20Fort%20Myers%20%20-%20Facade.png)
 
