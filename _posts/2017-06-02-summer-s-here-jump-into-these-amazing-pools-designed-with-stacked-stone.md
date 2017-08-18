@@ -19,7 +19,7 @@ date: 2017-06-02 00:00:00 +0000
 ---
 
 
-With Memorial Day happening earlier this week, the beginning of summer is officially here, and with the higher temperatures we thought it would be a good idea to take a look at using [stacked stone products in swimming pools.](https://www.norstoneusa.com/gallery/application/pools/)  Over the years our customers have designed a variety of pools using our stone on everything from raised beams to waterline tiles so let's take a look at some of our favorites, learn our best practices, and look at some of the ways [stacked stone panels](https://www.norstoneusa.com/blog/norstone-industry-series-what-is-stacked-stone/) can be used in pools.
+With Memorial Day happening earlier this week, the beginning of summer is officially here, and with the higher temperatures we thought it would be a good idea to take a look at using [stacked stone products in swimming pools.](https://www.norstoneusa.com/gallery/application/pools/)  Over the years our customers have designed a variety of pools using our stone on everything from raised beams to waterline tiles so let's take a look at some of our favorites, [learn our best practices](/faq/), and look at some of the ways [stacked stone panels](https://www.norstoneusa.com/blog/norstone-industry-series-what-is-stacked-stone/) can be used in pools.
 
 ![Ochre Stacked Stone Sheer Waterfall Pool Feature](/uploads/2017/06/02/Ochre%20Stacked%20Stone%20Sheer%20Waterfall%20Pool%20Feature.jpg)
 
@@ -27,7 +27,7 @@ The most common way we see stacked stone used in pools is on a raised beam appli
 
 ![Ochre Stacked Stone Raised Beam Water Feature in Pool](/uploads/2017/06/02/Ochre%20Stacked%20Stone%20Raised%20Beam%20Water%20Feature%20in%20Pool.JPG)
 
-Stacked stone is an excellent option for raised beams as it creates great contrast in terms of texture with the water and also brings the natural element of stone into the design.  Often times the raised beam will feature multiple heights and frequently will be paired with a water feature such as a waterfall, water bowl, or scupper to enhance the design with free flowing water coming over, through, or in front of the stone.  We visited this project ourselves and the homeowners love the way this water feature turned out.
+Stacked stone is an excellent option for raised beams as it creates great contrast in terms of texture with the water and also brings the natural element of stone into the design.  Often times the raised beam will feature multiple heights and frequently will be paired with a water feature such as a waterfall, water bowl, or scupper to enhance the design with free flowing water coming over, through, or in front of the stone.  We visited this project ourselves and the [homeowners love the way this water feature turned out](/client-testimonials/).
 
 ![Ochre Stacked Stone Submerged Tile in Pool](/uploads/2017/06/02/Ochre%20Stacked%20Stone%20Submerged%20Tile%20in%20Pool.jpg)
 
