@@ -1,21 +1,21 @@
 ---
-layout: blog
-permalink: "/blog/:title/"
 classes: blog
-title: Amazing Interior & Exterior Palm Beach Remodel
-meta:
-  title: Amazing Interior & Exterior Palm Beach Remodel
-  description: Profile of a luxury Palm Beach FL home remodeled using Norstone Ochre
-    Blend Rock Panels on the exterior and interior
+date: 2017-06-26 00:00:00 +0000
+excerpt: At Norstone we're love great architecture, and this recently remodeled contemporary
+  home in Palm Beach, FL checks all the boxes.  Let's take a look at what makes this
+  project where Norstone was used in both interior and exterior applications so special.
 image:
   title: Luxury Palm Beach Contemporary Remodel Stone Blade Wall
   alt: Blade wall in a luxury Palm Beach contemporary home using Norstone Ochre Blend
     Rock Panels
   src: "/uploads/2017/06/26/Ochre - Residential - Palm Beach - Feature Wall 1.jpg"
-excerpt: At Norstone we're love great architecture, and this recently remodeled contemporary
-  home in Palm Beach, FL checks all the boxes.  Let's take a look at what makes this
-  project where Norstone was used in both interior and exterior applications so special.
-date: 2017-06-26 17:24
+layout: blog
+meta:
+  title: Amazing Interior & Exterior Palm Beach Remodel
+  description: Profile of a luxury Palm Beach FL home remodeled using Norstone Ochre
+    Blend Rock Panels on the exterior and interior
+permalink: "/blog/:title/"
+title: Amazing Interior & Exterior Palm Beach Remodel
 ---
 
 
@@ -41,4 +41,4 @@ The liberal use of built in shelving and niches in the blade wall is an artistic
 
 The stone makes a final appearance [cladding the exterior columns on the back patio](https://www.norstoneusa.com/blog/natural-stone-patios-designing-norstone-series/), an essential extension of any home in Florida. We love the way the subtle uplighting is tastefully done on the columns and the continued use of corner units on so many key areas, including the main entrance hallway into the living space, looks the best a corner possibly can using thin veneer.
 
-From start to finish this project's consistent use of the Ochre Blend Rock Panel veneer does a great job of creating a cohesive look whether you're out front parking the car, cooking dinner, or enjoying a balmy South Florida summer evening on the patio with a chilled drink in hand.  One of the great things about Norstone products is that they can be used both interior and exterior and more importantly, look great in either type of application.  Many exterior stone products look a little rough around the edges when used on the confines of an interior application, while some interior products shouldn't even be used outside.  With a product like Norstone you can  focus on the overall design and create spaces that are truly interconnected like this amazing project we've happily shared with you.  Don't hesitate to contact Norstone today to discuss your next project and how our unique and exclusive natural stone veneer products can be a part of it.
+From start to finish this project's consistent use of the Ochre Blend Rock Panel veneer does a great job of creating a cohesive look whether you're out front parking the car, cooking dinner, or enjoying a balmy South Florida summer evening on the patio with a chilled drink in hand.  One of the great things about Norstone products is that they can be used both interior and exterior and more importantly, look great in either type of application.  Many exterior stone products look a little rough around the edges when used on the confines of an interior application, while some interior products shouldn't even be used outside.  With a product like Norstone you can  focus on the overall design and create spaces that are truly interconnected like this amazing project we've happily shared with you. See what our customers are saying and don't hesitate to contact Norstone today to discuss your next project and how our unique and exclusive natural stone veneer products can be a part of it.
