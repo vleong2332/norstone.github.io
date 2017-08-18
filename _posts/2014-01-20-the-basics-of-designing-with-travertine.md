@@ -1,19 +1,27 @@
 ---
 title: Norstone Designer Series - Travertine Tiles
 meta:
-  title: "The Basics of Designing With Travertine"
-  description: "Travertine Tiles - Norstone Designer Series"
+  title: The Basics of Designing With Travertine
+  description: Travertine Tiles - Norstone Designer Series
 image:
   title: Post Image
   alt: Post Image
   src: assets/images/blog/Travertine-Tile-Blog.jpg
-excerpt: Sometimes as ubiquitous as it is beautiful, Travertine really is its own segment in the natural stone industry. When you start hearing words like tumbled, polished, honed or filled you know you're entering a world of light earthy tones with uses as diverse as the stone itself. Come learn the basics of this unique natural stone and why it might just be the perfect selection for your next project.
-permalink: /blog/travertine-tiles-norstone-designer-series/
+excerpt: Sometimes as ubiquitous as it is beautiful, Travertine really is its own
+  segment in the natural stone industry. When you start hearing words like tumbled,
+  polished, honed or filled you know you're entering a world of light earthy tones
+  with uses as diverse as the stone itself. Come learn the basics of this unique natural
+  stone and why it might just be the perfect selection for your next project.
+permalink: "/blog/travertine-tiles-norstone-designer-series/"
+date: 2014-01-20 00:00:00 +0000
+layout: blog
+classes: blog
 ---
 
-[![Travertine tile blog](/assets/images/blog/Travertine-Tile-Blog.jpg)]({{ page.url }})
 
-![Travertine tile french pattern](/assets/images/blog/Travertine-Tile-French-Pattern.jpg){: align="left"} <span style="font-size:16px;font-weight:lighter;letter-spacing:1px">You probably see Travertine everyday without knowing it.</span> It is used for flooring, wall features, pool decks, walkways, steps, fireplaces, patios and even driveways. Travertine is Limestone that has been put under immense pressure for a long time. Travertine eventually morphs into Marble if that pressure continues to be applied. It is available in numerous grades, finishes &amp; formats. While Travertine can be made into pavers, its most common format is tiles. Travertine tiles themselves come in a variety of cuts, patterns, shapes and sizes, ranging from 4” x 4”, 6” x 6”, 12” x 12” all the way up to 24” x 24”. The reason you see this material everywhere is because of it versatility. It is sure to fit any project.
+[ ![Travertine tile blog](/assets/images/blog/Travertine-Tile-Blog.jpg)]({{ page.url }})
+
+![Travertine tile french pattern](/assets/images/blog/Travertine-Tile-French-Pattern.jpg){: align="left"} <span style="font-size:16px;font-weight:lighter;letter-spacing:1px">You probably see Travertine everyday without knowing it.</span> Along with concrete pavers and to a lesser extent slate tiles, it is a common option for all types of flooring, particularily exterior.  In addition to flooring, Travertine tiles can also be used for wall features, pool decks, walkways, steps, fireplaces, patios and even driveways. Travertine is Limestone that has been put under immense pressure for a long time. Travertine eventually morphs into Marble if that pressure continues to be applied. It is available in numerous grades, finishes & formats. While Travertine can be made into pavers, its most common format is tiles. Travertine tiles themselves come in a variety of cuts, patterns, shapes and sizes, ranging from 4” x 4”, 6” x 6”, 12” x 12” all the way up to 24” x 24”. The reason you see this material everywhere is because of it versatility. It is sure to fit any project.
 
 ![Travertine tile bathroom](/assets/images/blog/Travertine-Tile-Bathroom.jpg){: align="right"}Travertine tiles are one of the most frequently used materials in modern architecture. Since the color is neutral beige with some variation, it coordinates nicely with other basics and even plays well with fun pops of color. Travertine tiles can either be the star of the show or can fade into the background, allowing other aspects of the space to shine. Some of the knocks on Travertine are that it can scratch easily and can be susceptible to staining if not sealed properly, even via the mildest of acids like vinegar and orange juice. Polished and sealed Travertine can also be slippery when wet. However, most often any problem related to Travertine is often a result of the incorrect finish being used for the application. Always consult a flooring expert when selecting any type of tile to make sure the tile's physical properties and attributes meet the demands of the space.
 
