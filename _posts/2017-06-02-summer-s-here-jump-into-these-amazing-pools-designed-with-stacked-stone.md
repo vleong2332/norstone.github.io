@@ -15,9 +15,11 @@ image:
 excerpt: Stacked stone can be used in a variety of features on a swimming pool to
   enhance the look,texture, and overall design of the space.  Explore and learn more
   about designing pools with stacked stone in mind in this week's featured post.
-date: 2017-06-02 14:28
+date: 2017-06-02 00:00:00 +0000
 ---
-With Memorial Day happening earlier this week, the beginning of summer is officially here, and with the higher temperatures we thought it would be a good idea to take a look at using [stacked stone products in swimming pools.](https://www.norstoneusa.com/gallery/application/pools/)  Over the years our customers have designed a variety of pools using our stone on everything from raised beams to waterline tiles so let's take a look at some of our favorites and learn some of the ways [stacked stone panels](https://www.norstoneusa.com/blog/norstone-industry-series-what-is-stacked-stone/) can be used in pools.
+
+
+With Memorial Day happening earlier this week, the beginning of summer is officially here, and with the higher temperatures we thought it would be a good idea to take a look at using [stacked stone products in swimming pools.](https://www.norstoneusa.com/gallery/application/pools/)  Over the years our customers have designed a variety of pools using our stone on everything from raised beams to waterline tiles so let's take a look at some of our favorites, learn our best practices, and look at some of the ways [stacked stone panels](https://www.norstoneusa.com/blog/norstone-industry-series-what-is-stacked-stone/) can be used in pools.
 
 ![Ochre Stacked Stone Sheer Waterfall Pool Feature](/uploads/2017/06/02/Ochre%20Stacked%20Stone%20Sheer%20Waterfall%20Pool%20Feature.jpg)
 
