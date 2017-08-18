@@ -1,23 +1,23 @@
 ---
-layout: blog
-permalink: "/blog/3d-ledge-stone-kansas/"
 classes: blog
-title: Basalt 3D Ledge Stone in America's Heartland
-meta:
-  title: Basalt 3-D Ledge Stone in America's Heartland
-  description: Profile of a modern designed new construction home out of Kansas City,
-    KS that used Norstone Grey 3D Ledge Stone Panels on various interior and exterior
-    features
+date: 2017-07-18 00:00:00 +0000
+excerpt: We were blown away when we saw photos of this client's project recently completed
+  about an hours drive outside of Kansas City, KS.  The detail the designers and installers
+  wove into the installation is pretty extraordinary.  Come take a look inside with
+  us and see what makes this project so special.
 image:
   title: Grey Basalt 3D Ledge Stone Fireplace and TV Feature Wall
   alt: Gas fireplace and big screen tv recessed into a stone wall clad in grey basalt
     3D ledge stone flanked on either side by floating shelves
   src: "/uploads/2017/07/18/Grey Basalt Ledge Stone Fireplace Kansas-1.jpg"
-excerpt: We were blown away when we saw photos of this client's project recently completed
-  about an hours drive outside of Kansas City, KS.  The detail the designers and installers
-  wove into the installation is pretty extraordinary.  Come take a look inside with
-  us and see what makes this project so special.
-date: 2017-07-18 15:48
+layout: blog
+meta:
+  title: Basalt 3-D Ledge Stone in America's Heartland
+  description: Profile of a modern designed new construction home out of Kansas City,
+    KS that used Norstone Grey 3D Ledge Stone Panels on various interior and exterior
+    features
+permalink: "/blog/3d-ledge-stone-kansas/"
+title: Basalt 3D Ledge Stone in America's Heartland
 ---
 
 
@@ -29,7 +29,7 @@ Starting on the rear patio, the Grey Basalt 3D [ledge stone](https://www.norston
 
 ![Rear elevation view of modern styled home outside of Kansas with grey basalt 3d ledge stone accents](/uploads/2017/07/18/Grey%20Basalt%20Ledge%20Stone%20Patio%20Kansas.jpg)
 
-The backside of the aforementioned column as viewed from the yard might look like just a stone wall, but again, the details of this project shine through upon closer inspection.  We love the use of non 90 degree angles on this column – even though we love the way our outside corner units work, we can appreciate the use of an off angle and how it creates a juxtaposition to the clean lines of the rest of the house.  The angles of the column play nicely with the curves of the spiral staircase, and not to be missed is the large boulders dividing the grass from the building.  The natural stone aspect of these boulders helps bridge the gap between the wooded property and stone accented home.
+The backside of the aforementioned column as viewed from the yard might look like just a stone wall, but again, the details of this project shine through upon closer inspection.  We love the use of non 90 degree angles on this column – even though we love the way our outside corner units work, we can appreciate the use of an off angle and how it creates a juxtaposition to the clean lines of the rest of the house.  The angles of the column play nicely with the curves of the spiral staircase, and not to be missed is the large boulders dividing the grass from the building.  The natural stone aspect of these boulders helps bridge the gap between the wooded property and stone accented home.  There are some practical considerations when installing stacked stone in a freeze / thaw climate like Kansas which this builder addressed through the use of a waterproofing and anti fracture membrane applied between the substrate and setting materials.
 
 ![Modern styled bar with grey 3D ledge stone used on facing and backsplash](/uploads/2017/07/18/Grey%20Basalt%20Ledge%20Stone%20Bar%20Kansas.jpg)
 
