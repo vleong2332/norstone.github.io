@@ -15,9 +15,11 @@ excerpt: We love how the colors of Aztec make this backsplash stand out in this 
   modern inspired kitchen in the hip College Park area of Orlando, FL.  Let's take
   a look at what makes this light and bright color a good choice for this perfectly
   designed corner kitchen.
-date: 2017-03-14 11:51
+date: 2017-03-14 00:00:00 +0000
 ---
-When Norstone first introduced its Aztec XL Series panel to the market we needed some great photography of an installation to put on our website and we had to look no further than the kitchen backsplash of one of our amazing sales people for just the right opportunity. Even though the project was a complete kitchen renovation, including the removal of walls, leveling out a sunken breakfast nook, and the complete tear out and reconfiguration of all cabinets and appliances, the backsplash was definitely not an afterthought. Having the unique experience and background of helping our clients day in and day out plan for their own kitchen renovations, she knew that the backsplash would tie all the other materials together and was an important piece of the design puzzle of this space.
+
+
+When Norstone first introduced its Aztec XL Series panel to the market we needed some great photography of an installation to put on our website and we had to look no further than the kitchen backsplash of one of our amazing sales people for just the right opportunity. Even though the project was a complete kitchen renovation, including the removal of walls, leveling out a sunken breakfast nook, and the complete tear out and reconfiguration of all cabinets and appliances, the backsplash was definitely not an afterthought. Having the unique experience and background of helping our clients day in and day out plan for their own kitchen renovations, she knew that the backsplash would tie all the other materials together and was an important piece of the design puzzle of this space.  With almost infinite options for the backsplash, ranging from glass mosaic tiles to reclaimed wood, the decision was made to use our Aztec XL panels for its clean lines and bright colors, yet still very traditional look.
 
 ![Aztec Stacked Stone Kitchen Backsplash Orlando, FL]({{ site.baseurl }}/assets/images/Aztec%20Stacked%20Stone%20Kitchen%20Backsplash%20-%20Orlando,%20FL.jpg)
 
