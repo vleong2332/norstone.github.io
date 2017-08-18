@@ -1,21 +1,21 @@
 ---
-layout: blog
-permalink: "/blog/:title/"
 classes: blog
-title: How to Install a Flat Screen TV on a Stacked Stone Wall
-meta:
-  title: How to Install a TV on a Stacked Stone Wall - Norstone Blog
-  description: A how to guide for installing a flat screen tv over any stacked stone
-    feature wall, or over any other irregular surface.
-image:
-  title: Flat Screen TVs installed on Stacked Stone Wall - Casino
-  alt: Flat Screen TVs installed on Stacked Stone Wall in a Casino
-  src: "/uploads/2017/05/17/Flat Screen TVs installed on Stacked Stone Wall - Casino.jpg"
+date: 2017-05-17 00:00:00 +0000
 excerpt: Stacked stone makes a great backdrop for a media wall and a question we get
   asked all the time is how to hang a flat screen tv on the stone.  Keep reading our
   latest blog for the best solution to this quandary and some other tips and tricks
   we point out along the way.
-date: 2017-05-17 00:00:00 +0000
+image:
+  title: Flat Screen TVs installed on Stacked Stone Wall - Casino
+  alt: Flat Screen TVs installed on Stacked Stone Wall in a Casino
+  src: "/uploads/2017/05/17/Flat Screen TVs installed on Stacked Stone Wall - Casino.jpg"
+layout: blog
+meta:
+  title: How to Install a TV on a Stacked Stone Wall - Norstone Blog
+  description: A how to guide for installing a flat screen tv over any stacked stone
+    feature wall, or over any other irregular surface.
+permalink: "/blog/:title/"
+title: How to Install a Flat Screen TV on a Stacked Stone Wall
 ---
 
 
@@ -57,4 +57,4 @@ Zip ties are a handy tool for managing excess length on any electrical or low vo
 
 In retrofit situations, where you already have stacked stone on a wall or fireplace and you're wanting to come back and hang a tv over it, our first recommendation is to always see if a small portion of the stone can be cut or chipped out of the existing installation to create a flat surface to mount the bracket to.  It might be possible with a lot of patience and some sturdy shims to try and drill through the stone, and shim the bracket out on the face of an irregular surface like stacked stone.  If attempting a retrofit installation of that nature, its very important that a direct mechanical bond is made into the wall stud to make sure the TV stays safe on the wall.
 
-With a combined 40+ years experience in the stone industry our technical team is here to answer any questions you might have or troubleshoot anything unique to your project.  Call or [contact us](https://www.norstoneusa.com/contact-us/) today!
+With a combined 40+ years experience in the stone industry our technical team is here to answer any questions you might have or troubleshoot anything unique to your project - we're a great resource for all thing stacked stone.  Call or [contact us](https://www.norstoneusa.com/contact-us/) today!
