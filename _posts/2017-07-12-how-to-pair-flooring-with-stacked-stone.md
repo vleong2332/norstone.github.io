@@ -1,22 +1,22 @@
 ---
-layout: blog
-permalink: "/blog/flooring-for-stacked-stone/"
 classes: blog
-title: How to Pick the Perfect Flooring to Complement a Stacked Stone Wall
-meta:
-  title: How to Pick the Perfect Flooring to Complement a Stacked Stone Wall
-  description: A blog looking at various types of flooring, including colors, patterns,
-    and textures, and how to pick the right type of flooring to complement a stacked
-    stone wall.
+date: 2017-07-12 00:00:00 +0000
+excerpt: You've designed and maybe already installed an amazing stone wall, now use
+  these tips to make sure the flooring in the space is just as on point as the wall
+  you can't keep your eyes off of.
 image:
   title: Flooring to Match a Stone Veneer Wall
   alt: Modern luxury bathroom featuring complimentary light grey polished marble flooring
     and grey honed stone veneer wall.
   src: "/uploads/2017/07/12/Basalt 3D Ash Grey Bathroom Feature Wall Dallas.jpg"
-excerpt: You've designed and maybe already installed an amazing stone wall, now use
-  these tips to make sure the flooring in the space is just as on point as the wall
-  you can't keep your eyes off of.
-date: 2017-07-12 12:02
+layout: blog
+meta:
+  title: How to Pick the Perfect Flooring to Complement a Stacked Stone Wall
+  description: A blog looking at various types of flooring, including colors, patterns,
+    and textures, and how to pick the right type of flooring to complement a stacked
+    stone wall.
+permalink: "/blog/flooring-for-stacked-stone/"
+title: How to Pick the Perfect Flooring to Complement a Stacked Stone Wall
 ---
 
 
@@ -44,6 +44,6 @@ More subtle contrast can be found in this next project, both in terms of color a
 
 ![City Backyard in San Francisco featuring artificial turf and a grey interlocking tile feature wall](/uploads/2017/07/12/Basalt%20Interlocking%20Ash%20Grey%20San%20Francisco%20Patio.jpg)
 
-Our last featured space reminds us to think [outside the box when it comes to your flooring options](https://www.norstoneusa.com/blog/outside-the-box-stone-design-ideas-for-your-next-remodel-or-new-build/).  It would have been so easy to use any sort of grey cement or stone paver or similar hardscape product in this unique San Francisco “city backyard”, but the use of artificial turf makes this space far more inviting and memorable.  The lush green color considerably brightens up the area and gives it an outside feel, and the plush texture is a nice foil to the smooth honed finish of the Grey Basalt Interlocking Tile.
+Our last featured space reminds us to think [outside the box when it comes to your flooring options](https://www.norstoneusa.com/blog/outside-the-box-stone-design-ideas-for-your-next-remodel-or-new-build/).  It would have been so easy to use any sort of grey cement or stone paver or similar hardscape product in this unique San Francisco “city backyard”, but the use of artificial turf makes this space far more inviting and memorable.  The lush green color considerably brightens up the area and gives it an outside feel, and the plush texture is a nice foil to the smooth honed finish of the Grey Basalt Interlocking Mosaic Tile.
 
 Thanks for taking a look at some of our favorite projects and how flooring can really add to the overall look of a space where stacked stone veneer has been used.  We'd love to see photos of the flooring our readers used with their projects, or if you're considering what kind of flooring to use on your next stacked stone project, let our design team guide your way and reach out to us today.
