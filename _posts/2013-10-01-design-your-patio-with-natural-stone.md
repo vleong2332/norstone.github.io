@@ -1,16 +1,28 @@
 ---
-title: "Design Your Patio with Natural Stone"
+title: Design Your Patio with Natural Stone
 meta:
-  title: "Natural Stone Patios - Designing with Norstone Series"
-  description: "Natural Stone Patios - Designing with Norstone Series, natural stone patios, stacked stone patio, stone veneer patio"
+  title: Natural Stone Patios - Designing with Norstone Series
+  description: Natural Stone Patios - Designing with Norstone Series, natural stone
+    patios, stacked stone patio, stone veneer patio
 image:
   title: Post Image
   alt: Post Image
   src: assets/images/blog/Natural-Stone-Patio-Banner.jpg
-excerpt:  For many people, outdoor living space is more than just a nice feature, it's a necessity. Whether it's a small rooftop terrace overlooking a city skyline or a large space shaded in the leafy suburbs, outdoor spaces allow us to look away from the glare of our screens, breathe some fresh air and reconnect with nature. Natural stone finish options abound in these spaces and can be used on flooring, walls, seating and speciality features like outdoor grill islands and water features. This article visits on relevant design ideas and concepts for natural stone patios.
-permalink: /blog/natural-stone-patios-designing-norstone-series/
+excerpt: For many people, outdoor living space is more than just a nice feature, it's
+  a necessity. Whether it's a small rooftop terrace overlooking a city skyline or
+  a large space shaded in the leafy suburbs, outdoor spaces allow us to look away
+  from the glare of our screens, breathe some fresh air and reconnect with nature.
+  Natural stone finish options abound in these spaces and can be used on flooring,
+  walls, seating and speciality features like outdoor grill islands and water features.
+  This article visits on relevant design ideas and concepts for natural stone patios.
+permalink: "/blog/natural-stone-patios-designing-norstone-series/"
+date: 2013-10-01 00:00:00 +0000
+layout: blog
+classes: blog
 ---
-[![Natural Stone Patio Banner](/assets/images/blog/Natural-Stone-Patio-Banner.jpg)]({{ page.url }})
+
+
+[ ![Natural Stone Patio Banner](/assets/images/blog/Natural-Stone-Patio-Banner.jpg)]({{ page.url }})
 
 <span style="font-size:16px;font-weight:lighter;letter-spacing:1px">Today's homeowners are increasingly interested in ways to expand their living space past the interior of the home.</span> One way to create a great outdoor living space is by adding a patio. It is an exterior space that can be used for entertaining, dining, family fun and even sustainable living.
 
@@ -18,7 +30,7 @@ permalink: /blog/natural-stone-patios-designing-norstone-series/
 
 As a Florida resident with a small home, I count on my patio year round. Whether it's listening to the birds chirp in the Spring on a Sunday morning while enjoying a cup of coffee, throwing a dinner party under the stars during the Summer, or toasting s'mores around the fire pit in the Fall, a patio can be a multi-season recreation center. It's that extra room in the house that can provide hours of enjoyment and where you'll constantly find yourself.
 
-![Contemporary Natural Stone Patio](/assets/images/blog/Contemporary-Natural-Stone-Patio.jpg){: align="right"}From a design standpoint, a patio should be designed to enhance the style of your home and garden, and can also serve to define different areas of your yard. When thinking about the type of patio that's right for your home, consider your existing architecture first. For example, a colonial-style home might mesh well with a brick patio, whereas if you have a contemporary-style home, poured concrete might give you the look you want. Then, take into account how you want to use the space and what features, such as grill islands, wet bars, and water / fire features, will be must haves. When looking to add features to your outdoor space, weigh your options between what you and your friends and family will get the most enjoyment from against the perceived value being created by that feature. Outdoor kitchens and water features generally hold value exceptionally well, whereas you can easily go overboard with upgrading a grill which might not hold its value as evenly over time.
+![Contemporary Natural Stone Patio](/assets/images/blog/Contemporary-Natural-Stone-Patio.jpg){: align="right"}From a design standpoint, a patio should be designed to enhance the style of your home and garden, and can also serve to define different areas of your yard. When thinking about the type of patio that's right for your home, consider your existing architecture first. For example, a colonial-style home might mesh well with a brick patio, or if the budget permits bluestone or slate pavers offer a refined classic look.  If you have a contemporary-style home, poured concrete might give you the look you want. Then, take into account how you want to use the space and what features, such as grill islands, wet bars, and water / fire features, will be must haves. When looking to add features to your outdoor space, weigh your options between what you and your friends and family will get the most enjoyment from against the perceived value being created by that feature. Outdoor kitchens and water features generally hold value exceptionally well, whereas you can easily go overboard with upgrading a grill which might not hold its value as evenly over time.
 
 ![Stone Veneer Patio Pizza Oven](/assets/images/blog/Stone-Veneer-Patio-Pizza-Oven.jpg){: align="left"}One type of material that is popular to use when designing a patio is natural stone. A natural stone patio is a durable option that will blend well with your backyard. Natural stone can be used as flooring, knee walls, and in a number of popular features including outdoor kitchens and fireplaces. Some popular natural stone flooring choices include slate, quartzite, bluestone and limestone. Products like Norstone's [Stacked Stone Rock Panel](/products/stacked-stone-cladding/) and [Basalt Interlocking Tiles](/products/modern-wall-tile/) are excellent options for wall sections, including grill islands, water features, and fire pits. The trend with outdoor living spaces and natural stone patios is to include luxury elements, anything from built in gas fire features to wood fired pizza ovens, with premium finishes like stacked stone, granite, and marble, to enhance the space and create that "wow" factor.
 
