@@ -1,17 +1,26 @@
 ---
-title: "Norstone Classroom Series - Backsplash Trends"
+title: Norstone Classroom Series - Backsplash Trends
 meta:
-  title: "Backsplash Tile Designs - Norstone Classroom Series - Learn About Industry Backsplash Trends"
-  description: "Backsplash Tile Designs - Norstone Classroom Series"
+  title: Backsplash Tile Designs - Norstone Classroom Series - Learn About Industry
+    Backsplash Trends
+  description: Backsplash Tile Designs - Norstone Classroom Series
 image:
   title: Post Image
   alt: Post Image
   src: assets/images/backsplash-trends-blog.jpg
-excerpt: Think of your kitchen or bath backsplash as a canvas where you can express your own creativity or embrace the latest trends in backsplash tile design, without the same cost and construction commitment as other elements of the space, like cabinets and countertops. Let's explore some more trends in backsplash design that might get you in the remodeling mood!
-permalink: /blog/backsplash-tile-designs-norstone-industy-series/
+excerpt: Think of your kitchen or bath backsplash as a canvas where you can express
+  your own creativity or embrace the latest trends in backsplash tile design, without
+  the same cost and construction commitment as other elements of the space, like cabinets
+  and countertops. Let's explore some more trends in backsplash design that might
+  get you in the remodeling mood!
+permalink: "/blog/backsplash-tile-designs-norstone-industy-series/"
+date: 2014-02-11 00:00:00 +0000
+layout: blog
+classes: blog
 ---
 
-<span style="font-size:16px;font-weight:lighter;letter-spacing:1px">When you walk into a kitchen, one of the first things you notice is the backsplash.</span> It is the focal point of the room – what everything is centered around. It can tie together your cabinets, countertops and bring forth the general aesthetic of the space. Today, your backsplash options are endless. Some might be fads that fade fast, but exploring the current trends is inspiring, exciting, and the first step in finding what you'll fall in love with.
+
+<span style="font-size:16px;font-weight:lighter;letter-spacing:1px">When you walk into a kitchen, one of the first things you notice is the backsplash.</span> It is the focal point of the room – what everything is centered around. It can tie together your cabinets, countertops and bring forth the general aesthetic of the space. Today, your backsplash options are endless, from complex mosaic tile designs to large format tiles in a variety of different materials. Some might be fads that fade fast, but exploring the current trends is inspiring, exciting, and the first step in finding what you'll fall in love with.
 
 ![E&S](/assets/images/blog/Backsplash-Tile-Designs---E&S.jpg){: align="left"}One trend that we are seeing, and not just in backsplashes but throughout whole house design, is earth friendly products. Renewable, recycled and environmentally safe products make for a greener house, and we are not talking about the color! You can even make sure your backsplash is green by using a product such as these [barnwood tiles](https://www.facebook.com/eandstile/) from E&S Tile. These unique backsplash tile designs are made from recycled barnwood gathered from 80 year old barns and distilleries. They are finished with a low VOC ceramic coating for easy cleaning.
 
