@@ -9,9 +9,9 @@ meta:
     Interlocking Tile in Ash Grey on the exterior facade creating an industrial grey
     design scheme.
 image:
-  title: ''
-  alt: ''
-  src: ''
+  title: Basalt Mosaic Interlocking Tile Chipotle Signage
+  alt: Basalt Mosaic Interlocking Tile - Chipotle Signage Florida
+  src: "/uploads/2017/08/28/Basalt Mosaic Interlocking Tile - Chipotle Signage Florida.jpg"
 excerpt: Who doesn't love a nice burrito bowl or some carnitas, especially if you're
   lucky enough to visit this restaurant in South Florida that used our Basalt Mosaic
   Interlocking Tile on the exterior facade.  If great design inspires great hunger
