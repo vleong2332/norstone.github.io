@@ -1,0 +1,149 @@
+---
+pages:
+- _colors/basalt/ebony.html
+- _colors/basalt-3d/ash-grey.html
+- _colors/xlx-rock/ochre.html
+- _colors/rock/ochre.html
+- _colors/xlx-rock/aztec.html
+- _colors/basalt/ash-grey.html
+- _colors/xlx-rock/charcoal.html
+- _colors/rock/white.html
+- _colors/rock/ivory.html
+- _colors/rock/charcoal.html
+- _colors/basalt-3d/ebony.html
+- _colors/pencil-tiles/green-pencil-tiles-small-format-tile-mosaics.html
+- _colors/pencil-tiles/blue-pencil-tiles-small-format-tile-mosaics.html
+- _colors/pencil-tiles/pencil-tiles-red.html
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: collection
+- name: meta
+  label: Meta
+  type: field_group
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: description
+    label: Description
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: header
+  label: Header
+  type: field_group
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: image
+    label: Image
+    type: file
+    hidden: false
+    default: ''
+  - name: link
+    label: Link
+    type: text
+    hidden: false
+    default: ''
+  - name: subtitle
+    label: Subtitle
+    type: text
+    hidden: false
+    default: ''
+  - name: description
+    label: Description
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- name: products
+  label: Products
+  type: field_group_list
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: link
+    label: Link
+    type: text
+    hidden: false
+    default: ''
+  - name: image
+    label: Image
+    type: file
+    hidden: false
+    default: ''
+  hidden: false
+  default:
+  - title: ''
+    link: ''
+    image: ''
+- name: gallery
+  label: Gallery
+  type: field_group
+  fields:
+  - name: text
+    label: Text
+    type: text
+    hidden: false
+    default: ''
+  - name: link
+    label: Link
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- name: slides
+  label: Slides
+  type: field_group_list
+  fields:
+  - name: alt
+    label: Alt
+    type: text
+    hidden: false
+    default: ''
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: src
+    label: Src
+    type: file
+    hidden: false
+    default: ''
+  hidden: false
+  default:
+  - alt: ''
+    title: ''
+    src: ''

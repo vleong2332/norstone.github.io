@@ -1,0 +1,121 @@
+---
+pages:
+- _products/rock/rock.html
+- _products/basalt/basalt.html
+- _products/basalt-3d/basalt-3d.html
+- _products/xlx-rock/xlx-rock.html
+- _products/pencil-tiles.html
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: meta
+  label: Meta
+  type: field_group
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: description
+    label: Description
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: "/products/"
+- name: header
+  label: Header
+  type: field_group
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: image
+    label: Image
+    type: file
+    hidden: false
+    default: ''
+  - name: link
+    label: Link
+    type: text
+    hidden: false
+    default: ''
+  - name: subtitle
+    label: Subtitle
+    type: text
+    hidden: false
+    default: ''
+  - name: description
+    label: Description
+    type: textarea
+    hidden: false
+    default: ''
+  - name: alt
+    label: Alt
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- name: products
+  label: Products
+  type: field_group_list
+  fields:
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: link
+    label: Link
+    type: text
+    hidden: false
+    default: ''
+  - name: image
+    label: Image
+    type: file
+    hidden: false
+    default: ''
+  hidden: false
+  default:
+  - title: ''
+    link: ''
+    image: ''
+- name: gallery
+  label: Gallery
+  type: field_group
+  fields:
+  - name: text
+    label: Text
+    type: text
+    hidden: false
+    default: ''
+  - name: link
+    label: Link
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: collection

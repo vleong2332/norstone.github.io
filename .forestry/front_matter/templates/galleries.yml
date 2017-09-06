@@ -1,0 +1,175 @@
+---
+pages:
+- _galleries/xlx-rock-panels/charcoal.html
+- _galleries/basalt-3d/ebony.html
+- _galleries/application/pools.html
+- _galleries/application/interiors.html
+- _galleries/application/exteriors.html
+- _galleries/project/rockport.html
+- _galleries/project/outdoor-living-in-cyprus.html
+- _galleries/basalt-3d/interiors.html
+- _galleries/rock-panels/ochre.html
+- _galleries/project/stanmore-place.html
+- _galleries/project/architects-office.html
+- _galleries/application/showers.html
+- _galleries/rock-panels/white.html
+- _galleries/application/kitchens.html
+- _galleries/application/backsplash.html
+- _galleries/xlx-rock-panels/interiors.html
+- _galleries/rock-panels/charcoal.html
+- _galleries/project/niagara-residence.html
+- _galleries/project/matrix-hotel.html
+- _galleries/project/denmark-enclave.html
+- _galleries/basalt/interiors.html
+- _galleries/basalt/grey.html
+- _galleries/basalt-3d/grey.html
+- _galleries/xlx-rock-panels/ochre.html
+- _galleries/rock-panels/interiors.html
+- _galleries/project/berkshire-residence.html
+- _galleries/project/basement-retreat.html
+- _galleries/basalt/exteriors.html
+- _galleries/basalt/ebony.html
+- _galleries/application/fireplace.html
+- _galleries/xlx-rock-panels/exteriors.html
+- _galleries/rock-panels/ivory.html
+- _galleries/rock-panels/exteriors.html
+- _galleries/basalt-3d/exteriors.html
+- _galleries/application/feature-walls.html
+- _galleries/basalt-3d/gallery-basalt-3d-retail.html
+- _galleries/xlx-rock-panels/aztec.html
+- _galleries/project/gallery-grey-3d-basalt-at-colorado-mountain-retreat.md
+- _galleries/project/virginia-treehouse-retreat.html
+- _galleries/basalt/gallery-basalt-il-pools.html
+- _galleries/basalt-3d/gallery-basalt-3d-commercial.html
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: gallery
+- name: meta
+  label: Meta
+  type: field_group
+  fields:
+  - name: description
+    label: Description
+    type: textarea
+    hidden: false
+    default: ''
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: product
+  label: Product
+  type: text
+  hidden: false
+  default: ''
+- name: gallery
+  label: Gallery
+  type: field_group_list
+  fields:
+  - name: alt
+    label: Alt
+    type: text
+    hidden: false
+    default: ''
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  - name: src
+    label: Src
+    type: file
+    hidden: false
+    default: ''
+  - name: type
+    label: Type
+    type: text
+    hidden: false
+    default: ''
+  - name: tags
+    label: Tags
+    type: tag_list
+    hidden: false
+    default: ''
+  hidden: false
+  default:
+  - alt: ''
+    title: ''
+    src: ''
+    type: ''
+    tags: ''
+- name: other_galleries
+  label: Other galleries
+  type: list
+  hidden: false
+  default: ''
+- name: rows
+  label: Rows
+  type: field_group_list
+  fields:
+  - name: image
+    label: Image
+    type: field_group
+    fields:
+    - name: alt
+      label: Alt
+      type: text
+      hidden: false
+      default: ''
+    - name: title
+      label: Title
+      type: text
+      hidden: false
+      default: ''
+    - name: src
+      label: Src
+      type: file
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: heading
+    label: Heading
+    type: text
+    hidden: false
+    default: ''
+  - name: body
+    label: Body
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default:
+  - image:
+      alt: ''
+      title: ''
+      src: ''
+    heading: ''
+    body: ''
+- name: redirect_from
+  label: Redirect from
+  type: list
+  hidden: false
+  default: ''

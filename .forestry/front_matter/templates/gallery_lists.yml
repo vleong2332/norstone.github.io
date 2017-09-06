@@ -1,0 +1,52 @@
+---
+pages:
+- _gallery_lists/index.html
+- _gallery_lists/xl-rock-panels.html
+- _gallery_lists/rock-panels.html
+- _gallery_lists/project.html
+- _gallery_lists/application.html
+- _gallery_lists/basalt.html
+- _gallery_lists/basalt-3d.html
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: meta
+  label: Meta
+  type: field_group
+  fields:
+  - name: description
+    label: Description
+    type: textarea
+    hidden: false
+    default: ''
+  - name: title
+    label: Title
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: 
+- name: permalink
+  label: Permalink
+  type: text
+  hidden: false
+  default: ''
+- name: images
+  label: Images
+  type: list
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: gallery-list
