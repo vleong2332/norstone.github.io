@@ -1,25 +1,25 @@
 ---
-layout: blog
-permalink: "/blog/:title/"
 classes: blog
-title: A Norstone Hurricane Story
-meta:
-  title: A Norstone Hurricane Story
-  description: Recap of the events of Hurricane Irma on the Norstone team in Florida
-    and remembering Hurricane Sandy's impact on the Revel Casino project in Atlantic
-    City
-image:
-  title: Revel Casino Stacked Stone Wall
-  alt: Signage on the Norstone stacked stone wall at the Revel Casino in Atlantic
-    City as seen from the boardwalk
-  src: "/uploads/2017/09/13/Revel Casino Signage on Stacked Stone Wall.jpg"
+date: 2017-09-13 00:00:00 +0000
 excerpt: The Norstone team based in Central Florida lived through Hurricane Irma over
   the past couple of days, thankfully with little damage to our homes and office.  While
   a few of us still are waiting on power to come back, this experience reminded us
   of a great project we worked on in 2011, the Revel Casino in Atlantic City, which
   experienced major damage caused by Hurricane / Superstorm Sandy in 2012, and which
   we'll profile in this week's blog.
-date: 2017-09-13 00:00:00 +0000
+image:
+  title: Revel Casino Stacked Stone Wall
+  alt: Signage on the Norstone stacked stone wall at the Revel Casino in Atlantic
+    City as seen from the boardwalk
+  src: "/uploads/2017/09/13/Revel Casino Signage on Stacked Stone Wall.jpg"
+layout: blog
+meta:
+  title: Norstone Hurricane Story
+  description: Recap of the events of Hurricane Irma on the Norstone team in Florida
+    and remembering Hurricane Sandy's impact on the Revel Casino project in Atlantic
+    City
+permalink: "/blog/:title/"
+title: A Norstone Hurricane Story
 ---
 
 
