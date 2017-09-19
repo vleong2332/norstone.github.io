@@ -386,6 +386,7 @@ cite {
   @include breakpoint(small only) {
     figcaption {
       font-size: 12px;
+      font-weight: 600;
       padding: 10px;
     }
     a {
