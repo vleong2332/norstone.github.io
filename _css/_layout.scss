@@ -100,6 +100,15 @@
   }
 }
 
+.product-body h2 {
+  @include breakpoint(medium down) {
+    padding-top: 20px;
+    .slideshow-without-thumbnails {
+      margin-bottom: 20px;
+    }
+  }
+}
+
 .slider-main {
   margin-bottom: 30px;
   position: relative;
