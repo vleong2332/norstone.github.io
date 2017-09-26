@@ -29,7 +29,10 @@
 #logo img {
   margin: 8px 0 15px;
   width: 75%;
-  @include breakpoint(370px) {
+  @include breakpoint(small) {
+    width: 190px;
+    }
+  @include breakpoint(medium) {
     width: 248px;
   }
 }
