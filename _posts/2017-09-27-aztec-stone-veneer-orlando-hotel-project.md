@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog-add-gallery
 permalink: "/blog/aztec-stone-veneer-hotel/"
 classes: blog
 title: Aztec Stone Veneer Orlando Hotel Project
@@ -18,6 +18,9 @@ excerpt: This stunning hotel project just south of Downtown Orlando was one of t
   look at how the design team worked this great accent wall product into this busy
   commercial space.
 date: 2017-09-27 00:00:00 +0000
+other_galleries:
+- xl-rock-panel-aztec
+- rock-panel-interiors
 ---
 
 
