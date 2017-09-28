@@ -418,6 +418,7 @@ cite {
 .slideshow-with-thumbnails {
   @include breakpoint(medium down) {
     margin-bottom: 20px;
+    margin-top: 20px;
   }
   h1 {
     margin: 0;
