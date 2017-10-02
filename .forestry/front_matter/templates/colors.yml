@@ -1,5 +1,6 @@
 ---
 pages:
+- _colors/basalt/ebony.html
 - _colors/basalt/beige-marble.html
 - _colors/xlx-rock/charcoal.html
 - _colors/rock/charcoal.html
@@ -12,7 +13,6 @@ pages:
 - _colors/basalt/white-marble.html
 - _colors/basalt-3d/beige-3d-marble.html
 - _colors/basalt-3d/white-3d-marble.html
-- _colors/basalt/ebony.html
 - _colors/rock/ochre.html
 - _colors/basalt-3d/ebony.html
 - _colors/pencil-tiles/green-pencil-tiles-small-format-tile-mosaics.html
