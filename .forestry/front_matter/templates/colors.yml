@@ -1,18 +1,18 @@
 ---
 pages:
-- _colors/xlx-rock/aztec.html
-- _colors/rock/charcoal.html
-- _colors/xlx-rock/ochre.html
+- _colors/basalt/ebony.html
 - _colors/basalt/beige-marble.html
+- _colors/xlx-rock/charcoal.html
+- _colors/rock/charcoal.html
+- _colors/basalt-3d/ash-grey.html
+- _colors/xlx-rock/aztec.html
+- _colors/xlx-rock/ochre.html
 - _colors/rock/white.html
 - _colors/basalt/ash-grey.html
 - _colors/rock/ivory.html
 - _colors/basalt/white-marble.html
 - _colors/basalt-3d/beige-3d-marble.html
 - _colors/basalt-3d/white-3d-marble.html
-- _colors/xlx-rock/charcoal.html
-- _colors/basalt/ebony.html
-- _colors/basalt-3d/ash-grey.html
 - _colors/rock/ochre.html
 - _colors/basalt-3d/ebony.html
 - _colors/pencil-tiles/green-pencil-tiles-small-format-tile-mosaics.html
