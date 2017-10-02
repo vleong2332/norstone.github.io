@@ -525,7 +525,6 @@ cite {
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch;
     margin-top: 10px;
-    margin-bottom: 20px;
     white-space: nowrap;
     img {
       margin: 2px;
@@ -538,38 +537,7 @@ cite {
     top: 0;
     height: 100%;
     width: 100%;
-  }
-  .owl-prev {
-    background: url('/assets/images/theme/arrow-left.png') no-repeat right top;
-    cursor: pointer;
-    display: none;
-    height: 55px;
-    padding: 0 20px;
-    position: absolute;
-    top: 45%;
-    transform: translateY(-45%);
-    left: 10px;
-    width: 31px;
-    z-index: 2;
-    &:hover, &:active, &:focus {
-      background: url('/assets/images/theme/arrow-left.png') no-repeat right -58px;
-    }
-  }
-  .owl-next {
-    background: url('/assets/images/theme/arrow-right.png') no-repeat left top;
-    cursor: pointer;
-    display: none;
-    height: 55px;
-    padding: 0 20px;
-    position: absolute;
-    right: 10px;
-    top: 45%;
-    transform: translateY(-45%);
-    width: 31px;
-    z-index: 2;
-    &:hover, &:active, &:focus {
-      background: url('/assets/images/theme/arrow-right.png') no-repeat left -58px;
-    }
+    
   }
 }
 
