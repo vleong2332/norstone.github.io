@@ -1,5 +1,6 @@
 ---
 pages:
+- _colors/basalt/ash-grey.html
 - _colors/basalt/ebony.html
 - _colors/basalt/beige-marble.html
 - _colors/xlx-rock/charcoal.html
@@ -8,7 +9,6 @@ pages:
 - _colors/xlx-rock/aztec.html
 - _colors/xlx-rock/ochre.html
 - _colors/rock/white.html
-- _colors/basalt/ash-grey.html
 - _colors/rock/ivory.html
 - _colors/basalt/white-marble.html
 - _colors/basalt-3d/beige-3d-marble.html
