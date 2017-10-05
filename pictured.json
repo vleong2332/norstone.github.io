@@ -42,26 +42,26 @@
   },
 
   "basalt-ebony": {
-    "title": "Ebony<br>Basalt IL Tiles",
-    "link": "/products/modern-wall-tile/ebony/",
+    "title": "Ebony<br>Lynia IL Tiles",
+    "link": "/products/lynia-mosaic-tiles/ebony/",
     "image": "/assets/images/unsorted/pictured-basalt-ebony.png"
   },
 
   "basalt-ash-grey": {
-    "title": "Grey<br>Basalt IL Tiles",
-    "link": "/products/modern-wall-tile/grey/",
+    "title": "Grey<br>Lynia IL Tiles",
+    "link": "/products/lynia-mosaic-tiles/basalt/",
     "image": "/assets/images/unsorted/pictured-basalt-grey.png"
   },
 
   "basalt-3d-ebony": {
-    "title": "Ebony<br>Basalt 3D",
-    "link": "/products/basalt-stone-panels/black-stone/",
+    "title": "Ebony<br>Aksent 3D",
+    "link": "/products/aksent-modern-tiles/ebony/",
     "image": "/assets/images/unsorted/pictured-basalt-3d-ebony.png"
   },
 
   "basalt-3d-ash-grey": {
-    "title": "Grey<br>Basalt 3D",
-    "link": "/products/basalt-stone-panels/ash-grey-stone/",
+    "title": "Grey<br>Aksent 3D",
+    "link": "/products/aksent-modern-tiles/grey/",
     "image": "/assets/images/unsorted/pictured-basalt-3d-grey.png"
   }
 }
