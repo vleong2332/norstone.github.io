@@ -73,7 +73,7 @@ fields:
     hidden: false
     default: ''
   hidden: false
-  default: 
+  default:
 - name: permalink
   label: Permalink
   type: text

@@ -29,7 +29,7 @@ Situated in downtown Philadelphia, just across the Schuylkill River from Center 
 
 ![Ebony Basalt Interlocking Tile Drexel University - See Though Fireplace](/uploads/2017/05/08/Ebony%20Basalt%20Interlocking%20Tile%20Drexel%20University%20-%20See%20Though%20Fireplace.jpg)
 
-The opposite side of the fireplace is a sunken lounge with conversational style seating.  The design team did a fantastic job of pairing the clean geometric lines of the [basalt interlocking tile](https://www.norstoneusa.com/products/modern-wall-tile/) used on the fireplace with modern furniture and linear accents.  From this side, the fireplace is really the focus of the space, and does a great job commanding your attention.  From the unique twin cut outs on either side, to the large TV, to the modern and eye catching linear gas see through fireplace, this project packs a lot of punch in a small area.
+The opposite side of the fireplace is a sunken lounge with conversational style seating.  The design team did a fantastic job of pairing the clean geometric lines of the [lynia interlocking tile](https://www.norstoneusa.com/products/lynia-mosaic-tiles/) used on the fireplace with modern furniture and linear accents.  From this side, the fireplace is really the focus of the space, and does a great job commanding your attention.  From the unique twin cut outs on either side, to the large TV, to the modern and eye catching linear gas see through fireplace, this project packs a lot of punch in a small area.
 
 ![Ebony Basalt Interlocking Tile Drexel University - Gas Fireplace](/uploads/2017/05/08/Ebony%20Basalt%20Interlocking%20Tile%20Drexel%20University%20-%20Gas%20Fireplace.jpg)
 

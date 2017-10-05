@@ -21,7 +21,7 @@ date: 2017-08-28 00:00:00 +0000
 ---
 
 
-The Norstone team loves to eat!  Sometimes we find ourselves dreaming about whats for lunch only to look down at the clock and realize its only 9:45 in the morning – a long haul till lunch time.  We especially love it when one of our favorite quick service restaurants gets a chance to use our products, and this Chipotle in South Florida is no exception.  Let's dive in and see what made our [basalt mosaic interlocking tiles](https://www.norstoneusa.com/products/modern-wall-tile/) a great choice for this project.
+The Norstone team loves to eat!  Sometimes we find ourselves dreaming about whats for lunch only to look down at the clock and realize its only 9:45 in the morning – a long haul till lunch time.  We especially love it when one of our favorite quick service restaurants gets a chance to use our products, and this Chipotle in South Florida is no exception.  Let's dive in and see what made our [basalt mosaic interlocking tiles](https://www.norstoneusa.com/products/lynia-mosaic-tiles/) a great choice for this project.
 
 ![Basalt Mosaic Interlocking Tile on Exterior of Chipotle in Florida](/uploads/2017/08/28/Basalt%20Mosaic%20Interlocking%20Tile%20-%20Chipotle%20Florida.jpg)
 

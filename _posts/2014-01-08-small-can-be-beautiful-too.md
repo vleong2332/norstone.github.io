@@ -17,7 +17,7 @@ This Austrian house is a fully-furnished, fully-functional home tucked away into
 
 ![Austria house](/assets/images/blog/Small-is-beautiful-Austria-House(1).jpg)
 
-As much as we'd love to find a place for some our [Basalt IL Tiles](/products/modern-wall-tile/) or maybe even the [Rock Panel Collection](/products/stacked-stone-cladding/) on this puppy, it looks pretty positively perfect just the way it is.
+As much as we'd love to find a place for some our [Basalt IL Tiles](/products/lynia-mosaic-tiles/) or maybe even the [Rock Panel Collection](/products/stacked-stone-cladding/) on this puppy, it looks pretty positively perfect just the way it is.
 
 ![Austria house](/assets/images/blog/ufogel05.jpg)
 
