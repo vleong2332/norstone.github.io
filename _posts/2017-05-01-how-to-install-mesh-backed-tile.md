@@ -20,7 +20,7 @@ date: 2017-05-01 12:02
 ---
 
 
-Mesh backed tile is a product both admired and despised in the industry.  Manufacturers and consumers love it because it allows for intricate tile patterns to be assembled and installed creating beautiful [tile mosaics](https://www.norstoneusa.com/blog/mosaic-tile-backsplash-norstone-designer-series/) that were previously only achieved via an artisan hand laying the pieces.  On the flip side, mesh backed tile can drive unqualified installers crazy if they don't do simple things like plan accordingly for the pattern, or use quality setting materials and solid installation techniques to ensure a successful installation.  Here's a detailed step by step guide on how to successfully install mesh backed tile like our [Basalt Interlocking Series](https://www.norstoneusa.com/products/modern-wall-tile/).
+Mesh backed tile is a product both admired and despised in the industry.  Manufacturers and consumers love it because it allows for intricate tile patterns to be assembled and installed creating beautiful [tile mosaics](https://www.norstoneusa.com/blog/mosaic-tile-backsplash-norstone-designer-series/) that were previously only achieved via an artisan hand laying the pieces.  On the flip side, mesh backed tile can drive unqualified installers crazy if they don't do simple things like plan accordingly for the pattern, or use quality setting materials and solid installation techniques to ensure a successful installation.  Here's a detailed step by step guide on how to successfully install mesh backed tile like our [Lynia Interlocking Series](https://www.norstoneusa.com/products/lynia-mosaic-tiles/).
 
 ## Step 1: Understanding The Pattern
 
