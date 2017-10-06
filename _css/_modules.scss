@@ -522,7 +522,7 @@ cite {
     z-index: 0;
   }
   .owl-thumbs {
-    overflow-x: scroll;
+    overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     margin-top: 10px;
     white-space: nowrap;
