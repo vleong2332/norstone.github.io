@@ -1,0 +1,208 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://www.norstoneusa.com/$1 [R=301,L]
+
+ErrorDocument 404 /404.html
+
+Redirect 301 "/products/modern-wall-tile/grey" /products/lynia-mosaic-tiles/basalt/
+Redirect 301 "/products/modern-wall-tile/ebony" /products/lynia-mosaic-tiles/ebony/
+Redirect 301 "/products/basalt-stone-panels/ash-grey-stone" /products/aksent-modern-tiles/grey/
+Redirect 301 "/products/basalt-stone-panels/black-stone" /products/aksent-modern-tiles/ebony/
+Redirect 301 /products/modern-wall-tile/grey/ /products/lynia-mosaic-tiles/basalt/
+Redirect 301 /products/modern-wall-tile/ebony/ /products/lynia-mosaic-tiles/ebony/
+Redirect 301 /products/basalt-stone-panels/ash-grey-stone/ /products/aksent-modern-tiles/grey/
+Redirect 301 /products/basalt-stone-panels/black-stone/ /products/aksent-modern-tiles/ebony/
+Redirect 301 "/products/modern-wall-tile" /products/lynia-mosaic-tiles/
+Redirect 301 "/products/basalt-stone-panels" /products/aksent-modern-tiles/
+Redirect 301 /products/modern-wall-tile/ /products/lynia-mosaic-tiles/
+Redirect 301 /products/basalt-stone-panels/ /products/aksent-modern-tiles/
+Redirect 301 /assets/images/gallery/IMGP1531_cropped2-copy-1800.jpg /assets/images/gallery/Norstone-White-Stacked-Stone-Veneer.jpg
+Redirect 301 "/gallery/project/Stanmore Place" /gallery/project/stanmore-residential-complex/
+Redirect 301 /gallery/application/Showers /gallery/application/showers/
+Redirect 301 "/sites/default/files/file/Laticrete Masonry Veneer Mortar.pdf" /assets/pdfs/Laticrete-Masonry-Veneer-Mortar.pdf
+Redirect 301 ^/gallery/project/treehouse%2520retreat$ /gallery/project/virginia-treehouse-retreat/
+Redirect 301 "/images/Ochre RP Backsplash.jpg" /assets/images/unsorted/Ochre-Backsplash-Switch-Apples.jpg
+Redirect 301 "/gallery/project/berkshire  residence" /gallery/project/berkshire-residence/
+Redirect 301 /sites/default/files/Norstone-White-Quartz-Stacked-Stone-Rock-Fireplace-Surround.jpg?1317404751 /assets/images/unsorted/Norstone-White-Quartz-Natural-Stone-on-Interior-Fireplace.jpg
+Redirect 301 "/gallery/project/Matrix Hotel" /gallery/project/the-matrix-hotel/
+Redirect 301 /Ledgestone-Feature-Walls /ledgestone-feature-walls/
+Redirect 301 /Exterior-Stone-Veneer /exterior-stone-veneer/
+Redirect 301 /Natural-Stone-For-Feature-Walls /natural-stone-for-feature-walls/
+Redirect 301 /Natural-Stone-For-Pools /natural-stone-for-pools/
+Redirect 301 /Natural-Stone-Retaining-Walls /natural-stone-retaining-walls/
+Redirect 301 /Stone-Veneer-For-Interiors /stone-veneer-for-interiors/
+Redirect 301 /gallery/project/Stacked-Stone-Interior-Basement-Walls /gallery/project/stacked-stone-interior-basement-walls/
+Redirect 301 /gallery/project/Ivory-Natural-Stone-Walls /gallery/project/ivory-natural-stone-walls/
+Redirect 301 /gallery/application/Exteriors /gallery/application/exteriors/
+Redirect 301 /gallery/application/Backsplash /gallery/application/backsplash/
+Redirect 301 /stackedstonecladding.asp /products/stacked-stone-cladding/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone_Installation Guide(1).pdf" /assets/pdfs/Norstone_Installation-Guide(3).pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone Spec Sheet Basalt IL Tile.pdf" /assets/pdfs/Norstone-Spec-Sheet-Basalt-IL-Tile(1).pdf
+Redirect 301 /sites/default/files/file/installation_guide_pdf/MapeiMapelasticAquaDefense.pdf /assets/pdfs/MapeiMapelasticAquaDefense.pdf
+Redirect 301 /client-testimonials/popup /client-testimonials/
+Redirect 301 /3d-ebony /products/basalt-stone-panels/black-stone/
+Redirect 301 /3d-ash-grey /products/basalt-stone-panels/ash-grey-stone/
+Redirect 301 /stackedstonecladding.asp?gclid=CKbctbqm16kCFcjAKgod9w3uOA /products/stacked-stone-cladding/
+Redirect 301 "/sites/default/files/image/7-11-13 Updates/Norstone-Natural-Stacked-Stone-Veneer-Thin-Wall" /products/404.html
+Redirect 301 /assets/pdfs/Aquamix-Sealer /assets/pdfs/Aquamix-Sealer's-Choice-Gold.pdf
+Redirect 301 /testimonials.asp /client-testimonials/
+Redirect 301 "/gallery/project/Denmark Modern Enclave" /gallery/project/horsen-house/
+Redirect 301 /products/stacked-stone /products/stacked-stone-cladding/
+Redirect 301 /403 /products/404.html
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Aquamix Enrich 'N' Seal.pdf" /assets/pdfs/Aquamix-Enrich-'N'-Seal.pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Laticrete Hydroban.pdf" /assets/pdfs/Laticrete-Hydroban.pdf
+Redirect 301 /stacked_stone_rock_panel_charcoal.asp /products/rock-panels/charcoal/
+Redirect 301 /products/basalt-3d/ebony /products/basalt-stone-panels/black-stone/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/TEC Super Flex.pdf_2" /assets/pdfs/TEC-Super-Flex.pdf
+Redirect 301 /assets/pdfs/Aquamix-Enrich- /assets/pdfs/Aquamix-Enrich-'N'-Seal.pdf
+Redirect 301 /gallery/application/Interior /gallery/application/interiors/
+Redirect 301 /assets/pdfs/Norstone-Spec-Sheet-Basalt-IL-Tile /assets/pdfs/Norstone-Spec-Sheet-Basalt-IL-Tile(1).pdf
+Redirect 301 /assets/pdfs/Laticrete-System-Warranty /assets/pdfs/Laticrete-System-Warranty(1).pdf
+Redirect 301 /assets/pdfs/Mapei-Ultralite /assets/pdfs/Mapei-Ultralite(1).pdf
+Redirect 301 /sites/default/files/imagecache/610 /
+Redirect 301 /stacked_stone_rock_panel_ochre.asp /products/stacked-stone-cladding/
+Redirect 301 "/gallery/project/treehouse retreat" /gallery/project/virginia-treehouse-retreat/
+Redirect 301 /node/274 /gallery/project/architects-office/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/TEC Super Flex.pdf" /assets/pdfs/TEC-Super-Flex.pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Laticrete 254.pdf" /assets/pdfs/Laticrete-254.pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Laticrete 9235.pdf" /assets/pdfs/Laticrete-9235.pdf
+Redirect 301 "/gallery/project/Rockport Performing Arts" /gallery/project/rockport/
+Redirect 301 /gallery/application/Fireplaces /gallery/application/fireplace/
+Redirect 301 /gallery/application/Kitchens /gallery/application/kitchen/
+Redirect 301 "/gallery/application/Feature Walls" /gallery/application/natural-stone-feature-walls/
+Redirect 301 "/gallery/project/berkshire  residence" /gallery/project/berkshire-residence/
+Redirect 301 /stacked_stone_rock_panel_ivoryquartz.asp /products/rock-panels/ivory/
+Redirect 301 /3d-exteriors /gallery/basalt-3d/exteriors/
+Redirect 301 /products/basalt-3d/grey /products/basalt-stone-panels/ash-grey-stone/
+Redirect 301 /assets/pdfs/Norstone_Installation-Guide /assets/pdfs/Norstone_Installation-Guide(3).pdf
+Redirect 301 /faq.asp /faq/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Mapei Ultralite(1).pdf" /assets/pdfs/Mapei-Ultralite(1).pdf
+Redirect 301 /contact.asp /contact-us/
+Redirect 301 "/gallery/application/Feature  Walls" /gallery/application/natural-stone-feature-walls/
+Redirect 301 /stacked_stone_rock_panel_whitequartz.asp /products/rock-panels/white/
+Redirect 301 /stackedstonecladding.asp?gclid=CK-JxcKbmJcCFRIcawodlmhS-A /products/stacked-stone-cladding/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/SGM Multi-Lite.pdf" /assets/pdfs/SGM-Multi-Lite.pdf
+Redirect 301 /stacked_stone_rock_panel_ochre.asp /products/rock-panels/ochre/
+Redirect 301 /gallery/featured/denver-multifamily /
+Redirect 301 /node/2 /
+Redirect 301 /image-1 /
+Redirect 301 /gallery/project/Modern-Stacked-Stone-Residence /gallery/project/modern-stacked-stone-residence/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone_Installation Guide(2).pdf" /assets/pdfs/Norstone_Installation-Guide(3).pdf
+Redirect 301 /gallery/application/Pools?page=1 /gallery/application/pools/
+Redirect 301 /gallery/application/Interiors /gallery/application/interiors/
+Redirect 301 /gallery/application/Pools /gallery/application/pools/
+Redirect 301 /m/products/basalt-stone-panels/ash-grey-stone /products/basalt-stone-panels/ash-grey-stone/
+Redirect 301 "/sites/default/files/file/Norstone Maintenace Guidelines.pdf" /assets/pdfs/Norstone-Short-and-Long-Term-Maintenance-Guidelines.pdf
+Redirect 301 /downloads/Norstone_MonaroStone_POS.pdf /
+Redirect 301 /mobile/products/basalt-stone-panels/ash-grey-stone /products/basalt-stone-panels/ash-grey-stone/
+Redirect 301 /sites/default/files/imagecache/680 /
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Aquamix Enrich" /assets/pdfs/Aquamix-Sealer's-Choice-Gold.pdf
+Redirect 301 /m/how-to-buy /how-to-buy/
+Redirect 301 /rock_panel_corners.asp /products/stacked-stone-cladding/
+Redirect 301 /st_monaro_grey.asp /
+Redirect 301 /sites/default/files/Norstone-Ivory-Quartz-Thin-Stone-Veneers-For-Fireplace-Feature-Walls.jpg%3F1317404751 /assets/images/unsorted/Norstone-Ivory-Quartz-Thin-Stone-Veneers-For-Fireplace-Feature-Walls.jpg
+Redirect 301 /gallery/getconfig.php?configfile=config.ini /gallery/
+Redirect 301 /mobile/natural-stacked-stone-for-fireplaces /gallery/application/fireplace/
+Redirect 301 /m/gallery/rock-panels/interiors /gallery/application/interiors/
+Redirect 301 /gallery/featured/matrix-hotel /gallery/project/the-matrix-hotel/
+Redirect 301 /sites/default/files/Norstone-White-Quartz-Stacked-Stone-Rock-Fireplace-Surround.jpg%3F1317404751 /assets/images/unsorted/Norstone-White-Quartz-Stacked-Stone-Rock-Fireplace-Surround.jpg
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/TEC Super Flex.pdf_1" /assets/pdfs/TEC-Super-Flex.pdf
+Redirect 301 /mobile/gallery/rock-panels/white http://dev.prod2.webenabled.net/products/rock-panels/white
+Redirect 301 /m/products http://dev.prod2.webenabled.net/products
+Redirect 301 /mobile/products http://dev.prod2.webenabled.net/products
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone_Installation Guide_Final.pdf" /products/stacked-stone-cladding/
+Redirect 301 "/downloads/reference library/Rock Panel Specification Sheet.pdf" /assets/pdfs/Norstone-Spec-Sheet-Rock-Panel.pdf
+Redirect 301 /waterfeatures.asp /gallery/application/pools/
+Redirect 301 /gallery/featured/rockport-concert-hall /gallery/project/rockport/
+Redirect 301 /gallery/featured/stanmore-residential-complex /gallery/project/stanmore-residential-complex/
+Redirect 301 /terms.asp /terms/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone Rock Panel Architectural CSI Specification.pdf" /assets/pdfs/Norstone-Spec-Sheet-Rock-Panel.pdf
+Redirect 301 /blog/installing-norstone-rock-panels /how-to-install-stacked-stone/
+Redirect 301 /blog/installing-norstone-rock /how-to-install-stacked-stone/
+Redirect 301 /blog/norstone-insallation-video /how-to-install-stacked-stone/
+Redirect 301 "/gallery/application/Feature  Walls" /gallery/application/natural-stone-feature-walls/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Prosoco[\s]Stone,[\s]Tile[\s]&[\s]Masonry[\s]Protector.pdf" /assets/pdfs/Prosoco-Stone-Tile-Masonry-Protector.pdf
+Redirect 301 /products/stacked-stone- /products/stacked-stone-cladding/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Basalt ASTM C67 Freeze Thaw Testing Report.pdf" /assets/pdfs/Basalt-ASTM-C67-Freeze-Thaw-Testing-Report.pdf
+Redirect 301 /blog/fifth-post /blog/norstone-classroom-session-working-corners-1/
+Redirect 301 /comment/reply/10214 /blog/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Aquamix Sealer's Choice Gold.pdf" /assets/pdfs/Aquamix-Sealer's-Choice-Gold.pdf
+Redirect 301 "/gallery/project/Basement  Retreat" /gallery/project/stacked-stone-interior-basement-walls/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Rock Panel Installation Substrate Detail - Open Stud Wall Exterior - Lathe and Mortar.pdf" /assets/pdfs/Rock-Panel-Installation-Substrate-Detail---Open-Stud-Wall-Exterior---Cement-Board.pdf
+Redirect 301 /blog/nors /blog/
+Redirect 301 /blog/norston /blog/
+Redirect 301 "blog/norstone-d...</li>              <li id=?page=1"  /blog/
+Redirect 301 "/blog/norstone-diy-infograp?page=1" /blog/norstone-diy-infographic/
+Redirect 301 /comment/reply/9940 /blog/
+Redirect 301 /produc  /products/
+Redirect 301 /blog/nors?page=1 /blog/
+Redirect 301 "/gallery/project/berkshire  residence" /gallery/project/berkshire-residence/
+Redirect 301 /products/404.html /products/
+Redirect 301 "/gallery/project/Basement Retreat" /gallery/project/stacked-stone-interior-basement-walls/
+Redirect 301 /3d-interiors /gallery/basalt-3d/interiors/
+Redirect 301 /modules/node/node.css?f /
+Redirect 301 /xl-rock-panels-aztec /products/thin-stone-veneer-panels/aztec/
+Redirect 301 /sites/default/files/image/Learn-How-To-Buy-New-Banner2 /assets/images/unsorted/Learn-How-To-Buy-New-Banner2(1)6.png
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/NorstoneUSA_Installation Guide_basalt.pdf" /assets/pdfs/Norstone_Installation%20Guide_Basalt-2016.pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone_Installation Guide(3).pdf" /assets/pdfs/Norstone_Installation%20Guide-2016.pdf
+Redirect 301 /gallery/89 /gallery/
+Redirect 301 /gallery/featured/philadelphia-lower-level-retreat /gallery/project/stacked-stone-interior-basement-walls/
+Redirect 301 /products/rock-panels/whiteNorstone /products/rock-panels/white/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Rock Panel ASTM C67 Freeze Thaw Testing Report.pdf" /assets/pdfs/Rock-Panel-ASTM-C67-Freeze-Thaw-Testing-Report.pdf
+Redirect 301 /modules/system/defaults.css?f /
+Redirect 301 /sites/default/files/file/installation_guide_pdf/Mapei /assets/pdfs/Mapei-Ultralite(1).pdf
+Redirect 301 /assets/pdfs/Norstone_Installation /assets/pdfs/Norstone_Installation%20Guide-2016.pdf
+Redirect 301 /natural-stone /products/
+Redirect 301 /comment/reply/2584 /blog/
+Redirect 301 /m/gallery/project/stacked-stone-interior-basement-walls/ /gallery/project/stacked-stone-interior-basement-walls/
+Redirect 301 /comment/reply/8447 /blog/
+Redirect 301 /comment/reply/2647 /blog/
+Redirect 301 /m/ /
+Redirect 301 /m/gallery/application/pools/ /gallery/application/pools/
+Redirect 301 /mobile/gallery/application/pools/ /gallery/application/pools/
+Redirect 301 /comment/reply/10653 /blog/
+Redirect 301 /mobile/ /
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone Short and Long Term Maintenance Guidelines.pdf" /assets/pdfs/Norstone-Short-and-Long-Term-Maintenance-Guidelines.pdf
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Norstone Spec Sheet Basalt IL Tile(1).pdf" /assets/pdfs/Norstone_Installation%20Guide_Basalt-2016.pdf
+Redirect 301 /blog/product-gallery-type/project-gallery /blog/
+Redirect 301 /gallery/application/Feature%2520Walls /gallery/application/natural-stone-feature-walls/
+Redirect 301 /node/96 /
+Redirect 301 /node/272 /
+Redirect 301 /taxonomy/term/65/0 /
+Redirect 301 /products/mode /products/
+Redirect 301 /blog/tags/web-site /blog/
+Redirect 301 /cyprus-residence /gallery/project/ivory-natural-stone-walls/
+Redirect 301 /products/thin-stone-%E2%80%8Bveneer-panels /products/thin-stone-veneer-panels/
+Redirect 301 /gallery/project/berkshire%2520residence /gallery/project/berkshire-residence/
+Redirect 301 /products/rock /products/stacked-stone-cladding/
+Redirect 301 /gallery/project/Niagara%2520Residence /gallery/project/modern-stacked-stone-residence/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Laticrete Independent Installation Specification Sheet.pdf" /assets/pdfs/Laticrete-Independent-Installation-Specification-Sheet.pdf
+Redirect 301 /gallery/featured/suburban-new-jersey-feature-wall /gallery/project/virginia-treehouse-retreat/
+Redirect 301 /products/basalt-3d /products/basalt-stone-panels/
+Redirect 301 /node/130 /
+Redirect 301 /gallery/application/Interiors&rct /gallery/application/interiors/
+Redirect 301 "/sites/default/files/file/installation_guide_pdf/Laticrete%20255.pdf" /assets/pdfs/Laticrete-255.pdf
+Redirect 301 /comment/reply/8217 /blog/
+Redirect 301 /blog/cast-stone-vs-natural-stone-%25E2%2580%2593-norstone-industry-series /blog/cast-stone-vs-natural-stone-–-norstone-industry-series/
+Redirect 301 /gallery/project/Outdoor%20Living%20in%20Cyprus /gallery/project/ivory-natural-stone-walls/
+Redirect 301 /assets/images/Aztec%20Stacked%20Stone%20Kitchen%20Backsplash%20-%20Orlando /assets/images/Aztec%20Stacked%20Stone%20Kitchen%20Backsplash%20-%20Orlando,%20FL.jpg
+Redirect 301 /gallery/featured/rural-virginia-kitchen-family-room /gallery/project/virginia-treehouse-retreat/
+Redirect 301 /fireplace/ /gallery/application/fireplace/
+
+RewriteCond %{HTTP_HOST} ^nrstn.prod3.webenabled.net$ [NC]
+RewriteRule ^(.*)$ https://www.norstoneusa.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^norstoneusa\.com$
+RewriteRule ^(.*) https://www.norstoneusa.com/$1 [R=301]
+
+# One year for image files
+<filesMatch ".(jpg|jpeg|png|gif|ico)$">
+Header set Cache-Control "max-age=31536000, public"
+</filesMatch>
+
+# One month for css and js
+<filesMatch ".(css|js)$">
+Header set Cache-Control "max-age=2628000, public"
+</filesMatch>
