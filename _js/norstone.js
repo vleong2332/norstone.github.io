@@ -95,6 +95,7 @@ $(function() {
     .done(function(data) {
       productTypes = data;
       $slider.owlCarousel(slider_options);
+      thumbnailSlider($slider);
     })
     .fail(function(e) {
       console.log(e);
@@ -123,60 +124,6 @@ $(function() {
     }
 
     pinterest_update($('img', $slide));
-  });
-
-  $slider.on('changed.owl.carousel refreshed.owl.carousel', function(event) {
-    var thumbContainer = $('.owl-thumbs', this)
-
-    var thumbContainerWidth = thumbContainer.width();
-    var thumbWidth = $('.owl-thumb-item', this).width();
-
-    var visibleStartPos = thumbContainer.scrollLeft();
-    var visibleEndPos = visibleStartPos + thumbContainerWidth;
-
-    var minIndex = 0;
-    var maxIndex = event.item.count - 1;
-
-    // Compensate for the owl-made clones that are placed before and after the actual items.
-    var activeIndex = event.item.index - Math.round(event.item.count / 2);
-
-    // Compensate for the owl-made clone at the beginning which allows index -1 instead of circling
-    // back to the last index.
-    if (activeIndex === minIndex - 1) {
-      activeIndex = maxIndex;
-    }
-
-    // NOTE: Position only refers to X-position in this case
-    var activeStartPos = activeIndex * thumbWidth;
-
-    var previousIndex = activeIndex === minIndex
-      ? minIndex
-      : activeIndex - 1;
-    var prevStartPos = previousIndex * thumbWidth;
-    // var prevThumbEnd = prevStartPos + thumbWidth;
-
-    var nextIndex = activeIndex === maxIndex
-      ? maxIndex
-      : activeIndex + 1;
-    var nextStartPos = nextIndex * thumbWidth;
-    var nextEndPos = nextStartPos + thumbWidth;
-
-    // Scroll active (plus next or prev, if available) into view
-    var shouldScrollLeft = nextEndPos > visibleEndPos;
-    var shouldScrollRight = prevStartPos < visibleStartPos;
-
-    if (shouldScrollLeft) {
-      var distanceToTravel = nextEndPos - visibleEndPos;
-      thumbContainer.stop().animate({
-  			scrollLeft: thumbContainer.scrollLeft() + distanceToTravel
-  		}, 150);
-    } else if (shouldScrollRight) {
-      var distanceToTravel = visibleStartPos - prevStartPos;
-      thumbContainer.stop().animate({
-  			scrollLeft: thumbContainer.scrollLeft() - distanceToTravel
-  		}, 150);
-    }
-
   });
 
   // Build select list for filter.
@@ -224,6 +171,7 @@ $(function() {
         .before('<div class="owl-nav">')
         .html(content)
         .owlCarousel(slider_options);
+      thumbnailSlider($slider);
     });
   }
 
