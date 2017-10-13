@@ -449,9 +449,21 @@ cite {
     margin-top: 10px;
     margin-bottom: 20px;
     white-space: nowrap;
+    display: flex;
+  }
+  .owl-thumb-item {
+    flex: 0 0 auto;
     img {
       margin: 2px;
       width: 115px;
+    }
+    &.active {
+      img {
+        border: 3px solid $secondary-color;
+      }
+    }
+    &:focus {
+      outline: none;
     }
   }
   .owl-nav {
