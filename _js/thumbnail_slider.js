@@ -25,6 +25,9 @@ $(function($, global) {
     var minIndex = 0;
     var scrollSpeedInMs = 150;
 
+    // Need this wrapper markup for the CSS that makes the horizontal scrollbar disappear
+    thumbContainer.wrap('<div class="owl-thumbs-wrapper"></div>')
+
     slider.on('changed.owl.carousel refreshed.owl.carousel', function(event) {
       var visibleRange = calcVisibleRange(thumbContainer);
 
