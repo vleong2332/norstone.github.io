@@ -63,6 +63,8 @@ cite {
 .accordion-title {
   background: url("/assets/images/theme/faq-header-bg.jpg") repeat-x;
   padding: 9px 0 9px 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
   &:before {
     content: '';
   }
@@ -73,6 +75,7 @@ cite {
     font-size: 18px;
     padding: 0 0 0 20px;
     text-transform: uppercase;
+    white-space: nowrap;
   }
 }
 .mobile-accordion .is-active .accordion-title span, .accordion-item.is-active span {
