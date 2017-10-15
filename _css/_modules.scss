@@ -452,7 +452,7 @@ cite {
     /* To keep horizontal scrollbar hidden, must change the height to '.owl-thumb-item img'
        resulting height.
     */
-    height: 100px;
+    height: 93px; /* .owl-thumbs' height - 1 */
     overflow: hidden;
     position: relative;
   }
@@ -472,15 +472,17 @@ cite {
   .owl-thumb-item {
     flex: 0 0 auto;
     img {
-      margin: 2px;
+      // box-sizing: content-box;
+      // margin: 3px;
+      border: 3px solid transparent;
       /* To keep horizontal scrollbar hidden, when the width changes, change '.owl-thumbs-wrapper'
          height to be the height of the image.
       */
-      width: 150px;
+      width: 145px;
     }
     &.active {
       img {
-        border: 3px solid $secondary-color;
+        border-color: $brand-color;
       }
     }
     &:focus {
