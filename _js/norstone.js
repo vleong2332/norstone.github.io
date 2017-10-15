@@ -55,6 +55,7 @@ $(function() {
   });
 
   // Scrolling for galleries.
+  // NOTE: Still needed? Where is it used?
   $('body').on('click', '.scroll-left', function(e) {
     var $thumbs = $('.owl-thumbs');
     var thumbScrollWidth = $thumbs.width();
@@ -65,6 +66,7 @@ $(function() {
     return false;
   });
 
+  // NOTE: Still needed? Where is it used?
   $('body').on('click', '.scroll-right', function(e) {
     var $thumbs = $('.owl-thumbs');
     var thumbScrollWidth = $thumbs.width();
@@ -75,17 +77,9 @@ $(function() {
     return false;
   })
 
+  // Initialize owl carousel
   var productTypes = {};
-
-  $.getJSON('/pictured.json')
-    .done(function(data) {
-      productTypes = data;
-      $slider.owlCarousel(slider_options);
-    })
-    .fail(function(e) {
-      console.log(e);
-    });
-
+  var $slider = $('.owl-carousel');
   var slider_options = {
     items: 1,
     dots: false,
@@ -97,14 +91,23 @@ $(function() {
     thumbImage: true
   };
 
-  var $slider = $('.owl-carousel');
+  $.getJSON('/pictured.json')
+    .done(function(data) {
+      productTypes = data;
+      $slider.owlCarousel(slider_options);
+      thumbnailSlider($slider);
+    })
+    .fail(function(e) {
+      console.log(e);
+    });
 
   // Make a clone of slides for filtering.
   $slides = $('.orbit-slide').clone();
 
   $slider.on('initialized.owl.carousel', function(event) {
-    var $images = $('.owl-item')
+    var $images = $('.owl-item');
     var $slide = $('.orbit-slide', $images[event.item.index]);
+
     pinterest_update($('img', $slide));
   });
 
@@ -168,6 +171,7 @@ $(function() {
         .before('<div class="owl-nav">')
         .html(content)
         .owlCarousel(slider_options);
+      thumbnailSlider($slider);
     });
   }
 

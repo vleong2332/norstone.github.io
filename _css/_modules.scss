@@ -419,6 +419,9 @@ cite {
   @include breakpoint(medium down) {
     margin-bottom: 20px;
     margin-top: 20px;
+    h1 {
+      font-size: 26px;
+    }
   }
   h1 {
     margin: 0;
@@ -443,15 +446,45 @@ cite {
     width: 100%;
     z-index: 0;
   }
-  .owl-thumbs {
-    overflow-x: scroll;
-    -webkit-overflow-scrolling: touch;
+  .owl-thumbs-wrapper {
     margin-top: 10px;
     margin-bottom: 20px;
+    /* To keep horizontal scrollbar hidden, must change the height to '.owl-thumb-item img'
+       resulting height.
+    */
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+  }
+  .owl-thumbs {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-overflow-scrolling: touch;
     white-space: nowrap;
+    display: flex;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  .owl-thumb-item {
+    flex: 0 0 auto;
     img {
       margin: 2px;
-      width: 115px;
+      /* To keep horizontal scrollbar hidden, when the width changes, change '.owl-thumbs-wrapper'
+         height to be the height of the image.
+      */
+      width: 150px;
+    }
+    &.active {
+      img {
+        border: 3px solid $secondary-color;
+      }
+    }
+    &:focus {
+      outline: none;
     }
   }
   .owl-nav {

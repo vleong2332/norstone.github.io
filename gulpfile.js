@@ -55,8 +55,9 @@ gulp.task('js', function() {
     './bower_components/foundation-sites/dist/js/foundation.js',
     './bower_components/owl.carousel/dist/owl.carousel.js',
     './bower_components/owl.carousel2.thumbs/dist/owl.carousel2.thumbs.js',
-    './_js/norstone.js'
-    ])
+    './_js/norstone.js',
+    './_js/thumbnail_slider.js',
+  ])
     .pipe(concat('norstone.js'))
     .pipe(uglify())
     .pipe(gulp.dest('js'))
