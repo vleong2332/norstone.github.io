@@ -419,6 +419,9 @@ cite {
   @include breakpoint(medium down) {
     margin-bottom: 20px;
     margin-top: 20px;
+    h1 {
+      font-size: 26px;
+    }
   }
   h1 {
     margin: 0;
